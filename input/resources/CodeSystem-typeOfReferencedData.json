@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-typeOfReferencedData.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/typeOfReferencedData</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0191"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/typeOfReferencedData",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.102"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0191"
-  } ],
-  "version": "1.3.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0191"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.3.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0191",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.102"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0191"
+    }
+  ],
+  "version": "4.0.0",
   "name": "TypeOfReferencedData",
   "title": "Type of Referenced Data (2.9.1 - 1.3.0)",
   "status": "active",
@@ -34,230 +45,308 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "1908",
-    "code": "AP",
-    "display": "Other application data, typically uninterpreted binary data",
-    "definition": "Other application data, typically uninterpreted binary data",
-    "property": [ {
-      "code": "comment",
-      "valueString": "HL7 V2.3 and later"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1909",
-    "code": "AU",
-    "display": "Audio Data",
-    "definition": "Audio Data",
-    "designation": [ {
-      "language": "de",
-      "value": "Audio-Daten"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "new with HL7 v 2.3"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1910",
-    "code": "FT",
-    "display": "Formatted Text",
-    "definition": "Formatted Text",
-    "designation": [ {
-      "language": "de",
-      "value": "Formatierter Text"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "HL7 V2.2 only"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
       "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1911",
-    "code": "IM",
-    "display": "Image Data",
-    "definition": "Image Data",
-    "designation": [ {
-      "language": "de",
-      "value": "Bilddaten"
-    } ],
-    "property": [ {
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "HL7 V2.3 and later"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1913",
-    "code": "NS",
-    "display": "Non-scanned Image",
-    "definition": "Non-scanned Image",
-    "designation": [ {
-      "language": "de",
-      "value": "Nicht über Scanner erzeugtes Bild"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "HL7 V2.2 only"
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1914",
-    "code": "SD",
-    "display": "Scanned document",
-    "definition": "Scanned document",
-    "designation": [ {
-      "language": "de",
-      "value": "Über Scanner eingelesenes Dokument"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "HL7 V2.2 only"
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1915",
-    "code": "SI",
-    "display": "Scanned Image",
-    "definition": "Scanned Image",
-    "designation": [ {
-      "language": "de",
-      "value": "Über Scanner eingelesenes Bild"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "HL7 V2.2 only"
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1917",
-    "code": "TEXT",
-    "display": "Machine readable text document",
-    "definition": "Machine readable text document",
-    "designation": [ {
-      "language": "de",
-      "value": "maschinenlesbares Dokument"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "HL7 V2.3.1 and later"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "1919",
-    "code": "TX",
-    "display": "Machine Readable Text Document",
-    "definition": "Machine Readable Text Document",
-    "designation": [ {
-      "language": "de",
-      "value": "Maschinenlesbarer Text"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "HL7 V2.2 only"
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1912",
-    "code": "multipart",
-    "display": "MIME multipart package",
-    "definition": "MIME multipart package",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "1908",
+      "code": "AP",
+      "display": "Other application data, typically uninterpreted binary data",
+      "definition": "Other application data, typically uninterpreted binary data",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "HL7 V2.3 and later"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1909",
+      "code": "AU",
+      "display": "Audio Data",
+      "definition": "Audio Data",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Audio-Daten"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "new with HL7 v 2.3"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1910",
+      "code": "FT",
+      "display": "Formatted Text",
+      "definition": "Formatted Text",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Formatierter Text"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "HL7 V2.2 only"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1911",
+      "code": "IM",
+      "display": "Image Data",
+      "definition": "Image Data",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Bilddaten"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "HL7 V2.3 and later"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1913",
+      "code": "NS",
+      "display": "Non-scanned Image",
+      "definition": "Non-scanned Image",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Nicht über Scanner erzeugtes Bild"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "HL7 V2.2 only"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1914",
+      "code": "SD",
+      "display": "Scanned document",
+      "definition": "Scanned document",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Über Scanner eingelesenes Dokument"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "HL7 V2.2 only"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1915",
+      "code": "SI",
+      "display": "Scanned Image",
+      "definition": "Scanned Image",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Über Scanner eingelesenes Bild"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "HL7 V2.2 only"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1917",
+      "code": "TEXT",
+      "display": "Machine readable text document",
+      "definition": "Machine readable text document",
+      "designation": [
+        {
+          "language": "de",
+          "value": "maschinenlesbares Dokument"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "HL7 V2.3.1 and later"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "1919",
+      "code": "TX",
+      "display": "Machine Readable Text Document",
+      "definition": "Machine Readable Text Document",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Maschinenlesbarer Text"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "HL7 V2.2 only"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1912",
+      "code": "multipart",
+      "display": "MIME multipart package",
+      "definition": "MIME multipart package",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    }
+  ]
 }

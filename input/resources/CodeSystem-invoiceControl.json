@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-invoiceControl.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/invoiceControl</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0553"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/invoiceControl",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.357"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0553"
-  } ],
-  "version": "1.0.1",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0553"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.1"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0553",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.357"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0553"
+    }
+  ],
+  "version": "3.0.0",
   "name": "InvoiceControl",
   "title": "Invoice Control Code (2.9.1 - 1.0.1)",
   "status": "active",
@@ -34,255 +45,336 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "6156",
-    "code": "AA",
-    "display": "Authorization request for inpatient admission",
-    "definition": "Authorization request for inpatient admission",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "6154",
-    "code": "AI",
-    "display": "Combined Authorization and Adjudication request",
-    "definition": "Combined Authorization and Adjudication request",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "6159",
-    "code": "CA",
-    "display": "Cancel Authorization request",
-    "definition": "Cancel Authorization request",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "6148",
-    "code": "CG",
-    "display": "Cancel Invoice Product/Service Group",
-    "definition": "Cancel Invoice Product/Service Group",
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "Cancel a specific Product/Service Group in an Invoice"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "6149",
-    "code": "CL",
-    "display": "Cancel Invoice Product/Service Line Item",
-    "definition": "Cancel Invoice Product/Service Line Item",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Cancel a specific Product/Service Line Item in an Invoice"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "6147",
-    "code": "CN",
-    "display": "Cancel Invoice",
-    "definition": "Cancel Invoice",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Can be used to reverse or cancel an invoice in progress or reverse a paid invoice.  Receiver may only mark Invoice as cancelled, not purge records"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "6160",
-    "code": "CP",
-    "display": "Copy of Invoice",
-    "definition": "Copy of Invoice",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "6161",
-    "code": "CQ",
-    "display": "Coverage Register Query",
-    "definition": "Coverage Register Query",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "6157",
-    "code": "EA",
-    "display": "Authorization request for inpatient stay extension",
-    "definition": "Authorization request for inpatient stay extension",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "6152",
-    "code": "OA",
-    "display": "Original Authorization",
-    "definition": "Original Authorization",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "6146",
-    "code": "OR",
-    "display": "Original Invoice",
-    "definition": "Original Invoice",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "6155",
-    "code": "PA",
-    "display": "Pre-Authorization",
-    "definition": "Pre-Authorization",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "6150",
-    "code": "PD",
-    "display": "Pre-Determination Invoice",
-    "definition": "Pre-Determination Invoice",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Can be used to submit an invoice through a Payer's edit and adjudication engine to determine if the invoice will be paid - does not result in payment by Payer"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "6151",
-    "code": "RA",
-    "display": "Re-Assessment",
-    "definition": "Re-Assessment",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Used on EHC^E04 only"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "6158",
-    "code": "RC",
-    "display": "Referral Pre-Authorization",
-    "definition": "Referral Pre-Authorization",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "6162",
-    "code": "RU",
-    "display": "Referral authorization",
-    "definition": "Referral authorization",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "6153",
-    "code": "SA",
-    "display": "Special Authorization",
-    "definition": "Special Authorization",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "6156",
+      "code": "AA",
+      "display": "Authorization request for inpatient admission",
+      "definition": "Authorization request for inpatient admission",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "6154",
+      "code": "AI",
+      "display": "Combined Authorization and Adjudication request",
+      "definition": "Combined Authorization and Adjudication request",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "6159",
+      "code": "CA",
+      "display": "Cancel Authorization request",
+      "definition": "Cancel Authorization request",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "6148",
+      "code": "CG",
+      "display": "Cancel Invoice Product/Service Group",
+      "definition": "Cancel Invoice Product/Service Group",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Cancel a specific Product/Service Group in an Invoice"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "6149",
+      "code": "CL",
+      "display": "Cancel Invoice Product/Service Line Item",
+      "definition": "Cancel Invoice Product/Service Line Item",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Cancel a specific Product/Service Line Item in an Invoice"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "6147",
+      "code": "CN",
+      "display": "Cancel Invoice",
+      "definition": "Cancel Invoice",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Can be used to reverse or cancel an invoice in progress or reverse a paid invoice.  Receiver may only mark Invoice as cancelled, not purge records"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "6160",
+      "code": "CP",
+      "display": "Copy of Invoice",
+      "definition": "Copy of Invoice",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "6161",
+      "code": "CQ",
+      "display": "Coverage Register Query",
+      "definition": "Coverage Register Query",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "6157",
+      "code": "EA",
+      "display": "Authorization request for inpatient stay extension",
+      "definition": "Authorization request for inpatient stay extension",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "6152",
+      "code": "OA",
+      "display": "Original Authorization",
+      "definition": "Original Authorization",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "6146",
+      "code": "OR",
+      "display": "Original Invoice",
+      "definition": "Original Invoice",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "6155",
+      "code": "PA",
+      "display": "Pre-Authorization",
+      "definition": "Pre-Authorization",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "6150",
+      "code": "PD",
+      "display": "Pre-Determination Invoice",
+      "definition": "Pre-Determination Invoice",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Can be used to submit an invoice through a Payer's edit and adjudication engine to determine if the invoice will be paid - does not result in payment by Payer"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "6151",
+      "code": "RA",
+      "display": "Re-Assessment",
+      "definition": "Re-Assessment",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Used on EHC^E04 only"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "6158",
+      "code": "RC",
+      "display": "Referral Pre-Authorization",
+      "definition": "Referral Pre-Authorization",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "6162",
+      "code": "RU",
+      "display": "Referral authorization",
+      "definition": "Referral authorization",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "6153",
+      "code": "SA",
+      "display": "Special Authorization",
+      "definition": "Special Authorization",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    }
+  ]
 }

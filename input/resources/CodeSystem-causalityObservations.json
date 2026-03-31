@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-causalityObservations.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/causalityObservations</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0252"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/causalityObservations",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.147"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0252"
-  } ],
-  "version": "1.0.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0252"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0252",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.147"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0252"
+    }
+  ],
+  "version": "3.0.0",
   "name": "CausalityObservations",
   "title": "Causality Observations (2.9.1 - 1.0.0)",
   "status": "active",
@@ -34,168 +45,220 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "2368",
-    "code": "AW",
-    "display": "Abatement of event after product withdrawn",
-    "definition": "Abatement of event after product withdrawn",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2369",
-    "code": "BE",
-    "display": "Event recurred after product reintroduced",
-    "definition": "Event recurred after product reintroduced",
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2375",
-    "code": "DR",
-    "display": "Dose response observed",
-    "definition": "Dose response observed",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2372",
-    "code": "EX",
-    "display": "Alternative explanations for the event available",
-    "definition": "Alternative explanations for the event available",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2371",
-    "code": "IN",
-    "display": "Event occurred after product introduced",
-    "definition": "Event occurred after product introduced",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2370",
-    "code": "LI",
-    "display": "Literature reports association of product with event",
-    "definition": "Literature reports association of product with event",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2377",
-    "code": "OE",
-    "display": "Occurrence of event was confirmed by objective evidence",
-    "definition": "Occurrence of event was confirmed by objective evidence",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2378",
-    "code": "OT",
-    "display": "Other",
-    "definition": "Other",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2373",
-    "code": "PL",
-    "display": "Effect observed when patient receives placebo",
-    "definition": "Effect observed when patient receives placebo",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2376",
-    "code": "SE",
-    "display": "Similar events in past for this patient",
-    "definition": "Similar events in past for this patient",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2374",
-    "code": "TC",
-    "display": "Toxic levels of product documented in blood or body fluids",
-    "definition": "Toxic levels of product documented in blood or body fluids",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "2368",
+      "code": "AW",
+      "display": "Abatement of event after product withdrawn",
+      "definition": "Abatement of event after product withdrawn",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2369",
+      "code": "BE",
+      "display": "Event recurred after product reintroduced",
+      "definition": "Event recurred after product reintroduced",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2375",
+      "code": "DR",
+      "display": "Dose response observed",
+      "definition": "Dose response observed",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2372",
+      "code": "EX",
+      "display": "Alternative explanations for the event available",
+      "definition": "Alternative explanations for the event available",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2371",
+      "code": "IN",
+      "display": "Event occurred after product introduced",
+      "definition": "Event occurred after product introduced",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2370",
+      "code": "LI",
+      "display": "Literature reports association of product with event",
+      "definition": "Literature reports association of product with event",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2377",
+      "code": "OE",
+      "display": "Occurrence of event was confirmed by objective evidence",
+      "definition": "Occurrence of event was confirmed by objective evidence",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2378",
+      "code": "OT",
+      "display": "Other",
+      "definition": "Other",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2373",
+      "code": "PL",
+      "display": "Effect observed when patient receives placebo",
+      "definition": "Effect observed when patient receives placebo",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2376",
+      "code": "SE",
+      "display": "Similar events in past for this patient",
+      "definition": "Similar events in past for this patient",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2374",
+      "code": "TC",
+      "display": "Toxic levels of product documented in blood or body fluids",
+      "definition": "Toxic levels of product documented in blood or body fluids",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    }
+  ]
 }

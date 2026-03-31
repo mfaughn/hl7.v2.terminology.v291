@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-personLocationType.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/personLocationType</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0305"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/personLocationType",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.187"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0305"
-  } ],
-  "version": "1.0.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0305"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0305",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.187"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0305"
+    }
+  ],
+  "version": "3.0.0",
   "name": "PersonLocationType",
   "title": "Person Location Type (2.9.1 - 1.0.0)",
   "status": "active",
@@ -34,144 +45,192 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "2996",
-    "code": "C",
-    "display": "Clinic",
-    "definition": "Clinic",
-    "designation": [ {
-      "language": "de",
-      "value": "Klinik"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "2997",
-    "code": "D",
-    "display": "Department",
-    "definition": "Department",
-    "designation": [ {
-      "language": "de",
-      "value": "Abteilung"
-    } ],
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "2998",
-    "code": "H",
-    "display": "Home",
-    "definition": "Home",
-    "designation": [ {
-      "language": "de",
-      "value": "zu Hause"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "2999",
-    "code": "N",
-    "display": "Nursing Unit",
-    "definition": "Nursing Unit",
-    "designation": [ {
-      "language": "de",
-      "value": "Station"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3000",
-    "code": "O",
-    "display": "Provider's Office",
-    "definition": "Provider's Office",
-    "designation": [ {
-      "language": "de",
-      "value": "Sprechzimmer"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3001",
-    "code": "P",
-    "display": "Phone",
-    "definition": "Phone",
-    "designation": [ {
-      "language": "de",
-      "value": "Telefon(zelle)"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3002",
-    "code": "S",
-    "display": "SNF",
-    "definition": "SNF",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "2996",
+      "code": "C",
+      "display": "Clinic",
+      "definition": "Clinic",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Klinik"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "2997",
+      "code": "D",
+      "display": "Department",
+      "definition": "Department",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Abteilung"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "2998",
+      "code": "H",
+      "display": "Home",
+      "definition": "Home",
+      "designation": [
+        {
+          "language": "de",
+          "value": "zu Hause"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "2999",
+      "code": "N",
+      "display": "Nursing Unit",
+      "definition": "Nursing Unit",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Station"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3000",
+      "code": "O",
+      "display": "Provider's Office",
+      "definition": "Provider's Office",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Sprechzimmer"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3001",
+      "code": "P",
+      "display": "Phone",
+      "definition": "Phone",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Telefon(zelle)"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3002",
+      "code": "S",
+      "display": "SNF",
+      "definition": "SNF",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    }
+  ]
 }

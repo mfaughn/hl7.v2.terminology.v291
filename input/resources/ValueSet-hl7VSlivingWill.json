@@ -1,14 +1,17 @@
 {
   "resourceType": "ValueSet",
   "id": "hl7VSlivingWill",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.21.202"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0315"
-  } ],
-  "version": "1.0.0",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.21.202"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0315"
+    }
+  ],
+  "version": "3.0.0",
   "name": "Hl7VSlivingWill",
   "title": "Living Will Code (2.9.1 - 1.0.0)",
   "status": "active",
@@ -17,9 +20,18 @@
   "description": "Value Set of codes that specify whether or not the patient has a living will and, if so, whether a copy fo the living will is on file at the healthcare facility.  If the patient does not have a living will, the value of this field indicates whether the",
   "copyright": "HL7 Inc., 2026",
   "compose": {
-    "include": [ {
-      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/livingWillCodes",
-      "version": "1.0.0"
-    } ]
-  }
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0315",
+        "version": "1.0.0"
+      }
+    ]
+  },
+  "url": "http://terminology.hl7.org/ValueSet/v2-0315",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.0"
+    }
+  ]
 }

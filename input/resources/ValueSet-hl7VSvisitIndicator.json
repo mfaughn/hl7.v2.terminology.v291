@@ -1,14 +1,17 @@
 {
   "resourceType": "ValueSet",
   "id": "hl7VSvisitIndicator",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.21.211"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0326"
-  } ],
-  "version": "1.0.0",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.21.211"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0326"
+    }
+  ],
+  "version": "3.0.0",
   "name": "Hl7VSvisitIndicator",
   "title": "Visit Indicator (2.9.1 - 1.0.0)",
   "status": "active",
@@ -17,9 +20,18 @@
   "description": "Value Set of codes that specify the level on which data are being sent.  It is the indicator used to send data at two levels, visit and account.  HL7 recommends sending an \"A\" or no value when the data in the message are at the account level or \"V\" to i",
   "copyright": "HL7 Inc., 2026",
   "compose": {
-    "include": [ {
-      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/visitIndicator",
-      "version": "1.0.0"
-    } ]
-  }
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0326",
+        "version": "1.0.0"
+      }
+    ]
+  },
+  "url": "http://terminology.hl7.org/ValueSet/v2-0326",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.0"
+    }
+  ]
 }

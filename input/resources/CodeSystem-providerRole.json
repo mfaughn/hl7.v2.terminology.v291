@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-providerRole.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/providerRole</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0443"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/providerRole",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.283"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0443"
-  } ],
-  "version": "1.2.1",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0443"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.2.1"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0443",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.283"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0443"
+    }
+  ],
+  "version": "3.0.0",
   "name": "ProviderRole",
   "title": "Provider Role (2.9.1 - 1.2.1)",
   "status": "active",
@@ -34,401 +45,538 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "4794",
-    "code": "AD",
-    "display": "Admitting",
-    "definition": "Admitting",
-    "designation": [ {
-      "language": "de",
-      "value": "Aufnehmender Arzt"
-    } ],
-    "property": [ {
+  "property": [
+    {
+      "code": "versionIntroduced",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "PV1-17 Admitting doctor"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4812",
-    "code": "AI",
-    "display": "Assistant/Alternate Interpreter",
-    "definition": "Assistant/Alternate Interpreter",
-    "designation": [ {
-      "language": "de",
-      "value": "alternativer (oder Assistent des) Befundsarzt"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "4795",
-    "code": "AP",
-    "display": "Administering Provider",
-    "definition": "Administering Provider",
-    "property": [ {
-      "code": "comment",
-      "valueString": "RXA-10 Administering Provider"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "4796",
-    "code": "AT",
-    "display": "Attending",
-    "definition": "Attending",
-    "designation": [ {
-      "language": "de",
-      "value": "Behandelnder Arzt"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "PV1-7 Attending doctor"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4797",
-    "code": "CLP",
-    "display": "Collecting Provider",
-    "definition": "Collecting Provider",
-    "property": [ {
-      "code": "comment",
-      "valueString": "OBR-10 Collector Identifier"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "4798",
-    "code": "CP",
-    "display": "Consulting Provider",
-    "definition": "Consulting Provider",
-    "designation": [ {
-      "language": "de",
-      "value": "Beratender Arzt"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4799",
-    "code": "DP",
-    "display": "Dispensing Provider",
-    "definition": "Dispensing Provider",
-    "property": [ {
-      "code": "comment",
-      "valueString": "RXD-10 Dispensing Provider"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "4800",
-    "code": "EP",
-    "display": "Entering Provider (probably not the same as transcriptionist?)",
-    "definition": "Entering Provider (probably not the same as transcriptionist?)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "ORC-10 Entered By"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "4801",
-    "code": "FHCP",
-    "display": "Family Health Care Professional",
-    "definition": "Family Health Care Professional",
-    "designation": [ {
-      "language": "de",
-      "value": "Hausarzt"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4802",
-    "code": "IP",
-    "display": "Initiating Provider (as in action by)",
-    "definition": "Initiating Provider (as in action by)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "ORC-19 Action By"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "4803",
-    "code": "MDIR",
-    "display": "Medical Director",
-    "definition": "Medical Director",
-    "property": [ {
-      "code": "comment",
-      "valueString": "OBX-25 Performing Organization Medical Director"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "4804",
-    "code": "OP",
-    "display": "Ordering Provider",
-    "definition": "Ordering Provider",
-    "property": [ {
-      "code": "comment",
-      "valueString": "ORC-12 Ordering Provider, OBR-16 Ordering Provider, RXO-14 Ordering Provider's DEA Number, RXE-13 Ordering Provider's DEA Number, ORC-24 Ordering Provider Address"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "4805",
-    "code": "PH",
-    "display": "Pharmacist   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)",
-    "definition": "Pharmacist   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "RXE-14 Pharmacist/Treatment Supplier's Verifier ID"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "4811",
-    "code": "PI",
-    "display": "Primary Interpreter",
-    "definition": "Primary Interpreter",
-    "designation": [ {
-      "language": "de",
-      "value": "Verantwortlicher Übersetzer"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "4806",
-    "code": "PP",
-    "display": "Primary Care Provider",
-    "definition": "Primary Care Provider",
-    "designation": [ {
-      "language": "de",
-      "value": "Durchgangsarzt"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4807",
-    "code": "RO",
-    "display": "Responsible Observer",
-    "definition": "Responsible Observer",
-    "property": [ {
-      "code": "comment",
-      "valueString": "OBX-16 Responsible Observer"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "4808",
-    "code": "RP",
-    "display": "Referring Provider",
-    "definition": "Referring Provider",
-    "designation": [ {
-      "language": "de",
-      "value": "überweisender/einweisender Arzt"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "PV1-8 Referring doctor"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4809",
-    "code": "RT",
-    "display": "Referred to Provider",
-    "definition": "Referred to Provider",
-    "designation": [ {
-      "language": "de",
-      "value": "Überweisungsempfänger"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4813",
-    "code": "TN",
-    "display": "Technician",
-    "definition": "Technician",
-    "designation": [ {
-      "language": "de",
-      "value": "MTA"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "4810",
-    "code": "TR",
-    "display": "Transcriptionist",
-    "definition": "Transcriptionist",
-    "designation": [ {
-      "language": "de",
-      "value": "Schreibkraft"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "4814",
-    "code": "VP",
-    "display": "Verifying Provider",
-    "definition": "Verifying Provider",
-    "property": [ {
-      "code": "comment",
-      "valueString": "ORC-11 Verified By"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "4815",
-    "code": "VPS",
-    "display": "Verifying Pharmaceutical Supplier   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)",
-    "definition": "Verifying Pharmaceutical Supplier   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "RXE-14 Pharmacist/Treatment Supplier's Verifier ID"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "4816",
-    "code": "VTS",
-    "display": "Verifying Treatment Supplier   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)",
-    "definition": "Verifying Treatment Supplier   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "RXE-14 Pharmacist/Treatment Supplier's Verifier ID"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "4794",
+      "code": "AD",
+      "display": "Admitting",
+      "definition": "Admitting",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Aufnehmender Arzt"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "PV1-17 Admitting doctor"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4812",
+      "code": "AI",
+      "display": "Assistant/Alternate Interpreter",
+      "definition": "Assistant/Alternate Interpreter",
+      "designation": [
+        {
+          "language": "de",
+          "value": "alternativer (oder Assistent des) Befundsarzt"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "4795",
+      "code": "AP",
+      "display": "Administering Provider",
+      "definition": "Administering Provider",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "RXA-10 Administering Provider"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "4796",
+      "code": "AT",
+      "display": "Attending",
+      "definition": "Attending",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Behandelnder Arzt"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "PV1-7 Attending doctor"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4797",
+      "code": "CLP",
+      "display": "Collecting Provider",
+      "definition": "Collecting Provider",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "OBR-10 Collector Identifier"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "4798",
+      "code": "CP",
+      "display": "Consulting Provider",
+      "definition": "Consulting Provider",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Beratender Arzt"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4799",
+      "code": "DP",
+      "display": "Dispensing Provider",
+      "definition": "Dispensing Provider",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "RXD-10 Dispensing Provider"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "4800",
+      "code": "EP",
+      "display": "Entering Provider (probably not the same as transcriptionist?)",
+      "definition": "Entering Provider (probably not the same as transcriptionist?)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "ORC-10 Entered By"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "4801",
+      "code": "FHCP",
+      "display": "Family Health Care Professional",
+      "definition": "Family Health Care Professional",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Hausarzt"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4802",
+      "code": "IP",
+      "display": "Initiating Provider (as in action by)",
+      "definition": "Initiating Provider (as in action by)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "ORC-19 Action By"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "4803",
+      "code": "MDIR",
+      "display": "Medical Director",
+      "definition": "Medical Director",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "OBX-25 Performing Organization Medical Director"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "4804",
+      "code": "OP",
+      "display": "Ordering Provider",
+      "definition": "Ordering Provider",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "ORC-12 Ordering Provider, OBR-16 Ordering Provider, RXO-14 Ordering Provider's DEA Number, RXE-13 Ordering Provider's DEA Number, ORC-24 Ordering Provider Address"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "4805",
+      "code": "PH",
+      "display": "Pharmacist   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)",
+      "definition": "Pharmacist   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "RXE-14 Pharmacist/Treatment Supplier's Verifier ID"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "4811",
+      "code": "PI",
+      "display": "Primary Interpreter",
+      "definition": "Primary Interpreter",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Verantwortlicher Übersetzer"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "4806",
+      "code": "PP",
+      "display": "Primary Care Provider",
+      "definition": "Primary Care Provider",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Durchgangsarzt"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4807",
+      "code": "RO",
+      "display": "Responsible Observer",
+      "definition": "Responsible Observer",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "OBX-16 Responsible Observer"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "4808",
+      "code": "RP",
+      "display": "Referring Provider",
+      "definition": "Referring Provider",
+      "designation": [
+        {
+          "language": "de",
+          "value": "überweisender/einweisender Arzt"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "PV1-8 Referring doctor"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4809",
+      "code": "RT",
+      "display": "Referred to Provider",
+      "definition": "Referred to Provider",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Überweisungsempfänger"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4813",
+      "code": "TN",
+      "display": "Technician",
+      "definition": "Technician",
+      "designation": [
+        {
+          "language": "de",
+          "value": "MTA"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "4810",
+      "code": "TR",
+      "display": "Transcriptionist",
+      "definition": "Transcriptionist",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Schreibkraft"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "4814",
+      "code": "VP",
+      "display": "Verifying Provider",
+      "definition": "Verifying Provider",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "ORC-11 Verified By"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "4815",
+      "code": "VPS",
+      "display": "Verifying Pharmaceutical Supplier   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)",
+      "definition": "Verifying Pharmaceutical Supplier   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "RXE-14 Pharmacist/Treatment Supplier's Verifier ID"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "4816",
+      "code": "VTS",
+      "display": "Verifying Treatment Supplier   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)",
+      "definition": "Verifying Treatment Supplier   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "RXE-14 Pharmacist/Treatment Supplier's Verifier ID"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    }
+  ]
 }

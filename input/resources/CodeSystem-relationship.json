@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-relationship.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/relationship</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0063"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/relationship",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.24"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0063"
-  } ],
-  "version": "1.0.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0063"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0063",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.24"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0063"
+    }
+  ],
+  "version": "3.0.0",
   "name": "Relationship",
   "title": "Relationship (2.9.1 - 1.0.0)",
   "status": "active",
@@ -34,544 +45,742 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "863",
-    "code": "ASC",
-    "display": "Associate",
-    "definition": "Associate",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "857",
-    "code": "BRO",
-    "display": "Brother",
-    "definition": "Brother",
-    "designation": [ {
-      "language": "de",
-      "value": "Bruder"
-    } ],
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "852",
-    "code": "CGV",
-    "display": "Care giver",
-    "definition": "Care giver",
-    "designation": [ {
-      "language": "de",
-      "value": "Pflegeeltern"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "842",
-    "code": "CHD",
-    "display": "Child",
-    "definition": "Child",
-    "designation": [ {
-      "language": "de",
-      "value": "Kind"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "847",
-    "code": "DEP",
-    "display": "Handicapped dependent",
-    "definition": "Handicapped dependent",
-    "designation": [ {
-      "language": "de",
-      "value": "Begleitperson für Hilfsbedürftige"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "841",
-    "code": "DOM",
-    "display": "Life partner",
-    "definition": "Life partner",
-    "designation": [ {
-      "language": "de",
-      "value": "Lebenspartner"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "864",
-    "code": "EMC",
-    "display": "Emergency contact",
-    "definition": "Emergency contact",
-    "designation": [ {
-      "language": "de",
-      "value": "Ansprechpartner in Notfällen"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "861",
-    "code": "EME",
-    "display": "Employee",
-    "definition": "Employee",
-    "designation": [ {
-      "language": "de",
-      "value": "Angestellter"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "862",
-    "code": "EMR",
-    "display": "Employer",
-    "definition": "Employer",
-    "designation": [ {
-      "language": "de",
-      "value": "Arbeitgeber"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "855",
-    "code": "EXF",
-    "display": "Extended family",
-    "definition": "Extended family",
-    "designation": [ {
-      "language": "de",
-      "value": "erweiterter Familienkreis"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "846",
-    "code": "FCH",
-    "display": "Foster child",
-    "definition": "Foster child",
-    "designation": [ {
-      "language": "de",
-      "value": "Pflegekind"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "859",
-    "code": "FND",
-    "display": "Friend",
-    "definition": "Friend",
-    "designation": [ {
-      "language": "de",
-      "value": "Freund"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "851",
-    "code": "FTH",
-    "display": "Father",
-    "definition": "Father",
-    "designation": [ {
-      "language": "de",
-      "value": "Vater"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "843",
-    "code": "GCH",
-    "display": "Grandchild",
-    "definition": "Grandchild",
-    "designation": [ {
-      "language": "de",
-      "value": "Enkel"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "853",
-    "code": "GRD",
-    "display": "Guardian",
-    "definition": "Guardian",
-    "designation": [ {
-      "language": "de",
-      "value": "Pate"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "854",
-    "code": "GRP",
-    "display": "Grandparent",
-    "definition": "Grandparent",
-    "designation": [ {
-      "language": "de",
-      "value": "Großeltern"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "867",
-    "code": "MGR",
-    "display": "Manager",
-    "definition": "Manager",
-    "designation": [ {
-      "language": "de",
-      "value": "Manager"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "850",
-    "code": "MTH",
-    "display": "Mother",
-    "definition": "Mother",
-    "designation": [ {
-      "language": "de",
-      "value": "Mutter"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "844",
-    "code": "NCH",
-    "display": "Natural child",
-    "definition": "Natural child",
-    "designation": [ {
-      "language": "de",
-      "value": "eigenes Kind"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "868",
-    "code": "NON",
-    "display": "None",
-    "definition": "None",
-    "designation": [ {
-      "language": "de",
-      "value": "keine"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "860",
-    "code": "OAD",
-    "display": "Other adult",
-    "definition": "Other adult",
-    "designation": [ {
-      "language": "de",
-      "value": "anderer Erwachsener"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "870",
-    "code": "OTH",
-    "display": "Other",
-    "definition": "Other",
-    "designation": [ {
-      "language": "de",
-      "value": "andere"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "865",
-    "code": "OWN",
-    "display": "Owner",
-    "definition": "Owner",
-    "designation": [ {
-      "language": "de",
-      "value": "Eigentümer"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "849",
-    "code": "PAR",
-    "display": "Parent",
-    "definition": "Parent",
-    "designation": [ {
-      "language": "de",
-      "value": "Eltern"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "845",
-    "code": "SCH",
-    "display": "Stepchild",
-    "definition": "Stepchild",
-    "designation": [ {
-      "language": "de",
-      "value": "Stiefkind"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "839",
-    "code": "SEL",
-    "display": "Self",
-    "definition": "Self",
-    "designation": [ {
-      "language": "de",
-      "value": "selbst"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "856",
-    "code": "SIB",
-    "display": "Sibling",
-    "definition": "Sibling",
-    "designation": [ {
-      "language": "de",
-      "value": "Geschwister"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "858",
-    "code": "SIS",
-    "display": "Sister",
-    "definition": "Sister",
-    "designation": [ {
-      "language": "de",
-      "value": "Schwester"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "840",
-    "code": "SPO",
-    "display": "Spouse",
-    "definition": "Spouse",
-    "designation": [ {
-      "language": "de",
-      "value": "Partner"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "866",
-    "code": "TRA",
-    "display": "Trainer",
-    "definition": "Trainer",
-    "designation": [ {
-      "language": "de",
-      "value": "Trainer"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "869",
-    "code": "UNK",
-    "display": "Unknown",
-    "definition": "Unknown",
-    "designation": [ {
-      "language": "de",
-      "value": "unbekannt"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "848",
-    "code": "WRD",
-    "display": "Ward of court",
-    "definition": "Ward of court",
-    "designation": [ {
-      "language": "de",
-      "value": "Vormund"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "863",
+      "code": "ASC",
+      "display": "Associate",
+      "definition": "Associate",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "857",
+      "code": "BRO",
+      "display": "Brother",
+      "definition": "Brother",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Bruder"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "852",
+      "code": "CGV",
+      "display": "Care giver",
+      "definition": "Care giver",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Pflegeeltern"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "842",
+      "code": "CHD",
+      "display": "Child",
+      "definition": "Child",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Kind"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "847",
+      "code": "DEP",
+      "display": "Handicapped dependent",
+      "definition": "Handicapped dependent",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Begleitperson für Hilfsbedürftige"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "841",
+      "code": "DOM",
+      "display": "Life partner",
+      "definition": "Life partner",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Lebenspartner"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "864",
+      "code": "EMC",
+      "display": "Emergency contact",
+      "definition": "Emergency contact",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Ansprechpartner in Notfällen"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "861",
+      "code": "EME",
+      "display": "Employee",
+      "definition": "Employee",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Angestellter"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "862",
+      "code": "EMR",
+      "display": "Employer",
+      "definition": "Employer",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Arbeitgeber"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "855",
+      "code": "EXF",
+      "display": "Extended family",
+      "definition": "Extended family",
+      "designation": [
+        {
+          "language": "de",
+          "value": "erweiterter Familienkreis"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "846",
+      "code": "FCH",
+      "display": "Foster child",
+      "definition": "Foster child",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Pflegekind"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "859",
+      "code": "FND",
+      "display": "Friend",
+      "definition": "Friend",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Freund"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "851",
+      "code": "FTH",
+      "display": "Father",
+      "definition": "Father",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Vater"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "843",
+      "code": "GCH",
+      "display": "Grandchild",
+      "definition": "Grandchild",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Enkel"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "853",
+      "code": "GRD",
+      "display": "Guardian",
+      "definition": "Guardian",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Pate"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "854",
+      "code": "GRP",
+      "display": "Grandparent",
+      "definition": "Grandparent",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Großeltern"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "867",
+      "code": "MGR",
+      "display": "Manager",
+      "definition": "Manager",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Manager"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "850",
+      "code": "MTH",
+      "display": "Mother",
+      "definition": "Mother",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Mutter"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "844",
+      "code": "NCH",
+      "display": "Natural child",
+      "definition": "Natural child",
+      "designation": [
+        {
+          "language": "de",
+          "value": "eigenes Kind"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "868",
+      "code": "NON",
+      "display": "None",
+      "definition": "None",
+      "designation": [
+        {
+          "language": "de",
+          "value": "keine"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "860",
+      "code": "OAD",
+      "display": "Other adult",
+      "definition": "Other adult",
+      "designation": [
+        {
+          "language": "de",
+          "value": "anderer Erwachsener"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "870",
+      "code": "OTH",
+      "display": "Other",
+      "definition": "Other",
+      "designation": [
+        {
+          "language": "de",
+          "value": "andere"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "865",
+      "code": "OWN",
+      "display": "Owner",
+      "definition": "Owner",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Eigentümer"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "849",
+      "code": "PAR",
+      "display": "Parent",
+      "definition": "Parent",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Eltern"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "845",
+      "code": "SCH",
+      "display": "Stepchild",
+      "definition": "Stepchild",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Stiefkind"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "839",
+      "code": "SEL",
+      "display": "Self",
+      "definition": "Self",
+      "designation": [
+        {
+          "language": "de",
+          "value": "selbst"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "856",
+      "code": "SIB",
+      "display": "Sibling",
+      "definition": "Sibling",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Geschwister"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "858",
+      "code": "SIS",
+      "display": "Sister",
+      "definition": "Sister",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Schwester"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "840",
+      "code": "SPO",
+      "display": "Spouse",
+      "definition": "Spouse",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Partner"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "866",
+      "code": "TRA",
+      "display": "Trainer",
+      "definition": "Trainer",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Trainer"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "869",
+      "code": "UNK",
+      "display": "Unknown",
+      "definition": "Unknown",
+      "designation": [
+        {
+          "language": "de",
+          "value": "unbekannt"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "848",
+      "code": "WRD",
+      "display": "Ward of court",
+      "definition": "Ward of court",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Vormund"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    }
+  ]
 }

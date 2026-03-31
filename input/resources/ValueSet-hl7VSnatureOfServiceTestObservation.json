@@ -1,14 +1,17 @@
 {
   "resourceType": "ValueSet",
   "id": "hl7VSnatureOfServiceTestObservation",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.21.102"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0174"
-  } ],
-  "version": "1.1.1",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.21.102"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0174"
+    }
+  ],
+  "version": "3.0.0",
   "name": "Hl7VSnatureOfServiceTestObservation",
   "title": "Nature of Service/Test/Observation (2.9.1 - 1.1.1)",
   "status": "active",
@@ -17,9 +20,18 @@
   "description": "Concepts specifying an identification of a test battery, an entire functional procedure or study, a single test value (observation), multiple test batteries or functional procedures as an orderable unit (profile), or a single test value (observation) calculated from other independent observations, typically used as an indicator for Master Files.",
   "copyright": "HL7 Inc., 2026",
   "compose": {
-    "include": [ {
-      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/natureOfServiceTestObservation",
-      "version": "1.1.1"
-    } ]
-  }
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0174",
+        "version": "1.1.1"
+      }
+    ]
+  },
+  "url": "http://terminology.hl7.org/ValueSet/v2-0174",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.1.1"
+    }
+  ]
 }

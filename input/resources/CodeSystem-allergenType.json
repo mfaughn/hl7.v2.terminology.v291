@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-allergenType.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/allergenType</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0127"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/allergenType",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.54"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0127"
-  } ],
-  "version": "1.1.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0127"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.1.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0127",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.54"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0127"
+    }
+  ],
+  "version": "3.0.0",
   "name": "AllergenType",
   "title": "Allergen Type (2.9.1 - 1.1.0)",
   "status": "active",
@@ -34,164 +45,220 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "1548",
-    "code": "AA",
-    "display": "Animal Allergy",
-    "definition": "Animal Allergy",
-    "designation": [ {
-      "language": "de",
-      "value": "Tierallergie"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "1543",
-    "code": "DA",
-    "display": "Drug Allergy",
-    "definition": "Drug allergy",
-    "designation": [ {
-      "language": "de",
-      "value": "Medikamentenallergie"
-    } ],
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1547",
-    "code": "EA",
-    "display": "Environmental Allergy",
-    "definition": "Environmental Allergy",
-    "designation": [ {
-      "language": "de",
-      "value": "Allergie gegen Umwelteinflüsse"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "1544",
-    "code": "FA",
-    "display": "Food Allergy",
-    "definition": "Food allergy",
-    "designation": [ {
-      "language": "de",
-      "value": "Nahrungsmittelallergie"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1550",
-    "code": "LA",
-    "display": "Pollen Allergy",
-    "definition": "Pollen Allergy",
-    "designation": [ {
-      "language": "de",
-      "value": "Pollenallergie"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "1545",
-    "code": "MA",
-    "display": "Miscellaneous Allergy",
-    "definition": "Miscellaneous allergy",
-    "designation": [ {
-      "language": "de",
-      "value": "Sonstige Allergie"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1546",
-    "code": "MC",
-    "display": "Miscellaneous Contraindication",
-    "definition": "Miscellaneous contraindication",
-    "designation": [ {
-      "language": "de",
-      "value": "Sonstige Kontraindikation"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1549",
-    "code": "PA",
-    "display": "Plant Allergy",
-    "definition": "Plant Allergy",
-    "designation": [ {
-      "language": "de",
-      "value": "Pflanzenallergie"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "1548",
+      "code": "AA",
+      "display": "Animal Allergy",
+      "definition": "Animal Allergy",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Tierallergie"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "1543",
+      "code": "DA",
+      "display": "Drug Allergy",
+      "definition": "Drug allergy",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Medikamentenallergie"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1547",
+      "code": "EA",
+      "display": "Environmental Allergy",
+      "definition": "Environmental Allergy",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Allergie gegen Umwelteinflüsse"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "1544",
+      "code": "FA",
+      "display": "Food Allergy",
+      "definition": "Food allergy",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Nahrungsmittelallergie"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1550",
+      "code": "LA",
+      "display": "Pollen Allergy",
+      "definition": "Pollen Allergy",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Pollenallergie"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "1545",
+      "code": "MA",
+      "display": "Miscellaneous Allergy",
+      "definition": "Miscellaneous allergy",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Sonstige Allergie"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1546",
+      "code": "MC",
+      "display": "Miscellaneous Contraindication",
+      "definition": "Miscellaneous contraindication",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Sonstige Kontraindikation"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1549",
+      "code": "PA",
+      "display": "Plant Allergy",
+      "definition": "Plant Allergy",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Pflanzenallergie"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    }
+  ]
 }

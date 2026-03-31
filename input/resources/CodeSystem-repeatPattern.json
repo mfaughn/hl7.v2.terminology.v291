@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-repeatPattern.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/repeatPattern</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0335"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/repeatPattern",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.205"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0335"
-  } ],
-  "version": "1.1.1",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0335"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.1.1"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0335",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.205"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0335"
+    }
+  ],
+  "version": "4.0.0",
   "name": "RepeatPattern",
   "title": "Repeat Pattern (2.9.1 - 1.1.1)",
   "status": "active",
@@ -34,489 +45,648 @@
   "caseSensitive": true,
   "compositional": true,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "3101",
-    "code": "A",
-    "display": "Ante (before)",
-    "definition": "Ante (before)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "This is not a real code, but guidelines how to construct the codes."
-    }, {
+  "property": [
+    {
+      "code": "versionIntroduced",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
       "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2016-07-11"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3086",
-    "code": "BID",
-    "display": "twice a day at institution-specified times",
-    "definition": "twice a day at institution-specified times",
-    "property": [ {
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "(e.g., 9AM-4PM)"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3095",
-    "code": "C",
-    "display": "service is provided continuously between start time and stop time",
-    "definition": "service is provided continuously between start time and stop time",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3105",
-    "code": "D",
-    "display": "Cibus Diurnus (lunch)",
-    "definition": "Cibus Diurnus (lunch)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "This is not a real code, but guidelines how to construct the codes."
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2016-07-11"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3103",
-    "code": "I",
-    "display": "Inter",
-    "definition": "Inter",
-    "property": [ {
-      "code": "comment",
-      "valueString": "This is not a real code, but guidelines how to construct the codes."
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2016-07-11"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3104",
-    "code": "M",
-    "display": "Cibus Matutinus (breakfast)",
-    "definition": "Cibus Matutinus (breakfast)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "This is not a real code, but guidelines how to construct the codes."
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2016-07-11"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3100",
-    "code": "Meal Related Timings",
-    "display": "<timing>C (\"cum\")<meal>",
-    "definition": "<timing>C (\"cum\")<meal>",
-    "property": [ {
-      "code": "comment",
-      "valueString": "This is not a real code, but guidelines how to construct the codes."
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2016-07-11"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3099",
-    "code": "Once",
-    "display": "one time only.",
-    "definition": "one time only.",
-    "property": [ {
-      "code": "comment",
-      "valueString": "This is also the default when this component is null."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3102",
-    "code": "P",
-    "display": "Post (after)",
-    "definition": "Post (after)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "This is not a real code, but guidelines how to construct the codes."
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2016-07-11"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3097",
-    "code": "PRN",
-    "display": "given as needed",
-    "definition": "given as needed",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3098",
-    "code": "PRNxxx",
-    "display": "where xxx is some frequency code",
-    "definition": "where xxx is some frequency code",
-    "property": [ {
-      "code": "comment",
-      "valueString": "This is not a real code, but guidelines how to construct the codes."
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2016-07-11"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3082",
-    "code": "Q<integer>D",
-    "display": "every <integer> days",
-    "definition": "every <integer> days",
-    "property": [ {
-      "code": "comment",
-      "valueString": "This is not a real code, but guidelines how to construct the codes."
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2016-07-11"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3081",
-    "code": "Q<integer>H",
-    "display": "every <integer> hours",
-    "definition": "every <integer> hours",
-    "property": [ {
-      "code": "comment",
-      "valueString": "This is not a real code, but guidelines how to construct the codes."
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2016-07-11"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3085",
-    "code": "Q<integer>J<day#>",
-    "display": "repeats on a particular day of the week",
-    "definition": "repeats on a particular day of the week",
-    "property": [ {
-      "code": "comment",
-      "valueString": "This is not a real code, but guidelines how to construct the codes."
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2016-07-11"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3084",
-    "code": "Q<integer>L",
-    "display": "every <integer> months (Lunar cycle)",
-    "definition": "every <integer> months (Lunar cycle)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "This is not a real code, but guidelines how to construct the codes."
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2016-07-11"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3080",
-    "code": "Q<integer>M",
-    "display": "every <integer> minutes",
-    "definition": "every <integer> minutes",
-    "property": [ {
-      "code": "comment",
-      "valueString": "This is not a real code, but guidelines how to construct the codes."
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2016-07-11"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3079",
-    "code": "Q<integer>S",
-    "display": "every <integer> seconds",
-    "definition": "every <integer> seconds",
-    "property": [ {
-      "code": "comment",
-      "valueString": "This is not a real code, but guidelines how to construct the codes."
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2016-07-11"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3083",
-    "code": "Q<integer>W",
-    "display": "every <integer> weeks",
-    "definition": "every <integer> weeks",
-    "property": [ {
-      "code": "comment",
-      "valueString": "This is not a real code, but guidelines how to construct the codes."
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2016-07-11"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3090",
-    "code": "QAM",
-    "display": "in the morning at institution-specified time",
-    "definition": "in the morning at institution-specified time",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3093",
-    "code": "QHS",
-    "display": "every day before the hour of sleep",
-    "definition": "every day before the hour of sleep",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3088",
-    "code": "QID",
-    "display": "four times a day at institution-specified times",
-    "definition": "four times a day at institution-specified times",
-    "property": [ {
-      "code": "comment",
-      "valueString": "(e.g., 9AM-11AM-4PM-9PM)"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3092",
-    "code": "QOD",
-    "display": "every other day",
-    "definition": "every other day",
-    "property": [ {
-      "code": "comment",
-      "valueString": "(same as Q2D)"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3094",
-    "code": "QPM",
-    "display": "in the evening at institution-specified time",
-    "definition": "in the evening at institution-specified time",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3091",
-    "code": "QSHIFT",
-    "display": "during each of three eight-hour shifts at institution-specified times",
-    "definition": "during each of three eight-hour shifts at institution-specified times",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3087",
-    "code": "TID",
-    "display": "three times a day at institution-specified times",
-    "definition": "three times a day at institution-specified times",
-    "property": [ {
-      "code": "comment",
-      "valueString": "(e.g., 9AM-4PM-9PM)"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3096",
-    "code": "U <spec>",
-    "display": "for future use, where <spec> is an interval specification as defined by the UNIX cron specification.",
-    "definition": "for future use, where <spec> is an interval specification as defined by the UNIX cron specification.",
-    "property": [ {
-      "code": "comment",
-      "valueString": "This is not a real code, but guidelines how to construct the codes."
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2016-07-11"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3106",
-    "code": "V",
-    "display": "Cibus Vespertinus (dinner)",
-    "definition": "Cibus Vespertinus (dinner)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "This is not a real code, but guidelines how to construct the codes."
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2016-07-11"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3089",
-    "code": "xID",
-    "display": "\"X\" times per day at institution-specified times, where X is a numeral 5 or greater.",
-    "definition": "\"X\" times per day at institution-specified times, where X is a numeral 5 or greater.",
-    "property": [ {
-      "code": "comment",
-      "valueString": "This is not a real code, but guidelines how to construct the codes."
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2016-07-11"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "3101",
+      "code": "A",
+      "display": "Ante (before)",
+      "definition": "Ante (before)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This is not a real code, but guidelines how to construct the codes."
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2016-07-11"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3086",
+      "code": "BID",
+      "display": "twice a day at institution-specified times",
+      "definition": "twice a day at institution-specified times",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "(e.g., 9AM-4PM)"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3095",
+      "code": "C",
+      "display": "service is provided continuously between start time and stop time",
+      "definition": "service is provided continuously between start time and stop time",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3105",
+      "code": "D",
+      "display": "Cibus Diurnus (lunch)",
+      "definition": "Cibus Diurnus (lunch)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This is not a real code, but guidelines how to construct the codes."
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2016-07-11"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3103",
+      "code": "I",
+      "display": "Inter",
+      "definition": "Inter",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This is not a real code, but guidelines how to construct the codes."
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2016-07-11"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3104",
+      "code": "M",
+      "display": "Cibus Matutinus (breakfast)",
+      "definition": "Cibus Matutinus (breakfast)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This is not a real code, but guidelines how to construct the codes."
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2016-07-11"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3100",
+      "code": "Meal Related Timings",
+      "display": "<timing>C (\"cum\")<meal>",
+      "definition": "<timing>C (\"cum\")<meal>",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This is not a real code, but guidelines how to construct the codes."
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2016-07-11"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3099",
+      "code": "Once",
+      "display": "one time only.",
+      "definition": "one time only.",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This is also the default when this component is null."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3102",
+      "code": "P",
+      "display": "Post (after)",
+      "definition": "Post (after)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This is not a real code, but guidelines how to construct the codes."
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2016-07-11"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3097",
+      "code": "PRN",
+      "display": "given as needed",
+      "definition": "given as needed",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3098",
+      "code": "PRNxxx",
+      "display": "where xxx is some frequency code",
+      "definition": "where xxx is some frequency code",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This is not a real code, but guidelines how to construct the codes."
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2016-07-11"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3082",
+      "code": "Q<integer>D",
+      "display": "every <integer> days",
+      "definition": "every <integer> days",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This is not a real code, but guidelines how to construct the codes."
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2016-07-11"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3081",
+      "code": "Q<integer>H",
+      "display": "every <integer> hours",
+      "definition": "every <integer> hours",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This is not a real code, but guidelines how to construct the codes."
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2016-07-11"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3085",
+      "code": "Q<integer>J<day#>",
+      "display": "repeats on a particular day of the week",
+      "definition": "repeats on a particular day of the week",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This is not a real code, but guidelines how to construct the codes."
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2016-07-11"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3084",
+      "code": "Q<integer>L",
+      "display": "every <integer> months (Lunar cycle)",
+      "definition": "every <integer> months (Lunar cycle)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This is not a real code, but guidelines how to construct the codes."
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2016-07-11"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3080",
+      "code": "Q<integer>M",
+      "display": "every <integer> minutes",
+      "definition": "every <integer> minutes",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This is not a real code, but guidelines how to construct the codes."
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2016-07-11"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3079",
+      "code": "Q<integer>S",
+      "display": "every <integer> seconds",
+      "definition": "every <integer> seconds",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This is not a real code, but guidelines how to construct the codes."
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2016-07-11"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3083",
+      "code": "Q<integer>W",
+      "display": "every <integer> weeks",
+      "definition": "every <integer> weeks",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This is not a real code, but guidelines how to construct the codes."
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2016-07-11"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3090",
+      "code": "QAM",
+      "display": "in the morning at institution-specified time",
+      "definition": "in the morning at institution-specified time",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3093",
+      "code": "QHS",
+      "display": "every day before the hour of sleep",
+      "definition": "every day before the hour of sleep",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3088",
+      "code": "QID",
+      "display": "four times a day at institution-specified times",
+      "definition": "four times a day at institution-specified times",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "(e.g., 9AM-11AM-4PM-9PM)"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3092",
+      "code": "QOD",
+      "display": "every other day",
+      "definition": "every other day",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "(same as Q2D)"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3094",
+      "code": "QPM",
+      "display": "in the evening at institution-specified time",
+      "definition": "in the evening at institution-specified time",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3091",
+      "code": "QSHIFT",
+      "display": "during each of three eight-hour shifts at institution-specified times",
+      "definition": "during each of three eight-hour shifts at institution-specified times",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3087",
+      "code": "TID",
+      "display": "three times a day at institution-specified times",
+      "definition": "three times a day at institution-specified times",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "(e.g., 9AM-4PM-9PM)"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3096",
+      "code": "U <spec>",
+      "display": "for future use, where <spec> is an interval specification as defined by the UNIX cron specification.",
+      "definition": "for future use, where <spec> is an interval specification as defined by the UNIX cron specification.",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This is not a real code, but guidelines how to construct the codes."
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2016-07-11"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3106",
+      "code": "V",
+      "display": "Cibus Vespertinus (dinner)",
+      "definition": "Cibus Vespertinus (dinner)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This is not a real code, but guidelines how to construct the codes."
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2016-07-11"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3089",
+      "code": "xID",
+      "display": "\"X\" times per day at institution-specified times, where X is a numeral 5 or greater.",
+      "definition": "\"X\" times per day at institution-specified times, where X is a numeral 5 or greater.",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This is not a real code, but guidelines how to construct the codes."
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2016-07-11"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    }
+  ]
 }

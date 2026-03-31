@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-administrationMethod.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/administrationMethod</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0165"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/administrationMethod",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.83"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0165"
-  } ],
-  "version": "1.0.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0165"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0165",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.83"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0165"
+    }
+  ],
+  "version": "3.0.0",
   "name": "AdministrationMethod",
   "title": "Administration Method (2.9.1 - 1.0.0)",
   "status": "active",
@@ -34,232 +45,308 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "1780",
-    "code": "CH",
-    "display": "Chew",
-    "definition": "Chew",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1781",
-    "code": "DI",
-    "display": "Dissolve",
-    "definition": "Dissolve",
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1782",
-    "code": "DU",
-    "display": "Dust",
-    "definition": "Dust",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1783",
-    "code": "IF",
-    "display": "Infiltrate",
-    "definition": "Infiltrate",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1785",
-    "code": "IR",
-    "display": "Irrigate",
-    "definition": "Irrigate",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1784",
-    "code": "IS",
-    "display": "Insert",
-    "definition": "Insert",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1787",
-    "code": "IVP",
-    "display": "IV Push",
-    "definition": "IV Push",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1786",
-    "code": "IVPB",
-    "display": "IV Piggyback",
-    "definition": "IV Piggyback",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1788",
-    "code": "NB",
-    "display": "Nebulized",
-    "definition": "Nebulized",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1790",
-    "code": "PF",
-    "display": "Perfuse",
-    "definition": "Perfuse",
-    "designation": [ {
-      "language": "de",
-      "value": "Perfundieren"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1789",
-    "code": "PT",
-    "display": "Paint",
-    "definition": "Paint",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1791",
-    "code": "SH",
-    "display": "Shampoo",
-    "definition": "Shampoo",
-    "designation": [ {
-      "language": "de",
-      "value": "Shampoo"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1792",
-    "code": "SO",
-    "display": "Soak",
-    "definition": "Soak",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1793",
-    "code": "WA",
-    "display": "Wash",
-    "definition": "Wash",
-    "designation": [ {
-      "language": "de",
-      "value": "Waschen"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1794",
-    "code": "WI",
-    "display": "Wipe",
-    "definition": "Wipe",
-    "designation": [ {
-      "language": "de",
-      "value": "Wischen"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "1780",
+      "code": "CH",
+      "display": "Chew",
+      "definition": "Chew",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1781",
+      "code": "DI",
+      "display": "Dissolve",
+      "definition": "Dissolve",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1782",
+      "code": "DU",
+      "display": "Dust",
+      "definition": "Dust",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1783",
+      "code": "IF",
+      "display": "Infiltrate",
+      "definition": "Infiltrate",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1785",
+      "code": "IR",
+      "display": "Irrigate",
+      "definition": "Irrigate",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1784",
+      "code": "IS",
+      "display": "Insert",
+      "definition": "Insert",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1787",
+      "code": "IVP",
+      "display": "IV Push",
+      "definition": "IV Push",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1786",
+      "code": "IVPB",
+      "display": "IV Piggyback",
+      "definition": "IV Piggyback",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1788",
+      "code": "NB",
+      "display": "Nebulized",
+      "definition": "Nebulized",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1790",
+      "code": "PF",
+      "display": "Perfuse",
+      "definition": "Perfuse",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Perfundieren"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1789",
+      "code": "PT",
+      "display": "Paint",
+      "definition": "Paint",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1791",
+      "code": "SH",
+      "display": "Shampoo",
+      "definition": "Shampoo",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Shampoo"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1792",
+      "code": "SO",
+      "display": "Soak",
+      "definition": "Soak",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1793",
+      "code": "WA",
+      "display": "Wash",
+      "definition": "Wash",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Waschen"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1794",
+      "code": "WI",
+      "display": "Wipe",
+      "definition": "Wipe",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Wischen"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    }
+  ]
 }

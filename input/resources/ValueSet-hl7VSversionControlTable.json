@@ -1,14 +1,17 @@
 {
   "resourceType": "ValueSet",
   "id": "hl7VSversionControlTable",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.21.45"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0104"
-  } ],
-  "version": "1.14.0",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.21.45"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0104"
+    }
+  ],
+  "version": "3.0.0",
   "name": "Hl7VSversionControlTable",
   "title": "Version ID (2.9.1 - 1.14.0)",
   "status": "active",
@@ -17,9 +20,18 @@
   "description": "Concepts which are used to identify an HL7 version in the Version 2.x family of published standards.",
   "copyright": "HL7 Inc., 2026",
   "compose": {
-    "include": [ {
-      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/versionId",
-      "version": "1.14.0"
-    } ]
-  }
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0104",
+        "version": "1.14.0"
+      }
+    ]
+  },
+  "url": "http://terminology.hl7.org/ValueSet/v2-0104",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.14.0"
+    }
+  ]
 }

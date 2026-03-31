@@ -1,14 +1,17 @@
 {
   "resourceType": "ValueSet",
   "id": "hl7VSstudentStatus",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.21.143"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0231"
-  } ],
-  "version": "1.0.0",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.21.143"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0231"
+    }
+  ],
+  "version": "3.0.0",
   "name": "Hl7VSstudentStatus",
   "title": "Student Status (2.9.1 - 1.0.0)",
   "status": "active",
@@ -17,9 +20,18 @@
   "description": "Value Set of codes that designate whether a guarantor is a full or part time student.",
   "copyright": "HL7 Inc., 2026",
   "compose": {
-    "include": [ {
-      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/studentStatus",
-      "version": "1.0.0"
-    } ]
-  }
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0231",
+        "version": "1.0.0"
+      }
+    ]
+  },
+  "url": "http://terminology.hl7.org/ValueSet/v2-0231",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.0"
+    }
+  ]
 }

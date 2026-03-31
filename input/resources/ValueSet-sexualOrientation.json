@@ -1,13 +1,16 @@
 {
   "resourceType": "ValueSet",
   "id": "sexualOrientation",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113762.1.4.1021.33"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0823"
-  } ],
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113762.1.4.1021.33"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0823"
+    }
+  ],
   "version": "1.0.0",
   "name": "SexualOrientation",
   "title": "Sexual Orientation (2.9.1 - 1.0.0)",
@@ -17,9 +20,18 @@
   "description": "Concepts specifying a person’s sexual orientation.\r\nUsed in HL7 Version 2.x messages in the GSP segment.",
   "copyright": "HL7 Inc., 2026",
   "compose": {
-    "include": [ {
-      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/snomedct",
-      "version": "1.0.0"
-    } ]
-  }
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0823",
+        "version": "1.0.0"
+      }
+    ]
+  },
+  "url": "http://terminology.hl7.org/ValueSet/v2-0823",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.0"
+    }
+  ]
 }

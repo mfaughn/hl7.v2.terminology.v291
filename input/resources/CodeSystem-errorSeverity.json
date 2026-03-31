@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-errorSeverity.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/errorSeverity</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0516"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/errorSeverity",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.337"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0516"
-  } ],
-  "version": "1.2.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0516"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.2.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0516",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.337"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0516"
+    }
+  ],
+  "version": "3.0.0",
   "name": "ErrorSeverity",
   "title": "Error Severity (2.9.1 - 1.2.0)",
   "status": "active",
@@ -34,102 +45,134 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "5588",
-    "code": "E",
-    "display": "Error",
-    "definition": "Transaction was unsuccessful",
-    "designation": [ {
-      "language": "de",
-      "value": "Fehler"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2017-07-16"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5589",
-    "code": "F",
-    "display": "Fatal Error",
-    "definition": "Message not processed due to application or network failure condition",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2017-07-16"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "5587",
-    "code": "I",
-    "display": "Information",
-    "definition": "Transaction was successful but includes information",
-    "designation": [ {
-      "language": "de",
-      "value": "Information"
-    } ],
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "e.g., inform patient"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2017-07-16"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5586",
-    "code": "W",
-    "display": "Warning",
-    "definition": "Transaction successful, but there may be issues",
-    "designation": [ {
-      "language": "de",
-      "value": "Warnung"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Use this severity when parts of the message may not have been stored."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2017-07-16"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "5588",
+      "code": "E",
+      "display": "Error",
+      "definition": "Transaction was unsuccessful",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Fehler"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2017-07-16"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5589",
+      "code": "F",
+      "display": "Fatal Error",
+      "definition": "Message not processed due to application or network failure condition",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2017-07-16"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "5587",
+      "code": "I",
+      "display": "Information",
+      "definition": "Transaction was successful but includes information",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Information"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "e.g., inform patient"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2017-07-16"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5586",
+      "code": "W",
+      "display": "Warning",
+      "definition": "Transaction successful, but there may be issues",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Warnung"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Use this severity when parts of the message may not have been stored."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2017-07-16"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    }
+  ]
 }

@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-equipmentState.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/equipmentState</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0365"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/equipmentState",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.223"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0365"
-  } ],
-  "version": "1.2.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0365"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.2.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0365",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.223"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0365"
+    }
+  ],
+  "version": "4.0.0",
   "name": "EquipmentState",
   "title": "Equipment State (2.9.1 - 1.2.0)",
   "status": "active",
@@ -34,252 +45,332 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "3669",
-    "code": "CL",
-    "display": "Clearing",
-    "definition": "Clearing",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3664",
-    "code": "CO",
-    "display": "Configuring",
-    "definition": "Configuring",
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3677",
-    "code": "DI",
-    "display": "Diagnose",
-    "definition": "Diagnose",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "3672",
-    "code": "ES",
-    "display": "E-stopped",
-    "definition": "Error, remaining orders can be finished, new orders cannot be accepted",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2016-03-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3680",
-    "code": "FL",
-    "display": "Failure",
-    "definition": "Failure, remaining orders are aborted, new orders cannot be accepted",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2016-03-16"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "3667",
-    "code": "ID",
-    "display": "Idle",
-    "definition": "Successfully started, new orders can be accepted, currently no orders are present",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2016-03-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3663",
-    "code": "IN",
-    "display": "Initializing",
-    "definition": "Software is ready, hardware not yet",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2016-03-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3682",
-    "code": "LT",
-    "display": "Limited test menu",
-    "definition": "For diagnostic instruments: some test types are unavailable",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2016-03-16"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "3679",
-    "code": "MA",
-    "display": "Maintenance",
-    "definition": "Maintenance",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "3668",
-    "code": "OP",
-    "display": "Normal Operation",
-    "definition": "Successfully started, new orders can be accepted",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2016-03-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3670",
-    "code": "PA",
-    "display": "Pausing",
-    "definition": "Pausing",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3671",
-    "code": "PD",
-    "display": "Paused",
-    "definition": "User action is required to continue",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2016-03-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3665",
-    "code": "PU",
-    "display": "Powered Up",
-    "definition": "Software and hardware are not yet ready",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2016-03-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3666",
-    "code": "RS",
-    "display": "Ready to start",
-    "definition": "Software and hardware are ready, but user action is required to start",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2016-03-16"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "3676",
-    "code": "SD",
-    "display": "Shutting down",
-    "definition": "Shutting down",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "3675",
-    "code": "SS",
-    "display": "Sampling stopped",
-    "definition": "Sampling stopped",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "3674",
-    "code": "TS",
-    "display": "Transport stopped",
-    "definition": "Transport stopped",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "3681",
-    "code": "UNK",
-    "display": "Unknown",
-    "definition": "Unknown",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2016-03-16"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "3669",
+      "code": "CL",
+      "display": "Clearing",
+      "definition": "Clearing",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3664",
+      "code": "CO",
+      "display": "Configuring",
+      "definition": "Configuring",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3677",
+      "code": "DI",
+      "display": "Diagnose",
+      "definition": "Diagnose",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "3672",
+      "code": "ES",
+      "display": "E-stopped",
+      "definition": "Error, remaining orders can be finished, new orders cannot be accepted",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3680",
+      "code": "FL",
+      "display": "Failure",
+      "definition": "Failure, remaining orders are aborted, new orders cannot be accepted",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-16"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "3667",
+      "code": "ID",
+      "display": "Idle",
+      "definition": "Successfully started, new orders can be accepted, currently no orders are present",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3663",
+      "code": "IN",
+      "display": "Initializing",
+      "definition": "Software is ready, hardware not yet",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3682",
+      "code": "LT",
+      "display": "Limited test menu",
+      "definition": "For diagnostic instruments: some test types are unavailable",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-16"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "3679",
+      "code": "MA",
+      "display": "Maintenance",
+      "definition": "Maintenance",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "3668",
+      "code": "OP",
+      "display": "Normal Operation",
+      "definition": "Successfully started, new orders can be accepted",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3670",
+      "code": "PA",
+      "display": "Pausing",
+      "definition": "Pausing",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3671",
+      "code": "PD",
+      "display": "Paused",
+      "definition": "User action is required to continue",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3665",
+      "code": "PU",
+      "display": "Powered Up",
+      "definition": "Software and hardware are not yet ready",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3666",
+      "code": "RS",
+      "display": "Ready to start",
+      "definition": "Software and hardware are ready, but user action is required to start",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-16"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "3676",
+      "code": "SD",
+      "display": "Shutting down",
+      "definition": "Shutting down",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "3675",
+      "code": "SS",
+      "display": "Sampling stopped",
+      "definition": "Sampling stopped",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "3674",
+      "code": "TS",
+      "display": "Transport stopped",
+      "definition": "Transport stopped",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "3681",
+      "code": "UNK",
+      "display": "Unknown",
+      "definition": "Unknown",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-16"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    }
+  ]
 }

@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-phlebotomyIssue.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/phlebotomyIssue</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0925"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/phlebotomyIssue",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.431"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0925"
-  } ],
-  "version": "1.0.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0925"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0925",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.431"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0925"
+    }
+  ],
+  "version": "3.0.0",
   "name": "PhlebotomyIssue",
   "title": "Phlebotomy Issue (2.9.1 - 1.0.0)",
   "status": "active",
@@ -34,196 +45,258 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "6665",
-    "code": "ACN",
-    "display": "Air Contamination",
-    "definition": "Air Contamination",
-    "designation": [ {
-      "language": "de",
-      "value": "Luftverschmutzung"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "6659",
-    "code": "CLT",
-    "display": "Clotted",
-    "definition": "Clotted",
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "6655",
-    "code": "COL",
-    "display": "Collapse",
-    "definition": "Collapse",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "6662",
-    "code": "DAK",
-    "display": "Defective Apheresis Kit",
-    "definition": "Defective Apheresis Kit",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "6661",
-    "code": "DBG",
-    "display": "Defective Bag",
-    "definition": "Defective Bag",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "6663",
-    "code": "DMT",
-    "display": "Defective Instrument",
-    "definition": "Defective Instrument",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "6660",
-    "code": "DND",
-    "display": "Defective Needle",
-    "definition": "Defective Needle",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "6653",
-    "code": "INF",
-    "display": "Infiltration",
-    "definition": "Infiltration",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "6664",
-    "code": "IPF",
-    "display": "Instrument Power Failure",
-    "definition": "Instrument Power Failure",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "6656",
-    "code": "MIS",
-    "display": "Missed / in tissue",
-    "definition": "Missed / in tissue",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "6657",
-    "code": "NAD",
-    "display": "Needle adjustment (this may not end a procedure, if successful will impact component production)",
-    "definition": "Needle adjustment (this may not end a procedure, if successful will impact component production)",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "6658",
-    "code": "PFL",
-    "display": "Poor flow",
-    "definition": "Poor flow",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "6654",
-    "code": "VSM",
-    "display": "Vein Spasm",
-    "definition": "Vein Spasm",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "6665",
+      "code": "ACN",
+      "display": "Air Contamination",
+      "definition": "Air Contamination",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Luftverschmutzung"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "6659",
+      "code": "CLT",
+      "display": "Clotted",
+      "definition": "Clotted",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "6655",
+      "code": "COL",
+      "display": "Collapse",
+      "definition": "Collapse",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "6662",
+      "code": "DAK",
+      "display": "Defective Apheresis Kit",
+      "definition": "Defective Apheresis Kit",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "6661",
+      "code": "DBG",
+      "display": "Defective Bag",
+      "definition": "Defective Bag",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "6663",
+      "code": "DMT",
+      "display": "Defective Instrument",
+      "definition": "Defective Instrument",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "6660",
+      "code": "DND",
+      "display": "Defective Needle",
+      "definition": "Defective Needle",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "6653",
+      "code": "INF",
+      "display": "Infiltration",
+      "definition": "Infiltration",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "6664",
+      "code": "IPF",
+      "display": "Instrument Power Failure",
+      "definition": "Instrument Power Failure",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "6656",
+      "code": "MIS",
+      "display": "Missed / in tissue",
+      "definition": "Missed / in tissue",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "6657",
+      "code": "NAD",
+      "display": "Needle adjustment (this may not end a procedure, if successful will impact component production)",
+      "definition": "Needle adjustment (this may not end a procedure, if successful will impact component production)",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "6658",
+      "code": "PFL",
+      "display": "Poor flow",
+      "definition": "Poor flow",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "6654",
+      "code": "VSM",
+      "display": "Vein Spasm",
+      "definition": "Vein Spasm",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    }
+  ]
 }

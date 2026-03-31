@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-contactRole2.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/contactRole2</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0131"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/contactRole2",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.58"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0131"
-  } ],
-  "version": "1.0.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0131"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0131",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.58"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0131"
+    }
+  ],
+  "version": "4.0.0",
   "name": "ContactRole2",
   "title": "Contact Role (2.9.1 - 1.0.0)",
   "status": "active",
@@ -34,164 +45,220 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "1564",
-    "code": "C",
-    "display": "Emergency Contact",
-    "definition": "Emergency Contact",
-    "designation": [ {
-      "language": "de",
-      "value": "Ansprechpartner in Notfällen"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "1563",
-    "code": "E",
-    "display": "Employer",
-    "definition": "Employer",
-    "designation": [ {
-      "language": "de",
-      "value": "Arbeitgeber"
-    } ],
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "1565",
-    "code": "F",
-    "display": "Federal Agency",
-    "definition": "Federal Agency",
-    "designation": [ {
-      "language": "de",
-      "value": "Bundesbehörde"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "1566",
-    "code": "I",
-    "display": "Insurance Company",
-    "definition": "Insurance Company",
-    "designation": [ {
-      "language": "de",
-      "value": "Versicherung"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "1567",
-    "code": "N",
-    "display": "Next-of-Kin",
-    "definition": "Next-of-Kin",
-    "designation": [ {
-      "language": "de",
-      "value": "Kontaktperson"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "1569",
-    "code": "O",
-    "display": "Other",
-    "definition": "Other",
-    "designation": [ {
-      "language": "de",
-      "value": "andere"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "1568",
-    "code": "S",
-    "display": "State Agency",
-    "definition": "State Agency",
-    "designation": [ {
-      "language": "de",
-      "value": "Landesbehörde"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "1570",
-    "code": "U",
-    "display": "Unknown",
-    "definition": "Unknown",
-    "designation": [ {
-      "language": "de",
-      "value": "unbekannt"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "1564",
+      "code": "C",
+      "display": "Emergency Contact",
+      "definition": "Emergency Contact",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Ansprechpartner in Notfällen"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "1563",
+      "code": "E",
+      "display": "Employer",
+      "definition": "Employer",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Arbeitgeber"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "1565",
+      "code": "F",
+      "display": "Federal Agency",
+      "definition": "Federal Agency",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Bundesbehörde"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "1566",
+      "code": "I",
+      "display": "Insurance Company",
+      "definition": "Insurance Company",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Versicherung"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "1567",
+      "code": "N",
+      "display": "Next-of-Kin",
+      "definition": "Next-of-Kin",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Kontaktperson"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "1569",
+      "code": "O",
+      "display": "Other",
+      "definition": "Other",
+      "designation": [
+        {
+          "language": "de",
+          "value": "andere"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "1568",
+      "code": "S",
+      "display": "State Agency",
+      "definition": "State Agency",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Landesbehörde"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "1570",
+      "code": "U",
+      "display": "Unknown",
+      "definition": "Unknown",
+      "designation": [
+        {
+          "language": "de",
+          "value": "unbekannt"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    }
+  ]
 }

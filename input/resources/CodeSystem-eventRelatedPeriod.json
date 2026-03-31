@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-eventRelatedPeriod.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/eventRelatedPeriod</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0528"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/eventRelatedPeriod",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.344"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0528"
-  } ],
-  "version": "1.0.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0528"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0528",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.344"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0528"
+    }
+  ],
+  "version": "3.0.0",
   "name": "EventRelatedPeriod",
   "title": "Event Related Period (2.9.1 - 1.0.0)",
   "status": "active",
@@ -34,208 +45,276 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "5614",
-    "code": "AC",
-    "display": "before meal (from lat. ante cibus)",
-    "definition": "before meal (from lat. ante cibus)",
-    "designation": [ {
-      "language": "de",
-      "value": "vor der Mahlzeit (from lat. Ante cibus)"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5618",
-    "code": "ACD",
-    "display": "before lunch (from lat. ante cibus diurnus)",
-    "definition": "before lunch (from lat. ante cibus diurnus)",
-    "designation": [ {
-      "language": "de",
-      "value": "vor dem Mittagessen (from lat. Ante cibus diurnus)"
-    } ],
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5617",
-    "code": "ACM",
-    "display": "before breakfast (from lat. ante cibus matutinus)",
-    "definition": "before breakfast (from lat. ante cibus matutinus)",
-    "designation": [ {
-      "language": "de",
-      "value": "vor dem Frühstück (from lat. Ante cibus matutinus)"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5619",
-    "code": "ACV",
-    "display": "before dinner (from lat. ante cibus vespertinus)",
-    "definition": "before dinner (from lat. ante cibus vespertinus)",
-    "designation": [ {
-      "language": "de",
-      "value": "vor dem Abendessen (from lat. Ante cibus vespertinus)"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5613",
-    "code": "HS",
-    "display": "the hour of sleep (e.g., H18-22)",
-    "definition": "the hour of sleep (e.g., H18-22)",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5616",
-    "code": "IC",
-    "display": "between meals (from lat. inter cibus)",
-    "definition": "between meals (from lat. inter cibus)",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5624",
-    "code": "ICD",
-    "display": "between lunch and dinner",
-    "definition": "between lunch and dinner",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5623",
-    "code": "ICM",
-    "display": "between breakfast and lunch",
-    "definition": "between breakfast and lunch",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5625",
-    "code": "ICV",
-    "display": "between dinner and the hour of sleep",
-    "definition": "between dinner and the hour of sleep",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5615",
-    "code": "PC",
-    "display": "after meal (from lat. post cibus)",
-    "definition": "after meal (from lat. post cibus)",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5621",
-    "code": "PCD",
-    "display": "after lunch (from lat. post cibus diurnus)",
-    "definition": "after lunch (from lat. post cibus diurnus)",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5620",
-    "code": "PCM",
-    "display": "after breakfast (from lat. post cibus matutinus)",
-    "definition": "after breakfast (from lat. post cibus matutinus)",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5622",
-    "code": "PCV",
-    "display": "after dinner (from lat. post cibus vespertinus)",
-    "definition": "after dinner (from lat. post cibus vespertinus)",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "5614",
+      "code": "AC",
+      "display": "before meal (from lat. ante cibus)",
+      "definition": "before meal (from lat. ante cibus)",
+      "designation": [
+        {
+          "language": "de",
+          "value": "vor der Mahlzeit (from lat. Ante cibus)"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5618",
+      "code": "ACD",
+      "display": "before lunch (from lat. ante cibus diurnus)",
+      "definition": "before lunch (from lat. ante cibus diurnus)",
+      "designation": [
+        {
+          "language": "de",
+          "value": "vor dem Mittagessen (from lat. Ante cibus diurnus)"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5617",
+      "code": "ACM",
+      "display": "before breakfast (from lat. ante cibus matutinus)",
+      "definition": "before breakfast (from lat. ante cibus matutinus)",
+      "designation": [
+        {
+          "language": "de",
+          "value": "vor dem Frühstück (from lat. Ante cibus matutinus)"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5619",
+      "code": "ACV",
+      "display": "before dinner (from lat. ante cibus vespertinus)",
+      "definition": "before dinner (from lat. ante cibus vespertinus)",
+      "designation": [
+        {
+          "language": "de",
+          "value": "vor dem Abendessen (from lat. Ante cibus vespertinus)"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5613",
+      "code": "HS",
+      "display": "the hour of sleep (e.g., H18-22)",
+      "definition": "the hour of sleep (e.g., H18-22)",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5616",
+      "code": "IC",
+      "display": "between meals (from lat. inter cibus)",
+      "definition": "between meals (from lat. inter cibus)",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5624",
+      "code": "ICD",
+      "display": "between lunch and dinner",
+      "definition": "between lunch and dinner",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5623",
+      "code": "ICM",
+      "display": "between breakfast and lunch",
+      "definition": "between breakfast and lunch",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5625",
+      "code": "ICV",
+      "display": "between dinner and the hour of sleep",
+      "definition": "between dinner and the hour of sleep",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5615",
+      "code": "PC",
+      "display": "after meal (from lat. post cibus)",
+      "definition": "after meal (from lat. post cibus)",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5621",
+      "code": "PCD",
+      "display": "after lunch (from lat. post cibus diurnus)",
+      "definition": "after lunch (from lat. post cibus diurnus)",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5620",
+      "code": "PCM",
+      "display": "after breakfast (from lat. post cibus matutinus)",
+      "definition": "after breakfast (from lat. post cibus matutinus)",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5622",
+      "code": "PCV",
+      "display": "after dinner (from lat. post cibus vespertinus)",
+      "definition": "after dinner (from lat. post cibus vespertinus)",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    }
+  ]
 }

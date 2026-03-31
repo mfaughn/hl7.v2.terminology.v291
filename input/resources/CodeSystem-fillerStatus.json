@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-fillerStatus.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/fillerStatus</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0278"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/fillerStatus",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.171"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0278"
-  } ],
-  "version": "1.3.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0278"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.3.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0278",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.171"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0278"
+    }
+  ],
+  "version": "4.0.0",
   "name": "FillerStatus",
   "title": "Filler Status Codes (2.9.1 - 1.3.0)",
   "status": "active",
@@ -34,183 +45,240 @@
   "caseSensitive": false,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "2698",
-    "code": "Blocked",
-    "display": "Blocked",
-    "definition": "The indicated time slot(s) is(are) blocked",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2021-02-05"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "2691",
-    "code": "Booked",
-    "display": "The indicated appointment is booked",
-    "definition": "The indicated appointment is booked",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2021-02-05"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "2694",
-    "code": "Cancelled",
-    "display": "Cancelled",
-    "definition": "The indicated appointment was stopped from occurring (canceled prior to starting)",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2021-02-05"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "2693",
-    "code": "Complete",
-    "display": "Complete",
-    "definition": "The indicated appointment has completed normally (was not discontinued, canceled, or deleted)",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2021-02-05"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "2695",
-    "code": "DC",
-    "display": "Discontinued",
-    "definition": "The indicated appointment was discontinued (DC’ed while in progress, discontinued parent appointment, or discontinued child appointment)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaced by code 'Discontinued'"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
       "code": "status",
-      "valueCode": "inactive"
-    }, {
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2021-02-05"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "2697",
-    "code": "Deleted",
-    "display": "Deleted",
-    "definition": "The indicated appointment was deleted from the filler application",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2021-02-05"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "2696",
-    "code": "Discontinued",
-    "display": "Discontinued",
-    "definition": "The indicated appointment was discontinued (DC’ed while in progress, discontinued parent appointment, or discontinued child appointment)",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2021-02-05"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2700",
-    "code": "Noshow",
-    "display": "Noshow",
-    "definition": "The patient did not show up for the appointment",
-    "property": [ {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "2699",
-    "code": "Overbook",
-    "display": "Overbook",
-    "definition": "The appointment has been confirmed; however it is confirmed in an overbooked state",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2021-02-05"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "2689",
-    "code": "Pending",
-    "display": "Pending",
-    "definition": "Appointment has not yet been confirmed",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2021-02-05"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "2692",
-    "code": "Started",
-    "display": "Started",
-    "definition": "The indicated appointment has begun and is currently in progress",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2021-02-05"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "2690",
-    "code": "Waitlist",
-    "display": "Waitlist",
-    "definition": "Appointment has been placed on a waiting list for a particular slot, or set of slots",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2021-02-05"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "2698",
+      "code": "Blocked",
+      "display": "Blocked",
+      "definition": "The indicated time slot(s) is(are) blocked",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2021-02-05"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "2691",
+      "code": "Booked",
+      "display": "The indicated appointment is booked",
+      "definition": "The indicated appointment is booked",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2021-02-05"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "2694",
+      "code": "Cancelled",
+      "display": "Cancelled",
+      "definition": "The indicated appointment was stopped from occurring (canceled prior to starting)",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2021-02-05"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "2693",
+      "code": "Complete",
+      "display": "Complete",
+      "definition": "The indicated appointment has completed normally (was not discontinued, canceled, or deleted)",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2021-02-05"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "2695",
+      "code": "DC",
+      "display": "Discontinued",
+      "definition": "The indicated appointment was discontinued (DC’ed while in progress, discontinued parent appointment, or discontinued child appointment)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaced by code 'Discontinued'"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2021-02-05"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "2697",
+      "code": "Deleted",
+      "display": "Deleted",
+      "definition": "The indicated appointment was deleted from the filler application",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2021-02-05"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "2696",
+      "code": "Discontinued",
+      "display": "Discontinued",
+      "definition": "The indicated appointment was discontinued (DC’ed while in progress, discontinued parent appointment, or discontinued child appointment)",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2021-02-05"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2700",
+      "code": "Noshow",
+      "display": "Noshow",
+      "definition": "The patient did not show up for the appointment",
+      "property": [
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "2699",
+      "code": "Overbook",
+      "display": "Overbook",
+      "definition": "The appointment has been confirmed; however it is confirmed in an overbooked state",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2021-02-05"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "2689",
+      "code": "Pending",
+      "display": "Pending",
+      "definition": "Appointment has not yet been confirmed",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2021-02-05"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "2692",
+      "code": "Started",
+      "display": "Started",
+      "definition": "The indicated appointment has begun and is currently in progress",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2021-02-05"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "2690",
+      "code": "Waitlist",
+      "display": "Waitlist",
+      "definition": "Appointment has been placed on a waiting list for a particular slot, or set of slots",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2021-02-05"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    }
+  ]
 }

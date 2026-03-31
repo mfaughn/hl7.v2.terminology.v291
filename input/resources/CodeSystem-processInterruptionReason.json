@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-processInterruptionReason.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/processInterruptionReason</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0935"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/processInterruptionReason",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.435"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0935"
-  } ],
-  "version": "1.0.1",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0935"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.1"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0935",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.435"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0935"
+    }
+  ],
+  "version": "3.0.0",
   "name": "ProcessInterruptionReason",
   "title": "Process Interruption Reason (2.9.1 - 1.0.1)",
   "status": "active",
@@ -34,147 +45,192 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "6702",
-    "code": "ASC",
-    "display": "Apheresis Software Crash",
-    "definition": "Apheresis Software Crash",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "6703",
-    "code": "BSC",
-    "display": "Manufacturing Software Crash",
-    "definition": "Manufacturing Software Crash",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "6699",
-    "code": "CFT",
-    "display": "Couldn't follow through with donation (scared)",
-    "definition": "Couldn't follow through with donation (scared)",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "6700",
-    "code": "DBB",
-    "display": "Bathroom",
-    "definition": "Bathroom",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "6698",
-    "code": "DCW",
-    "display": "Couldn't wait",
-    "definition": "Couldn't wait",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "6701",
-    "code": "DNI",
-    "display": "Phlebotomy Issue",
-    "definition": "Phlebotomy Issue",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "6704",
-    "code": "GFE",
-    "display": "General Facility Emergency",
-    "definition": "General Facility Emergency",
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "Power outage,  natural disaster (tornado, flood, hurricane, etc.), air conditioning failure, etc."
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "6696",
-    "code": "NRG",
-    "display": "No reason given, donor decided to stop without giving a reason",
-    "definition": "No reason given, donor decided to stop without giving a reason",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "6697",
-    "code": "PCD",
-    "display": "Phone Call-Donor",
-    "definition": "Phone Call-Donor",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "6702",
+      "code": "ASC",
+      "display": "Apheresis Software Crash",
+      "definition": "Apheresis Software Crash",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "6703",
+      "code": "BSC",
+      "display": "Manufacturing Software Crash",
+      "definition": "Manufacturing Software Crash",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "6699",
+      "code": "CFT",
+      "display": "Couldn't follow through with donation (scared)",
+      "definition": "Couldn't follow through with donation (scared)",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "6700",
+      "code": "DBB",
+      "display": "Bathroom",
+      "definition": "Bathroom",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "6698",
+      "code": "DCW",
+      "display": "Couldn't wait",
+      "definition": "Couldn't wait",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "6701",
+      "code": "DNI",
+      "display": "Phlebotomy Issue",
+      "definition": "Phlebotomy Issue",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "6704",
+      "code": "GFE",
+      "display": "General Facility Emergency",
+      "definition": "General Facility Emergency",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Power outage,  natural disaster (tornado, flood, hurricane, etc.), air conditioning failure, etc."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "6696",
+      "code": "NRG",
+      "display": "No reason given, donor decided to stop without giving a reason",
+      "definition": "No reason given, donor decided to stop without giving a reason",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "6697",
+      "code": "PCD",
+      "display": "Phone Call-Donor",
+      "definition": "Phone Call-Donor",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    }
+  ]
 }

@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-risks.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/risks</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0489"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/risks",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.313"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0489"
-  } ],
-  "version": "1.0.1",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0489"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.1"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0489",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.313"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0489"
+    }
+  ],
+  "version": "3.0.0",
   "name": "Risks",
   "title": "Risk Codes (2.9.1 - 1.0.1)",
   "status": "active",
@@ -34,201 +45,264 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "5295",
-    "code": "AGG",
-    "display": "Aggressive",
-    "definition": "Aggressive",
-    "property": [ {
-      "code": "comment",
-      "valueString": "A danger that can be associated with certain living subjects, including humans."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5299",
-    "code": "BHZ",
-    "display": "Biohazard",
-    "definition": "Biohazard",
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "Material contains microorganisms that are an environmental hazard.  Must be handled with special care."
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5292",
-    "code": "BIO",
-    "display": "Biological",
-    "definition": "Biological",
-    "property": [ {
-      "code": "comment",
-      "valueString": "The dangers associated with normal biological materials. I.e. potential risk of unknown infections.  Routine biological materials from living subjects."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5293",
-    "code": "COR",
-    "display": "Corrosive",
-    "definition": "Corrosive",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Material is corrosive and may cause severe injury to skin, mucous membranes and eyes. Avoid any unprotected contact."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5294",
-    "code": "ESC",
-    "display": "Escape Risk",
-    "definition": "Escape Risk",
-    "property": [ {
-      "code": "comment",
-      "valueString": "The entity is at risk for escaping from containment or control."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5297",
-    "code": "EXP",
-    "display": "Explosive",
-    "definition": "Explosive",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Material is an explosive mixture.  Keep away from fire, sparks, and heat."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5296",
-    "code": "IFL",
-    "display": "MaterialDangerInflammable",
-    "definition": "MaterialDangerInflammable",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Material is highly inflammable and in certain mixtures (with air) may lead to explosions.  Keep away from fire, sparks and excessive heat."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5298",
-    "code": "INF",
-    "display": "MaterialDangerInfectious",
-    "definition": "MaterialDangerInfectious",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Material known to be infectious with human pathogenic microorganisms.  Those who handle this material must take precautions for their protection."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5300",
-    "code": "INJ",
-    "display": "Injury Hazard",
-    "definition": "Injury Hazard",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Material is solid and sharp (e.g., cannulas.)  Dispose in hard container."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5301",
-    "code": "POI",
-    "display": "Poison",
-    "definition": "Poison",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Material is poisonous to humans and/or animals.  Special care must be taken to avoid incorporation, even of small amounts."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5302",
-    "code": "RAD",
-    "display": "Radioactive",
-    "definition": "Radioactive",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Material is a source for ionizing radiation and must be handled with special care to avoid injury of those who handle it and to avoid environmental hazards."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "5295",
+      "code": "AGG",
+      "display": "Aggressive",
+      "definition": "Aggressive",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "A danger that can be associated with certain living subjects, including humans."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5299",
+      "code": "BHZ",
+      "display": "Biohazard",
+      "definition": "Biohazard",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Material contains microorganisms that are an environmental hazard.  Must be handled with special care."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5292",
+      "code": "BIO",
+      "display": "Biological",
+      "definition": "Biological",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "The dangers associated with normal biological materials. I.e. potential risk of unknown infections.  Routine biological materials from living subjects."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5293",
+      "code": "COR",
+      "display": "Corrosive",
+      "definition": "Corrosive",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Material is corrosive and may cause severe injury to skin, mucous membranes and eyes. Avoid any unprotected contact."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5294",
+      "code": "ESC",
+      "display": "Escape Risk",
+      "definition": "Escape Risk",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "The entity is at risk for escaping from containment or control."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5297",
+      "code": "EXP",
+      "display": "Explosive",
+      "definition": "Explosive",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Material is an explosive mixture.  Keep away from fire, sparks, and heat."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5296",
+      "code": "IFL",
+      "display": "MaterialDangerInflammable",
+      "definition": "MaterialDangerInflammable",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Material is highly inflammable and in certain mixtures (with air) may lead to explosions.  Keep away from fire, sparks and excessive heat."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5298",
+      "code": "INF",
+      "display": "MaterialDangerInfectious",
+      "definition": "MaterialDangerInfectious",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Material known to be infectious with human pathogenic microorganisms.  Those who handle this material must take precautions for their protection."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5300",
+      "code": "INJ",
+      "display": "Injury Hazard",
+      "definition": "Injury Hazard",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Material is solid and sharp (e.g., cannulas.)  Dispose in hard container."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5301",
+      "code": "POI",
+      "display": "Poison",
+      "definition": "Poison",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Material is poisonous to humans and/or animals.  Special care must be taken to avoid incorporation, even of small amounts."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5302",
+      "code": "RAD",
+      "display": "Radioactive",
+      "definition": "Radioactive",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Material is a source for ionizing radiation and must be handled with special care to avoid injury of those who handle it and to avoid environmental hazards."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    }
+  ]
 }

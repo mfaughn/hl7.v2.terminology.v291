@@ -1,14 +1,17 @@
 {
   "resourceType": "ValueSet",
   "id": "hl7VScontainerCondition",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.21.369"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0544"
-  } ],
-  "version": "1.0.1",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.21.369"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0544"
+    }
+  ],
+  "version": "3.0.0",
   "name": "Hl7VScontainerCondition",
   "title": "Container Condition (2.9.1 - 1.0.1)",
   "status": "active",
@@ -17,9 +20,18 @@
   "description": "Value Set of codes that specify at each receipt the status of the container in which the specimen is shipped in chain of custody cases where specimens are moved from lab to lab.  If the container is compromised in any way (seal broken, container ",
   "copyright": "HL7 Inc., 2026",
   "compose": {
-    "include": [ {
-      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/containerCondition",
-      "version": "1.0.1"
-    } ]
-  }
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+        "version": "1.0.1"
+      }
+    ]
+  },
+  "url": "http://terminology.hl7.org/ValueSet/v2-0544",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.1"
+    }
+  ]
 }

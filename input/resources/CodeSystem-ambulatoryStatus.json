@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-ambulatoryStatus.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/ambulatoryStatus</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0009"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/ambulatoryStatus",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.11"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0009"
-  } ],
-  "version": "1.0.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0009"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0009",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.11"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0009"
+    }
+  ],
+  "version": "3.0.0",
   "name": "AmbulatoryStatus",
   "title": "Ambulatory Status (2.9.1 - 1.0.0)",
   "status": "active",
@@ -34,292 +45,396 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "635",
-    "code": "A0",
-    "display": "No functional limitations",
-    "definition": "No functional limitations",
-    "designation": [ {
-      "language": "de",
-      "value": "Keine funktionalen Einschränkungen"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "636",
-    "code": "A1",
-    "display": "Ambulates with assistive device",
-    "definition": "Ambulates with assistive device",
-    "designation": [ {
-      "language": "de",
-      "value": "Patient benötigt Hilfsmittel"
-    } ],
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "637",
-    "code": "A2",
-    "display": "Wheelchair/stretcher bound",
-    "definition": "Wheelchair/stretcher bound",
-    "designation": [ {
-      "language": "de",
-      "value": "Rollstuhl / Trage notwendig"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "638",
-    "code": "A3",
-    "display": "Comatose; non-responsive",
-    "definition": "Comatose; non-responsive",
-    "designation": [ {
-      "language": "de",
-      "value": "Komatös; nicht ansprechbar"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "639",
-    "code": "A4",
-    "display": "Disoriented",
-    "definition": "Disoriented",
-    "designation": [ {
-      "language": "de",
-      "value": "Desorientiert"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "640",
-    "code": "A5",
-    "display": "Vision impaired",
-    "definition": "Vision impaired",
-    "designation": [ {
-      "language": "de",
-      "value": "Sehstörung"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "641",
-    "code": "A6",
-    "display": "Hearing impaired",
-    "definition": "Hearing impaired",
-    "designation": [ {
-      "language": "de",
-      "value": "Schwerhörigkeit"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "642",
-    "code": "A7",
-    "display": "Speech impaired",
-    "definition": "Speech impaired",
-    "designation": [ {
-      "language": "de",
-      "value": "Sprachstörung"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "643",
-    "code": "A8",
-    "display": "Non-English speaking",
-    "definition": "Non-English speaking",
-    "designation": [ {
-      "language": "de",
-      "value": "der Landessprache nicht mächtig"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "644",
-    "code": "A9",
-    "display": "Functional level unknown",
-    "definition": "Functional level unknown",
-    "designation": [ {
-      "language": "de",
-      "value": "Unbekannter Zustand"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "645",
-    "code": "B1",
-    "display": "Oxygen therapy",
-    "definition": "Oxygen therapy",
-    "designation": [ {
-      "language": "de",
-      "value": "Sauerstofftherapie"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "646",
-    "code": "B2",
-    "display": "Special equipment (tubes, IVs, catheters)",
-    "definition": "Special equipment (tubes, IVs, catheters)",
-    "designation": [ {
-      "language": "de",
-      "value": "Besondere Hilsfmittel"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "647",
-    "code": "B3",
-    "display": "Amputee",
-    "definition": "Amputee",
-    "designation": [ {
-      "language": "de",
-      "value": "Amputation"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "648",
-    "code": "B4",
-    "display": "Mastectomy",
-    "definition": "Mastectomy",
-    "designation": [ {
-      "language": "de",
-      "value": "Brustamputation"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "649",
-    "code": "B5",
-    "display": "Paraplegic",
-    "definition": "Paraplegic",
-    "designation": [ {
-      "language": "de",
-      "value": "(Querschnitt-) Lähmung"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "650",
-    "code": "B6",
-    "display": "Pregnant",
-    "definition": "Pregnant",
-    "designation": [ {
-      "language": "de",
-      "value": "Schwanger"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "635",
+      "code": "A0",
+      "display": "No functional limitations",
+      "definition": "No functional limitations",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Keine funktionalen Einschränkungen"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "636",
+      "code": "A1",
+      "display": "Ambulates with assistive device",
+      "definition": "Ambulates with assistive device",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Patient benötigt Hilfsmittel"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "637",
+      "code": "A2",
+      "display": "Wheelchair/stretcher bound",
+      "definition": "Wheelchair/stretcher bound",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Rollstuhl / Trage notwendig"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "638",
+      "code": "A3",
+      "display": "Comatose; non-responsive",
+      "definition": "Comatose; non-responsive",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Komatös; nicht ansprechbar"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "639",
+      "code": "A4",
+      "display": "Disoriented",
+      "definition": "Disoriented",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Desorientiert"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "640",
+      "code": "A5",
+      "display": "Vision impaired",
+      "definition": "Vision impaired",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Sehstörung"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "641",
+      "code": "A6",
+      "display": "Hearing impaired",
+      "definition": "Hearing impaired",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Schwerhörigkeit"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "642",
+      "code": "A7",
+      "display": "Speech impaired",
+      "definition": "Speech impaired",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Sprachstörung"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "643",
+      "code": "A8",
+      "display": "Non-English speaking",
+      "definition": "Non-English speaking",
+      "designation": [
+        {
+          "language": "de",
+          "value": "der Landessprache nicht mächtig"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "644",
+      "code": "A9",
+      "display": "Functional level unknown",
+      "definition": "Functional level unknown",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Unbekannter Zustand"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "645",
+      "code": "B1",
+      "display": "Oxygen therapy",
+      "definition": "Oxygen therapy",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Sauerstofftherapie"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "646",
+      "code": "B2",
+      "display": "Special equipment (tubes, IVs, catheters)",
+      "definition": "Special equipment (tubes, IVs, catheters)",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Besondere Hilsfmittel"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "647",
+      "code": "B3",
+      "display": "Amputee",
+      "definition": "Amputee",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Amputation"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "648",
+      "code": "B4",
+      "display": "Mastectomy",
+      "definition": "Mastectomy",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Brustamputation"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "649",
+      "code": "B5",
+      "display": "Paraplegic",
+      "definition": "Paraplegic",
+      "designation": [
+        {
+          "language": "de",
+          "value": "(Querschnitt-) Lähmung"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "650",
+      "code": "B6",
+      "display": "Pregnant",
+      "definition": "Pregnant",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Schwanger"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    }
+  ]
 }

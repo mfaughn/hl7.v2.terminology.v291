@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-telecommunicationUse.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/telecommunicationUse</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0201"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/telecommunicationUse",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.106"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0201"
-  } ],
-  "version": "1.3.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0201"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.3.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0201",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.106"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0201"
+    }
+  ],
+  "version": "6.0.0",
   "name": "TelecommunicationUse",
   "title": "Telecommunication Use Code (2.9.1 - 1.3.0)",
   "status": "active",
@@ -34,196 +45,263 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "1953",
-    "code": "ASN",
-    "display": "Answering Service Number",
-    "definition": "Answering Service Number",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftragsdienst"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1956",
-    "code": "BPN",
-    "display": "Beeper Number",
-    "definition": "Beeper Number",
-    "designation": [ {
-      "language": "de",
-      "value": "Pagernummer (Cityruf o.ä.)"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Retained for backward compatibility as of v 2.6"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "code": "DSM",
-    "display": "Direct Secure Messaging",
-    "definition": "Direct Secure Messaging using the Direct Protocol",
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
       "code": "status",
-      "valueCode": "new"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2025-07-29"
-    } ]
-  }, {
-    "id": "1954",
-    "code": "EMR",
-    "display": "Emergency Number",
-    "definition": "Emergency Number",
-    "designation": [ {
-      "language": "de",
-      "value": "Notfallnummer"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1955",
-    "code": "NET",
-    "display": "Network (email) Address",
-    "definition": "Network (email) Address",
-    "designation": [ {
-      "language": "de",
-      "value": "Netzwerkadresse (E-Mail)"
-    } ],
-    "property": [ {
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "Retained for backward compatibility as of v 2.6"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1950",
-    "code": "ORN",
-    "display": "Other Residence Number",
-    "definition": "Other Residence Number",
-    "designation": [ {
-      "language": "de",
-      "value": "Nebenwohnsitznummer"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1949",
-    "code": "PRN",
-    "display": "Primary Residence Number",
-    "definition": "Primary Residence Number",
-    "designation": [ {
-      "language": "de",
-      "value": "Hauptwohnsitznummer"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1957",
-    "code": "PRS",
-    "display": "Personal",
-    "definition": "Personal",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Not tied to a location or role"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "1952",
-    "code": "VHN",
-    "display": "Vacation Home Number",
-    "definition": "Vacation Home Number",
-    "designation": [ {
-      "language": "de",
-      "value": "Ferienwohnsitznummer"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1951",
-    "code": "WPN",
-    "display": "Work Number",
-    "definition": "Work Number",
-    "designation": [ {
-      "language": "de",
-      "value": "Dienstnummer"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "1953",
+      "code": "ASN",
+      "display": "Answering Service Number",
+      "definition": "Answering Service Number",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftragsdienst"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1956",
+      "code": "BPN",
+      "display": "Beeper Number",
+      "definition": "Beeper Number",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Pagernummer (Cityruf o.ä.)"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Retained for backward compatibility as of v 2.6"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "code": "DSM",
+      "display": "Direct Secure Messaging",
+      "definition": "Direct Secure Messaging using the Direct Protocol",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "new"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2025-07-29"
+        }
+      ]
+    },
+    {
+      "id": "1954",
+      "code": "EMR",
+      "display": "Emergency Number",
+      "definition": "Emergency Number",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Notfallnummer"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1955",
+      "code": "NET",
+      "display": "Network (email) Address",
+      "definition": "Network (email) Address",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Netzwerkadresse (E-Mail)"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Retained for backward compatibility as of v 2.6"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1950",
+      "code": "ORN",
+      "display": "Other Residence Number",
+      "definition": "Other Residence Number",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Nebenwohnsitznummer"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1949",
+      "code": "PRN",
+      "display": "Primary Residence Number",
+      "definition": "Primary Residence Number",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Hauptwohnsitznummer"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1957",
+      "code": "PRS",
+      "display": "Personal",
+      "definition": "Personal",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Not tied to a location or role"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "1952",
+      "code": "VHN",
+      "display": "Vacation Home Number",
+      "definition": "Vacation Home Number",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Ferienwohnsitznummer"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1951",
+      "code": "WPN",
+      "display": "Work Number",
+      "definition": "Work Number",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Dienstnummer"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    }
+  ]
 }

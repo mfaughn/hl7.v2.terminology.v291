@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-additivePreservative.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/additivePreservative</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0371"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/additivePreservative",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.229"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0371"
-  } ],
-  "version": "2.0.1",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0371"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "2.0.1"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0371",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.229"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0371"
+    }
+  ],
+  "version": "3.0.0",
   "name": "AdditivePreservative",
   "title": "Additive/Preservative (2.9.1 - 2.0.1)",
   "status": "active",
@@ -34,891 +45,1184 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "3739",
-    "code": "ACDA",
-    "display": "ACD Solution A",
-    "definition": "ACD Solution A",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Yellow top tube"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3740",
-    "code": "ACDB",
-    "display": "ACD Solution B",
-    "definition": "ACD Solution B",
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "Yellow top tube"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3741",
-    "code": "ACET",
-    "display": "Acetic Acid",
-    "definition": "Acetic Acid",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Urine preservative"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3742",
-    "code": "AMIES",
-    "display": "Amies transport medium",
-    "definition": "Amies transport medium",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Protozoa"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3744",
-    "code": "BACTM",
-    "display": "Bacterial Transport medium",
-    "definition": "Bacterial Transport medium",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Microbiological culture"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3747",
-    "code": "BF10",
-    "display": "Buffered 10% formalin",
-    "definition": "Buffered 10% formalin",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Tissue"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3745",
-    "code": "BOR",
-    "display": "Borate Boric Acid",
-    "definition": "Borate Boric Acid",
-    "property": [ {
-      "code": "comment",
-      "valueString": "24HR Urine Additive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3746",
-    "code": "BOUIN",
-    "display": "Bouin's solution",
-    "definition": "Bouin's solution",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Tissue"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3749",
-    "code": "BSKM",
-    "display": "Buffered skim milk",
-    "definition": "Buffered skim milk",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Viral isolation"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3736",
-    "code": "C32",
-    "display": "3.2%  Citrate",
-    "definition": "3.2%  Citrate",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Blue top tube"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3737",
-    "code": "C38",
-    "display": "3.8% Citrate",
-    "definition": "3.8% Citrate",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Blue top tube"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3750",
-    "code": "CARS",
-    "display": "Carson's Modified 10% formalin",
-    "definition": "Carson's Modified 10% formalin",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Tissue"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3751",
-    "code": "CARY",
-    "display": "Cary Blair Medium",
-    "definition": "Cary Blair Medium",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Stool Cultures"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3752",
-    "code": "CHLTM",
-    "display": "Chlamydia transport medium",
-    "definition": "Chlamydia transport medium",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Chlamydia culture"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3753",
-    "code": "CTAD",
-    "display": "CTAD (this should be spelled out if not universally understood)",
-    "definition": "CTAD (this should be spelled out if not universally understood)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Blue top tube"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3770",
-    "code": "EDTK",
-    "display": "Potassium/K EDTA",
-    "definition": "Potassium/K EDTA",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Deprecated. Replaced by EDTK15 and EDTK75"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3771",
-    "code": "EDTK15",
-    "display": "Potassium/K EDTA 15%",
-    "definition": "Potassium/K EDTA 15%",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Purple top tube"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3772",
-    "code": "EDTK75",
-    "display": "Potassium/K EDTA 7.5%",
-    "definition": "Potassium/K EDTA 7.5%",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Purple top tube"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3782",
-    "code": "EDTN",
-    "display": "Sodium/Na EDTA",
-    "definition": "Sodium/Na EDTA",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Dark Blue top tube"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3754",
-    "code": "ENT",
-    "display": "Enteric bacteria transport medium",
-    "definition": "Enteric bacteria transport medium",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Bacterial culture"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3755",
-    "code": "ENT+",
-    "display": "Enteric plus",
-    "definition": "Enteric plus",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Stool Cultures"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3735",
-    "code": "F10",
-    "display": "10% Formalin",
-    "definition": "10% Formalin",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Tissue preservative"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3786",
-    "code": "FDP",
-    "display": "Thrombin NIH; soybean trypsin inhibitor (Fibrin Degradation Products)",
-    "definition": "Thrombin NIH; soybean trypsin inhibitor (Fibrin Degradation Products)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Dark Blue top tube"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3779",
-    "code": "FL10",
-    "display": "Sodium Fluoride, 10mg",
-    "definition": "Sodium Fluoride, 10mg",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Urine"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3778",
-    "code": "FL100",
-    "display": "Sodium Fluoride, 100mg",
-    "definition": "Sodium Fluoride, 100mg",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Urine"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3738",
-    "code": "HCL6",
-    "display": "6N HCL",
-    "definition": "6N HCL",
-    "property": [ {
-      "code": "comment",
-      "valueString": "24 HR Urine Additive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3743",
-    "code": "HEPA",
-    "display": "Ammonium heparin",
-    "definition": "Ammonium heparin",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Green top tube"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3759",
-    "code": "HEPL",
-    "display": "Lithium/Li  Heparin",
-    "definition": "Lithium/Li  Heparin",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Green top tube"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3781",
-    "code": "HEPN",
-    "display": "Sodium/Na  Heparin",
-    "definition": "Sodium/Na  Heparin",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Green top tube"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3765",
-    "code": "HNO3",
-    "display": "Nitric Acid",
-    "definition": "Nitric Acid",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Urine"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3756",
-    "code": "JKM",
-    "display": "Jones Kendrick Medium",
-    "definition": "Jones Kendrick Medium",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Bordetella pertussis"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3757",
-    "code": "KARN",
-    "display": "Karnovsky's fixative",
-    "definition": "Karnovsky's fixative",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Tissue"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3769",
-    "code": "KOX",
-    "display": "Potassium Oxalate",
-    "definition": "Potassium Oxalate",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Gray top tube"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3758",
-    "code": "LIA",
-    "display": "Lithium iodoacetate",
-    "definition": "Lithium iodoacetate",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Gray top tube"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3760",
-    "code": "M4",
-    "display": "M4",
-    "definition": "M4",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Microbiological culture"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3761",
-    "code": "M4RT",
-    "display": "M4-RT",
-    "definition": "M4-RT",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Microbiological culture"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3762",
-    "code": "M5",
-    "display": "M5",
-    "definition": "M5",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Microbiological culture"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3763",
-    "code": "MICHTM",
-    "display": "Michel's transport medium",
-    "definition": "Michel's transport medium",
-    "property": [ {
-      "code": "comment",
-      "valueString": "IF tests"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3764",
-    "code": "MMDTM",
-    "display": "MMD transport medium",
-    "definition": "MMD transport medium",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Immunofluorescence"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3777",
-    "code": "NAF",
-    "display": "Sodium Fluoride",
-    "definition": "Sodium Fluoride",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Gray top tube"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3780",
-    "code": "NAPS",
-    "display": "Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride",
-    "definition": "Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Yellow (Blood Culture)"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3766",
-    "code": "NONE",
-    "display": "None",
-    "definition": "None",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Red or Pink top tube"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3767",
-    "code": "PAGE",
-    "display": "Pages's Saline",
-    "definition": "Pages's Saline",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Acanthaoemba"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3768",
-    "code": "PHENOL",
-    "display": "Phenol",
-    "definition": "Phenol",
-    "property": [ {
-      "code": "comment",
-      "valueString": "24 Hr Urine Additive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3773",
-    "code": "PVA",
-    "display": "PVA (polyvinylalcohol)",
-    "definition": "PVA (polyvinylalcohol)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "O&P"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3774",
-    "code": "RLM",
-    "display": "Reagan Lowe Medium",
-    "definition": "Reagan Lowe Medium",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Bordetella pertussis cultures"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3776",
-    "code": "SILICA",
-    "display": "Siliceous earth, 12 mg",
-    "definition": "Siliceous earth, 12 mg",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Gray top tube"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3783",
-    "code": "SPS",
-    "display": "SPS(this should be spelled out if not universally understood)",
-    "definition": "SPS(this should be spelled out if not universally understood)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Anticoagulant w/o bacteriocidal properties"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3775",
-    "code": "SST",
-    "display": "Serum Separator Tube (Polymer Gel)",
-    "definition": "Serum Separator Tube (Polymer Gel)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "'Tiger' Top tube"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3784",
-    "code": "STUTM",
-    "display": "Stuart transport medium",
-    "definition": "Stuart transport medium",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Bacterial culture"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3785",
-    "code": "THROM",
-    "display": "Thrombin",
-    "definition": "Thrombin",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Orange or Grey/Yellow (STAT Chem)"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3787",
-    "code": "THYMOL",
-    "display": "Thymol",
-    "definition": "Thymol",
-    "property": [ {
-      "code": "comment",
-      "valueString": "24 Hr Urine Additive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3788",
-    "code": "THYO",
-    "display": "Thyoglycollate broth",
-    "definition": "Thyoglycollate broth",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Bacterial Isolation"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3789",
-    "code": "TOLU",
-    "display": "Toluene",
-    "definition": "Toluene",
-    "property": [ {
-      "code": "comment",
-      "valueString": "24 Hr Urine Additive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3790",
-    "code": "URETM",
-    "display": "Ureaplasma transport medium",
-    "definition": "Ureaplasma transport medium",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Ureaplasma culture"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3791",
-    "code": "VIRTM",
-    "display": "Viral Transport medium",
-    "definition": "Viral Transport medium",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Virus cultures"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3748",
-    "code": "WEST",
-    "display": "Buffered Citrate (Westergren Sedimentation Rate)",
-    "definition": "Buffered Citrate (Westergren Sedimentation Rate)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Black top tube"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "3739",
+      "code": "ACDA",
+      "display": "ACD Solution A",
+      "definition": "ACD Solution A",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Yellow top tube"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3740",
+      "code": "ACDB",
+      "display": "ACD Solution B",
+      "definition": "ACD Solution B",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Yellow top tube"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3741",
+      "code": "ACET",
+      "display": "Acetic Acid",
+      "definition": "Acetic Acid",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Urine preservative"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3742",
+      "code": "AMIES",
+      "display": "Amies transport medium",
+      "definition": "Amies transport medium",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Protozoa"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3744",
+      "code": "BACTM",
+      "display": "Bacterial Transport medium",
+      "definition": "Bacterial Transport medium",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Microbiological culture"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3747",
+      "code": "BF10",
+      "display": "Buffered 10% formalin",
+      "definition": "Buffered 10% formalin",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Tissue"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3745",
+      "code": "BOR",
+      "display": "Borate Boric Acid",
+      "definition": "Borate Boric Acid",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "24HR Urine Additive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3746",
+      "code": "BOUIN",
+      "display": "Bouin's solution",
+      "definition": "Bouin's solution",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Tissue"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3749",
+      "code": "BSKM",
+      "display": "Buffered skim milk",
+      "definition": "Buffered skim milk",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Viral isolation"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3736",
+      "code": "C32",
+      "display": "3.2%  Citrate",
+      "definition": "3.2%  Citrate",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Blue top tube"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3737",
+      "code": "C38",
+      "display": "3.8% Citrate",
+      "definition": "3.8% Citrate",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Blue top tube"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3750",
+      "code": "CARS",
+      "display": "Carson's Modified 10% formalin",
+      "definition": "Carson's Modified 10% formalin",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Tissue"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3751",
+      "code": "CARY",
+      "display": "Cary Blair Medium",
+      "definition": "Cary Blair Medium",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Stool Cultures"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3752",
+      "code": "CHLTM",
+      "display": "Chlamydia transport medium",
+      "definition": "Chlamydia transport medium",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Chlamydia culture"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3753",
+      "code": "CTAD",
+      "display": "CTAD (this should be spelled out if not universally understood)",
+      "definition": "CTAD (this should be spelled out if not universally understood)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Blue top tube"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3770",
+      "code": "EDTK",
+      "display": "Potassium/K EDTA",
+      "definition": "Potassium/K EDTA",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Deprecated. Replaced by EDTK15 and EDTK75"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3771",
+      "code": "EDTK15",
+      "display": "Potassium/K EDTA 15%",
+      "definition": "Potassium/K EDTA 15%",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Purple top tube"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3772",
+      "code": "EDTK75",
+      "display": "Potassium/K EDTA 7.5%",
+      "definition": "Potassium/K EDTA 7.5%",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Purple top tube"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3782",
+      "code": "EDTN",
+      "display": "Sodium/Na EDTA",
+      "definition": "Sodium/Na EDTA",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Dark Blue top tube"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3754",
+      "code": "ENT",
+      "display": "Enteric bacteria transport medium",
+      "definition": "Enteric bacteria transport medium",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Bacterial culture"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3755",
+      "code": "ENT+",
+      "display": "Enteric plus",
+      "definition": "Enteric plus",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Stool Cultures"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3735",
+      "code": "F10",
+      "display": "10% Formalin",
+      "definition": "10% Formalin",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Tissue preservative"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3786",
+      "code": "FDP",
+      "display": "Thrombin NIH; soybean trypsin inhibitor (Fibrin Degradation Products)",
+      "definition": "Thrombin NIH; soybean trypsin inhibitor (Fibrin Degradation Products)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Dark Blue top tube"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3779",
+      "code": "FL10",
+      "display": "Sodium Fluoride, 10mg",
+      "definition": "Sodium Fluoride, 10mg",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Urine"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3778",
+      "code": "FL100",
+      "display": "Sodium Fluoride, 100mg",
+      "definition": "Sodium Fluoride, 100mg",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Urine"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3738",
+      "code": "HCL6",
+      "display": "6N HCL",
+      "definition": "6N HCL",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "24 HR Urine Additive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3743",
+      "code": "HEPA",
+      "display": "Ammonium heparin",
+      "definition": "Ammonium heparin",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Green top tube"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3759",
+      "code": "HEPL",
+      "display": "Lithium/Li  Heparin",
+      "definition": "Lithium/Li  Heparin",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Green top tube"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3781",
+      "code": "HEPN",
+      "display": "Sodium/Na  Heparin",
+      "definition": "Sodium/Na  Heparin",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Green top tube"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3765",
+      "code": "HNO3",
+      "display": "Nitric Acid",
+      "definition": "Nitric Acid",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Urine"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3756",
+      "code": "JKM",
+      "display": "Jones Kendrick Medium",
+      "definition": "Jones Kendrick Medium",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Bordetella pertussis"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3757",
+      "code": "KARN",
+      "display": "Karnovsky's fixative",
+      "definition": "Karnovsky's fixative",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Tissue"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3769",
+      "code": "KOX",
+      "display": "Potassium Oxalate",
+      "definition": "Potassium Oxalate",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Gray top tube"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3758",
+      "code": "LIA",
+      "display": "Lithium iodoacetate",
+      "definition": "Lithium iodoacetate",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Gray top tube"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3760",
+      "code": "M4",
+      "display": "M4",
+      "definition": "M4",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Microbiological culture"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3761",
+      "code": "M4RT",
+      "display": "M4-RT",
+      "definition": "M4-RT",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Microbiological culture"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3762",
+      "code": "M5",
+      "display": "M5",
+      "definition": "M5",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Microbiological culture"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3763",
+      "code": "MICHTM",
+      "display": "Michel's transport medium",
+      "definition": "Michel's transport medium",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "IF tests"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3764",
+      "code": "MMDTM",
+      "display": "MMD transport medium",
+      "definition": "MMD transport medium",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Immunofluorescence"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3777",
+      "code": "NAF",
+      "display": "Sodium Fluoride",
+      "definition": "Sodium Fluoride",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Gray top tube"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3780",
+      "code": "NAPS",
+      "display": "Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride",
+      "definition": "Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Yellow (Blood Culture)"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3766",
+      "code": "NONE",
+      "display": "None",
+      "definition": "None",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Red or Pink top tube"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3767",
+      "code": "PAGE",
+      "display": "Pages's Saline",
+      "definition": "Pages's Saline",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Acanthaoemba"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3768",
+      "code": "PHENOL",
+      "display": "Phenol",
+      "definition": "Phenol",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "24 Hr Urine Additive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3773",
+      "code": "PVA",
+      "display": "PVA (polyvinylalcohol)",
+      "definition": "PVA (polyvinylalcohol)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "O&P"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3774",
+      "code": "RLM",
+      "display": "Reagan Lowe Medium",
+      "definition": "Reagan Lowe Medium",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Bordetella pertussis cultures"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3776",
+      "code": "SILICA",
+      "display": "Siliceous earth, 12 mg",
+      "definition": "Siliceous earth, 12 mg",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Gray top tube"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3783",
+      "code": "SPS",
+      "display": "SPS(this should be spelled out if not universally understood)",
+      "definition": "SPS(this should be spelled out if not universally understood)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Anticoagulant w/o bacteriocidal properties"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3775",
+      "code": "SST",
+      "display": "Serum Separator Tube (Polymer Gel)",
+      "definition": "Serum Separator Tube (Polymer Gel)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "'Tiger' Top tube"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3784",
+      "code": "STUTM",
+      "display": "Stuart transport medium",
+      "definition": "Stuart transport medium",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Bacterial culture"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3785",
+      "code": "THROM",
+      "display": "Thrombin",
+      "definition": "Thrombin",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Orange or Grey/Yellow (STAT Chem)"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3787",
+      "code": "THYMOL",
+      "display": "Thymol",
+      "definition": "Thymol",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "24 Hr Urine Additive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3788",
+      "code": "THYO",
+      "display": "Thyoglycollate broth",
+      "definition": "Thyoglycollate broth",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Bacterial Isolation"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3789",
+      "code": "TOLU",
+      "display": "Toluene",
+      "definition": "Toluene",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "24 Hr Urine Additive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3790",
+      "code": "URETM",
+      "display": "Ureaplasma transport medium",
+      "definition": "Ureaplasma transport medium",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Ureaplasma culture"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3791",
+      "code": "VIRTM",
+      "display": "Viral Transport medium",
+      "definition": "Viral Transport medium",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Virus cultures"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3748",
+      "code": "WEST",
+      "display": "Buffered Citrate (Westergren Sedimentation Rate)",
+      "definition": "Buffered Citrate (Westergren Sedimentation Rate)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Black top tube"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    }
+  ]
 }

@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-patientClass.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/patientClass</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0004"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/patientClass",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.5"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0004"
-  } ],
-  "version": "1.2.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0004"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.2.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0004",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.5"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0004"
+    }
+  ],
+  "version": "3.0.0",
   "name": "PatientClass",
   "title": "Patient Class (2.9.1 - 1.2.0)",
   "status": "active",
@@ -34,176 +45,236 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "512",
-    "code": "B",
-    "display": "Obstetrics",
-    "definition": "Obstetrics",
-    "designation": [ {
-      "language": "de",
-      "value": "Geburtshilfe"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "513",
-    "code": "C",
-    "display": "Commercial Account",
-    "definition": "Commercial Account",
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "507",
-    "code": "E",
-    "display": "Emergency",
-    "definition": "Emergency",
-    "designation": [ {
-      "language": "de",
-      "value": "Notfall"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "508",
-    "code": "I",
-    "display": "Inpatient",
-    "definition": "Inpatient",
-    "designation": [ {
-      "language": "de",
-      "value": "stationär"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "514",
-    "code": "N",
-    "display": "Not Applicable",
-    "definition": "Not Applicable",
-    "designation": [ {
-      "language": "de",
-      "value": "Segment nicht anwendbar"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "509",
-    "code": "O",
-    "display": "Outpatient",
-    "definition": "Outpatient",
-    "designation": [ {
-      "language": "de",
-      "value": "ambulant"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "510",
-    "code": "P",
-    "display": "Preadmit",
-    "definition": "Preadmit",
-    "designation": [ {
-      "language": "de",
-      "value": "Voraufnahme"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "511",
-    "code": "R",
-    "display": "Recurring patient",
-    "definition": "Recurring patient",
-    "designation": [ {
-      "language": "de",
-      "value": "Wiederholungspatient"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "515",
-    "code": "U",
-    "display": "Unknown",
-    "definition": "Unknown",
-    "designation": [ {
-      "language": "de",
-      "value": "unbekannt"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "512",
+      "code": "B",
+      "display": "Obstetrics",
+      "definition": "Obstetrics",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Geburtshilfe"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "513",
+      "code": "C",
+      "display": "Commercial Account",
+      "definition": "Commercial Account",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "507",
+      "code": "E",
+      "display": "Emergency",
+      "definition": "Emergency",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Notfall"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "508",
+      "code": "I",
+      "display": "Inpatient",
+      "definition": "Inpatient",
+      "designation": [
+        {
+          "language": "de",
+          "value": "stationär"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "514",
+      "code": "N",
+      "display": "Not Applicable",
+      "definition": "Not Applicable",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Segment nicht anwendbar"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "509",
+      "code": "O",
+      "display": "Outpatient",
+      "definition": "Outpatient",
+      "designation": [
+        {
+          "language": "de",
+          "value": "ambulant"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "510",
+      "code": "P",
+      "display": "Preadmit",
+      "definition": "Preadmit",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Voraufnahme"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "511",
+      "code": "R",
+      "display": "Recurring patient",
+      "definition": "Recurring patient",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Wiederholungspatient"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "515",
+      "code": "U",
+      "display": "Unknown",
+      "definition": "Unknown",
+      "designation": [
+        {
+          "language": "de",
+          "value": "unbekannt"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    }
+  ]
 }

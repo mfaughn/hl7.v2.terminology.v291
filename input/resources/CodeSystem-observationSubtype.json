@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-observationSubtype.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/observationSubtype</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0937"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/observationSubtype",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.440"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0937"
-  } ],
-  "version": "1.1.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0937"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.1.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0937",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.440"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0937"
+    }
+  ],
+  "version": "3.0.0",
   "name": "ObservationSubtype",
   "title": "Observation Sub-Type (2.9.1 - 1.1.0)",
   "status": "active",
@@ -34,252 +45,332 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "6708",
-    "code": "AOE",
-    "display": "Ask at Order Entry",
-    "definition": "Ask at Order Entry",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Sub-type of QST (Question) - OBX-5 value is answer to an Ask at Order Entry question"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.8.2"
-    } ]
-  }, {
-    "id": "6709",
-    "code": "ASC",
-    "display": "Ask at Specimen Collection",
-    "definition": "Ask at Specimen Collection",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Sub-type of QST (Question)  - OBX-5 value is answer to an Ask at Specimen Collection question"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8.2"
-    } ]
-  }, {
-    "id": "6710",
-    "code": "MCS",
-    "display": "Micro Culture Status",
-    "definition": "Sub-type of RSLT (Result) This term identifies observations that give overall culture outcome, when no specific organism is being named.",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Examples are: no growth, normal flora"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2022-08-25"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "6711",
-    "code": "MID",
-    "display": "Micro Isolate Descriptor",
-    "definition": "Sub-type of RSLT (Result) This term identifies any other observations about the isolate.",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Examples: catalase positive, hemolytic, etc."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2022-08-25"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "6712",
-    "code": "MIG",
-    "display": "Micro Isolate Growth Quantity",
-    "definition": "Sub-type of RSLT (Result) This term identifies growth levels of an isolate – can be numeric or categorical.",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Examples: <10,000 CFU, >100,00 CFU, Few, Moderate, Many, etc."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2022-08-25"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "6713",
-    "code": "MIN",
-    "display": "Micro Isolate Name",
-    "definition": "Sub-type of RSLT (Result) This term identifies observations that name a specific organism either at the species or the genus level.",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Examples are: Genus Serratia, Neisseria meningitidis, Escherichia coli O157:H7, but also identification on a culture plate like presumptive Proteus species."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2022-08-25"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "6714",
-    "code": "MIR",
-    "display": "Micro Isolate Related",
-    "definition": "Micro Isolate Related",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Sub-type of RSLT (Result) - qualifies the result as an isolate."
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
       "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2017-12-05"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8.2"
-    } ]
-  }, {
-    "id": "6715",
-    "code": "MIRM",
-    "display": "Micro Isolate Related Modifier",
-    "definition": "Micro Isolate Related Modifier",
-    "property": [ {
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "Sub-type of RSLT (Result) - result is a modifier of the isolate (e.g., Few, Some, etc.)"
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2017-12-05"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8.2"
-    } ]
-  }, {
-    "id": "6716",
-    "code": "MNIR",
-    "display": "Micro Non-Isolate Related",
-    "definition": "Micro Non-Isolate Related",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Sub-type of RSLT (Result) - qualifies result as microbiology not related to any isolate (e.g., gram stain observations)"
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2017-12-05"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8.2"
-    } ]
-  }, {
-    "id": "6717",
-    "code": "MOD",
-    "display": "Micro Other Descriptor",
-    "definition": "Sub-type of RSLT (Result) This term identifies observations that do not fit the culture status, but is not at the isolate level.",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2022-08-25"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "6718",
-    "code": "MSS",
-    "display": "Micro Sample Stain",
-    "definition": "Sub-type of RSLT (Result) This term identifies observations on gram stains (and other stains or smears) on the clinical sample.",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Examples are: many gram positive rods, acid fast bacteria seen, etc."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2017-12-05"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "6719",
-    "code": "SUP",
-    "display": "Supplemental Result",
-    "definition": "Supplemental Result",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Sub-type of RSLT (Result) - result coming over is additional material, for example points on a graph, an image, raw instrument data, links to related observations, etc."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8.2"
-    } ]
-  }, {
-    "id": "6720",
-    "code": "SUR",
-    "display": "Susceptibility Related",
-    "definition": "Susceptibility Related",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Sub-type of RSLT (Result) - result value is for micro susceptibility/sensitivity"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8.2"
-    } ]
-  }, {
-    "id": "6721",
-    "code": "UNSP",
-    "display": "Unspecified",
-    "definition": "Unspecified",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Sub-type of RSLT (Result) - result falls outside of the other sub-types."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8.2"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "6708",
+      "code": "AOE",
+      "display": "Ask at Order Entry",
+      "definition": "Ask at Order Entry",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Sub-type of QST (Question) - OBX-5 value is answer to an Ask at Order Entry question"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8.2"
+        }
+      ]
+    },
+    {
+      "id": "6709",
+      "code": "ASC",
+      "display": "Ask at Specimen Collection",
+      "definition": "Ask at Specimen Collection",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Sub-type of QST (Question)  - OBX-5 value is answer to an Ask at Specimen Collection question"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8.2"
+        }
+      ]
+    },
+    {
+      "id": "6710",
+      "code": "MCS",
+      "display": "Micro Culture Status",
+      "definition": "Sub-type of RSLT (Result) This term identifies observations that give overall culture outcome, when no specific organism is being named.",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Examples are: no growth, normal flora"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-25"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "6711",
+      "code": "MID",
+      "display": "Micro Isolate Descriptor",
+      "definition": "Sub-type of RSLT (Result) This term identifies any other observations about the isolate.",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Examples: catalase positive, hemolytic, etc."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-25"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "6712",
+      "code": "MIG",
+      "display": "Micro Isolate Growth Quantity",
+      "definition": "Sub-type of RSLT (Result) This term identifies growth levels of an isolate – can be numeric or categorical.",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Examples: <10,000 CFU, >100,00 CFU, Few, Moderate, Many, etc."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-25"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "6713",
+      "code": "MIN",
+      "display": "Micro Isolate Name",
+      "definition": "Sub-type of RSLT (Result) This term identifies observations that name a specific organism either at the species or the genus level.",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Examples are: Genus Serratia, Neisseria meningitidis, Escherichia coli O157:H7, but also identification on a culture plate like presumptive Proteus species."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-25"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "6714",
+      "code": "MIR",
+      "display": "Micro Isolate Related",
+      "definition": "Micro Isolate Related",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Sub-type of RSLT (Result) - qualifies the result as an isolate."
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2017-12-05"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8.2"
+        }
+      ]
+    },
+    {
+      "id": "6715",
+      "code": "MIRM",
+      "display": "Micro Isolate Related Modifier",
+      "definition": "Micro Isolate Related Modifier",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Sub-type of RSLT (Result) - result is a modifier of the isolate (e.g., Few, Some, etc.)"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2017-12-05"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8.2"
+        }
+      ]
+    },
+    {
+      "id": "6716",
+      "code": "MNIR",
+      "display": "Micro Non-Isolate Related",
+      "definition": "Micro Non-Isolate Related",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Sub-type of RSLT (Result) - qualifies result as microbiology not related to any isolate (e.g., gram stain observations)"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2017-12-05"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8.2"
+        }
+      ]
+    },
+    {
+      "id": "6717",
+      "code": "MOD",
+      "display": "Micro Other Descriptor",
+      "definition": "Sub-type of RSLT (Result) This term identifies observations that do not fit the culture status, but is not at the isolate level.",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-25"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "6718",
+      "code": "MSS",
+      "display": "Micro Sample Stain",
+      "definition": "Sub-type of RSLT (Result) This term identifies observations on gram stains (and other stains or smears) on the clinical sample.",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Examples are: many gram positive rods, acid fast bacteria seen, etc."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2017-12-05"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "6719",
+      "code": "SUP",
+      "display": "Supplemental Result",
+      "definition": "Supplemental Result",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Sub-type of RSLT (Result) - result coming over is additional material, for example points on a graph, an image, raw instrument data, links to related observations, etc."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8.2"
+        }
+      ]
+    },
+    {
+      "id": "6720",
+      "code": "SUR",
+      "display": "Susceptibility Related",
+      "definition": "Susceptibility Related",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Sub-type of RSLT (Result) - result value is for micro susceptibility/sensitivity"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8.2"
+        }
+      ]
+    },
+    {
+      "id": "6721",
+      "code": "UNSP",
+      "display": "Unspecified",
+      "definition": "Unspecified",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Sub-type of RSLT (Result) - result falls outside of the other sub-types."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8.2"
+        }
+      ]
+    }
+  ]
 }

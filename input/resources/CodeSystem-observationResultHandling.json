@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-observationResultHandling.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/observationResultHandling</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0507"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/observationResultHandling",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.331"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0507"
-  } ],
-  "version": "1.1.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0507"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.1.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0507",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.331"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0507"
+    }
+  ],
+  "version": "3.0.0",
   "name": "ObservationResultHandling",
   "title": "Observation Result Handling (2.9.1 - 1.1.0)",
   "status": "active",
@@ -34,96 +45,124 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "5529",
-    "code": "A",
-    "display": "Alert provider when abnormal",
-    "definition": "Alert provider when abnormal",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.7.1"
-    } ]
-  }, {
-    "id": "5531",
-    "code": "BCC",
-    "display": "Blind Copy",
-    "definition": "Blind copy",
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2016-07-06"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7.1"
-    } ]
-  }, {
-    "id": "5530",
-    "code": "CC",
-    "display": "Copies Requested",
-    "definition": "Copies requested",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2016-07-06"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7.1"
-    } ]
-  }, {
-    "id": "5527",
-    "code": "F",
-    "display": "Film-with-patient",
-    "definition": "Film-with-patient",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5528",
-    "code": "N",
-    "display": "Notify provider when ready",
-    "definition": "Notify provider when ready",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "5529",
+      "code": "A",
+      "display": "Alert provider when abnormal",
+      "definition": "Alert provider when abnormal",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7.1"
+        }
+      ]
+    },
+    {
+      "id": "5531",
+      "code": "BCC",
+      "display": "Blind Copy",
+      "definition": "Blind copy",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-07-06"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7.1"
+        }
+      ]
+    },
+    {
+      "id": "5530",
+      "code": "CC",
+      "display": "Copies Requested",
+      "definition": "Copies requested",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-07-06"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7.1"
+        }
+      ]
+    },
+    {
+      "id": "5527",
+      "code": "F",
+      "display": "Film-with-patient",
+      "definition": "Film-with-patient",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5528",
+      "code": "N",
+      "display": "Notify provider when ready",
+      "definition": "Notify provider when ready",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    }
+  ]
 }

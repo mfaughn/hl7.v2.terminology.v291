@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-versionId.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/versionId</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0104"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/versionId",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.41"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0104"
-  } ],
-  "version": "1.14.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0104"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.14.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0104",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.41"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0104"
+    }
+  ],
+  "version": "4.0.0",
   "name": "VersionId",
   "title": "Version ID (2.9.1 - 1.14.0)",
   "status": "active",
@@ -34,290 +45,383 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "1321",
-    "code": "2.0",
-    "display": "Release 2.0",
-    "definition": "Release 2.0",
-    "property": [ {
-      "code": "comment",
-      "valueString": "September 1988"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "1322",
-    "code": "2.0D",
-    "display": "Demo 2.0",
-    "definition": "Demo 2.0",
-    "property": [ {
-      "code": "comment",
-      "valueString": "October 1988"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "1323",
-    "code": "2.1",
-    "display": "Release 2.1",
-    "definition": "Release 2.1",
-    "property": [ {
-      "code": "comment",
-      "valueString": "March 1990"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "1324",
-    "code": "2.2",
-    "display": "Release 2.2",
-    "definition": "Release 2.2",
-    "property": [ {
-      "code": "comment",
-      "valueString": "December 1994"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1325",
-    "code": "2.3",
-    "display": "Release 2.3",
-    "definition": "Release 2.3",
-    "property": [ {
-      "code": "comment",
-      "valueString": "March 1997"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1326",
-    "code": "2.3.1",
-    "display": "Release 2.3.1",
-    "definition": "Release 2.3.1",
-    "property": [ {
-      "code": "comment",
-      "valueString": "May 1999"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "1328",
-    "code": "2.4",
-    "display": "Release 2.4",
-    "definition": "Release 2.4",
-    "property": [ {
-      "code": "comment",
-      "valueString": "November 2000"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "1329",
-    "code": "2.5",
-    "display": "Release 2.5",
-    "definition": "Release 2.5",
-    "property": [ {
-      "code": "comment",
-      "valueString": "May 2003"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "1330",
-    "code": "2.5.1",
-    "display": "Release 2.5.1",
-    "definition": "Release 2.5.1",
-    "property": [ {
-      "code": "comment",
-      "valueString": "January 2007"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5.1"
-    } ]
-  }, {
-    "id": "1331",
-    "code": "2.6",
-    "display": "Release 2.6",
-    "definition": "Release 2.6",
-    "property": [ {
-      "code": "comment",
-      "valueString": "July 2007"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "1332",
-    "code": "2.7",
-    "display": "Release 2.7",
-    "definition": "Release 2.7",
-    "property": [ {
-      "code": "comment",
-      "valueString": "November 2010"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "1333",
-    "code": "2.7.1",
-    "display": "Release 2.7.1",
-    "definition": "Release 2.7.1",
-    "property": [ {
-      "code": "comment",
-      "valueString": "July 2012"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7.1"
-    } ]
-  }, {
-    "id": "1334",
-    "code": "2.8",
-    "display": "Release 2.8",
-    "definition": "Release 2.8",
-    "property": [ {
-      "code": "comment",
-      "valueString": "February 2014"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "1335",
-    "code": "2.8.1",
-    "display": "Release 2.8.1",
-    "definition": "Release 2.8.1",
-    "property": [ {
-      "code": "comment",
-      "valueString": "April 2014"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8.1"
-    } ]
-  }, {
-    "id": "1336",
-    "code": "2.8.2",
-    "display": "Release 2.8.2",
-    "definition": "Release 2.8.2",
-    "property": [ {
-      "code": "comment",
-      "valueString": "May 2015"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2017-04-24"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8.2"
-    } ]
-  }, {
-    "id": "1337",
-    "code": "2.9",
-    "display": "Release 2.9",
-    "definition": "Release 2.9",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Sep. 2019"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2022-09-10"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "code": "2.9.1",
-    "display": "Draft 2.9.1",
-    "definition": "Draft 2.9.1",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Sep. 2022"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
       "code": "status",
-      "valueCode": "new"
-    }, {
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2022-09-10"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "1321",
+      "code": "2.0",
+      "display": "Release 2.0",
+      "definition": "Release 2.0",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "September 1988"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "1322",
+      "code": "2.0D",
+      "display": "Demo 2.0",
+      "definition": "Demo 2.0",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "October 1988"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "1323",
+      "code": "2.1",
+      "display": "Release 2.1",
+      "definition": "Release 2.1",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "March 1990"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "1324",
+      "code": "2.2",
+      "display": "Release 2.2",
+      "definition": "Release 2.2",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "December 1994"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1325",
+      "code": "2.3",
+      "display": "Release 2.3",
+      "definition": "Release 2.3",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "March 1997"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1326",
+      "code": "2.3.1",
+      "display": "Release 2.3.1",
+      "definition": "Release 2.3.1",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "May 1999"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "1328",
+      "code": "2.4",
+      "display": "Release 2.4",
+      "definition": "Release 2.4",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "November 2000"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "1329",
+      "code": "2.5",
+      "display": "Release 2.5",
+      "definition": "Release 2.5",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "May 2003"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "1330",
+      "code": "2.5.1",
+      "display": "Release 2.5.1",
+      "definition": "Release 2.5.1",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "January 2007"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5.1"
+        }
+      ]
+    },
+    {
+      "id": "1331",
+      "code": "2.6",
+      "display": "Release 2.6",
+      "definition": "Release 2.6",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "July 2007"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "1332",
+      "code": "2.7",
+      "display": "Release 2.7",
+      "definition": "Release 2.7",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "November 2010"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "1333",
+      "code": "2.7.1",
+      "display": "Release 2.7.1",
+      "definition": "Release 2.7.1",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "July 2012"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7.1"
+        }
+      ]
+    },
+    {
+      "id": "1334",
+      "code": "2.8",
+      "display": "Release 2.8",
+      "definition": "Release 2.8",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "February 2014"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "1335",
+      "code": "2.8.1",
+      "display": "Release 2.8.1",
+      "definition": "Release 2.8.1",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "April 2014"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8.1"
+        }
+      ]
+    },
+    {
+      "id": "1336",
+      "code": "2.8.2",
+      "display": "Release 2.8.2",
+      "definition": "Release 2.8.2",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "May 2015"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2017-04-24"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8.2"
+        }
+      ]
+    },
+    {
+      "id": "1337",
+      "code": "2.9",
+      "display": "Release 2.9",
+      "definition": "Release 2.9",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Sep. 2019"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2022-09-10"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "code": "2.9.1",
+      "display": "Draft 2.9.1",
+      "definition": "Draft 2.9.1",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Sep. 2022"
+        },
+        {
+          "code": "status",
+          "valueCode": "new"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2022-09-10"
+        }
+      ]
+    }
+  ]
 }

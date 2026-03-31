@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-resultStatus.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/resultStatus</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0123"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/resultStatus",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.51"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0123"
-  } ],
-  "version": "1.3.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0123"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.3.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0123",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.51"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0123"
+    }
+  ],
+  "version": "3.0.0",
   "name": "ResultStatus",
   "title": "Result Status (2.9.1 - 1.3.0)",
   "status": "active",
@@ -34,248 +45,334 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "1433",
-    "code": "A",
-    "display": "Some, but not all, results available",
-    "definition": "Some, but not all, results available",
-    "designation": [ {
-      "language": "de",
-      "value": "einige, aber nicht alle Ergebnisse verfügbar"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1435",
-    "code": "C",
-    "display": "Corrected, final",
-    "definition": "A result under an order, that has been finalized has been corrected",
-    "designation": [ {
-      "language": "de",
-      "value": "korrigiertes Ergebnis, final"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2016-03-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "1437",
-    "code": "F",
-    "display": "Final results",
-    "definition": "Final results; results stored and verified.",
-    "designation": [ {
-      "language": "de",
-      "value": "Endergebnis - Auftrag erledigt, Ergebnisse validiert"
-    } ],
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "Can only be changed with a corrected result."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "1431",
-    "code": "I",
-    "display": "No results available; specimen received, procedure incomplete",
-    "definition": "No results available; specimen received, procedure incomplete",
-    "designation": [ {
-      "language": "de",
-      "value": "Keine Ergebnisse - Probe liegt vor, Untersuchung unvollständig"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "1441",
-    "code": "M",
-    "display": "Corrected, not final",
-    "definition": "A result under an order, that has not yet been finalized has been corrected",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2016-03-16"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "1442",
-    "code": "N",
-    "display": "Procedure completed, results pending",
-    "definition": "No result available; requested procedure done.  To indicate that a requested test is performed but results are pending/not yet available.",
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
       "code": "usage",
-      "valueString": "Transitions/Relationships: \nOBR-25  Valid preceding state (... to N): O, I, S.  Succeeding state (N to ...): P, A, R, F, X\nOBX-11  No OBX segments can be present where OBX-29 = RSLT"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2016-03-16"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "1430",
-    "code": "O",
-    "display": "Order received; specimen not yet received",
-    "definition": "Order received; specimen not yet received",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftrag erhalten - Probe steht noch aus"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1434",
-    "code": "P",
-    "display": "Preliminary",
-    "definition": "A verified early result is available, final results not yet obtained",
-    "designation": [ {
-      "language": "de",
-      "value": "Vorläufig - Validiertes Zwischenergebnis liegt vor, aber noch keine endgültigen"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "1436",
-    "code": "R",
-    "display": "Results stored; not yet verified",
-    "definition": "Results stored; not yet verified",
-    "designation": [ {
-      "language": "de",
-      "value": "Ergebnisse gespeichert, aber noch nicht validiert"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "1432",
-    "code": "S",
-    "display": "No results available; procedure scheduled, but not done",
-    "definition": "No results available; procedure scheduled, but not done",
-    "designation": [ {
-      "language": "de",
-      "value": "Keine Ergebnisse - Untersuchung eingeplant, aber noch nicht durchgeführt"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "1438",
-    "code": "X",
-    "display": "No results available; Order canceled",
-    "definition": "No results available; Order canceled.",
-    "designation": [ {
-      "language": "de",
-      "value": "Keine Ergebnisse - Auftrag storniert"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1439",
-    "code": "Y",
-    "display": "No order on record for this test",
-    "definition": "No order on record for this test.",
-    "designation": [ {
-      "language": "de",
-      "value": "Kein Auftrag zu dieser Untersuchung"
-    } ],
-    "property": [ {
-      "code": "usage",
-      "valueString": "Used only on queries"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "1440",
-    "code": "Z",
-    "display": "No record of this patient",
-    "definition": "No record of this patient.",
-    "designation": [ {
-      "language": "de",
-      "value": "Keine Daten über diesen Patienten"
-    } ],
-    "property": [ {
-      "code": "usage",
-      "valueString": "Used only on queries"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "1433",
+      "code": "A",
+      "display": "Some, but not all, results available",
+      "definition": "Some, but not all, results available",
+      "designation": [
+        {
+          "language": "de",
+          "value": "einige, aber nicht alle Ergebnisse verfügbar"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1435",
+      "code": "C",
+      "display": "Corrected, final",
+      "definition": "A result under an order, that has been finalized has been corrected",
+      "designation": [
+        {
+          "language": "de",
+          "value": "korrigiertes Ergebnis, final"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "1437",
+      "code": "F",
+      "display": "Final results",
+      "definition": "Final results; results stored and verified.",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Endergebnis - Auftrag erledigt, Ergebnisse validiert"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Can only be changed with a corrected result."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "1431",
+      "code": "I",
+      "display": "No results available; specimen received, procedure incomplete",
+      "definition": "No results available; specimen received, procedure incomplete",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Keine Ergebnisse - Probe liegt vor, Untersuchung unvollständig"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "1441",
+      "code": "M",
+      "display": "Corrected, not final",
+      "definition": "A result under an order, that has not yet been finalized has been corrected",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-16"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "1442",
+      "code": "N",
+      "display": "Procedure completed, results pending",
+      "definition": "No result available; requested procedure done.  To indicate that a requested test is performed but results are pending/not yet available.",
+      "property": [
+        {
+          "code": "usage",
+          "valueString": "Transitions/Relationships: \nOBR-25  Valid preceding state (... to N): O, I, S.  Succeeding state (N to ...): P, A, R, F, X\nOBX-11  No OBX segments can be present where OBX-29 = RSLT"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-16"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "1430",
+      "code": "O",
+      "display": "Order received; specimen not yet received",
+      "definition": "Order received; specimen not yet received",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftrag erhalten - Probe steht noch aus"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1434",
+      "code": "P",
+      "display": "Preliminary",
+      "definition": "A verified early result is available, final results not yet obtained",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Vorläufig - Validiertes Zwischenergebnis liegt vor, aber noch keine endgültigen"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "1436",
+      "code": "R",
+      "display": "Results stored; not yet verified",
+      "definition": "Results stored; not yet verified",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Ergebnisse gespeichert, aber noch nicht validiert"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "1432",
+      "code": "S",
+      "display": "No results available; procedure scheduled, but not done",
+      "definition": "No results available; procedure scheduled, but not done",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Keine Ergebnisse - Untersuchung eingeplant, aber noch nicht durchgeführt"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "1438",
+      "code": "X",
+      "display": "No results available; Order canceled",
+      "definition": "No results available; Order canceled.",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Keine Ergebnisse - Auftrag storniert"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1439",
+      "code": "Y",
+      "display": "No order on record for this test",
+      "definition": "No order on record for this test.",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Kein Auftrag zu dieser Untersuchung"
+        }
+      ],
+      "property": [
+        {
+          "code": "usage",
+          "valueString": "Used only on queries"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "1440",
+      "code": "Z",
+      "display": "No record of this patient",
+      "definition": "No record of this patient.",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Keine Daten über diesen Patienten"
+        }
+      ],
+      "property": [
+        {
+          "code": "usage",
+          "valueString": "Used only on queries"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    }
+  ]
 }

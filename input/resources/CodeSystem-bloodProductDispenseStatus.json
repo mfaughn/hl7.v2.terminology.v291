@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-bloodProductDispenseStatus.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/bloodProductDispenseStatus</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0510"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/bloodProductDispenseStatus",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.333"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0510"
-  } ],
-  "version": "1.0.1",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0510"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.1"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0510",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.333"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0510"
+    }
+  ],
+  "version": "3.0.0",
   "name": "BloodProductDispenseStatus",
   "title": "Blood Product Dispense Status (2.9.1 - 1.0.1)",
   "status": "active",
@@ -34,201 +45,264 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "5552",
-    "code": "CR",
-    "display": "Released into inventory for general availability",
-    "definition": "Released into inventory for general availability",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Status determined by Filler"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5547",
-    "code": "DS",
-    "display": "Dispensed to patient location",
-    "definition": "Dispensed to patient location",
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "Status determined by Filler"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5551",
-    "code": "PT",
-    "display": "Presumed transfused (dispensed and not returned)",
-    "definition": "Presumed transfused (dispensed and not returned)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Status determined by Filler"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5548",
-    "code": "RA",
-    "display": "Returned unused/no longer needed",
-    "definition": "Returned unused/no longer needed",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Status determined by Filler"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5544",
-    "code": "RD",
-    "display": "Reserved and ready to dispense",
-    "definition": "Reserved and ready to dispense",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Status determined by Filler"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5546",
-    "code": "RE",
-    "display": "Released (no longer allocated for the patient)",
-    "definition": "Released (no longer allocated for the patient)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Status determined by Placer or Filler"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5543",
-    "code": "RI",
-    "display": "Received into inventory (for specified patient)",
-    "definition": "Received into inventory (for specified patient)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Status determined by Filler"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5549",
-    "code": "RL",
-    "display": "Returned unused/keep linked to patient for possible use later",
-    "definition": "Returned unused/keep linked to patient for possible use later",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Status determined by Filler"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5553",
-    "code": "RQ",
-    "display": "Request to dispense blood product",
-    "definition": "Request to dispense blood product",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Status determined by Placer"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5545",
-    "code": "RS",
-    "display": "Reserved (ordered and product allocated for the patient)",
-    "definition": "Reserved (ordered and product allocated for the patient)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Status determined by Filler"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5550",
-    "code": "WA",
-    "display": "Wasted (product no longer viable)",
-    "definition": "Wasted (product no longer viable)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Status determined by Filler"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "5552",
+      "code": "CR",
+      "display": "Released into inventory for general availability",
+      "definition": "Released into inventory for general availability",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Status determined by Filler"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5547",
+      "code": "DS",
+      "display": "Dispensed to patient location",
+      "definition": "Dispensed to patient location",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Status determined by Filler"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5551",
+      "code": "PT",
+      "display": "Presumed transfused (dispensed and not returned)",
+      "definition": "Presumed transfused (dispensed and not returned)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Status determined by Filler"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5548",
+      "code": "RA",
+      "display": "Returned unused/no longer needed",
+      "definition": "Returned unused/no longer needed",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Status determined by Filler"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5544",
+      "code": "RD",
+      "display": "Reserved and ready to dispense",
+      "definition": "Reserved and ready to dispense",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Status determined by Filler"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5546",
+      "code": "RE",
+      "display": "Released (no longer allocated for the patient)",
+      "definition": "Released (no longer allocated for the patient)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Status determined by Placer or Filler"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5543",
+      "code": "RI",
+      "display": "Received into inventory (for specified patient)",
+      "definition": "Received into inventory (for specified patient)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Status determined by Filler"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5549",
+      "code": "RL",
+      "display": "Returned unused/keep linked to patient for possible use later",
+      "definition": "Returned unused/keep linked to patient for possible use later",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Status determined by Filler"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5553",
+      "code": "RQ",
+      "display": "Request to dispense blood product",
+      "definition": "Request to dispense blood product",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Status determined by Placer"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5545",
+      "code": "RS",
+      "display": "Reserved (ordered and product allocated for the patient)",
+      "definition": "Reserved (ordered and product allocated for the patient)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Status determined by Filler"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5550",
+      "code": "WA",
+      "display": "Wasted (product no longer viable)",
+      "definition": "Wasted (product no longer viable)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Status determined by Filler"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    }
+  ]
 }

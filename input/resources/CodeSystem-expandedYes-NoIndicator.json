@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-expandedYes-NoIndicator.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/expandedYes-NoIndicator</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0532"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/expandedYes-NoIndicator",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.347"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0532"
-  } ],
-  "version": "1.0.1",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0532"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.1"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0532",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.347"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0532"
+    }
+  ],
+  "version": "3.0.0",
   "name": "ExpandedYes-NoIndicator",
   "title": "Expanded Yes/no Indicator (2.9.1 - 1.0.1)",
   "status": "active",
@@ -34,197 +45,264 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "5644",
-    "code": "ASKU",
-    "display": "asked but unknown",
-    "definition": "asked but unknown",
-    "designation": [ {
-      "language": "de",
-      "value": "gefragt, aber nicht genannt"
-    } ],
-    "property": [ {
+  "property": [
+    {
+      "code": "versionIntroduced",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "Information was sought but not found (e.g., patient was asked but didn't know"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5639",
-    "code": "N",
-    "display": "No",
-    "definition": "No",
-    "designation": [ {
-      "language": "de",
-      "value": "Nein"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5641",
-    "code": "NA",
-    "display": "not applicable",
-    "definition": "not applicable",
-    "designation": [ {
-      "language": "de",
-      "value": "nicht anwendbar"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "No proper value is applicable in this context (e.g., last menstrual period for a male)"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5643",
-    "code": "NASK",
-    "display": "not asked",
-    "definition": "not asked",
-    "designation": [ {
-      "language": "de",
-      "value": "nicht erfragt"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "This information has not been sought (e.g., patient was not asked"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5645",
-    "code": "NAV",
-    "display": "temporarily unavailable",
-    "definition": "temporarily unavailable",
-    "designation": [ {
-      "language": "de",
-      "value": "temporär nicht verfügbar"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Information is not available at this time but it is expected that it will be available later"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5640",
-    "code": "NI",
-    "display": "No Information",
-    "definition": "No Information",
-    "designation": [ {
-      "language": "de",
-      "value": "keine Information"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "No information whatsoever can be inferred from this exceptional value. This is the most general exceptional value. It is also the default exceptional value"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5646",
-    "code": "NP",
-    "display": "not present",
-    "definition": "not present",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Obsolete as of v 2.7."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5642",
-    "code": "UNK",
-    "display": "unknown",
-    "definition": "unknown",
-    "designation": [ {
-      "language": "de",
-      "value": "unbekannt"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "A proper value is applicable, but not known"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "5638",
-    "code": "Y",
-    "display": "Yes",
-    "definition": "Yes",
-    "designation": [ {
-      "language": "de",
-      "value": "Ja"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "5644",
+      "code": "ASKU",
+      "display": "asked but unknown",
+      "definition": "asked but unknown",
+      "designation": [
+        {
+          "language": "de",
+          "value": "gefragt, aber nicht genannt"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Information was sought but not found (e.g., patient was asked but didn't know"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5639",
+      "code": "N",
+      "display": "No",
+      "definition": "No",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Nein"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5641",
+      "code": "NA",
+      "display": "not applicable",
+      "definition": "not applicable",
+      "designation": [
+        {
+          "language": "de",
+          "value": "nicht anwendbar"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "No proper value is applicable in this context (e.g., last menstrual period for a male)"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5643",
+      "code": "NASK",
+      "display": "not asked",
+      "definition": "not asked",
+      "designation": [
+        {
+          "language": "de",
+          "value": "nicht erfragt"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This information has not been sought (e.g., patient was not asked"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5645",
+      "code": "NAV",
+      "display": "temporarily unavailable",
+      "definition": "temporarily unavailable",
+      "designation": [
+        {
+          "language": "de",
+          "value": "temporär nicht verfügbar"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Information is not available at this time but it is expected that it will be available later"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5640",
+      "code": "NI",
+      "display": "No Information",
+      "definition": "No Information",
+      "designation": [
+        {
+          "language": "de",
+          "value": "keine Information"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "No information whatsoever can be inferred from this exceptional value. This is the most general exceptional value. It is also the default exceptional value"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5646",
+      "code": "NP",
+      "display": "not present",
+      "definition": "not present",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Obsolete as of v 2.7."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5642",
+      "code": "UNK",
+      "display": "unknown",
+      "definition": "unknown",
+      "designation": [
+        {
+          "language": "de",
+          "value": "unbekannt"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "A proper value is applicable, but not known"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "5638",
+      "code": "Y",
+      "display": "Yes",
+      "definition": "Yes",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Ja"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    }
+  ]
 }

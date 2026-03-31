@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-natureOfServiceTestObservation.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/natureOfServiceTestObservation</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0174"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/natureOfServiceTestObservation",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.90"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0174"
-  } ],
-  "version": "1.1.1",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0174"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.1.1"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0174",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.90"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0174"
+    }
+  ],
+  "version": "4.0.0",
   "name": "NatureOfServiceTestObservation",
   "title": "Nature of Service/Test/Observation (2.9.1 - 1.1.1)",
   "status": "active",
@@ -34,115 +45,150 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "1824",
-    "code": "A",
-    "display": "Atomic service/test/observation",
-    "definition": "Atomic service/test/observation (test code or treatment code)",
-    "property": [ {
-      "code": "comment",
-      "valueString": "can be associated with one or more OM4 (specimen) segments<p>a single direct observation and would usually be associated with an OM2 and/or OM3 segments"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2025-08-02"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1826",
-    "code": "C",
-    "display": "Single observation, calculated",
-    "definition": "Single observation calculated via a rule or formula from other independent observations (e.g., Alveolar-arterial ratio, cardiac output)",
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "can be associated with one or more OM4 (specimen) segments<p>a derived quantity and would usually be associated with an OM6 segment"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2025-08-02"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1823",
-    "code": "F",
-    "display": "Functional procedure",
-    "definition": "Functional procedure that may consist of one or more interrelated measures (e.g., glucose tolerance test, creatinine clearance), usually done at different times and/or on different specimens",
-    "property": [ {
-      "code": "comment",
-      "valueString": "can be associated with one or more OM4 (specimen) segments<p>See comment for value S"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2025-08-02"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1822",
-    "code": "P",
-    "display": "Profile or battery",
-    "definition": "Profile or battery consisting of many independent atomic observations (e.g., SMA12, electrolytes), usually done at one instrument on one specimen",
-    "designation": [ {
-      "language": "de",
-      "value": "Batterieanordnung"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "can be associated with one or more OM4 (specimen) segments<p>See comment for value S"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2025-08-02"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1825",
-    "code": "S",
-    "display": "Superset-a set of batteries or procedures",
-    "definition": "Superset-a set of batteries or procedures ordered under a single code unit but processed as separate batteries (e.g., routines = CBC, UA, electrolytes)\r\nThis set indicates that the code being described is used to order multiple service/test/observation batteries.  For example, a client who routinely orders a CBC, a differential, and a thyroxine as an outpatient profile might use a single, special code to order all three test batteries, instead of having to submit three separate order codes.",
-    "property": [ {
-      "code": "comment",
-      "valueString": "can be associated with one or more OM4 (specimen) segments\r\nCodes P, F, and S identify sets (batteries) and should be associated with an OM5 segment that defines the list of elements.  The definitions for the contained elements would have to be sent in other independent OMx segments, one for each contained element.  In the ASTM context, most text reports – such as discharge summaries, admission H&Ps, and chest X-ray reports – are considered as sets, in which each section of the report (e.g., description, impression, and recommendation of an X-ray report) is considered a separate observation"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2025-08-02"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "1824",
+      "code": "A",
+      "display": "Atomic service/test/observation",
+      "definition": "Atomic service/test/observation (test code or treatment code)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "can be associated with one or more OM4 (specimen) segments<p>a single direct observation and would usually be associated with an OM2 and/or OM3 segments"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2025-08-02"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1826",
+      "code": "C",
+      "display": "Single observation, calculated",
+      "definition": "Single observation calculated via a rule or formula from other independent observations (e.g., Alveolar-arterial ratio, cardiac output)",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "can be associated with one or more OM4 (specimen) segments<p>a derived quantity and would usually be associated with an OM6 segment"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2025-08-02"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1823",
+      "code": "F",
+      "display": "Functional procedure",
+      "definition": "Functional procedure that may consist of one or more interrelated measures (e.g., glucose tolerance test, creatinine clearance), usually done at different times and/or on different specimens",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "can be associated with one or more OM4 (specimen) segments<p>See comment for value S"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2025-08-02"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1822",
+      "code": "P",
+      "display": "Profile or battery",
+      "definition": "Profile or battery consisting of many independent atomic observations (e.g., SMA12, electrolytes), usually done at one instrument on one specimen",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Batterieanordnung"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "can be associated with one or more OM4 (specimen) segments<p>See comment for value S"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2025-08-02"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1825",
+      "code": "S",
+      "display": "Superset-a set of batteries or procedures",
+      "definition": "Superset-a set of batteries or procedures ordered under a single code unit but processed as separate batteries (e.g., routines = CBC, UA, electrolytes)\r\nThis set indicates that the code being described is used to order multiple service/test/observation batteries.  For example, a client who routinely orders a CBC, a differential, and a thyroxine as an outpatient profile might use a single, special code to order all three test batteries, instead of having to submit three separate order codes.",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "can be associated with one or more OM4 (specimen) segments\r\nCodes P, F, and S identify sets (batteries) and should be associated with an OM5 segment that defines the list of elements.  The definitions for the contained elements would have to be sent in other independent OMx segments, one for each contained element.  In the ASTM context, most text reports – such as discharge summaries, admission H&Ps, and chest X-ray reports – are considered as sets, in which each section of the report (e.g., description, impression, and recommendation of an X-ray report) is considered a separate observation"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2025-08-02"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    }
+  ]
 }

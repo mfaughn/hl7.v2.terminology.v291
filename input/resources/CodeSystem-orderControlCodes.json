@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-orderControlCodes.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/orderControlCodes</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0119"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/orderControlCodes",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.48"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0119"
-  } ],
-  "version": "1.8.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0119"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.8.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0119",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.48"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0119"
+    }
+  ],
+  "version": "3.0.0",
   "name": "OrderControlCodes",
   "title": "Order Control Codes (2.9.1 - 1.8.0)",
   "status": "active",
@@ -34,1267 +45,1710 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  }, {
-    "code": "application",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#application",
-    "description": "application",
-    "type": "string"
-  } ],
-  "concept": [ {
-    "id": "1359",
-    "code": "AF",
-    "display": "Order/service refill request approval",
-    "definition": "AF is a response to RF where the placer authorizing a refill or quantity of refills.",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer Applications ."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.3"
-    }, {
-      "code": "application",
-      "valueString": "Placer Applications ."
-    } ]
-  }, {
-    "id": "1360",
-    "code": "CA",
-    "display": "Cancel order/service request",
-    "definition": "Cancel order/service request",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftrag stornieren"
-    } ],
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "Placer or Filler Applications"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Placer or Filler Applications"
-    } ]
-  }, {
-    "id": "1361",
-    "code": "CH",
-    "display": "Child order/service",
-    "definition": "Child order/service",
-    "designation": [ {
-      "language": "de",
-      "value": "nachgeordneter Auftrag"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer or Filler Applications."
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
       "code": "usage",
-      "valueString": "Used in conjunction with the PA - Parent order control code. Refer to PA order control code for discussion."
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    },
+    {
       "code": "application",
-      "valueString": "Placer or Filler Applications."
-    } ]
-  }, {
-    "id": "1362",
-    "code": "CN",
-    "display": "Combined result",
-    "definition": "Combined result",
-    "designation": [ {
-      "language": "de",
-      "value": "Kumulatives Ergebnis (zu mehreren Aufträgen)"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1363",
-    "code": "CP",
-    "display": "Cancel process step",
-    "definition": "Cancel process step",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1364",
-    "code": "CR",
-    "display": "Canceled as requested",
-    "definition": "Canceled as requested",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftrag anweisungsgemäß storniert"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler or Placer Applications."
-    }, {
-      "code": "usage",
-      "valueString": "A response by the filler or placer application that a request to cancel (CA by the placer application) was performed successfully."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    }, {
-      "code": "application",
-      "valueString": "Filler or Placer Applications."
-    } ]
-  }, {
-    "id": "1365",
-    "code": "DC",
-    "display": "Discontinue order/service request",
-    "definition": "Discontinue order/service request",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftragsausführung abbrechen"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer or Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Placer or Filler Applications."
-    } ]
-  }, {
-    "id": "1366",
-    "code": "DE",
-    "display": "Data errors",
-    "definition": "Data errors",
-    "designation": [ {
-      "language": "de",
-      "value": "Datenfehler"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer or Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Placer or Filler Applications."
-    } ]
-  }, {
-    "id": "1367",
-    "code": "DF",
-    "display": "Order/service refill request denied",
-    "definition": "Order/service refill request denied",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    }, {
-      "code": "application",
-      "valueString": "Placer Applications."
-    } ]
-  }, {
-    "id": "1368",
-    "code": "DR",
-    "display": "Discontinued as requested",
-    "definition": "Discontinued as requested",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftragsausführung anweisungsgemäß abgebrochen"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler or Placer Applications."
-    }, {
-      "code": "usage",
-      "valueString": "The filler or placer, in response to a request to discontinue (DC from the placer or filler application), has discontinued the order/service."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Filler or Placer Applications."
-    } ]
-  }, {
-    "id": "1369",
-    "code": "FU",
-    "display": "Order/service refilled, unsolicited",
-    "definition": "Order/service refilled, unsolicited",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "usage",
-      "valueString": "FU notifies the placer that the filler issued a refill for the order at the patient's request."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1370",
-    "code": "HD",
-    "display": "Hold order request",
-    "definition": "Hold order request",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftragsbearbeitung aussetzen"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer Applications."
-    }, {
-      "code": "usage",
-      "valueString": "Typical responses include, but are not limited to, CR - Cancelled as requested, UC - Unable to Cancel."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Placer Applications."
-    } ]
-  }, {
-    "id": "1371",
-    "code": "HR",
-    "display": "On hold as requested",
-    "definition": "On hold as requested",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftragsbearbeitung anweisungsgemäß ausgesetzt"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1372",
-    "code": "LI",
-    "display": "Link order/service to patient care problem or goal",
-    "definition": "Link order/service to patient care problem or goal",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer or Filler Applications."
-    }, {
-      "code": "usage",
-      "valueString": "Refer to Chapter 12 Patient Care for complete discussion."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    }, {
-      "code": "application",
-      "valueString": "Placer or Filler Applications."
-    } ]
-  }, {
-    "id": "1373",
-    "code": "MC",
-    "display": "Miscellaneous Charge - not associated with an order",
-    "definition": "Miscellaneous Charge - not associated with an order",
-    "property": [ {
-      "code": "comment",
-      "valueString": "applies to DFT^P03^DFT_P03 and DFT^P11^DFT_P11"
-    }, {
-      "code": "usage",
-      "valueString": "applies to DFT^P03^DFT_P03 and DFT^P11^DFT_P11"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "1374",
-    "code": "NA",
-    "display": "Number assigned",
-    "definition": "Number assigned",
-    "designation": [ {
-      "language": "de",
-      "value": "Nummer zugewiesen"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Placer Applications."
-    } ]
-  }, {
-    "id": "1375",
-    "code": "NR",
-    "display": "Notification Received",
-    "definition": "Notifies the Filler that the Placer received a cancellation, discontinuance, or other state change notice",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2016-03-16"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "1376",
-    "code": "NW",
-    "display": "New order/service",
-    "definition": "New order/service",
-    "designation": [ {
-      "language": "de",
-      "value": "Neuer Auftrag"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer Applications."
-    }, {
-      "code": "usage",
-      "valueString": "See comments for NA - Number Assigned."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Placer Applications."
-    } ]
-  }, {
-    "id": "1377",
-    "code": "OC",
-    "display": "Order/service canceled",
-    "definition": "Order/service canceled",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftrag storniert"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1378",
-    "code": "OD",
-    "display": "Order/service discontinued",
-    "definition": "Order/service discontinued",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftragsausführung abgebrochen"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1379",
-    "code": "OE",
-    "display": "Order/service released",
-    "definition": "Order/service released",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1380",
-    "code": "OF",
-    "display": "Order/service refilled as requested",
-    "definition": "Order/service refilled as requested",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "usage",
-      "valueString": "OF directly responds to the placer system's request for a refill."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1381",
-    "code": "OH",
-    "display": "Order/service held",
-    "definition": "Order/service held",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftragsbearbeitung ausgesetzt"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1382",
-    "code": "OK",
-    "display": "Order/service accepted & OK",
-    "definition": "Order/service accepted & OK",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftrag akzeptiert"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "usage",
-      "valueString": "See comments for NA - Number Assigned."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1383",
-    "code": "OP",
-    "display": "Notification of order for outside dispense",
-    "definition": "Notification of order for outside dispense",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    }, {
-      "code": "application",
-      "valueString": "Placer Applications."
-    } ]
-  }, {
-    "id": "1384",
-    "code": "OR",
-    "display": "Released as requested",
-    "definition": "Released as requested",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftragsbearbeitung anweisungsgemäß wiederaufgenommen"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1385",
-    "code": "PA",
-    "display": "Parent order/service",
-    "definition": "Parent order/service",
-    "designation": [ {
-      "language": "de",
-      "value": "Hauptauftrag"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1386",
-    "code": "PR",
-    "display": "Previous Results with new order/service",
-    "definition": "Previous Results with new order/service",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "application",
-      "valueString": "Placer Applications."
-    } ]
-  }, {
-    "id": "1387",
-    "code": "PY",
-    "display": "Notification of replacement order for outside dispense",
-    "definition": "Notification of replacement order for outside dispense",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer Applications."
-    }, {
-      "code": "usage",
-      "valueString": "See comments for OP - Notification of order for outside dispense."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    }, {
-      "code": "application",
-      "valueString": "Placer Applications."
-    } ]
-  }, {
-    "id": "1388",
-    "code": "RA",
-    "display": "Recommendation Accepted",
-    "definition": "Identifies that this previously recommended replacement order has been accepted",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer Applications: \nUsed in the Recommendation Accepted message; includes the assigned placer order number for the accepted replacement order\nFiller Applications: \nUsed in the acknowledgment response message to the Recommendation Accepted message"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2022-08-25"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    }, {
-      "code": "application",
-      "valueString": "Placer Applications: \nUsed in the Recommendation Accepted message; includes the assigned placer order number for the accepted replacement order\nFiller Applications: \nUsed in the acknowledgment response message to the Recommendation Accepted message"
-    } ]
-  }, {
-    "id": "1389",
-    "code": "RC",
-    "display": "Recommended Change",
-    "definition": "Identifies that this OBR represents a recommended replacement order",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications.\nUsed in the recommendation message sent to the placer"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2022-08-25"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications.\nUsed in the recommendation message sent to the placer"
-    } ]
-  }, {
-    "id": "1390",
-    "code": "RD",
-    "display": "Recommendation Declined",
-    "definition": "Identifies that this previously sent recommended replacement order has been declined",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer Applications:\nUsed in the Recommendation Declined message \nFiller Applications: \nUsed in the acknowledgment response message to the Recommendation Declined message"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2022-08-25"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    }, {
-      "code": "application",
-      "valueString": "Placer Applications:\nUsed in the Recommendation Declined message \nFiller Applications: \nUsed in the acknowledgment response message to the Recommendation Declined message"
-    } ]
-  }, {
-    "id": "1391",
-    "code": "RE",
-    "display": "Observations/Performed Service to follow",
-    "definition": "Observations/Performed Service to follow",
-    "designation": [ {
-      "language": "de",
-      "value": "Untersuchungsergebnisse folgen (in späteren Segmenten dieser Nachricht)"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer or Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Placer or Filler Applications."
-    } ]
-  }, {
-    "id": "1392",
-    "code": "RF",
-    "display": "Refill order/service request",
-    "definition": "Refill order/service request",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer or Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    }, {
-      "code": "application",
-      "valueString": "Placer or Filler Applications."
-    } ]
-  }, {
-    "id": "1393",
-    "code": "RL",
-    "display": "Release previous hold",
-    "definition": "Release previous hold",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftragsberabeitung wiederaufnehmen"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    }, {
-      "code": "application",
-      "valueString": "Placer Applications."
-    } ]
-  }, {
-    "id": "1394",
-    "code": "RO",
-    "display": "Replacement order",
-    "definition": "Replacement order",
-    "designation": [ {
-      "language": "de",
-      "value": "Ersatzauftrag"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer or Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Placer or Filler Applications."
-    } ]
-  }, {
-    "id": "1395",
-    "code": "RP",
-    "display": "Order/service replace request",
-    "definition": "Order/service replace request",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftrag ersetzen"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Placer Applications."
-    } ]
-  }, {
-    "id": "1396",
-    "code": "RQ",
-    "display": "Replaced as requested",
-    "definition": "Replaced as requested",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftrag anweisungsgemäß ersetzt"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1397",
-    "code": "RR",
-    "display": "Request received",
-    "definition": "Request received",
-    "designation": [ {
-      "language": "de",
-      "value": "Anforderung erhalten"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer or Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Placer or Filler Applications."
-    } ]
-  }, {
-    "id": "1398",
-    "code": "RU",
-    "display": "Replaced unsolicited",
-    "definition": "Replaced unsolicited",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftrag ersetzt (ohne Anweisung)"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1399",
-    "code": "SC",
-    "display": "Status changed",
-    "definition": "Status changed",
-    "designation": [ {
-      "language": "de",
-      "value": "Statusänderung"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer or Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    }, {
-      "code": "application",
-      "valueString": "Placer or Filler Applications."
-    } ]
-  }, {
-    "id": "1400",
-    "code": "SN",
-    "display": "Send order/service number",
-    "definition": "Send order/service number",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftrags- bzw. Bearbeitungsnummer zuweisen / übermitteln"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer Applications."
-    }, {
-      "code": "usage",
-      "valueString": "See comments for NA - Number Assigned."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Placer Applications."
-    } ]
-  }, {
-    "id": "1401",
-    "code": "SQ",
-    "display": "Supplemented as requested",
-    "definition": "Supplementation confirmation message indicating that an order was supplemented as requested.",
-    "property": [ {
-      "code": "comment",
-      "valueString": "This code is used in the acknowledgment  response to the request messages."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2022-08-25"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "1402",
-    "code": "SR",
-    "display": "Response to send order/service status request",
-    "definition": "Response to send order/service status request",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftragsstatus (Antwort)"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1403",
-    "code": "SS",
-    "display": "Send order/service status request",
-    "definition": "Send order/service status request",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftragsstatus senden"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Placer Applications."
-    } ]
-  }, {
-    "id": "1404",
-    "code": "SU",
-    "display": "Supplement this order",
-    "definition": "Identifies existing orders to be supplemented in Supplementation Recommendation (filler to placer) and Supplementation Request (placer to filler) messages.",
-    "property": [ {
-      "code": "comment",
-      "valueString": "For example this code is used in the filler’s order message to identify an order that is missing a recommended order based on organizational protocol for example as described in the IHE Laboratory Communication (LCC) profile (LAB-6)."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2022-08-25"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "1405",
-    "code": "UA",
-    "display": "Unable to accept order/service",
-    "definition": "Unable to accept order/service",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftragsannahme nicht möglich"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1406",
-    "code": "UC",
-    "display": "Unable to cancel",
-    "definition": "Unable to cancel",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftragsstornierung nicht möglich"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler or Placer Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    }, {
-      "code": "application",
-      "valueString": "Filler or Placer Applications."
-    } ]
-  }, {
-    "id": "1407",
-    "code": "UD",
-    "display": "Unable to discontinue",
-    "definition": "Unable to discontinue",
-    "designation": [ {
-      "language": "de",
-      "value": "Abbrechen nicht möglich"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler or Placer Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Filler or Placer Applications."
-    } ]
-  }, {
-    "id": "1408",
-    "code": "UF",
-    "display": "Unable to refill",
-    "definition": "Unable to refill",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "usage",
-      "valueString": "Negative response to RF Refill order/service request, indicating that the receiving application was not able to complete the refill request."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1409",
-    "code": "UH",
-    "display": "Unable to put on hold",
-    "definition": "Unable to put on hold",
-    "designation": [ {
-      "language": "de",
-      "value": "Aussetzen nicht möglich"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1410",
-    "code": "UM",
-    "display": "Unable to replace",
-    "definition": "Unable to replace",
-    "designation": [ {
-      "language": "de",
-      "value": "Ersetzen nicht möglich"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1411",
-    "code": "UN",
-    "display": "Unlink order/service from patient care problem or goal",
-    "definition": "Unlink order/service from patient care problem or goal",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer or Filler Applications."
-    }, {
-      "code": "usage",
-      "valueString": "Refer to Chapter 12 Patient Care for complete discussion."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    }, {
-      "code": "application",
-      "valueString": "Placer or Filler Applications."
-    } ]
-  }, {
-    "id": "1412",
-    "code": "UR",
-    "display": "Unable to release",
-    "definition": "Unable to release",
-    "designation": [ {
-      "language": "de",
-      "value": "Wiederaufnahme nicht möglich"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1413",
-    "code": "UX",
-    "display": "Unable to change",
-    "definition": "Unable to change",
-    "designation": [ {
-      "language": "de",
-      "value": "Änderung nicht möglich"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1414",
-    "code": "XO",
-    "display": "Change order/service request",
-    "definition": "Change order/service request",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftrag ändern"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Placer Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    }, {
-      "code": "application",
-      "valueString": "Placer Applications."
-    } ]
-  }, {
-    "id": "1415",
-    "code": "XR",
-    "display": "Changed as requested",
-    "definition": "Changed as requested",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftrag anweisungsgemäß geändert"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  }, {
-    "id": "1416",
-    "code": "XX",
-    "display": "Order/service changed, unsol.",
-    "definition": "Order/service changed, unsol.",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftrag geändert (ohne Anweisung)"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Filler Applications."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    }, {
-      "code": "application",
-      "valueString": "Filler Applications."
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#application",
+      "description": "application",
+      "type": "string"
+    }
+  ],
+  "concept": [
+    {
+      "id": "1359",
+      "code": "AF",
+      "display": "Order/service refill request approval",
+      "definition": "AF is a response to RF where the placer authorizing a refill or quantity of refills.",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer Applications ."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer Applications ."
+        }
+      ]
+    },
+    {
+      "id": "1360",
+      "code": "CA",
+      "display": "Cancel order/service request",
+      "definition": "Cancel order/service request",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftrag stornieren"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer or Filler Applications"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer or Filler Applications"
+        }
+      ]
+    },
+    {
+      "id": "1361",
+      "code": "CH",
+      "display": "Child order/service",
+      "definition": "Child order/service",
+      "designation": [
+        {
+          "language": "de",
+          "value": "nachgeordneter Auftrag"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer or Filler Applications."
+        },
+        {
+          "code": "usage",
+          "valueString": "Used in conjunction with the PA - Parent order control code. Refer to PA order control code for discussion."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer or Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1362",
+      "code": "CN",
+      "display": "Combined result",
+      "definition": "Combined result",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Kumulatives Ergebnis (zu mehreren Aufträgen)"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1363",
+      "code": "CP",
+      "display": "Cancel process step",
+      "definition": "Cancel process step",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1364",
+      "code": "CR",
+      "display": "Canceled as requested",
+      "definition": "Canceled as requested",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftrag anweisungsgemäß storniert"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler or Placer Applications."
+        },
+        {
+          "code": "usage",
+          "valueString": "A response by the filler or placer application that a request to cancel (CA by the placer application) was performed successfully."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler or Placer Applications."
+        }
+      ]
+    },
+    {
+      "id": "1365",
+      "code": "DC",
+      "display": "Discontinue order/service request",
+      "definition": "Discontinue order/service request",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftragsausführung abbrechen"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer or Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer or Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1366",
+      "code": "DE",
+      "display": "Data errors",
+      "definition": "Data errors",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Datenfehler"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer or Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer or Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1367",
+      "code": "DF",
+      "display": "Order/service refill request denied",
+      "definition": "Order/service refill request denied",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer Applications."
+        }
+      ]
+    },
+    {
+      "id": "1368",
+      "code": "DR",
+      "display": "Discontinued as requested",
+      "definition": "Discontinued as requested",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftragsausführung anweisungsgemäß abgebrochen"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler or Placer Applications."
+        },
+        {
+          "code": "usage",
+          "valueString": "The filler or placer, in response to a request to discontinue (DC from the placer or filler application), has discontinued the order/service."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler or Placer Applications."
+        }
+      ]
+    },
+    {
+      "id": "1369",
+      "code": "FU",
+      "display": "Order/service refilled, unsolicited",
+      "definition": "Order/service refilled, unsolicited",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "usage",
+          "valueString": "FU notifies the placer that the filler issued a refill for the order at the patient's request."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1370",
+      "code": "HD",
+      "display": "Hold order request",
+      "definition": "Hold order request",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftragsbearbeitung aussetzen"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer Applications."
+        },
+        {
+          "code": "usage",
+          "valueString": "Typical responses include, but are not limited to, CR - Cancelled as requested, UC - Unable to Cancel."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer Applications."
+        }
+      ]
+    },
+    {
+      "id": "1371",
+      "code": "HR",
+      "display": "On hold as requested",
+      "definition": "On hold as requested",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftragsbearbeitung anweisungsgemäß ausgesetzt"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1372",
+      "code": "LI",
+      "display": "Link order/service to patient care problem or goal",
+      "definition": "Link order/service to patient care problem or goal",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer or Filler Applications."
+        },
+        {
+          "code": "usage",
+          "valueString": "Refer to Chapter 12 Patient Care for complete discussion."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer or Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1373",
+      "code": "MC",
+      "display": "Miscellaneous Charge - not associated with an order",
+      "definition": "Miscellaneous Charge - not associated with an order",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "applies to DFT^P03^DFT_P03 and DFT^P11^DFT_P11"
+        },
+        {
+          "code": "usage",
+          "valueString": "applies to DFT^P03^DFT_P03 and DFT^P11^DFT_P11"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "1374",
+      "code": "NA",
+      "display": "Number assigned",
+      "definition": "Number assigned",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Nummer zugewiesen"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer Applications."
+        }
+      ]
+    },
+    {
+      "id": "1375",
+      "code": "NR",
+      "display": "Notification Received",
+      "definition": "Notifies the Filler that the Placer received a cancellation, discontinuance, or other state change notice",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-16"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "1376",
+      "code": "NW",
+      "display": "New order/service",
+      "definition": "New order/service",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Neuer Auftrag"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer Applications."
+        },
+        {
+          "code": "usage",
+          "valueString": "See comments for NA - Number Assigned."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer Applications."
+        }
+      ]
+    },
+    {
+      "id": "1377",
+      "code": "OC",
+      "display": "Order/service canceled",
+      "definition": "Order/service canceled",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftrag storniert"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1378",
+      "code": "OD",
+      "display": "Order/service discontinued",
+      "definition": "Order/service discontinued",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftragsausführung abgebrochen"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1379",
+      "code": "OE",
+      "display": "Order/service released",
+      "definition": "Order/service released",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1380",
+      "code": "OF",
+      "display": "Order/service refilled as requested",
+      "definition": "Order/service refilled as requested",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "usage",
+          "valueString": "OF directly responds to the placer system's request for a refill."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1381",
+      "code": "OH",
+      "display": "Order/service held",
+      "definition": "Order/service held",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftragsbearbeitung ausgesetzt"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1382",
+      "code": "OK",
+      "display": "Order/service accepted & OK",
+      "definition": "Order/service accepted & OK",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftrag akzeptiert"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "usage",
+          "valueString": "See comments for NA - Number Assigned."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1383",
+      "code": "OP",
+      "display": "Notification of order for outside dispense",
+      "definition": "Notification of order for outside dispense",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer Applications."
+        }
+      ]
+    },
+    {
+      "id": "1384",
+      "code": "OR",
+      "display": "Released as requested",
+      "definition": "Released as requested",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftragsbearbeitung anweisungsgemäß wiederaufgenommen"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1385",
+      "code": "PA",
+      "display": "Parent order/service",
+      "definition": "Parent order/service",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Hauptauftrag"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1386",
+      "code": "PR",
+      "display": "Previous Results with new order/service",
+      "definition": "Previous Results with new order/service",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer Applications."
+        }
+      ]
+    },
+    {
+      "id": "1387",
+      "code": "PY",
+      "display": "Notification of replacement order for outside dispense",
+      "definition": "Notification of replacement order for outside dispense",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer Applications."
+        },
+        {
+          "code": "usage",
+          "valueString": "See comments for OP - Notification of order for outside dispense."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer Applications."
+        }
+      ]
+    },
+    {
+      "id": "1388",
+      "code": "RA",
+      "display": "Recommendation Accepted",
+      "definition": "Identifies that this previously recommended replacement order has been accepted",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer Applications: \nUsed in the Recommendation Accepted message; includes the assigned placer order number for the accepted replacement order\nFiller Applications: \nUsed in the acknowledgment response message to the Recommendation Accepted message"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-25"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer Applications: \nUsed in the Recommendation Accepted message; includes the assigned placer order number for the accepted replacement order\nFiller Applications: \nUsed in the acknowledgment response message to the Recommendation Accepted message"
+        }
+      ]
+    },
+    {
+      "id": "1389",
+      "code": "RC",
+      "display": "Recommended Change",
+      "definition": "Identifies that this OBR represents a recommended replacement order",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications.\nUsed in the recommendation message sent to the placer"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-25"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications.\nUsed in the recommendation message sent to the placer"
+        }
+      ]
+    },
+    {
+      "id": "1390",
+      "code": "RD",
+      "display": "Recommendation Declined",
+      "definition": "Identifies that this previously sent recommended replacement order has been declined",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer Applications:\nUsed in the Recommendation Declined message \nFiller Applications: \nUsed in the acknowledgment response message to the Recommendation Declined message"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-25"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer Applications:\nUsed in the Recommendation Declined message \nFiller Applications: \nUsed in the acknowledgment response message to the Recommendation Declined message"
+        }
+      ]
+    },
+    {
+      "id": "1391",
+      "code": "RE",
+      "display": "Observations/Performed Service to follow",
+      "definition": "Observations/Performed Service to follow",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Untersuchungsergebnisse folgen (in späteren Segmenten dieser Nachricht)"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer or Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer or Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1392",
+      "code": "RF",
+      "display": "Refill order/service request",
+      "definition": "Refill order/service request",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer or Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer or Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1393",
+      "code": "RL",
+      "display": "Release previous hold",
+      "definition": "Release previous hold",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftragsberabeitung wiederaufnehmen"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer Applications."
+        }
+      ]
+    },
+    {
+      "id": "1394",
+      "code": "RO",
+      "display": "Replacement order",
+      "definition": "Replacement order",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Ersatzauftrag"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer or Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer or Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1395",
+      "code": "RP",
+      "display": "Order/service replace request",
+      "definition": "Order/service replace request",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftrag ersetzen"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer Applications."
+        }
+      ]
+    },
+    {
+      "id": "1396",
+      "code": "RQ",
+      "display": "Replaced as requested",
+      "definition": "Replaced as requested",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftrag anweisungsgemäß ersetzt"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1397",
+      "code": "RR",
+      "display": "Request received",
+      "definition": "Request received",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Anforderung erhalten"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer or Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer or Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1398",
+      "code": "RU",
+      "display": "Replaced unsolicited",
+      "definition": "Replaced unsolicited",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftrag ersetzt (ohne Anweisung)"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1399",
+      "code": "SC",
+      "display": "Status changed",
+      "definition": "Status changed",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Statusänderung"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer or Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer or Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1400",
+      "code": "SN",
+      "display": "Send order/service number",
+      "definition": "Send order/service number",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftrags- bzw. Bearbeitungsnummer zuweisen / übermitteln"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer Applications."
+        },
+        {
+          "code": "usage",
+          "valueString": "See comments for NA - Number Assigned."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer Applications."
+        }
+      ]
+    },
+    {
+      "id": "1401",
+      "code": "SQ",
+      "display": "Supplemented as requested",
+      "definition": "Supplementation confirmation message indicating that an order was supplemented as requested.",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This code is used in the acknowledgment  response to the request messages."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-25"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "1402",
+      "code": "SR",
+      "display": "Response to send order/service status request",
+      "definition": "Response to send order/service status request",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftragsstatus (Antwort)"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1403",
+      "code": "SS",
+      "display": "Send order/service status request",
+      "definition": "Send order/service status request",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftragsstatus senden"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer Applications."
+        }
+      ]
+    },
+    {
+      "id": "1404",
+      "code": "SU",
+      "display": "Supplement this order",
+      "definition": "Identifies existing orders to be supplemented in Supplementation Recommendation (filler to placer) and Supplementation Request (placer to filler) messages.",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "For example this code is used in the filler’s order message to identify an order that is missing a recommended order based on organizational protocol for example as described in the IHE Laboratory Communication (LCC) profile (LAB-6)."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-25"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "1405",
+      "code": "UA",
+      "display": "Unable to accept order/service",
+      "definition": "Unable to accept order/service",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftragsannahme nicht möglich"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1406",
+      "code": "UC",
+      "display": "Unable to cancel",
+      "definition": "Unable to cancel",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftragsstornierung nicht möglich"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler or Placer Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler or Placer Applications."
+        }
+      ]
+    },
+    {
+      "id": "1407",
+      "code": "UD",
+      "display": "Unable to discontinue",
+      "definition": "Unable to discontinue",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Abbrechen nicht möglich"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler or Placer Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler or Placer Applications."
+        }
+      ]
+    },
+    {
+      "id": "1408",
+      "code": "UF",
+      "display": "Unable to refill",
+      "definition": "Unable to refill",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "usage",
+          "valueString": "Negative response to RF Refill order/service request, indicating that the receiving application was not able to complete the refill request."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1409",
+      "code": "UH",
+      "display": "Unable to put on hold",
+      "definition": "Unable to put on hold",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Aussetzen nicht möglich"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1410",
+      "code": "UM",
+      "display": "Unable to replace",
+      "definition": "Unable to replace",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Ersetzen nicht möglich"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1411",
+      "code": "UN",
+      "display": "Unlink order/service from patient care problem or goal",
+      "definition": "Unlink order/service from patient care problem or goal",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer or Filler Applications."
+        },
+        {
+          "code": "usage",
+          "valueString": "Refer to Chapter 12 Patient Care for complete discussion."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer or Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1412",
+      "code": "UR",
+      "display": "Unable to release",
+      "definition": "Unable to release",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Wiederaufnahme nicht möglich"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1413",
+      "code": "UX",
+      "display": "Unable to change",
+      "definition": "Unable to change",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Änderung nicht möglich"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1414",
+      "code": "XO",
+      "display": "Change order/service request",
+      "definition": "Change order/service request",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftrag ändern"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Placer Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        },
+        {
+          "code": "application",
+          "valueString": "Placer Applications."
+        }
+      ]
+    },
+    {
+      "id": "1415",
+      "code": "XR",
+      "display": "Changed as requested",
+      "definition": "Changed as requested",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftrag anweisungsgemäß geändert"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    },
+    {
+      "id": "1416",
+      "code": "XX",
+      "display": "Order/service changed, unsol.",
+      "definition": "Order/service changed, unsol.",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftrag geändert (ohne Anweisung)"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Filler Applications."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        },
+        {
+          "code": "application",
+          "valueString": "Filler Applications."
+        }
+      ]
+    }
+  ]
 }

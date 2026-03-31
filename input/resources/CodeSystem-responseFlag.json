@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-responseFlag.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/responseFlag</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0121"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/responseFlag",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.49"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0121"
-  } ],
-  "version": "1.1.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0121"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.1.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0121",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.49"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0121"
+    }
+  ],
+  "version": "3.0.0",
   "name": "ResponseFlag",
   "title": "Response Flag (2.9.1 - 1.1.0)",
   "status": "active",
@@ -34,116 +45,154 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "1419",
-    "code": "D",
-    "display": "Same as R, also other associated segments",
-    "definition": "Report exceptions, replacement, parent-child and other associated segments",
-    "designation": [ {
-      "language": "de",
-      "value": "Wie R, zusätzlich Detail-Segmente (OBR usw.) von nachgeordneten und Ersatzaufträ"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2016-03-12"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "1417",
-    "code": "E",
-    "display": "Report exceptions only",
-    "definition": "Report exceptions only",
-    "designation": [ {
-      "language": "de",
-      "value": "Nur OK oder Fehlercode nach Auftragsprüfung / -bearbeitung"
-    } ],
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "1420",
-    "code": "F",
-    "display": "Same as D, plus confirmations explicitly",
-    "definition": "Report exceptions, replacement, parent-child, other associated segments and explicit confirmations",
-    "designation": [ {
-      "language": "de",
-      "value": "Wie D, zusätzlich ausdrückliche Bestätigungen"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2016-03-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "1421",
-    "code": "N",
-    "display": "Only the MSA segment is returned",
-    "definition": "Only the MSA segment is returned",
-    "designation": [ {
-      "language": "de",
-      "value": "Nur Eingangsbestätigung"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "1418",
-    "code": "R",
-    "display": "Same as E, also Replacement and Parent-Child",
-    "definition": "Report exceptions, replacement and parent-child",
-    "designation": [ {
-      "language": "de",
-      "value": "Wie E, zusätzlich ORC-Segmente von nachgeordneten und Ersatzaufträgen"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2016-03-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "1419",
+      "code": "D",
+      "display": "Same as R, also other associated segments",
+      "definition": "Report exceptions, replacement, parent-child and other associated segments",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Wie R, zusätzlich Detail-Segmente (OBR usw.) von nachgeordneten und Ersatzaufträ"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "1417",
+      "code": "E",
+      "display": "Report exceptions only",
+      "definition": "Report exceptions only",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Nur OK oder Fehlercode nach Auftragsprüfung / -bearbeitung"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "1420",
+      "code": "F",
+      "display": "Same as D, plus confirmations explicitly",
+      "definition": "Report exceptions, replacement, parent-child, other associated segments and explicit confirmations",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Wie D, zusätzlich ausdrückliche Bestätigungen"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "1421",
+      "code": "N",
+      "display": "Only the MSA segment is returned",
+      "definition": "Only the MSA segment is returned",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Nur Eingangsbestätigung"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "1418",
+      "code": "R",
+      "display": "Same as E, also Replacement and Parent-Child",
+      "definition": "Report exceptions, replacement and parent-child",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Wie E, zusätzlich ORC-Segmente von nachgeordneten und Ersatzaufträgen"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    }
+  ]
 }

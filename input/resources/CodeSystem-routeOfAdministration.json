@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-routeOfAdministration.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/routeOfAdministration</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0162"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/routeOfAdministration",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.80"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0162"
-  } ],
-  "version": "3.0.4",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0162"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "3.0.4"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0162",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.80"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0162"
+    }
+  ],
+  "version": "3.0.0",
   "name": "RouteOfAdministration",
   "title": "Route of Administration (2.9.1 - 3.0.4)",
   "status": "active",
@@ -34,760 +45,1034 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "1668",
-    "code": "AP",
-    "display": "Apply Externally",
-    "definition": "Apply Externally",
-    "designation": [ {
-      "language": "de",
-      "value": "Externe Applikation"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1669",
-    "code": "B",
-    "display": "Buccal",
-    "definition": "Buccal",
-    "designation": [ {
-      "language": "de",
-      "value": "buccal"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1670",
-    "code": "DT",
-    "display": "Dental",
-    "definition": "Dental",
-    "designation": [ {
-      "language": "de",
-      "value": "dental"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1671",
-    "code": "EP",
-    "display": "Epidural",
-    "definition": "Epidural",
-    "designation": [ {
-      "language": "de",
-      "value": "epidural"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1672",
-    "code": "ET",
-    "display": "Endotrachial Tube",
-    "definition": "Endotrachial Tube",
-    "designation": [ {
-      "language": "de",
-      "value": "endotrachialer Schlauch"
-    } ],
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "used primarily for respiratory therapy and anesthesia delivery"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1673",
-    "code": "GTT",
-    "display": "Gastrostomy Tube",
-    "definition": "Gastrostomy Tube",
-    "designation": [ {
-      "language": "de",
-      "value": "Magenschlauch"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1674",
-    "code": "GU",
-    "display": "GU Irrigant",
-    "definition": "GU Irrigant",
-    "designation": [ {
-      "language": "de",
-      "value": "Magenspülung"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1676",
-    "code": "IA",
-    "display": "Intra-arterial",
-    "definition": "Intra-arterial",
-    "designation": [ {
-      "language": "de",
-      "value": "Intraarteriell"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1677",
-    "code": "IB",
-    "display": "Intrabursal",
-    "definition": "Intrabursal",
-    "designation": [ {
-      "language": "de",
-      "value": "Intrabursal"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1678",
-    "code": "IC",
-    "display": "Intracardiac",
-    "definition": "Intracardiac",
-    "designation": [ {
-      "language": "de",
-      "value": "Intracardial"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1679",
-    "code": "ICV",
-    "display": "Intracervical (uterus)",
-    "definition": "Intracervical (uterus)",
-    "designation": [ {
-      "language": "de",
-      "value": "Intracervikal (Uterus)"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1680",
-    "code": "ID",
-    "display": "Intradermal",
-    "definition": "Intradermal",
-    "designation": [ {
-      "language": "de",
-      "value": "Intradermal"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1681",
-    "code": "IH",
-    "display": "Inhalation",
-    "definition": "Inhalation",
-    "designation": [ {
-      "language": "de",
-      "value": "Inhalation"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1682",
-    "code": "IHA",
-    "display": "Intrahepatic Artery",
-    "definition": "Intrahepatic Artery",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "1683",
-    "code": "IM",
-    "display": "Intramuscular",
-    "definition": "Intramuscular",
-    "designation": [ {
-      "language": "de",
-      "value": "Intramuskulär"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1675",
-    "code": "IMR",
-    "display": "Immerse (Soak) Body Part",
-    "definition": "Immerse (Soak) Body Part",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1684",
-    "code": "IN",
-    "display": "Intranasal",
-    "definition": "Intranasal",
-    "designation": [ {
-      "language": "de",
-      "value": "Intranasal"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1685",
-    "code": "IO",
-    "display": "Intraocular",
-    "definition": "Intraocular",
-    "designation": [ {
-      "language": "de",
-      "value": "Intraokular"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1686",
-    "code": "IP",
-    "display": "Intraperitoneal",
-    "definition": "Intraperitoneal",
-    "designation": [ {
-      "language": "de",
-      "value": "Intraperitoneal"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1687",
-    "code": "IS",
-    "display": "Intrasynovial",
-    "definition": "Intrasynovial",
-    "designation": [ {
-      "language": "de",
-      "value": "Intrasynovial"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1688",
-    "code": "IT",
-    "display": "Intrathecal",
-    "definition": "Intrathecal",
-    "designation": [ {
-      "language": "de",
-      "value": "Intrathekal"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1689",
-    "code": "IU",
-    "display": "Intrauterine",
-    "definition": "Intrauterine",
-    "designation": [ {
-      "language": "de",
-      "value": "Intrauterin"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "1690",
-    "code": "IV",
-    "display": "Intravenous",
-    "definition": "Intravenous",
-    "designation": [ {
-      "language": "de",
-      "value": "Intravenös"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1692",
-    "code": "MM",
-    "display": "Mucous Membrane",
-    "definition": "Mucous Membrane",
-    "designation": [ {
-      "language": "de",
-      "value": "Mukosamembran"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1691",
-    "code": "MTH",
-    "display": "Mouth/Throat",
-    "definition": "Mouth/Throat",
-    "designation": [ {
-      "language": "de",
-      "value": "Mund/Rachen"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "1694",
-    "code": "NG",
-    "display": "Nasogastric",
-    "definition": "Nasogastric",
-    "designation": [ {
-      "language": "de",
-      "value": "Nasogastral"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1695",
-    "code": "NP",
-    "display": "Nasal Prongs",
-    "definition": "Nasal Prongs",
-    "property": [ {
-      "code": "comment",
-      "valueString": "used primarily for respiratory therapy and anesthesia delivery"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1693",
-    "code": "NS",
-    "display": "Nasal",
-    "definition": "Nasal",
-    "designation": [ {
-      "language": "de",
-      "value": "Nasal"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1696",
-    "code": "NT",
-    "display": "Nasotrachial Tube",
-    "definition": "Nasotrachial Tube",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1697",
-    "code": "OP",
-    "display": "Ophthalmic",
-    "definition": "Ophthalmic",
-    "designation": [ {
-      "language": "de",
-      "value": "In das Auge"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1698",
-    "code": "OT",
-    "display": "Otic",
-    "definition": "Otic",
-    "designation": [ {
-      "language": "de",
-      "value": "In das Ohr"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1699",
-    "code": "OTH",
-    "display": "Other/Miscellaneous",
-    "definition": "Other/Miscellaneous",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1700",
-    "code": "PF",
-    "display": "Perfusion",
-    "definition": "Perfusion",
-    "designation": [ {
-      "language": "de",
-      "value": "Perfusion"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1701",
-    "code": "PO",
-    "display": "Oral",
-    "definition": "Oral",
-    "designation": [ {
-      "language": "de",
-      "value": "Oral"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1702",
-    "code": "PR",
-    "display": "Rectal",
-    "definition": "Rectal",
-    "designation": [ {
-      "language": "de",
-      "value": "Rektal"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1703",
-    "code": "RM",
-    "display": "Rebreather Mask",
-    "definition": "Rebreather Mask",
-    "property": [ {
-      "code": "comment",
-      "valueString": "used primarily for respiratory therapy and anesthesia delivery"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1705",
-    "code": "SC",
-    "display": "Subcutaneous",
-    "definition": "Subcutaneous",
-    "designation": [ {
-      "language": "de",
-      "value": "Subkutan"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1704",
-    "code": "SD",
-    "display": "Soaked Dressing",
-    "definition": "Soaked Dressing",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1706",
-    "code": "SL",
-    "display": "Sublingual",
-    "definition": "Sublingual",
-    "designation": [ {
-      "language": "de",
-      "value": "Sublingual"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1709",
-    "code": "TD",
-    "display": "Transdermal",
-    "definition": "Transdermal",
-    "designation": [ {
-      "language": "de",
-      "value": "Transdermal"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1710",
-    "code": "TL",
-    "display": "Translingual",
-    "definition": "Translingual",
-    "designation": [ {
-      "language": "de",
-      "value": "Translingual"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1707",
-    "code": "TP",
-    "display": "Topical",
-    "definition": "Topical",
-    "designation": [ {
-      "language": "de",
-      "value": "Lokal"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1708",
-    "code": "TRA",
-    "display": "Tracheostomy",
-    "definition": "Tracheostomy",
-    "property": [ {
-      "code": "comment",
-      "valueString": "used primarily for respiratory therapy and anesthesia delivery"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1711",
-    "code": "UR",
-    "display": "Urethral",
-    "definition": "Urethral",
-    "designation": [ {
-      "language": "de",
-      "value": "Urethral"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1712",
-    "code": "VG",
-    "display": "Vaginal",
-    "definition": "Vaginal",
-    "designation": [ {
-      "language": "de",
-      "value": "Vaginal"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1713",
-    "code": "VM",
-    "display": "Ventimask",
-    "definition": "Ventimask",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1714",
-    "code": "WND",
-    "display": "Wound",
-    "definition": "Wound",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "1668",
+      "code": "AP",
+      "display": "Apply Externally",
+      "definition": "Apply Externally",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Externe Applikation"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1669",
+      "code": "B",
+      "display": "Buccal",
+      "definition": "Buccal",
+      "designation": [
+        {
+          "language": "de",
+          "value": "buccal"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1670",
+      "code": "DT",
+      "display": "Dental",
+      "definition": "Dental",
+      "designation": [
+        {
+          "language": "de",
+          "value": "dental"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1671",
+      "code": "EP",
+      "display": "Epidural",
+      "definition": "Epidural",
+      "designation": [
+        {
+          "language": "de",
+          "value": "epidural"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1672",
+      "code": "ET",
+      "display": "Endotrachial Tube",
+      "definition": "Endotrachial Tube",
+      "designation": [
+        {
+          "language": "de",
+          "value": "endotrachialer Schlauch"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "used primarily for respiratory therapy and anesthesia delivery"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1673",
+      "code": "GTT",
+      "display": "Gastrostomy Tube",
+      "definition": "Gastrostomy Tube",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Magenschlauch"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1674",
+      "code": "GU",
+      "display": "GU Irrigant",
+      "definition": "GU Irrigant",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Magenspülung"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1676",
+      "code": "IA",
+      "display": "Intra-arterial",
+      "definition": "Intra-arterial",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Intraarteriell"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1677",
+      "code": "IB",
+      "display": "Intrabursal",
+      "definition": "Intrabursal",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Intrabursal"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1678",
+      "code": "IC",
+      "display": "Intracardiac",
+      "definition": "Intracardiac",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Intracardial"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1679",
+      "code": "ICV",
+      "display": "Intracervical (uterus)",
+      "definition": "Intracervical (uterus)",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Intracervikal (Uterus)"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1680",
+      "code": "ID",
+      "display": "Intradermal",
+      "definition": "Intradermal",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Intradermal"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1681",
+      "code": "IH",
+      "display": "Inhalation",
+      "definition": "Inhalation",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Inhalation"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1682",
+      "code": "IHA",
+      "display": "Intrahepatic Artery",
+      "definition": "Intrahepatic Artery",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "1683",
+      "code": "IM",
+      "display": "Intramuscular",
+      "definition": "Intramuscular",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Intramuskulär"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1675",
+      "code": "IMR",
+      "display": "Immerse (Soak) Body Part",
+      "definition": "Immerse (Soak) Body Part",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1684",
+      "code": "IN",
+      "display": "Intranasal",
+      "definition": "Intranasal",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Intranasal"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1685",
+      "code": "IO",
+      "display": "Intraocular",
+      "definition": "Intraocular",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Intraokular"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1686",
+      "code": "IP",
+      "display": "Intraperitoneal",
+      "definition": "Intraperitoneal",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Intraperitoneal"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1687",
+      "code": "IS",
+      "display": "Intrasynovial",
+      "definition": "Intrasynovial",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Intrasynovial"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1688",
+      "code": "IT",
+      "display": "Intrathecal",
+      "definition": "Intrathecal",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Intrathekal"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1689",
+      "code": "IU",
+      "display": "Intrauterine",
+      "definition": "Intrauterine",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Intrauterin"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "1690",
+      "code": "IV",
+      "display": "Intravenous",
+      "definition": "Intravenous",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Intravenös"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1692",
+      "code": "MM",
+      "display": "Mucous Membrane",
+      "definition": "Mucous Membrane",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Mukosamembran"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1691",
+      "code": "MTH",
+      "display": "Mouth/Throat",
+      "definition": "Mouth/Throat",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Mund/Rachen"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "1694",
+      "code": "NG",
+      "display": "Nasogastric",
+      "definition": "Nasogastric",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Nasogastral"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1695",
+      "code": "NP",
+      "display": "Nasal Prongs",
+      "definition": "Nasal Prongs",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "used primarily for respiratory therapy and anesthesia delivery"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1693",
+      "code": "NS",
+      "display": "Nasal",
+      "definition": "Nasal",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Nasal"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1696",
+      "code": "NT",
+      "display": "Nasotrachial Tube",
+      "definition": "Nasotrachial Tube",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1697",
+      "code": "OP",
+      "display": "Ophthalmic",
+      "definition": "Ophthalmic",
+      "designation": [
+        {
+          "language": "de",
+          "value": "In das Auge"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1698",
+      "code": "OT",
+      "display": "Otic",
+      "definition": "Otic",
+      "designation": [
+        {
+          "language": "de",
+          "value": "In das Ohr"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1699",
+      "code": "OTH",
+      "display": "Other/Miscellaneous",
+      "definition": "Other/Miscellaneous",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1700",
+      "code": "PF",
+      "display": "Perfusion",
+      "definition": "Perfusion",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Perfusion"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1701",
+      "code": "PO",
+      "display": "Oral",
+      "definition": "Oral",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Oral"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1702",
+      "code": "PR",
+      "display": "Rectal",
+      "definition": "Rectal",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Rektal"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1703",
+      "code": "RM",
+      "display": "Rebreather Mask",
+      "definition": "Rebreather Mask",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "used primarily for respiratory therapy and anesthesia delivery"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1705",
+      "code": "SC",
+      "display": "Subcutaneous",
+      "definition": "Subcutaneous",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Subkutan"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1704",
+      "code": "SD",
+      "display": "Soaked Dressing",
+      "definition": "Soaked Dressing",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1706",
+      "code": "SL",
+      "display": "Sublingual",
+      "definition": "Sublingual",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Sublingual"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1709",
+      "code": "TD",
+      "display": "Transdermal",
+      "definition": "Transdermal",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Transdermal"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1710",
+      "code": "TL",
+      "display": "Translingual",
+      "definition": "Translingual",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Translingual"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1707",
+      "code": "TP",
+      "display": "Topical",
+      "definition": "Topical",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Lokal"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1708",
+      "code": "TRA",
+      "display": "Tracheostomy",
+      "definition": "Tracheostomy",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "used primarily for respiratory therapy and anesthesia delivery"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1711",
+      "code": "UR",
+      "display": "Urethral",
+      "definition": "Urethral",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Urethral"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1712",
+      "code": "VG",
+      "display": "Vaginal",
+      "definition": "Vaginal",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Vaginal"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1713",
+      "code": "VM",
+      "display": "Ventimask",
+      "definition": "Ventimask",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1714",
+      "code": "WND",
+      "display": "Wound",
+      "definition": "Wound",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    }
+  ]
 }

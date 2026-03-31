@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-bodySite.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/bodySite</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0163"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/bodySite",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.81"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0163"
-  } ],
-  "version": "1.2.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0163"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.2.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0163",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.81"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0163"
+    }
+  ],
+  "version": "4.0.0",
   "name": "BodySite",
   "title": "Body Site (2.9.1 - 1.2.0)",
   "status": "active",
@@ -34,720 +45,962 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "1717",
-    "code": "BE",
-    "display": "Bilateral Ears",
-    "definition": "Bilateral Ears",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1719",
-    "code": "BN",
-    "display": "Bilateral Nares",
-    "definition": "Bilateral Nares",
-    "designation": [ {
-      "language": "de",
-      "value": "Beide Nasenlöcher"
-    } ],
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1720",
-    "code": "BU",
-    "display": "Buttock",
-    "definition": "Buttock",
-    "designation": [ {
-      "language": "de",
-      "value": "Gesäß"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1721",
-    "code": "CT",
-    "display": "Chest Tube",
-    "definition": "Chest Tube",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1722",
-    "code": "LA",
-    "display": "Left Arm",
-    "definition": "Left Arm",
-    "designation": [ {
-      "language": "de",
-      "value": "linker Arm"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1723",
-    "code": "LAC",
-    "display": "Left Anterior Chest",
-    "definition": "Left Anterior Chest",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1724",
-    "code": "LACF",
-    "display": "Left Antecubital Fossa",
-    "definition": "Left Antecubital Fossa",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1725",
-    "code": "LD",
-    "display": "Left Deltoid",
-    "definition": "Left Deltoid",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1726",
-    "code": "LE",
-    "display": "Left Ear",
-    "definition": "Left Ear",
-    "designation": [ {
-      "language": "de",
-      "value": "linkes Ohr"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1727",
-    "code": "LEJ",
-    "display": "Left External Jugular",
-    "definition": "Left External Jugular",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1729",
-    "code": "LF",
-    "display": "Left Foot",
-    "definition": "Left Foot",
-    "designation": [ {
-      "language": "de",
-      "value": "linker Fuß"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1730",
-    "code": "LG",
-    "display": "Left Gluteus Medius",
-    "definition": "Left Gluteus Medius",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1731",
-    "code": "LH",
-    "display": "Left Hand",
-    "definition": "Left Hand",
-    "designation": [ {
-      "language": "de",
-      "value": "linke Hand"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1732",
-    "code": "LIJ",
-    "display": "Left Internal Jugular",
-    "definition": "Left Internal Jugular",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1733",
-    "code": "LLAQ",
-    "display": "Left Lower Abd Quadrant",
-    "definition": "Left Lower Abd Quadrant",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1734",
-    "code": "LLFA",
-    "display": "Left Lower Forearm",
-    "definition": "Left Lower Forearm",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1735",
-    "code": "LMFA",
-    "display": "Left Mid Forearm",
-    "definition": "Left Mid Forearm",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1736",
-    "code": "LN",
-    "display": "Left Naris",
-    "definition": "Left Naris",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1737",
-    "code": "LPC",
-    "display": "Left Posterior Chest",
-    "definition": "Left Posterior Chest",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1738",
-    "code": "LSC",
-    "display": "Left Subclavian",
-    "definition": "Left Subclavian",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1739",
-    "code": "LT",
-    "display": "Left Thigh",
-    "definition": "Left Thigh",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1740",
-    "code": "LUA",
-    "display": "Left Upper Arm",
-    "definition": "Left Upper Arm",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1741",
-    "code": "LUAQ",
-    "display": "Left Upper Abd Quadrant",
-    "definition": "Left Upper Abd Quadrant",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1742",
-    "code": "LUFA",
-    "display": "Left Upper Forearm",
-    "definition": "Left Upper Forearm",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1743",
-    "code": "LVG",
-    "display": "Left Ventragluteal",
-    "definition": "Left Ventragluteal",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1744",
-    "code": "LVL",
-    "display": "Left Vastus Lateralis",
-    "definition": "Left Vastus Lateralis",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1745",
-    "code": "NB",
-    "display": "Nebulized",
-    "definition": "Nebulized",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1754",
-    "code": "OD",
-    "display": "Right Eye",
-    "definition": "Right Eye",
-    "designation": [ {
-      "language": "de",
-      "value": "rechtes Auge"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1728",
-    "code": "OS",
-    "display": "Left Eye",
-    "definition": "Left Eye",
-    "designation": [ {
-      "language": "de",
-      "value": "linkes Auge"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1718",
-    "code": "OU",
-    "display": "Bilateral Eyes",
-    "definition": "Bilateral Eyes",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1746",
-    "code": "PA",
-    "display": "Perianal",
-    "definition": "Perianal",
-    "designation": [ {
-      "language": "de",
-      "value": "Perianal"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1747",
-    "code": "PERIN",
-    "display": "Perineal",
-    "definition": "Perineal",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1748",
-    "code": "RA",
-    "display": "Right Arm",
-    "definition": "Right Arm",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1749",
-    "code": "RAC",
-    "display": "Right Anterior Chest",
-    "definition": "Right Anterior Chest",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1750",
-    "code": "RACF",
-    "display": "Right Antecubital Fossa",
-    "definition": "Right Antecubital Fossa",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1751",
-    "code": "RD",
-    "display": "Right Deltoid",
-    "definition": "Right Deltoid",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1752",
-    "code": "RE",
-    "display": "Right Ear",
-    "definition": "Right Ear",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1753",
-    "code": "REJ",
-    "display": "Right External Jugular",
-    "definition": "Right External Jugular",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1755",
-    "code": "RF",
-    "display": "Right Foot",
-    "definition": "Right Foot",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1756",
-    "code": "RG",
-    "display": "Right Gluteus Medius",
-    "definition": "Right Gluteus Medius",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1757",
-    "code": "RH",
-    "display": "Right Hand",
-    "definition": "Right Hand",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1758",
-    "code": "RIJ",
-    "display": "Right Internal Jugular",
-    "definition": "Right Internal Jugular",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1759",
-    "code": "RLAQ",
-    "display": "Rt Lower Abd Quadrant",
-    "definition": "Rt Lower Abd Quadrant",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1760",
-    "code": "RLFA",
-    "display": "Right Lower Forearm",
-    "definition": "Right Lower Forearm",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1761",
-    "code": "RMFA",
-    "display": "Right Mid Forearm",
-    "definition": "Right Mid Forearm",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1762",
-    "code": "RN",
-    "display": "Right Naris",
-    "definition": "Right Naris",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1763",
-    "code": "RPC",
-    "display": "Right Posterior Chest",
-    "definition": "Right Posterior Chest",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1764",
-    "code": "RSC",
-    "display": "Right Subclavian",
-    "definition": "Right Subclavian",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1765",
-    "code": "RT",
-    "display": "Right Thigh",
-    "definition": "Right Thigh",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1766",
-    "code": "RUA",
-    "display": "Right Upper Arm",
-    "definition": "Right Upper Arm",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1767",
-    "code": "RUAQ",
-    "display": "Right Upper Abd Quadrant",
-    "definition": "Right Upper Abd Quadrant",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1768",
-    "code": "RUFA",
-    "display": "Right Upper Forearm",
-    "definition": "Right Upper Forearm",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1770",
-    "code": "RVG",
-    "display": "Right Ventragluteal",
-    "definition": "Right Ventragluteal",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "1769",
-    "code": "RVL",
-    "display": "Right Vastus Lateralis",
-    "definition": "Right Vastus Lateralis",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "1717",
+      "code": "BE",
+      "display": "Bilateral Ears",
+      "definition": "Bilateral Ears",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1719",
+      "code": "BN",
+      "display": "Bilateral Nares",
+      "definition": "Bilateral Nares",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Beide Nasenlöcher"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1720",
+      "code": "BU",
+      "display": "Buttock",
+      "definition": "Buttock",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Gesäß"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1721",
+      "code": "CT",
+      "display": "Chest Tube",
+      "definition": "Chest Tube",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1722",
+      "code": "LA",
+      "display": "Left Arm",
+      "definition": "Left Arm",
+      "designation": [
+        {
+          "language": "de",
+          "value": "linker Arm"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1723",
+      "code": "LAC",
+      "display": "Left Anterior Chest",
+      "definition": "Left Anterior Chest",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1724",
+      "code": "LACF",
+      "display": "Left Antecubital Fossa",
+      "definition": "Left Antecubital Fossa",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1725",
+      "code": "LD",
+      "display": "Left Deltoid",
+      "definition": "Left Deltoid",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1726",
+      "code": "LE",
+      "display": "Left Ear",
+      "definition": "Left Ear",
+      "designation": [
+        {
+          "language": "de",
+          "value": "linkes Ohr"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1727",
+      "code": "LEJ",
+      "display": "Left External Jugular",
+      "definition": "Left External Jugular",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1729",
+      "code": "LF",
+      "display": "Left Foot",
+      "definition": "Left Foot",
+      "designation": [
+        {
+          "language": "de",
+          "value": "linker Fuß"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1730",
+      "code": "LG",
+      "display": "Left Gluteus Medius",
+      "definition": "Left Gluteus Medius",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1731",
+      "code": "LH",
+      "display": "Left Hand",
+      "definition": "Left Hand",
+      "designation": [
+        {
+          "language": "de",
+          "value": "linke Hand"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1732",
+      "code": "LIJ",
+      "display": "Left Internal Jugular",
+      "definition": "Left Internal Jugular",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1733",
+      "code": "LLAQ",
+      "display": "Left Lower Abd Quadrant",
+      "definition": "Left Lower Abd Quadrant",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1734",
+      "code": "LLFA",
+      "display": "Left Lower Forearm",
+      "definition": "Left Lower Forearm",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1735",
+      "code": "LMFA",
+      "display": "Left Mid Forearm",
+      "definition": "Left Mid Forearm",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1736",
+      "code": "LN",
+      "display": "Left Naris",
+      "definition": "Left Naris",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1737",
+      "code": "LPC",
+      "display": "Left Posterior Chest",
+      "definition": "Left Posterior Chest",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1738",
+      "code": "LSC",
+      "display": "Left Subclavian",
+      "definition": "Left Subclavian",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1739",
+      "code": "LT",
+      "display": "Left Thigh",
+      "definition": "Left Thigh",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1740",
+      "code": "LUA",
+      "display": "Left Upper Arm",
+      "definition": "Left Upper Arm",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1741",
+      "code": "LUAQ",
+      "display": "Left Upper Abd Quadrant",
+      "definition": "Left Upper Abd Quadrant",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1742",
+      "code": "LUFA",
+      "display": "Left Upper Forearm",
+      "definition": "Left Upper Forearm",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1743",
+      "code": "LVG",
+      "display": "Left Ventragluteal",
+      "definition": "Left Ventragluteal",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1744",
+      "code": "LVL",
+      "display": "Left Vastus Lateralis",
+      "definition": "Left Vastus Lateralis",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1745",
+      "code": "NB",
+      "display": "Nebulized",
+      "definition": "Nebulized",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1754",
+      "code": "OD",
+      "display": "Right Eye",
+      "definition": "Right Eye",
+      "designation": [
+        {
+          "language": "de",
+          "value": "rechtes Auge"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1728",
+      "code": "OS",
+      "display": "Left Eye",
+      "definition": "Left Eye",
+      "designation": [
+        {
+          "language": "de",
+          "value": "linkes Auge"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1718",
+      "code": "OU",
+      "display": "Bilateral Eyes",
+      "definition": "Bilateral Eyes",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1746",
+      "code": "PA",
+      "display": "Perianal",
+      "definition": "Perianal",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Perianal"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1747",
+      "code": "PERIN",
+      "display": "Perineal",
+      "definition": "Perineal",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1748",
+      "code": "RA",
+      "display": "Right Arm",
+      "definition": "Right Arm",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1749",
+      "code": "RAC",
+      "display": "Right Anterior Chest",
+      "definition": "Right Anterior Chest",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1750",
+      "code": "RACF",
+      "display": "Right Antecubital Fossa",
+      "definition": "Right Antecubital Fossa",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1751",
+      "code": "RD",
+      "display": "Right Deltoid",
+      "definition": "Right Deltoid",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1752",
+      "code": "RE",
+      "display": "Right Ear",
+      "definition": "Right Ear",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1753",
+      "code": "REJ",
+      "display": "Right External Jugular",
+      "definition": "Right External Jugular",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1755",
+      "code": "RF",
+      "display": "Right Foot",
+      "definition": "Right Foot",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1756",
+      "code": "RG",
+      "display": "Right Gluteus Medius",
+      "definition": "Right Gluteus Medius",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1757",
+      "code": "RH",
+      "display": "Right Hand",
+      "definition": "Right Hand",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1758",
+      "code": "RIJ",
+      "display": "Right Internal Jugular",
+      "definition": "Right Internal Jugular",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1759",
+      "code": "RLAQ",
+      "display": "Rt Lower Abd Quadrant",
+      "definition": "Rt Lower Abd Quadrant",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1760",
+      "code": "RLFA",
+      "display": "Right Lower Forearm",
+      "definition": "Right Lower Forearm",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1761",
+      "code": "RMFA",
+      "display": "Right Mid Forearm",
+      "definition": "Right Mid Forearm",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1762",
+      "code": "RN",
+      "display": "Right Naris",
+      "definition": "Right Naris",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1763",
+      "code": "RPC",
+      "display": "Right Posterior Chest",
+      "definition": "Right Posterior Chest",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1764",
+      "code": "RSC",
+      "display": "Right Subclavian",
+      "definition": "Right Subclavian",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1765",
+      "code": "RT",
+      "display": "Right Thigh",
+      "definition": "Right Thigh",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1766",
+      "code": "RUA",
+      "display": "Right Upper Arm",
+      "definition": "Right Upper Arm",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1767",
+      "code": "RUAQ",
+      "display": "Right Upper Abd Quadrant",
+      "definition": "Right Upper Abd Quadrant",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1768",
+      "code": "RUFA",
+      "display": "Right Upper Forearm",
+      "definition": "Right Upper Forearm",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1770",
+      "code": "RVG",
+      "display": "Right Ventragluteal",
+      "definition": "Right Ventragluteal",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "1769",
+      "code": "RVL",
+      "display": "Right Vastus Lateralis",
+      "definition": "Right Vastus Lateralis",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    }
+  ]
 }

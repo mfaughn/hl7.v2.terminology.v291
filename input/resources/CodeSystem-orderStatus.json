@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-orderStatus.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/orderStatus</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0038"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/orderStatus",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.18"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0038"
-  } ],
-  "version": "1.2.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0038"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.2.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0038",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.18"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0038"
+    }
+  ],
+  "version": "3.0.0",
   "name": "OrderStatus",
   "title": "Order Status (2.9.1 - 1.2.0)",
   "status": "active",
@@ -34,180 +45,242 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "721",
-    "code": "A",
-    "display": "Some, but not all, results available",
-    "definition": "Some, but not all, results available",
-    "designation": [ {
-      "language": "de",
-      "value": "einige, aber nicht alle, Resultate verfügbar"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "722",
-    "code": "CA",
-    "display": "Order was canceled",
-    "definition": "Order was canceled",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftrag storniert"
-    } ],
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "723",
-    "code": "CM",
-    "display": "Order is completed",
-    "definition": "Order is completed",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftrag ausgeführt"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "724",
-    "code": "DC",
-    "display": "Order was discontinued",
-    "definition": "Order was discontinued",
-    "designation": [ {
-      "language": "de",
-      "value": "Ausführung des Auftrags abgebrochen"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "725",
-    "code": "ER",
-    "display": "Error, order not found",
-    "definition": "Error, order not found",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftrag nicht gefunden"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "726",
-    "code": "HD",
-    "display": "Order is on hold",
-    "definition": "Order is on hold",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftragsbearbeitung ausgesetzt"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "727",
-    "code": "IP",
-    "display": "In process, unspecified",
-    "definition": "In process, unspecified",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftrag in Bearbeitung"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "728",
-    "code": "RP",
-    "display": "Order has been replaced",
-    "definition": "Order has been replaced",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftrag ist ersetzt worden"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "729",
-    "code": "SC",
-    "display": "In process, scheduled",
-    "definition": "In process, scheduled",
-    "designation": [ {
-      "language": "de",
-      "value": "Auftrag hat Termin oder ist in Ausführung"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "721",
+      "code": "A",
+      "display": "Some, but not all, results available",
+      "definition": "Some, but not all, results available",
+      "designation": [
+        {
+          "language": "de",
+          "value": "einige, aber nicht alle, Resultate verfügbar"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "722",
+      "code": "CA",
+      "display": "Order was canceled",
+      "definition": "Order was canceled",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftrag storniert"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "723",
+      "code": "CM",
+      "display": "Order is completed",
+      "definition": "Order is completed",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftrag ausgeführt"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "724",
+      "code": "DC",
+      "display": "Order was discontinued",
+      "definition": "Order was discontinued",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Ausführung des Auftrags abgebrochen"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "725",
+      "code": "ER",
+      "display": "Error, order not found",
+      "definition": "Error, order not found",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftrag nicht gefunden"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "726",
+      "code": "HD",
+      "display": "Order is on hold",
+      "definition": "Order is on hold",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftragsbearbeitung ausgesetzt"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "727",
+      "code": "IP",
+      "display": "In process, unspecified",
+      "definition": "In process, unspecified",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftrag in Bearbeitung"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "728",
+      "code": "RP",
+      "display": "Order has been replaced",
+      "definition": "Order has been replaced",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftrag ist ersetzt worden"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "729",
+      "code": "SC",
+      "display": "In process, scheduled",
+      "definition": "In process, scheduled",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Auftrag hat Termin oder ist in Ausführung"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    }
+  ]
 }

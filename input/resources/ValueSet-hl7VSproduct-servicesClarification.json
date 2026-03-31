@@ -1,14 +1,17 @@
 {
   "resourceType": "ValueSet",
   "id": "hl7VSproduct-servicesClarification",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.21.381"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0561"
-  } ],
-  "version": "1.0.1",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.21.381"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0561"
+    }
+  ],
+  "version": "3.0.0",
   "name": "Hl7VSproduct-servicesClarification",
   "title": "Product/Services Clarification Codes (2.9.1 - 1.0.1)",
   "status": "active",
@@ -17,9 +20,18 @@
   "description": "Value Set of codes that specify the Product/Service Code.",
   "copyright": "HL7 Inc., 2026",
   "compose": {
-    "include": [ {
-      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/product-servicesClarification",
-      "version": "1.0.1"
-    } ]
-  }
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0561",
+        "version": "1.0.1"
+      }
+    ]
+  },
+  "url": "http://terminology.hl7.org/ValueSet/v2-0561",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.1"
+    }
+  ]
 }

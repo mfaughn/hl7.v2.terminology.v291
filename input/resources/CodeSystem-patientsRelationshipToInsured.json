@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-patientsRelationshipToInsured.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/patientsRelationshipToInsured</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0344"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/patientsRelationshipToInsured",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.210"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0344"
-  } ],
-  "version": "1.0.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0344"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0344",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.210"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0344"
+    }
+  ],
+  "version": "3.0.0",
   "name": "PatientsRelationshipToInsured",
   "title": "Patient's Relationship to Insured (2.9.1 - 1.0.0)",
   "status": "active",
@@ -34,304 +45,408 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "3129",
-    "code": "01",
-    "display": "Patient is insured",
-    "definition": "Patient is insured",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "3130",
-    "code": "02",
-    "display": "Spouse",
-    "definition": "Spouse",
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "3131",
-    "code": "03",
-    "display": "Natural child/insured financial responsibility",
-    "definition": "Natural child/insured financial responsibility",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "3132",
-    "code": "04",
-    "display": "Natural child/Insured does not have financial responsibility",
-    "definition": "Natural child/Insured does not have financial responsibility",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "3133",
-    "code": "05",
-    "display": "Step child",
-    "definition": "Step child",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "3134",
-    "code": "06",
-    "display": "Foster child",
-    "definition": "Foster child",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "3135",
-    "code": "07",
-    "display": "Ward of the court",
-    "definition": "Ward of the court",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "3136",
-    "code": "08",
-    "display": "Employee",
-    "definition": "Employee",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "3137",
-    "code": "09",
-    "display": "Unknown",
-    "definition": "Unknown",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "3138",
-    "code": "10",
-    "display": "Handicapped dependent",
-    "definition": "Handicapped dependent",
-    "designation": [ {
-      "language": "de",
-      "value": "behinderter Angehöriger"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "3139",
-    "code": "11",
-    "display": "Organ donor",
-    "definition": "Organ donor",
-    "designation": [ {
-      "language": "de",
-      "value": "Organspender"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "3140",
-    "code": "12",
-    "display": "Cadaver donor",
-    "definition": "Cadaver donor",
-    "designation": [ {
-      "language": "de",
-      "value": "Körper-/Leichenspender (bspw. für anatomische Studien; wir Organspender, nur nach dem Tod)"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "3141",
-    "code": "13",
-    "display": "Grandchild",
-    "definition": "Grandchild",
-    "designation": [ {
-      "language": "de",
-      "value": "Enkel"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "3142",
-    "code": "14",
-    "display": "Niece/nephew",
-    "definition": "Niece/nephew",
-    "designation": [ {
-      "language": "de",
-      "value": "Nichte/Neffe"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "3143",
-    "code": "15",
-    "display": "Injured plaintiff",
-    "definition": "Injured plaintiff",
-    "designation": [ {
-      "language": "de",
-      "value": "verletzter Kläger"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "3144",
-    "code": "16",
-    "display": "Sponsored dependent",
-    "definition": "Sponsored dependent",
-    "designation": [ {
-      "language": "de",
-      "value": "Unterhaltsberechtigter"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "3145",
-    "code": "17",
-    "display": "Minor dependent of a minor dependent",
-    "definition": "Minor dependent of a minor dependent",
-    "designation": [ {
-      "language": "de",
-      "value": "Kind eines Minderjährigen"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "3146",
-    "code": "18",
-    "display": "Parent",
-    "definition": "Parent",
-    "designation": [ {
-      "language": "de",
-      "value": "Eltern"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "3147",
-    "code": "19",
-    "display": "Grandparent",
-    "definition": "Grandparent",
-    "designation": [ {
-      "language": "de",
-      "value": "Großeltern"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "3129",
+      "code": "01",
+      "display": "Patient is insured",
+      "definition": "Patient is insured",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "3130",
+      "code": "02",
+      "display": "Spouse",
+      "definition": "Spouse",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "3131",
+      "code": "03",
+      "display": "Natural child/insured financial responsibility",
+      "definition": "Natural child/insured financial responsibility",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "3132",
+      "code": "04",
+      "display": "Natural child/Insured does not have financial responsibility",
+      "definition": "Natural child/Insured does not have financial responsibility",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "3133",
+      "code": "05",
+      "display": "Step child",
+      "definition": "Step child",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "3134",
+      "code": "06",
+      "display": "Foster child",
+      "definition": "Foster child",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "3135",
+      "code": "07",
+      "display": "Ward of the court",
+      "definition": "Ward of the court",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "3136",
+      "code": "08",
+      "display": "Employee",
+      "definition": "Employee",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "3137",
+      "code": "09",
+      "display": "Unknown",
+      "definition": "Unknown",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "3138",
+      "code": "10",
+      "display": "Handicapped dependent",
+      "definition": "Handicapped dependent",
+      "designation": [
+        {
+          "language": "de",
+          "value": "behinderter Angehöriger"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "3139",
+      "code": "11",
+      "display": "Organ donor",
+      "definition": "Organ donor",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Organspender"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "3140",
+      "code": "12",
+      "display": "Cadaver donor",
+      "definition": "Cadaver donor",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Körper-/Leichenspender (bspw. für anatomische Studien; wir Organspender, nur nach dem Tod)"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "3141",
+      "code": "13",
+      "display": "Grandchild",
+      "definition": "Grandchild",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Enkel"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "3142",
+      "code": "14",
+      "display": "Niece/nephew",
+      "definition": "Niece/nephew",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Nichte/Neffe"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "3143",
+      "code": "15",
+      "display": "Injured plaintiff",
+      "definition": "Injured plaintiff",
+      "designation": [
+        {
+          "language": "de",
+          "value": "verletzter Kläger"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "3144",
+      "code": "16",
+      "display": "Sponsored dependent",
+      "definition": "Sponsored dependent",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Unterhaltsberechtigter"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "3145",
+      "code": "17",
+      "display": "Minor dependent of a minor dependent",
+      "definition": "Minor dependent of a minor dependent",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Kind eines Minderjährigen"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "3146",
+      "code": "18",
+      "display": "Parent",
+      "definition": "Parent",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Eltern"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "3147",
+      "code": "19",
+      "display": "Grandparent",
+      "definition": "Grandparent",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Großeltern"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    }
+  ]
 }

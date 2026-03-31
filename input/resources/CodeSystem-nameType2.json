@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-nameType2.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/nameType2</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0200"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/nameType2",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.105"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0200"
-  } ],
-  "version": "1.1.1",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0200"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.1.1"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0200",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.105"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0200"
+    }
+  ],
+  "version": "4.0.0",
   "name": "NameType2",
   "title": "Name Type (2.9.1 - 1.1.1)",
   "status": "active",
@@ -34,449 +45,607 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "1926",
-    "code": "A",
-    "display": "Assigned",
-    "definition": "Assigned",
-    "property": [ {
-      "code": "comment",
-      "valueString": "A name assigned to a person. Reasons some organizations assign alternate names may include not knowing the person's name, or to maintain anonymity. Some, but not necessarily all, of the name types that people call \"alias\" may fit into this category."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1927",
-    "code": "B",
-    "display": "Birth name",
-    "definition": "Birth name",
-    "designation": [ {
-      "language": "de",
-      "value": "Geburtsname"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "A name that a person had shortly after being born. Usually for family names but may be used to mark given names at birth that may have changed later.<p>This is not for temporary names assigned at birth while a newborn is not yet named"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "1928",
-    "code": "BAD",
-    "display": "Bad Name",
-    "definition": "Bad Name",
-    "designation": [ {
-      "language": "de",
-      "value": "ungültiger Name"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "A name that was wrongly used in the past and is now maintained only for the purposes of searching"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "1929",
-    "code": "C",
-    "display": "Adopted Name",
-    "definition": "Adopted Name",
-    "designation": [ {
-      "language": "de",
-      "value": "angenommener Name"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "A name acquired by adoption"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1930",
-    "code": "D",
-    "display": "Customary Name",
-    "definition": "Customary Name",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Known as/conventional/the one you use.  May also be known asa preferred name."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1931",
-    "code": "F",
-    "display": "Fathers Name",
-    "definition": "Fathers Name",
-    "designation": [ {
-      "language": "de",
-      "value": "Name des Vaters"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Fathers Name ( Patronymic Name)"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "1932",
-    "code": "I",
-    "display": "Licensing Name",
-    "definition": "Licensing Name",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "1933",
-    "code": "K",
-    "display": "Business name",
-    "definition": "Business name",
-    "designation": [ {
-      "language": "de",
-      "value": "Geschäftsname"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "A name used in a Professional or Business context. Also includes writer’s pseudonym, artist’s name, stage name, street name, etc.\r\n\r\nAn example of use is where a person with multiple proper names (i.e. married) uses one of the particular names in a professional"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "1934",
-    "code": "L",
-    "display": "Official Registry Name",
-    "definition": "Official Registry Name",
-    "designation": [ {
-      "language": "de",
-      "value": "gesetzlicher Name"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "The formal name as registered in an official (government) registry, but which name might not be commonly used. May correspond to legal name<p>For many people, customary name is also their official name"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1935",
-    "code": "M",
-    "display": "Maiden Name",
-    "definition": "Maiden Name",
-    "designation": [ {
-      "language": "de",
-      "value": "Name als ledige Person (Ledigenname)"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "A name you had just before you got married"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1936",
-    "code": "MSK",
-    "display": "Masked",
-    "definition": "Masked",
-    "designation": [ {
-      "language": "de",
-      "value": "Name ist maskiert"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.\r\n\r\nNote: using this null flavor does provide information that may be a breach of confidentiality, even though no detail data is provided. Its primary purpose is for those circumstances where it is necessary to inform the receiver that the information does exist without providing any detail."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "1937",
-    "code": "N",
-    "display": "Nickname",
-    "definition": "Nickname",
-    "designation": [ {
-      "language": "de",
-      "value": "Spitzname"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Nickname /\"Call me\" Name/Street Name"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "1938",
-    "code": "NAV",
-    "display": "Temporarily Unavailable",
-    "definition": "Temporarily Unavailable",
-    "designation": [ {
-      "language": "de",
-      "value": "Name zeitweise nicht verfügbar"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Information is not available at this time but it is expected that it will be available later.<p>Includes John or Jane Doe situations"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "1939",
-    "code": "NB",
-    "display": "Newborn Name",
-    "definition": "Newborn Name",
-    "designation": [ {
-      "language": "de",
-      "value": "Name des Neugeborenen"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "A name assigned on a temporary basis at birth. i.e. \"Baby of Smith\""
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "1940",
-    "code": "NOUSE",
-    "display": "No Longer To Be Used",
-    "definition": "No Longer To Be Used",
-    "designation": [ {
-      "language": "de",
-      "value": "nicht länger in Benutzung"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Name not to be used anymore for personal reasons"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "O",
-    "display": "Other",
-    "definition": "Other",
-    "designation": [ {
-      "language": "de",
-      "value": "sonstiger Name"
-    } ],
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
       "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2025-08-02"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "1941",
-    "code": "P",
-    "display": "Name of Partner/Spouse",
-    "definition": "Name of Partner/Spouse",
-    "property": [ {
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "Retained for backward compatibility only as of v2.7."
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "1942",
-    "code": "R",
-    "display": "Registered Name",
-    "definition": "Registered Name",
-    "designation": [ {
-      "language": "de",
-      "value": "Zuchtname bei Tieren"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "(animals only)<p>Retained for backwards compatibility only as of v2.7. Use \"L\" instead - has same meaning"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "1943",
-    "code": "REL",
-    "display": "Religious",
-    "definition": "Religious",
-    "property": [ {
-      "code": "comment",
-      "valueString": "e.g. Sister Mary Francis, Brother John"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "1944",
-    "code": "S",
-    "display": "Pseudonym",
-    "definition": "Pseudonym",
-    "designation": [ {
-      "language": "de",
-      "value": "Pseudonym (z.B. für Studien)"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Coded Pseudo-Name to ensure anonymity"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "1945",
-    "code": "T",
-    "display": "Indigenous/Tribal",
-    "definition": "Indigenous/Tribal",
-    "designation": [ {
-      "language": "de",
-      "value": "Stammesname"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Indigenous/Tribal/Community Name  e.g. Chief Red Cloud"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "1946",
-    "code": "TEMP",
-    "display": "Temporary Name",
-    "definition": "Temporary Name",
-    "designation": [ {
-      "language": "de",
-      "value": "temporärer Name"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "A temporary name. Note that a name valid time can provide more detailed information."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "1947",
-    "code": "U",
-    "display": "Unknown",
-    "definition": "Unknown",
-    "designation": [ {
-      "language": "de",
-      "value": "Name unbekannt"
-    } ],
-    "property": [ {
-      "code": "comment",
-      "valueString": "Unknown"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "1926",
+      "code": "A",
+      "display": "Assigned",
+      "definition": "Assigned",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "A name assigned to a person. Reasons some organizations assign alternate names may include not knowing the person's name, or to maintain anonymity. Some, but not necessarily all, of the name types that people call \"alias\" may fit into this category."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1927",
+      "code": "B",
+      "display": "Birth name",
+      "definition": "Birth name",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Geburtsname"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "A name that a person had shortly after being born. Usually for family names but may be used to mark given names at birth that may have changed later.<p>This is not for temporary names assigned at birth while a newborn is not yet named"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "1928",
+      "code": "BAD",
+      "display": "Bad Name",
+      "definition": "Bad Name",
+      "designation": [
+        {
+          "language": "de",
+          "value": "ungültiger Name"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "A name that was wrongly used in the past and is now maintained only for the purposes of searching"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "1929",
+      "code": "C",
+      "display": "Adopted Name",
+      "definition": "Adopted Name",
+      "designation": [
+        {
+          "language": "de",
+          "value": "angenommener Name"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "A name acquired by adoption"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1930",
+      "code": "D",
+      "display": "Customary Name",
+      "definition": "Customary Name",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Known as/conventional/the one you use.  May also be known asa preferred name."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1931",
+      "code": "F",
+      "display": "Fathers Name",
+      "definition": "Fathers Name",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Name des Vaters"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Fathers Name ( Patronymic Name)"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "1932",
+      "code": "I",
+      "display": "Licensing Name",
+      "definition": "Licensing Name",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "1933",
+      "code": "K",
+      "display": "Business name",
+      "definition": "Business name",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Geschäftsname"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "A name used in a Professional or Business context. Also includes writer’s pseudonym, artist’s name, stage name, street name, etc.\r\n\r\nAn example of use is where a person with multiple proper names (i.e. married) uses one of the particular names in a professional"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "1934",
+      "code": "L",
+      "display": "Official Registry Name",
+      "definition": "Official Registry Name",
+      "designation": [
+        {
+          "language": "de",
+          "value": "gesetzlicher Name"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "The formal name as registered in an official (government) registry, but which name might not be commonly used. May correspond to legal name<p>For many people, customary name is also their official name"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1935",
+      "code": "M",
+      "display": "Maiden Name",
+      "definition": "Maiden Name",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Name als ledige Person (Ledigenname)"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "A name you had just before you got married"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1936",
+      "code": "MSK",
+      "display": "Masked",
+      "definition": "Masked",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Name ist maskiert"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.\r\n\r\nNote: using this null flavor does provide information that may be a breach of confidentiality, even though no detail data is provided. Its primary purpose is for those circumstances where it is necessary to inform the receiver that the information does exist without providing any detail."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "1937",
+      "code": "N",
+      "display": "Nickname",
+      "definition": "Nickname",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Spitzname"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Nickname /\"Call me\" Name/Street Name"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "1938",
+      "code": "NAV",
+      "display": "Temporarily Unavailable",
+      "definition": "Temporarily Unavailable",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Name zeitweise nicht verfügbar"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Information is not available at this time but it is expected that it will be available later.<p>Includes John or Jane Doe situations"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "1939",
+      "code": "NB",
+      "display": "Newborn Name",
+      "definition": "Newborn Name",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Name des Neugeborenen"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "A name assigned on a temporary basis at birth. i.e. \"Baby of Smith\""
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "1940",
+      "code": "NOUSE",
+      "display": "No Longer To Be Used",
+      "definition": "No Longer To Be Used",
+      "designation": [
+        {
+          "language": "de",
+          "value": "nicht länger in Benutzung"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Name not to be used anymore for personal reasons"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Other",
+      "definition": "Other",
+      "designation": [
+        {
+          "language": "de",
+          "value": "sonstiger Name"
+        }
+      ],
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2025-08-02"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "1941",
+      "code": "P",
+      "display": "Name of Partner/Spouse",
+      "definition": "Name of Partner/Spouse",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Retained for backward compatibility only as of v2.7."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "1942",
+      "code": "R",
+      "display": "Registered Name",
+      "definition": "Registered Name",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Zuchtname bei Tieren"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "(animals only)<p>Retained for backwards compatibility only as of v2.7. Use \"L\" instead - has same meaning"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "1943",
+      "code": "REL",
+      "display": "Religious",
+      "definition": "Religious",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "e.g. Sister Mary Francis, Brother John"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "1944",
+      "code": "S",
+      "display": "Pseudonym",
+      "definition": "Pseudonym",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Pseudonym (z.B. für Studien)"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Coded Pseudo-Name to ensure anonymity"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "1945",
+      "code": "T",
+      "display": "Indigenous/Tribal",
+      "definition": "Indigenous/Tribal",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Stammesname"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Indigenous/Tribal/Community Name  e.g. Chief Red Cloud"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "1946",
+      "code": "TEMP",
+      "display": "Temporary Name",
+      "definition": "Temporary Name",
+      "designation": [
+        {
+          "language": "de",
+          "value": "temporärer Name"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "A temporary name. Note that a name valid time can provide more detailed information."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "1947",
+      "code": "U",
+      "display": "Unknown",
+      "definition": "Unknown",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Name unbekannt"
+        }
+      ],
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Unknown"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    }
+  ]
 }

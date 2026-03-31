@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-processingId.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/processingId</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0103"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/processingId",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.40"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0103"
-  } ],
-  "version": "1.1.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0103"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.1.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0103",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.40"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0103"
+    }
+  ],
+  "version": "3.0.0",
   "name": "ProcessingId",
   "title": "Processing ID (2.9.1 - 1.1.0)",
   "status": "active",
@@ -34,112 +45,148 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "1316",
-    "code": "D",
-    "display": "Debugging",
-    "definition": "Messages used for identification and correction of software errors.",
-    "designation": [ {
-      "language": "de",
-      "value": "Test"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2016-03-12"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "1319",
-    "code": "N",
-    "display": "Non-Production Testing",
-    "definition": "Messages used for testing of an interface for structure, content, and conformance between trading partners, using non-production data. ",
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2016-03-16"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "1317",
-    "code": "P",
-    "display": "Production",
-    "definition": "Messages used for communication of live production data.",
-    "designation": [ {
-      "language": "de",
-      "value": "Routine / Produktion"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2016-03-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "1318",
-    "code": "T",
-    "display": "Training",
-    "definition": "Messages used for training, where new/updated configurations are utilized to prepare users outside of a production setting.",
-    "designation": [ {
-      "language": "de",
-      "value": "Schulung"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2016-03-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "1320",
-    "code": "V",
-    "display": "Validation",
-    "definition": "Messages used for conformance testing by a third party; for example, as part of certification.",
-    "designation": [ {
-      "language": "de",
-      "value": "Validierung"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2016-03-16"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "1316",
+      "code": "D",
+      "display": "Debugging",
+      "definition": "Messages used for identification and correction of software errors.",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Test"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "1319",
+      "code": "N",
+      "display": "Non-Production Testing",
+      "definition": "Messages used for testing of an interface for structure, content, and conformance between trading partners, using non-production data. ",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-16"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "1317",
+      "code": "P",
+      "display": "Production",
+      "definition": "Messages used for communication of live production data.",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Routine / Produktion"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "1318",
+      "code": "T",
+      "display": "Training",
+      "definition": "Messages used for training, where new/updated configurations are utilized to prepare users outside of a production setting.",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Schulung"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "1320",
+      "code": "V",
+      "display": "Validation",
+      "definition": "Messages used for conformance testing by a third party; for example, as part of certification.",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Validierung"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2016-03-16"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    }
+  ]
 }

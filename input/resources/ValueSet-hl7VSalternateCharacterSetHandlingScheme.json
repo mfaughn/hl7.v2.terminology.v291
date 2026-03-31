@@ -1,14 +1,17 @@
 {
   "resourceType": "ValueSet",
   "id": "hl7VSalternateCharacterSetHandlingScheme",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.21.232"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0356"
-  } ],
-  "version": "1.1.1",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.21.232"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0356"
+    }
+  ],
+  "version": "3.0.0",
   "name": "Hl7VSalternateCharacterSetHandlingScheme",
   "title": "Alternate Character Set Handling Scheme (2.9.1 - 1.1.1)",
   "status": "active",
@@ -17,9 +20,18 @@
   "description": "Concepts that specify the scheme used when any alternative character sets are specified in the second or later iterations of MSH-18 Character Set, and if any special handling scheme is needed.",
   "copyright": "HL7 Inc., 2026",
   "compose": {
-    "include": [ {
-      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/alternateCharacterSetHandlingScheme",
-      "version": "1.1.1"
-    } ]
-  }
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0356",
+        "version": "1.1.1"
+      }
+    ]
+  },
+  "url": "http://terminology.hl7.org/ValueSet/v2-0356",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.1.1"
+    }
+  ]
 }

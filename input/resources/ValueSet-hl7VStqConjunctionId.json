@@ -1,14 +1,17 @@
 {
   "resourceType": "ValueSet",
   "id": "hl7VStqConjunctionId",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.21.316"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0472"
-  } ],
-  "version": "1.1.1",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.21.316"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0472"
+    }
+  ],
+  "version": "3.0.0",
   "name": "Hl7VStqConjunctionId",
   "title": "TQ Conjunction ID (2.9.1 - 1.1.1)",
   "status": "active",
@@ -17,9 +20,18 @@
   "description": "Value Set of codes that specify that a second timing specification is to follow using the repeat delimiter.",
   "copyright": "HL7 Inc., 2026",
   "compose": {
-    "include": [ {
-      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/tqConjunctionId",
-      "version": "1.1.1"
-    } ]
-  }
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0472",
+        "version": "1.1.1"
+      }
+    ]
+  },
+  "url": "http://terminology.hl7.org/ValueSet/v2-0472",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.1.1"
+    }
+  ]
 }

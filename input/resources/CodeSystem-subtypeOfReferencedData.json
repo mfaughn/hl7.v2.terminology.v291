@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-subtypeOfReferencedData.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/subtypeOfReferencedData</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0291"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/subtypeOfReferencedData",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.181"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0291"
-  } ],
-  "version": "1.2.2",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0291"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.2.2"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0291",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.181"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0291"
+    }
+  ],
+  "version": "4.0.0",
   "name": "SubtypeOfReferencedData",
   "title": "Subtype of Referenced Data (2.9.1 - 1.2.2)",
   "status": "active",
@@ -34,255 +45,336 @@
   "caseSensitive": false,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "2813",
-    "code": "BASIC",
-    "display": "ISDN PCM audio data",
-    "definition": "ISDN PCM audio data",
-    "property": [ {
+  "property": [
+    {
+      "code": "versionIntroduced",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
       "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-11-24"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2816",
-    "code": "DICOM",
-    "display": "Digital Imaging and Communications in Medicine",
-    "definition": "Digital Imaging and Communications in Medicine",
-    "property": [ {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-11-24"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2817",
-    "code": "FAX",
-    "display": "Facsimile data",
-    "definition": "Facsimile data",
-    "property": [ {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-11-24"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2818",
-    "code": "GIF",
-    "display": "Graphics Interchange Format",
-    "definition": "Graphics Interchange Format",
-    "property": [ {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-11-24"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2819",
-    "code": "HTML",
-    "display": "Hypertext Markup Language",
-    "definition": "Hypertext Markup Language",
-    "property": [ {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-11-24"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2820",
-    "code": "JOT",
-    "display": "Electronic ink data (Jot 1.0 standard)",
-    "definition": "Electronic ink data (Jot 1.0 standard)",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-11-24"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2821",
-    "code": "JPEG",
-    "display": "Joint Photographic Experts Group",
-    "definition": "Joint Photographic Experts Group",
-    "property": [ {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-11-24"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2822",
-    "code": "Octet-stream",
-    "display": "Uninterpreted binary data",
-    "definition": "Uninterpreted binary data",
-    "property": [ {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-11-24"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2823",
-    "code": "PICT",
-    "display": "PICT format image data",
-    "definition": "PICT format image data",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-11-24"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2824",
-    "code": "PostScript",
-    "display": "PostScript program",
-    "definition": "PostScript program",
-    "property": [ {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-11-24"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2825",
-    "code": "RTF",
-    "display": "Rich Text Format",
-    "definition": "Rich Text Format",
-    "property": [ {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-11-24"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2826",
-    "code": "SGML",
-    "display": "Standard Generalized Markup Language (HL7 V2.3.1 and later)",
-    "definition": "Standard Generalized Markup Language (HL7 V2.3.1 and later)",
-    "property": [ {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-11-24"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "2827",
-    "code": "TIFF",
-    "display": "TIFF image data",
-    "definition": "TIFF image data",
-    "property": [ {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-11-24"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3"
-    } ]
-  }, {
-    "id": "2828",
-    "code": "XML",
-    "display": "Extensible Markup Language (HL7 V2.3.1 and later)",
-    "definition": "Extensible Markup Language (HL7 V2.3.1 and later)",
-    "property": [ {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-11-24"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.3.1"
-    } ]
-  }, {
-    "id": "2829",
-    "code": "x-hl7-cda-level-one",
-    "display": "HL7 Clinical Document Architecture Level One document",
-    "definition": "HL7 Clinical Document Architecture Level One document",
-    "property": [ {
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "Retained for backwards compatibility only as of v2.6 and CDA R 2. Preferred value is text/xml."
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "2813",
+      "code": "BASIC",
+      "display": "ISDN PCM audio data",
+      "definition": "ISDN PCM audio data",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-11-24"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2816",
+      "code": "DICOM",
+      "display": "Digital Imaging and Communications in Medicine",
+      "definition": "Digital Imaging and Communications in Medicine",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-11-24"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2817",
+      "code": "FAX",
+      "display": "Facsimile data",
+      "definition": "Facsimile data",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-11-24"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2818",
+      "code": "GIF",
+      "display": "Graphics Interchange Format",
+      "definition": "Graphics Interchange Format",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-11-24"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2819",
+      "code": "HTML",
+      "display": "Hypertext Markup Language",
+      "definition": "Hypertext Markup Language",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-11-24"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2820",
+      "code": "JOT",
+      "display": "Electronic ink data (Jot 1.0 standard)",
+      "definition": "Electronic ink data (Jot 1.0 standard)",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-11-24"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2821",
+      "code": "JPEG",
+      "display": "Joint Photographic Experts Group",
+      "definition": "Joint Photographic Experts Group",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-11-24"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2822",
+      "code": "Octet-stream",
+      "display": "Uninterpreted binary data",
+      "definition": "Uninterpreted binary data",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-11-24"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2823",
+      "code": "PICT",
+      "display": "PICT format image data",
+      "definition": "PICT format image data",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-11-24"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2824",
+      "code": "PostScript",
+      "display": "PostScript program",
+      "definition": "PostScript program",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-11-24"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2825",
+      "code": "RTF",
+      "display": "Rich Text Format",
+      "definition": "Rich Text Format",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-11-24"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2826",
+      "code": "SGML",
+      "display": "Standard Generalized Markup Language (HL7 V2.3.1 and later)",
+      "definition": "Standard Generalized Markup Language (HL7 V2.3.1 and later)",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-11-24"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "2827",
+      "code": "TIFF",
+      "display": "TIFF image data",
+      "definition": "TIFF image data",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-11-24"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3"
+        }
+      ]
+    },
+    {
+      "id": "2828",
+      "code": "XML",
+      "display": "Extensible Markup Language (HL7 V2.3.1 and later)",
+      "definition": "Extensible Markup Language (HL7 V2.3.1 and later)",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-11-24"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.3.1"
+        }
+      ]
+    },
+    {
+      "id": "2829",
+      "code": "x-hl7-cda-level-one",
+      "display": "HL7 Clinical Document Architecture Level One document",
+      "definition": "HL7 Clinical Document Architecture Level One document",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Retained for backwards compatibility only as of v2.6 and CDA R 2. Preferred value is text/xml."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    }
+  ]
 }

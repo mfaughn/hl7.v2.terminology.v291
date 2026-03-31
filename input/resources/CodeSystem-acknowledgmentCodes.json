@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-acknowledgmentCodes.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/acknowledgmentCodes</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0008"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/acknowledgmentCodes",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.10"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0008"
-  } ],
-  "version": "1.2.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0008"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.2.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0008",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.10"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0008"
+    }
+  ],
+  "version": "3.0.0",
   "name": "AcknowledgmentCodes",
   "title": "Acknowledgment Code (2.9.1 - 1.2.0)",
   "status": "active",
@@ -34,118 +45,152 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  }, {
-    "code": "ackType",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#ackType",
-    "description": "ackType",
-    "type": "code"
-  }, {
-    "code": "ackValue",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#ackValue",
-    "description": "ackValue",
-    "type": "code"
-  } ],
-  "concept": [ {
-    "id": "629",
-    "code": "AA",
-    "display": "Original mode: Application Accept - Enhanced mode: Application acknowledgment: Accept",
-    "definition": "Original mode: Application Accept - Enhanced mode: Application acknowledgment: Accept",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "630",
-    "code": "AE",
-    "display": "Original mode: Application Error - Enhanced mode: Application acknowledgment: Error",
-    "definition": "Original mode: Application Error - Enhanced mode: Application acknowledgment: Error",
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "631",
-    "code": "AR",
-    "display": "Original mode: Application Reject - Enhanced mode: Application acknowledgment: Reject",
-    "definition": "Original mode: Application Reject - Enhanced mode: Application acknowledgment: Reject",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.1"
-    } ]
-  }, {
-    "id": "632",
-    "code": "CA",
-    "display": "Enhanced mode: Accept acknowledgment: Commit Accept",
-    "definition": "Enhanced mode: Accept acknowledgment: Commit Accept",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "633",
-    "code": "CE",
-    "display": "Enhanced mode: Accept acknowledgment: Commit Error",
-    "definition": "Enhanced mode: Accept acknowledgment: Commit Error",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  }, {
-    "id": "634",
-    "code": "CR",
-    "display": "Enhanced mode: Accept acknowledgment: Commit Reject",
-    "definition": "Enhanced mode: Accept acknowledgment: Commit Reject",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.2"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    },
+    {
+      "code": "ackType",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#ackType",
+      "description": "ackType",
+      "type": "code"
+    },
+    {
+      "code": "ackValue",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#ackValue",
+      "description": "ackValue",
+      "type": "code"
+    }
+  ],
+  "concept": [
+    {
+      "id": "629",
+      "code": "AA",
+      "display": "Original mode: Application Accept - Enhanced mode: Application acknowledgment: Accept",
+      "definition": "Original mode: Application Accept - Enhanced mode: Application acknowledgment: Accept",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "630",
+      "code": "AE",
+      "display": "Original mode: Application Error - Enhanced mode: Application acknowledgment: Error",
+      "definition": "Original mode: Application Error - Enhanced mode: Application acknowledgment: Error",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "631",
+      "code": "AR",
+      "display": "Original mode: Application Reject - Enhanced mode: Application acknowledgment: Reject",
+      "definition": "Original mode: Application Reject - Enhanced mode: Application acknowledgment: Reject",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "632",
+      "code": "CA",
+      "display": "Enhanced mode: Accept acknowledgment: Commit Accept",
+      "definition": "Enhanced mode: Accept acknowledgment: Commit Accept",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "633",
+      "code": "CE",
+      "display": "Enhanced mode: Accept acknowledgment: Commit Error",
+      "definition": "Enhanced mode: Accept acknowledgment: Commit Error",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    },
+    {
+      "id": "634",
+      "code": "CR",
+      "display": "Enhanced mode: Accept acknowledgment: Commit Reject",
+      "definition": "Enhanced mode: Accept acknowledgment: Commit Reject",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.2"
+        }
+      ]
+    }
+  ]
 }

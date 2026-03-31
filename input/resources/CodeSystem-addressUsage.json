@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-addressUsage.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/addressUsage</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0617"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/addressUsage",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.375"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0617"
-  } ],
-  "version": "1.0.1",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0617"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.1"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0617",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.375"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0617"
+    }
+  ],
+  "version": "3.0.0",
   "name": "AddressUsage",
   "title": "Address Usage (2.9.1 - 1.0.1)",
   "status": "active",
@@ -34,81 +45,104 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "6261",
-    "code": "C",
-    "display": "Classification",
-    "definition": "Classification",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Identifies an address used for the purpose of demographic classification or searching.  Such addresses frequently contain insufficient information to be used as mailing or visit addresses.  For example, they may only indicate country and postal code, without providing a street address."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "6259",
-    "code": "M",
-    "display": "Mailing",
-    "definition": "Mailing",
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "Identifies an address for mail correspondence from a healthcare provider as stipulated by the subject.\r\nFor example, under the tenets of certain privacy regulations, it is exclusive to the patient and is typically maintained at the encounter or visit level versus the person level as it only has relevance to the specifics of a given encounter.  This is an exception category of address in that the patient has stipulated that they want all correspondence relevant to a given encounter sent to this address in lieu of any other address on file.  Providers are required to accommodate such requests under HIPAA promulgated regulation.  Note that mailing and legal address may be mutually exclusive as defined below.  (Implementors are reminded that although the privacy regulation requires the provider to honor such requests, it does require the provider to enquire whether the patient has a preferred address other than the one volunteered.)"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "6260",
-    "code": "V",
-    "display": "Visit",
-    "definition": "Visit",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Identifies an address at which the individual is physically located and may be visited."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "6261",
+      "code": "C",
+      "display": "Classification",
+      "definition": "Classification",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Identifies an address used for the purpose of demographic classification or searching.  Such addresses frequently contain insufficient information to be used as mailing or visit addresses.  For example, they may only indicate country and postal code, without providing a street address."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "6259",
+      "code": "M",
+      "display": "Mailing",
+      "definition": "Mailing",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Identifies an address for mail correspondence from a healthcare provider as stipulated by the subject.\r\nFor example, under the tenets of certain privacy regulations, it is exclusive to the patient and is typically maintained at the encounter or visit level versus the person level as it only has relevance to the specifics of a given encounter.  This is an exception category of address in that the patient has stipulated that they want all correspondence relevant to a given encounter sent to this address in lieu of any other address on file.  Providers are required to accommodate such requests under HIPAA promulgated regulation.  Note that mailing and legal address may be mutually exclusive as defined below.  (Implementors are reminded that although the privacy regulation requires the provider to honor such requests, it does require the provider to enquire whether the patient has a preferred address other than the one volunteered.)"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "6260",
+      "code": "V",
+      "display": "Visit",
+      "definition": "Visit",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Identifies an address at which the individual is physically located and may be visited."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    }
+  ]
 }

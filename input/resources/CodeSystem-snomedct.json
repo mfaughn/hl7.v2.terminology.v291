@@ -5,24 +5,35 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-snomedct.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/snomedct</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0823"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/snomedct",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.6.96"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0823"
-  } ],
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0823"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0823",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.6.96"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0823"
+    }
+  ],
   "version": "1.0.0",
   "name": "Snomedct",
   "title": "Sexual Orientation (2.9.1 - 1.0.0)",
@@ -34,103 +45,136 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "code": "20430005",
-    "display": "heterosexual",
-    "property": [ {
-      "code": "usage",
-      "valueString": "The HL70396 code for this code is ‘SCT’"
-    }, {
+  "property": [
+    {
+      "code": "versionIntroduced",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
       "code": "status",
-      "valueCode": "new"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2022-08-28"
-    } ]
-  }, {
-    "code": "42035005",
-    "display": "Bisexual",
-    "property": [ {
-      "code": "usage",
-      "valueString": "The HL70396 code for this code is ‘SCT’"
-    }, {
-      "code": "status",
-      "valueCode": "new"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2022-08-28"
-    } ]
-  }, {
-    "code": "89217008",
-    "display": "Lesbian, gay or homosexual",
-    "property": [ {
-      "code": "usage",
-      "valueString": "The HL70396 code for this code is ‘SCT’"
-    }, {
-      "code": "status",
-      "valueCode": "new"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2022-08-28"
-    } ]
-  }, {
-    "code": "UNK",
-    "display": "Unknown",
-    "definition": "A proper value is applicable, but not known.",
-    "property": [ {
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "This means the actual value is not known. If the only thing that is unknown is how to properly express the value in the necessary constraints (value set, datatype, etc.), then the OTH or UNC flavor should be used. No properties should be included for a datatype with this property unless:\r\n1. Those properties themselves directly translate to a semantic of \"unknown\". (E.g. a local code sent as a translation that conveys 'unknown')\r\n2. Those properties further qualify the nature of what is unknown. (E.g. specifying a use code of \"H\" and a URL prefix of \"tel:\" to convey that it is the home phone number that is unknown.)\r\n\r\nThis code is drawn from V3 Null Flavor (http://terminology.hl7.org/CodeSystem/v3-NullFlavor).\r\nThe HL70396 code for this code is ‘NULLFL’"
-    }, {
-      "code": "status",
-      "valueCode": "new"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2023-08-18"
-    } ]
-  }, {
-    "code": "asked-declined",
-    "display": "Asked But Declined",
-    "definition": "The source was asked but declined to answer.",
-    "property": [ {
-      "code": "comment",
-      "valueString": "This code is drawn from FHIR DataAbsentReason (http://terminology.hl7.org/CodeSystem/data-absent-reason).\r\nThe HL70396 code for this code is ‘DAR’"
-    }, {
-      "code": "status",
-      "valueCode": "new"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2023-08-18"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "code": "20430005",
+      "display": "heterosexual",
+      "property": [
+        {
+          "code": "usage",
+          "valueString": "The HL70396 code for this code is ‘SCT’"
+        },
+        {
+          "code": "status",
+          "valueCode": "new"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-28"
+        }
+      ]
+    },
+    {
+      "code": "42035005",
+      "display": "Bisexual",
+      "property": [
+        {
+          "code": "usage",
+          "valueString": "The HL70396 code for this code is ‘SCT’"
+        },
+        {
+          "code": "status",
+          "valueCode": "new"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-28"
+        }
+      ]
+    },
+    {
+      "code": "89217008",
+      "display": "Lesbian, gay or homosexual",
+      "property": [
+        {
+          "code": "usage",
+          "valueString": "The HL70396 code for this code is ‘SCT’"
+        },
+        {
+          "code": "status",
+          "valueCode": "new"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-28"
+        }
+      ]
+    },
+    {
+      "code": "UNK",
+      "display": "Unknown",
+      "definition": "A proper value is applicable, but not known.",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This means the actual value is not known. If the only thing that is unknown is how to properly express the value in the necessary constraints (value set, datatype, etc.), then the OTH or UNC flavor should be used. No properties should be included for a datatype with this property unless:\r\n1. Those properties themselves directly translate to a semantic of \"unknown\". (E.g. a local code sent as a translation that conveys 'unknown')\r\n2. Those properties further qualify the nature of what is unknown. (E.g. specifying a use code of \"H\" and a URL prefix of \"tel:\" to convey that it is the home phone number that is unknown.)\r\n\r\nThis code is drawn from V3 Null Flavor (http://terminology.hl7.org/CodeSystem/v3-NullFlavor).\r\nThe HL70396 code for this code is ‘NULLFL’"
+        },
+        {
+          "code": "status",
+          "valueCode": "new"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2023-08-18"
+        }
+      ]
+    },
+    {
+      "code": "asked-declined",
+      "display": "Asked But Declined",
+      "definition": "The source was asked but declined to answer.",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "This code is drawn from FHIR DataAbsentReason (http://terminology.hl7.org/CodeSystem/data-absent-reason).\r\nThe HL70396 code for this code is ‘DAR’"
+        },
+        {
+          "code": "status",
+          "valueCode": "new"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2023-08-18"
+        }
+      ]
+    }
+  ]
 }

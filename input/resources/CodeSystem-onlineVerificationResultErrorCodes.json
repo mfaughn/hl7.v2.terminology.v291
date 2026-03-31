@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-onlineVerificationResultErrorCodes.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/onlineVerificationResultErrorCodes</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0971"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/onlineVerificationResultErrorCodes",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.454"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0971"
-  } ],
-  "version": "1.0.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0971"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0971",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.454"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0971"
+    }
+  ],
+  "version": "3.0.0",
   "name": "OnlineVerificationResultErrorCodes",
   "title": "Online Verification Result Error Code (2.9.1 - 1.0.0)",
   "status": "active",
@@ -34,84 +45,108 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "6791",
-    "code": "1",
-    "display": "Update technically not possible",
-    "definition": "English: update of insurance date on card technically not possible\r\n\r\nGerman: Aktualisierung VSD auf eGK technisch nicht möglich",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2022-08-25"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "6792",
-    "code": "2",
-    "display": "Invalid Authentification certificate",
-    "definition": "English: authentication certificate is invalid\r\n\r\nGerman: Authentifizierungszertifikat eGK ungültig",
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2022-08-25"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "6793",
-    "code": "3",
-    "display": "Online verification technically not possible",
-    "definition": "English: online verification of authentication certificate is technically not possible\r\n\r\nGerman: Onlineprüfung des Authentifizierungszerti-fikats technisch nicht möglich",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2022-08-25"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "6794",
-    "code": "4",
-    "display": "Update technically not possible due to offline time exceeded",
-    "definition": "English: update of insurance date is technically not possible due to maximum offline time exceeded\r\n\r\nGerman: Aktualisierung VSD auf eGK technisch nicht möglich weil maximaler Offline-Zeitraum überschritten",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2022-08-25"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "6791",
+      "code": "1",
+      "display": "Update technically not possible",
+      "definition": "English: update of insurance date on card technically not possible\r\n\r\nGerman: Aktualisierung VSD auf eGK technisch nicht möglich",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-25"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "6792",
+      "code": "2",
+      "display": "Invalid Authentification certificate",
+      "definition": "English: authentication certificate is invalid\r\n\r\nGerman: Authentifizierungszertifikat eGK ungültig",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-25"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "6793",
+      "code": "3",
+      "display": "Online verification technically not possible",
+      "definition": "English: online verification of authentication certificate is technically not possible\r\n\r\nGerman: Onlineprüfung des Authentifizierungszerti-fikats technisch nicht möglich",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-25"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "6794",
+      "code": "4",
+      "display": "Update technically not possible due to offline time exceeded",
+      "definition": "English: update of insurance date is technically not possible due to maximum offline time exceeded\r\n\r\nGerman: Aktualisierung VSD auf eGK technisch nicht möglich weil maximaler Offline-Zeitraum überschritten",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-25"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    }
+  ]
 }

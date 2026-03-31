@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-dataTypes.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/dataTypes</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0440"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/dataTypes",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.280"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0440"
-  } ],
-  "version": "1.2.2",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0440"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.2.2"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0440",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.280"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0440"
+    }
+  ],
+  "version": "4.0.0",
   "name": "DataTypes",
   "title": "Data Types (2.9.1 - 1.2.2)",
   "status": "active",
@@ -34,1395 +45,1856 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "4687",
-    "code": "AD",
-    "display": "Address",
-    "definition": "Address",
-    "property": [ {
-      "code": "comment",
-      "valueString": "WITHDRAWN"
-    }, {
+  "property": [
+    {
+      "code": "versionIntroduced",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
       "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2022-08-25"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4688",
-    "code": "AUI",
-    "display": "Authorization information",
-    "definition": "Authorization information",
-    "property": [ {
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "Replaces the CM data type used in sections 6.5.6.14 IN1-14, as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4689",
-    "code": "CCD",
-    "display": "Charge code and date",
-    "definition": "Charge code and date",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in section 4.5.2.1 BLG-1, as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4690",
-    "code": "CCP",
-    "display": "Channel calibration parameters",
-    "definition": "Channel calibration parameters",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in 7.14.1.5 OBX-5.3 where OBX-5Observation value (*) is data type CD as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4691",
-    "code": "CD",
-    "display": "Channel definition",
-    "definition": "Channel definition",
-    "property": [ {
-      "code": "comment",
-      "valueString": "For waveform data only;."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4692",
-    "code": "CE",
-    "display": "Coded element",
-    "definition": "Coded element",
-    "property": [ {
-      "code": "comment",
-      "valueString": "WITHDRAWN"
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2020-09-23"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4693",
-    "code": "CF",
-    "display": "Coded element with formatted values",
-    "definition": "Coded element with formatted values",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4694",
-    "code": "CK",
-    "display": "Composite ID with check digit",
-    "definition": "Composite ID with check digit",
-    "property": [ {
-      "code": "comment",
-      "valueString": "WITHDRAWN"
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2020-09-23"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4695",
-    "code": "CM",
-    "display": "Composite",
-    "definition": "Composite",
-    "property": [ {
-      "code": "comment",
-      "valueString": "WITHDRAWN Replaced by numerous new unambiguous data types in v 2.5"
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2020-09-23"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4696",
-    "code": "CN",
-    "display": "Composite ID number and name",
-    "definition": "Composite ID number and name",
-    "property": [ {
-      "code": "comment",
-      "valueString": "WITHDRAWN. Replaced by XCN as of v 2.3"
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2020-09-23"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4697",
-    "code": "CNE",
-    "display": "Coded with no exceptions",
-    "definition": "Coded with no exceptions",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4699",
-    "code": "CNN",
-    "display": "Composite ID number and name simplified",
-    "definition": "Composite ID number and name simplified",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Restores the original data type CN as was initially implementable in the CM used in sections 4.5.3.32 and 7.4.1.32-(OBR-32), 4.5.3.33 and 7.4.1.33 - (OBR-33) 4.5.3.34 and 7.4.1.34 - (OBR-34) 4.5.3.35 and 7.4.1.35 - (OBR-35). Components 7 and 8, however, have been promoted to data type IS to be consistent with current practice without violating backward compatibility."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4700",
-    "code": "CP",
-    "display": "Composite price",
-    "definition": "Composite price",
-    "property": [ {
-      "code": "comment",
-      "valueString": "."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4701",
-    "code": "CQ",
-    "display": "Composite quantity with units",
-    "definition": "Composite quantity with units",
-    "property": [ {
-      "code": "comment",
-      "valueString": "CQ cannot be legally expressed when embedded within another data type. Its use is constrained to a segment field."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4702",
-    "code": "CSU",
-    "display": "Channel sensitivity and units",
-    "definition": "Channel sensitivity and units",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in 7.14.1.5 OBX-5.3 where OBX-5Observation value (*) is data type CD as of v 2.5."
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2020-09-23"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4703",
-    "code": "CWE",
-    "display": "Coded with exceptions",
-    "definition": "Coded with exceptions",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4704",
-    "code": "CX",
-    "display": "Extended composite ID with check digit",
-    "definition": "Extended composite ID with check digit",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4705",
-    "code": "DDI",
-    "display": "Daily deductible information",
-    "definition": "Daily deductible information",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in section 6.5.7.30  IN2-30, as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4706",
-    "code": "DIN",
-    "display": "Date and institution name",
-    "definition": "Date and institution name",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in sections 15.4.6.12 STF-12 and 15.4.6.14 STF-13, as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4707",
-    "code": "DLD",
-    "display": "Discharge to location and date",
-    "definition": "Discharge to location and date",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in section 8.8.4.9 - OM2-9, as of v 2.5"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4708",
-    "code": "DLN",
-    "display": "Driver's license number",
-    "definition": "Driver's license number",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4709",
-    "code": "DLT",
-    "display": "Delta",
-    "definition": "Delta",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4710",
-    "code": "DR",
-    "display": "Date/time range",
-    "definition": "Date/time range",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4711",
-    "code": "DT",
-    "display": "Date",
-    "definition": "Date",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4712",
-    "code": "DTM",
-    "display": "Date/time",
-    "definition": "Date/time",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4713",
-    "code": "DTN",
-    "display": "Day type and number",
-    "definition": "Day type and number",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in section 6.5.8.11  IN3-11, as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4714",
-    "code": "ED",
-    "display": "Encapsulated data",
-    "definition": "Encapsulated data",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Supports ASCII MIME-encoding of binary data."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4715",
-    "code": "EI",
-    "display": "Entity identifier",
-    "definition": "Entity identifier",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4716",
-    "code": "EIP",
-    "display": "Entity identifier pair",
-    "definition": "Entity identifier pair",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in sections 4.5.1.8 - ORC-8, 4.5.3.29 - OBR-29, 7.3.1.29 - OBR-29, as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4717",
-    "code": "ELD",
-    "display": "Error location and description",
-    "definition": "Error location and description",
-    "property": [ {
-      "code": "comment",
-      "valueString": "WITHDRAWN"
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2020-09-23"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4718",
-    "code": "ERL",
-    "display": "Error location",
-    "definition": "Error location",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4719",
-    "code": "FC",
-    "display": "Financial class",
-    "definition": "Financial class",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4720",
-    "code": "FN",
-    "display": "Family name",
-    "definition": "Family name",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Appears ONLY in the PPN, XCN, and XPN."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4721",
-    "code": "FT",
-    "display": "Formatted text",
-    "definition": "Formatted text",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4722",
-    "code": "GTS",
-    "display": "General timing specification",
-    "definition": "General timing specification",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4723",
-    "code": "HD",
-    "display": "Hierarchic designator",
-    "definition": "Hierarchic designator",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4724",
-    "code": "ICD",
-    "display": "Insurance certification definition",
-    "definition": "Insurance certification definition",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in section 6.5.8.20  IN3-20, as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4725",
-    "code": "ID",
-    "display": "Coded values for HL7 tables",
-    "definition": "Coded values for HL7 tables",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4726",
-    "code": "IS",
-    "display": "Coded value for user-defined tables",
-    "definition": "Coded value for user-defined tables",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4727",
-    "code": "JCC",
-    "display": "Job code/class",
-    "definition": "Job code/class",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4728",
-    "code": "LA1",
-    "display": "Location with address variation 1",
-    "definition": "Location with address variation 1",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Datatype has been withdrawn from the Standard; the segments RXO-8 and RXE-8 were deprecated, and kept for backward compatibility only as of v2.5, and as of v2.9 they have been witdrawn so the code for the datapyt is here marked as backwars-compatible use (for historical records only)"
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2020-09-23"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4729",
-    "code": "LA2",
-    "display": "Location with address variation 2",
-    "definition": "Location with address variation 2",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Datatype has been withdrawn from the Standard; the segments RXD-13, RXG-11 and RXA-11 were deprecated, and kept for backward compatibility only as of v2.5, and as of v2.9 they have been withdrawn so the code for the datatype is here marked as backwards-compatible use (for historical records only)"
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2020-09-23"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4730",
-    "code": "MA",
-    "display": "Multiplexed array",
-    "definition": "Multiplexed array",
-    "property": [ {
-      "code": "comment",
-      "valueString": "For waveform data only"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4731",
-    "code": "MO",
-    "display": "Money",
-    "definition": "Money",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4732",
-    "code": "MOC",
-    "display": "Money and charge code",
-    "definition": "Money and charge code",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in sections 4.5.3.23 OBR-23 and 7.4.1.23- OBR-23 as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4733",
-    "code": "MOP",
-    "display": "Money or percentage",
-    "definition": "Money or percentage",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in section 6.5.8.5  IN3-5, as of v 2.5. This data type is restricted to this field."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4734",
-    "code": "MSG",
-    "display": "Message type",
-    "definition": "Message type",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in 2.16.9.9 MSH-9 as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4735",
-    "code": "NA",
-    "display": "Numeric array",
-    "definition": "Numeric array",
-    "property": [ {
-      "code": "comment",
-      "valueString": "For waveform data only"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4736",
-    "code": "NDL",
-    "display": "Name with date and location",
-    "definition": "Name with date and location",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in sections 4.5.3.32 and 7.4.1.32-( OBR-32) , 4.5.3.33 and 7.4.1.33  - ( OBR-33) 4.5.3.34 and 7.4.1.34 - ( OBR-34) 4.5.3.35 and 7.4.1.35 - ( OBR-35) as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4737",
-    "code": "NM",
-    "display": "Numeric",
-    "definition": "Numeric",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4738",
-    "code": "NR",
-    "display": "Numeric range",
-    "definition": "Numeric range",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in sections 8.8.4.6.1- OM2-6.1, 8.8.4.6.3- OM2-6.3and 8.8.4.6.4- OM2-6.4, as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4739",
-    "code": "OCD",
-    "display": "Occurrence code and date",
-    "definition": "Occurrence code and date",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in sections 6.5.10.10 UB1-16 and 6.5.11.7 UB2-7, as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4740",
-    "code": "OSD",
-    "display": "Order sequence definition",
-    "definition": "Order sequence definition",
-    "property": [ {
-      "code": "comment",
-      "valueString": "WITHDRAWN"
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2020-09-23"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4741",
-    "code": "OSP",
-    "display": "Occurrence span code and date",
-    "definition": "Occurrence span code and date",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in section 6.5.11.8 UB2-8, as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4742",
-    "code": "PIP",
-    "display": "Practitioner institutional privileges",
-    "definition": "Practitioner institutional privileges",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in 15.4.5.7 PRA-7 as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4743",
-    "code": "PL",
-    "display": "Person location",
-    "definition": "Person location",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4744",
-    "code": "PLN",
-    "display": "Practitioner license or other ID number",
-    "definition": "Practitioner license or other ID number",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in 15.4.5.6 PRA-6, 11.6.3.7 PRD-7 and 11.6.4.7 CTD-7 as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4745",
-    "code": "PN",
-    "display": "Person name",
-    "definition": "Person name",
-    "property": [ {
-      "code": "comment",
-      "valueString": "WITHDRAWN"
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2020-09-23"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4746",
-    "code": "PPN",
-    "display": "Performing person time stamp",
-    "definition": "Performing person time stamp",
-    "property": [ {
-      "code": "comment",
-      "valueString": "equivalent of an XCN joined with a TS"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4747",
-    "code": "PRL",
-    "display": "Parent result link",
-    "definition": "Parent result link",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in sections 4.5.3.26 - OBR-26 and 7.4.1.26 - OBR-26 as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4748",
-    "code": "PT",
-    "display": "Processing type",
-    "definition": "Processing type",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4749",
-    "code": "PTA",
-    "display": "Policy type and amount",
-    "definition": "Policy type and amount",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in section 6.5.7.29  IN2-29, as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4750",
-    "code": "QIP",
-    "display": "Query input parameter list",
-    "definition": "Query input parameter list",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4751",
-    "code": "QSC",
-    "display": "Query selection criteria",
-    "definition": "Query selection criteria",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4752",
-    "code": "RCD",
-    "display": "Row column definition",
-    "definition": "Row column definition",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4753",
-    "code": "RFR",
-    "display": "Reference range",
-    "definition": "Reference range",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in sections 8.8.4.6 - OM2-6, 8.8.4.7 - OM2-7 and8.8.4.8 - OM2-8 as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4754",
-    "code": "RI",
-    "display": "Repeat interval",
-    "definition": "Repeat interval",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4755",
-    "code": "RMC",
-    "display": "Room coverage",
-    "definition": "Room coverage",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in section 6.5.7.28  IN2-28, as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4756",
-    "code": "RP",
-    "display": "Reference pointer",
-    "definition": "Reference pointer",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4757",
-    "code": "RPT",
-    "display": "Repeat pattern",
-    "definition": "Repeat pattern",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4758",
-    "code": "SAD",
-    "display": "Street Address",
-    "definition": "Street Address",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Appears ONLY in the XAD data type."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4759",
-    "code": "SCV",
-    "display": "Scheduling class value pair",
-    "definition": "Scheduling class value pair",
-    "property": [ {
-      "code": "comment",
-      "valueString": "For scheduling data only. See Chapter 10"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4760",
-    "code": "SI",
-    "display": "Sequence ID",
-    "definition": "Sequence ID",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4761",
-    "code": "SN",
-    "display": "Structured numeric",
-    "definition": "Structured numeric",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4762",
-    "code": "SNM",
-    "display": "String of telephone number digits",
-    "definition": "String of telephone number digits",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Definition: a string whose characters are limited to \"+\" and the decimal digits 0 through 9.  As a string, leading zeros are always considered significant.  Maximum length: Not specified for the type. May be specified in the context of use."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "4763",
-    "code": "SPD",
-    "display": "Specialty description",
-    "definition": "Specialty description",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in 15.4.5.5 PRA-5 as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4764",
-    "code": "SPS",
-    "display": "Specimen source",
-    "definition": "Specimen source",
-    "property": [ {
-      "code": "comment",
-      "valueString": "WITHDRAWN"
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2020-09-23"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4765",
-    "code": "SRT",
-    "display": "Sort order",
-    "definition": "Sort order",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4766",
-    "code": "ST",
-    "display": "String data",
-    "definition": "String data",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4767",
-    "code": "TM",
-    "display": "Time",
-    "definition": "Time",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4768",
-    "code": "TN",
-    "display": "Telephone number",
-    "definition": "Telephone number",
-    "property": [ {
-      "code": "comment",
-      "valueString": "WITHDRAWN"
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2020-09-23"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4769",
-    "code": "TQ",
-    "display": "Timing/quantity",
-    "definition": "Timing/quantity",
-    "property": [ {
-      "code": "comment",
-      "valueString": "WITHDRAWN"
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2020-09-23"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4770",
-    "code": "TS",
-    "display": "Time stamp",
-    "definition": "Time stamp",
-    "property": [ {
-      "code": "comment",
-      "valueString": "WITHDRAWN"
-    }, {
-      "code": "status",
-      "valueCode": "inactive"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2020-09-23"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4771",
-    "code": "TX",
-    "display": "Text data",
-    "definition": "Text data",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4772",
-    "code": "UVC",
-    "display": "UB value code and amount",
-    "definition": "UB value code and amount",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in sections 6.5.10.10 UB1-10 and 6.5.11.6 UB2-6, as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4773",
-    "code": "VH",
-    "display": "Visiting hours",
-    "definition": "Visiting hours",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4774",
-    "code": "VID",
-    "display": "Version identifier",
-    "definition": "Version identifier",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4775",
-    "code": "VR",
-    "display": "Value range",
-    "definition": "Value range",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in 5.10.5.3.11 QRD-11 as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4776",
-    "code": "WVI",
-    "display": "Channel Identifier",
-    "definition": "Channel Identifier",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in 7.14.1.3.1 OBX-5.1 where OBX-5 Observation value (*) is data type CD as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4777",
-    "code": "WVS",
-    "display": "Waveform source",
-    "definition": "Waveform source",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces the CM data type used in 7.14.1.4 OBX-5.2 where OBX-5 Observation value (*) is data type CD as of v 2.5."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4778",
-    "code": "XAD",
-    "display": "Extended address",
-    "definition": "Extended address",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces AD as of v 2.3"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4779",
-    "code": "XCN",
-    "display": "Extended composite ID number and name for persons",
-    "definition": "Extended composite ID number and name for persons",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces CN as of v 2.3"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4780",
-    "code": "XON",
-    "display": "Extended composite name and ID number for organizations",
-    "definition": "Extended composite name and ID number for organizations",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4781",
-    "code": "XPN",
-    "display": "Extended person name",
-    "definition": "Extended person name",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces PN as of v 2.3."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4782",
-    "code": "XTN",
-    "display": "Extended telecommunications number",
-    "definition": "Extended telecommunications number",
-    "property": [ {
-      "code": "comment",
-      "valueString": "Replaces TN as of v 2.3"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
+      "code": "modified",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "4687",
+      "code": "AD",
+      "display": "Address",
+      "definition": "Address",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "WITHDRAWN"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-25"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4688",
+      "code": "AUI",
+      "display": "Authorization information",
+      "definition": "Authorization information",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in sections 6.5.6.14 IN1-14, as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4689",
+      "code": "CCD",
+      "display": "Charge code and date",
+      "definition": "Charge code and date",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in section 4.5.2.1 BLG-1, as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4690",
+      "code": "CCP",
+      "display": "Channel calibration parameters",
+      "definition": "Channel calibration parameters",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in 7.14.1.5 OBX-5.3 where OBX-5Observation value (*) is data type CD as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4691",
+      "code": "CD",
+      "display": "Channel definition",
+      "definition": "Channel definition",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "For waveform data only;."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4692",
+      "code": "CE",
+      "display": "Coded element",
+      "definition": "Coded element",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "WITHDRAWN"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2020-09-23"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4693",
+      "code": "CF",
+      "display": "Coded element with formatted values",
+      "definition": "Coded element with formatted values",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4694",
+      "code": "CK",
+      "display": "Composite ID with check digit",
+      "definition": "Composite ID with check digit",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "WITHDRAWN"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2020-09-23"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4695",
+      "code": "CM",
+      "display": "Composite",
+      "definition": "Composite",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "WITHDRAWN Replaced by numerous new unambiguous data types in v 2.5"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2020-09-23"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4696",
+      "code": "CN",
+      "display": "Composite ID number and name",
+      "definition": "Composite ID number and name",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "WITHDRAWN. Replaced by XCN as of v 2.3"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2020-09-23"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4697",
+      "code": "CNE",
+      "display": "Coded with no exceptions",
+      "definition": "Coded with no exceptions",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4699",
+      "code": "CNN",
+      "display": "Composite ID number and name simplified",
+      "definition": "Composite ID number and name simplified",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Restores the original data type CN as was initially implementable in the CM used in sections 4.5.3.32 and 7.4.1.32-(OBR-32), 4.5.3.33 and 7.4.1.33 - (OBR-33) 4.5.3.34 and 7.4.1.34 - (OBR-34) 4.5.3.35 and 7.4.1.35 - (OBR-35). Components 7 and 8, however, have been promoted to data type IS to be consistent with current practice without violating backward compatibility."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4700",
+      "code": "CP",
+      "display": "Composite price",
+      "definition": "Composite price",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4701",
+      "code": "CQ",
+      "display": "Composite quantity with units",
+      "definition": "Composite quantity with units",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "CQ cannot be legally expressed when embedded within another data type. Its use is constrained to a segment field."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4702",
+      "code": "CSU",
+      "display": "Channel sensitivity and units",
+      "definition": "Channel sensitivity and units",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in 7.14.1.5 OBX-5.3 where OBX-5Observation value (*) is data type CD as of v 2.5."
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2020-09-23"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4703",
+      "code": "CWE",
+      "display": "Coded with exceptions",
+      "definition": "Coded with exceptions",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4704",
+      "code": "CX",
+      "display": "Extended composite ID with check digit",
+      "definition": "Extended composite ID with check digit",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4705",
+      "code": "DDI",
+      "display": "Daily deductible information",
+      "definition": "Daily deductible information",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in section 6.5.7.30  IN2-30, as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4706",
+      "code": "DIN",
+      "display": "Date and institution name",
+      "definition": "Date and institution name",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in sections 15.4.6.12 STF-12 and 15.4.6.14 STF-13, as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4707",
+      "code": "DLD",
+      "display": "Discharge to location and date",
+      "definition": "Discharge to location and date",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in section 8.8.4.9 - OM2-9, as of v 2.5"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4708",
+      "code": "DLN",
+      "display": "Driver's license number",
+      "definition": "Driver's license number",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4709",
+      "code": "DLT",
+      "display": "Delta",
+      "definition": "Delta",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4710",
+      "code": "DR",
+      "display": "Date/time range",
+      "definition": "Date/time range",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4711",
+      "code": "DT",
+      "display": "Date",
+      "definition": "Date",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4712",
+      "code": "DTM",
+      "display": "Date/time",
+      "definition": "Date/time",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4713",
+      "code": "DTN",
+      "display": "Day type and number",
+      "definition": "Day type and number",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in section 6.5.8.11  IN3-11, as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4714",
+      "code": "ED",
+      "display": "Encapsulated data",
+      "definition": "Encapsulated data",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Supports ASCII MIME-encoding of binary data."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4715",
+      "code": "EI",
+      "display": "Entity identifier",
+      "definition": "Entity identifier",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4716",
+      "code": "EIP",
+      "display": "Entity identifier pair",
+      "definition": "Entity identifier pair",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in sections 4.5.1.8 - ORC-8, 4.5.3.29 - OBR-29, 7.3.1.29 - OBR-29, as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4717",
+      "code": "ELD",
+      "display": "Error location and description",
+      "definition": "Error location and description",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "WITHDRAWN"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2020-09-23"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4718",
+      "code": "ERL",
+      "display": "Error location",
+      "definition": "Error location",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4719",
+      "code": "FC",
+      "display": "Financial class",
+      "definition": "Financial class",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4720",
+      "code": "FN",
+      "display": "Family name",
+      "definition": "Family name",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Appears ONLY in the PPN, XCN, and XPN."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4721",
+      "code": "FT",
+      "display": "Formatted text",
+      "definition": "Formatted text",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4722",
+      "code": "GTS",
+      "display": "General timing specification",
+      "definition": "General timing specification",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4723",
+      "code": "HD",
+      "display": "Hierarchic designator",
+      "definition": "Hierarchic designator",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4724",
+      "code": "ICD",
+      "display": "Insurance certification definition",
+      "definition": "Insurance certification definition",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in section 6.5.8.20  IN3-20, as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4725",
+      "code": "ID",
+      "display": "Coded values for HL7 tables",
+      "definition": "Coded values for HL7 tables",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4726",
+      "code": "IS",
+      "display": "Coded value for user-defined tables",
+      "definition": "Coded value for user-defined tables",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4727",
+      "code": "JCC",
+      "display": "Job code/class",
+      "definition": "Job code/class",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4728",
+      "code": "LA1",
+      "display": "Location with address variation 1",
+      "definition": "Location with address variation 1",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Datatype has been withdrawn from the Standard; the segments RXO-8 and RXE-8 were deprecated, and kept for backward compatibility only as of v2.5, and as of v2.9 they have been witdrawn so the code for the datapyt is here marked as backwars-compatible use (for historical records only)"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2020-09-23"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4729",
+      "code": "LA2",
+      "display": "Location with address variation 2",
+      "definition": "Location with address variation 2",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Datatype has been withdrawn from the Standard; the segments RXD-13, RXG-11 and RXA-11 were deprecated, and kept for backward compatibility only as of v2.5, and as of v2.9 they have been withdrawn so the code for the datatype is here marked as backwards-compatible use (for historical records only)"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2020-09-23"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4730",
+      "code": "MA",
+      "display": "Multiplexed array",
+      "definition": "Multiplexed array",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "For waveform data only"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4731",
+      "code": "MO",
+      "display": "Money",
+      "definition": "Money",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4732",
+      "code": "MOC",
+      "display": "Money and charge code",
+      "definition": "Money and charge code",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in sections 4.5.3.23 OBR-23 and 7.4.1.23- OBR-23 as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4733",
+      "code": "MOP",
+      "display": "Money or percentage",
+      "definition": "Money or percentage",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in section 6.5.8.5  IN3-5, as of v 2.5. This data type is restricted to this field."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4734",
+      "code": "MSG",
+      "display": "Message type",
+      "definition": "Message type",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in 2.16.9.9 MSH-9 as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4735",
+      "code": "NA",
+      "display": "Numeric array",
+      "definition": "Numeric array",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "For waveform data only"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4736",
+      "code": "NDL",
+      "display": "Name with date and location",
+      "definition": "Name with date and location",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in sections 4.5.3.32 and 7.4.1.32-( OBR-32) , 4.5.3.33 and 7.4.1.33  - ( OBR-33) 4.5.3.34 and 7.4.1.34 - ( OBR-34) 4.5.3.35 and 7.4.1.35 - ( OBR-35) as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4737",
+      "code": "NM",
+      "display": "Numeric",
+      "definition": "Numeric",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4738",
+      "code": "NR",
+      "display": "Numeric range",
+      "definition": "Numeric range",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in sections 8.8.4.6.1- OM2-6.1, 8.8.4.6.3- OM2-6.3and 8.8.4.6.4- OM2-6.4, as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4739",
+      "code": "OCD",
+      "display": "Occurrence code and date",
+      "definition": "Occurrence code and date",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in sections 6.5.10.10 UB1-16 and 6.5.11.7 UB2-7, as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4740",
+      "code": "OSD",
+      "display": "Order sequence definition",
+      "definition": "Order sequence definition",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "WITHDRAWN"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2020-09-23"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4741",
+      "code": "OSP",
+      "display": "Occurrence span code and date",
+      "definition": "Occurrence span code and date",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in section 6.5.11.8 UB2-8, as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4742",
+      "code": "PIP",
+      "display": "Practitioner institutional privileges",
+      "definition": "Practitioner institutional privileges",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in 15.4.5.7 PRA-7 as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4743",
+      "code": "PL",
+      "display": "Person location",
+      "definition": "Person location",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4744",
+      "code": "PLN",
+      "display": "Practitioner license or other ID number",
+      "definition": "Practitioner license or other ID number",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in 15.4.5.6 PRA-6, 11.6.3.7 PRD-7 and 11.6.4.7 CTD-7 as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4745",
+      "code": "PN",
+      "display": "Person name",
+      "definition": "Person name",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "WITHDRAWN"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2020-09-23"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4746",
+      "code": "PPN",
+      "display": "Performing person time stamp",
+      "definition": "Performing person time stamp",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "equivalent of an XCN joined with a TS"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4747",
+      "code": "PRL",
+      "display": "Parent result link",
+      "definition": "Parent result link",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in sections 4.5.3.26 - OBR-26 and 7.4.1.26 - OBR-26 as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4748",
+      "code": "PT",
+      "display": "Processing type",
+      "definition": "Processing type",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4749",
+      "code": "PTA",
+      "display": "Policy type and amount",
+      "definition": "Policy type and amount",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in section 6.5.7.29  IN2-29, as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4750",
+      "code": "QIP",
+      "display": "Query input parameter list",
+      "definition": "Query input parameter list",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4751",
+      "code": "QSC",
+      "display": "Query selection criteria",
+      "definition": "Query selection criteria",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4752",
+      "code": "RCD",
+      "display": "Row column definition",
+      "definition": "Row column definition",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4753",
+      "code": "RFR",
+      "display": "Reference range",
+      "definition": "Reference range",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in sections 8.8.4.6 - OM2-6, 8.8.4.7 - OM2-7 and8.8.4.8 - OM2-8 as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4754",
+      "code": "RI",
+      "display": "Repeat interval",
+      "definition": "Repeat interval",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4755",
+      "code": "RMC",
+      "display": "Room coverage",
+      "definition": "Room coverage",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in section 6.5.7.28  IN2-28, as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4756",
+      "code": "RP",
+      "display": "Reference pointer",
+      "definition": "Reference pointer",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4757",
+      "code": "RPT",
+      "display": "Repeat pattern",
+      "definition": "Repeat pattern",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4758",
+      "code": "SAD",
+      "display": "Street Address",
+      "definition": "Street Address",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Appears ONLY in the XAD data type."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4759",
+      "code": "SCV",
+      "display": "Scheduling class value pair",
+      "definition": "Scheduling class value pair",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "For scheduling data only. See Chapter 10"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4760",
+      "code": "SI",
+      "display": "Sequence ID",
+      "definition": "Sequence ID",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4761",
+      "code": "SN",
+      "display": "Structured numeric",
+      "definition": "Structured numeric",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4762",
+      "code": "SNM",
+      "display": "String of telephone number digits",
+      "definition": "String of telephone number digits",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Definition: a string whose characters are limited to \"+\" and the decimal digits 0 through 9.  As a string, leading zeros are always considered significant.  Maximum length: Not specified for the type. May be specified in the context of use."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "4763",
+      "code": "SPD",
+      "display": "Specialty description",
+      "definition": "Specialty description",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in 15.4.5.5 PRA-5 as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4764",
+      "code": "SPS",
+      "display": "Specimen source",
+      "definition": "Specimen source",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "WITHDRAWN"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2020-09-23"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4765",
+      "code": "SRT",
+      "display": "Sort order",
+      "definition": "Sort order",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4766",
+      "code": "ST",
+      "display": "String data",
+      "definition": "String data",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4767",
+      "code": "TM",
+      "display": "Time",
+      "definition": "Time",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4768",
+      "code": "TN",
+      "display": "Telephone number",
+      "definition": "Telephone number",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "WITHDRAWN"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2020-09-23"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4769",
+      "code": "TQ",
+      "display": "Timing/quantity",
+      "definition": "Timing/quantity",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "WITHDRAWN"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2020-09-23"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4770",
+      "code": "TS",
+      "display": "Time stamp",
+      "definition": "Time stamp",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "WITHDRAWN"
+        },
+        {
+          "code": "status",
+          "valueCode": "inactive"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2020-09-23"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4771",
+      "code": "TX",
+      "display": "Text data",
+      "definition": "Text data",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4772",
+      "code": "UVC",
+      "display": "UB value code and amount",
+      "definition": "UB value code and amount",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in sections 6.5.10.10 UB1-10 and 6.5.11.6 UB2-6, as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4773",
+      "code": "VH",
+      "display": "Visiting hours",
+      "definition": "Visiting hours",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4774",
+      "code": "VID",
+      "display": "Version identifier",
+      "definition": "Version identifier",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4775",
+      "code": "VR",
+      "display": "Value range",
+      "definition": "Value range",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in 5.10.5.3.11 QRD-11 as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4776",
+      "code": "WVI",
+      "display": "Channel Identifier",
+      "definition": "Channel Identifier",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in 7.14.1.3.1 OBX-5.1 where OBX-5 Observation value (*) is data type CD as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4777",
+      "code": "WVS",
+      "display": "Waveform source",
+      "definition": "Waveform source",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces the CM data type used in 7.14.1.4 OBX-5.2 where OBX-5 Observation value (*) is data type CD as of v 2.5."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4778",
+      "code": "XAD",
+      "display": "Extended address",
+      "definition": "Extended address",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces AD as of v 2.3"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4779",
+      "code": "XCN",
+      "display": "Extended composite ID number and name for persons",
+      "definition": "Extended composite ID number and name for persons",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces CN as of v 2.3"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4780",
+      "code": "XON",
+      "display": "Extended composite name and ID number for organizations",
+      "definition": "Extended composite name and ID number for organizations",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4781",
+      "code": "XPN",
+      "display": "Extended person name",
+      "definition": "Extended person name",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces PN as of v 2.3."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4782",
+      "code": "XTN",
+      "display": "Extended telecommunications number",
+      "definition": "Extended telecommunications number",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Replaces TN as of v 2.3"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    }
+  ]
 }

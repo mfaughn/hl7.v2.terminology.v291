@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-orderControlCodeReason.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/orderControlCodeReason</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0949"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/orderControlCodeReason",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.449"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0949"
-  } ],
-  "version": "1.0.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0949"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "1.0.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0949",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.449"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0949"
+    }
+  ],
+  "version": "3.0.0",
   "name": "OrderControlCodeReason",
   "title": "Order Control Code Reason (2.9.1 - 1.0.0)",
   "status": "active",
@@ -34,102 +45,132 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  } ],
-  "concept": [ {
-    "id": "6769",
-    "code": "CO",
-    "display": "Cost",
-    "definition": "Order changed based on cost",
-    "property": [ {
-      "code": "comment",
-      "valueString": "In an order replacement context, this would accompany proposal of a similar but lower cost order"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2022-08-25"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "6770",
-    "code": "ST",
-    "display": "Specimen Type",
-    "definition": "Incorrect specimen type submitted for the requested test",
-    "property": [ {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
       "code": "comment",
-      "valueString": "Order placer may accept, cancel and replace, or choose other testing."
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
       "code": "usage",
-      "valueString": "Recommend testing that can use the submitted specimen type"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
       "code": "modified",
-      "valueDateTime": "2022-08-25"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "6771",
-    "code": "SV",
-    "display": "Specimen Volume",
-    "definition": "Provided specimen volume inadequate for testing",
-    "property": [ {
-      "code": "comment",
-      "valueString": "The question is how to use the available specimen. The Order Placer may choose a different subset of tests."
-    }, {
-      "code": "usage",
-      "valueString": "Recommend a subset of ordered tests appropriate for volume"
-    }, {
-      "code": "modified",
-      "valueDateTime": "2022-08-25"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "6772",
-    "code": "UN",
-    "display": "Unavailable test",
-    "definition": "Requested test not available",
-    "property": [ {
-      "code": "comment",
-      "valueString": "In an order replacement context, an alternative might be proposed."
-    }, {
-      "code": "modified",
-      "valueDateTime": "2022-08-25"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    }
+  ],
+  "concept": [
+    {
+      "id": "6769",
+      "code": "CO",
+      "display": "Cost",
+      "definition": "Order changed based on cost",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "In an order replacement context, this would accompany proposal of a similar but lower cost order"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-25"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "6770",
+      "code": "ST",
+      "display": "Specimen Type",
+      "definition": "Incorrect specimen type submitted for the requested test",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "Order placer may accept, cancel and replace, or choose other testing."
+        },
+        {
+          "code": "usage",
+          "valueString": "Recommend testing that can use the submitted specimen type"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-25"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "6771",
+      "code": "SV",
+      "display": "Specimen Volume",
+      "definition": "Provided specimen volume inadequate for testing",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "The question is how to use the available specimen. The Order Placer may choose a different subset of tests."
+        },
+        {
+          "code": "usage",
+          "valueString": "Recommend a subset of ordered tests appropriate for volume"
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-25"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "6772",
+      "code": "UN",
+      "display": "Unavailable test",
+      "definition": "Requested test not available",
+      "property": [
+        {
+          "code": "comment",
+          "valueString": "In an order replacement context, an alternative might be proposed."
+        },
+        {
+          "code": "modified",
+          "valueDateTime": "2022-08-25"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    }
+  ]
 }

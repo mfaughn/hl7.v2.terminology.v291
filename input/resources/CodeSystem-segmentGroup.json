@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-segmentGroup.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/segmentGroup</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0391"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/segmentGroup",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.242"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0391"
-  } ],
-  "version": "9.0.1",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0391"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "9.0.1"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0391",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.242"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0391"
+    }
+  ],
+  "version": "4.0.0",
   "name": "SegmentGroup",
   "title": "Segment Group (2.9.1 - 9.0.1)",
   "status": "active",
@@ -34,2747 +45,3786 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  }, {
-    "extension": [ {
-      "url": "http://hl7.org/fhir/StructureDefinition/codesystem-property-valueset",
-      "valueCanonical": "http://terminology.hl7.org/v2plusvocab/ValueSet/hl7VSmessageStructure"
-    } ],
-    "code": "msgstruct",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#msgstruct",
-    "description": "msgstruct",
-    "type": "code"
-  } ],
-  "concept": [ {
-    "code": "ACCESSION_DETAIL",
-    "display": "ACCESSION_DETAIL",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "ADDITIONAL_DEMOGRAPHICS",
-    "display": "ADDITIONAL_DEMOGRAPHICS",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "ADJUSTMENT_PAYEE",
-    "display": "ADJUSTMENT_PAYEE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "3865",
-    "code": "ADMINISTRATION",
-    "display": "ADMINISTRATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "ADVERSE_REACTION_GROUP",
-    "display": "ADVERSE_REACTION_GROUP",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "3867",
-    "code": "ALLERGY",
-    "display": "ALLERGY",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "ANTI-MICROBIAL_DEVICE_CYCLE_DA",
-    "display": "ANTI-MICROBIAL_DEVICE_CYCLE_DA",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "ANTI-MICROBIAL_DEVICE_DATA",
-    "display": "ANTI-MICROBIAL_DEVICE_DATA",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "APPOINTMENT_HISTORY",
-    "display": "APPOINTMENT_HISTORY",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "3869",
-    "code": "APP_STATS",
-    "display": "APP_STATS",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3871",
-    "code": "APP_STATUS",
-    "display": "APP_STATUS",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "ASSOCIATED_OBSERVATION",
-    "display": "ASSOCIATED_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "3873",
-    "code": "ASSOCIATED_PERSON",
-    "display": "ASSOCIATED_PERSON",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3875",
-    "code": "ASSOCIATED_RX_ADMIN",
-    "display": "ASSOCIATED_RX_ADMIN",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3877",
-    "code": "ASSOCIATED_RX_ORDER",
-    "display": "ASSOCIATED_RX_ORDER",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3879",
-    "code": "AUTHORIZATION",
-    "display": "AUTHORIZATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3880",
-    "code": "AUTHORIZATION_CONTACT",
-    "display": "AUTHORIZATION_CONTACT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "AUTHORIZATION_CONTACT2",
-    "display": "AUTHORIZATION_CONTACT2",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "code": "AUTHORIZATION_INFO",
-    "display": "AUTHORIZATION_INFO",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "AUTHORIZATION_REQUEST",
-    "display": "AUTHORIZATION_REQUEST",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "AUTHORIZATION_RESPONSE_INFO",
-    "display": "AUTHORIZATION_RESPONSE_INFO",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "BLOOD_UNIT",
-    "display": "BLOOD_UNIT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "3881",
-    "code": "CERTIFICATE",
-    "display": "CERTIFICATE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "code": "CHOICE",
-    "display": "CHOICE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "CLINICAL_HISTORY",
-    "display": "CLINICAL_HISTORY",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "CLINICAL_HISTORY_DETAIL",
-    "display": "CLINICAL_HISTORY_DETAIL",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "CLINICAL_HISTORY_OBJECT",
-    "display": "CLINICAL_HISTORY_OBJECT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "CLINICAL_HISTORY_OBSERVATION",
-    "display": "CLINICAL_HISTORY_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "code": "CLINICAL_ORDER",
-    "display": "CLINICAL_ORDER",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "CLINICAL_ORDER_DETAIL",
-    "display": "CLINICAL_ORDER_DETAIL",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "CLINICAL_ORDER_OBJECT",
-    "display": "CLINICAL_ORDER_OBJECT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "CLINICAL_ORDER_OBSERVATION",
-    "display": "CLINICAL_ORDER_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "code": "CLINICAL_ORDER_TIMING",
-    "display": "CLINICAL_ORDER_TIMING",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "3882",
-    "code": "CLOCK",
-    "display": "CLOCK",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3883",
-    "code": "CLOCK_AND_STATISTICS",
-    "display": "CLOCK_AND_STATISTICS",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3885",
-    "code": "CLOCK_AND_STATS_WITH_NOTES",
-    "display": "CLOCK_AND_STATS_WITH_NOTES",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3886",
-    "code": "CLOCK_AND_STATS_WITH_NOTES_ALT",
-    "display": "CLOCK_AND_STATS_WITH_NOTES_ALT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7.1"
-    } ]
-  }, {
-    "id": "3887",
-    "code": "COMMAND",
-    "display": "COMMAND",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3888",
-    "code": "COMMAND_RESPONSE",
-    "display": "COMMAND_RESPONSE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3889",
-    "code": "COMMON_ORDER",
-    "display": "COMMON_ORDER",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3890",
-    "code": "COMPONENT",
-    "display": "COMPONENT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3891",
-    "code": "COMPONENTS",
-    "display": "COMPONENTS",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3892",
-    "code": "CONTAINER",
-    "display": "CONTAINER",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "CONTAINER_OBSERVATION",
-    "display": "CONTAINER_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "CONTRACT_RECORD",
-    "display": "CONTRACT_RECORD",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "3893",
-    "code": "DEFINITION",
-    "display": "DEFINITION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "DEVICE",
-    "display": "DEVICE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "code": "DIAGNOSIS",
-    "display": "DIAGNOSIS",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "DIAGNOSIS_FT1",
-    "display": "DIAGNOSIS_FT1",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "3894",
-    "code": "DIET",
-    "display": "DIET",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3895",
-    "code": "DISPENSE",
-    "display": "DISPENSE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "DONATION",
-    "display": "DONATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "code": "DONATION_OBSERVATION",
-    "display": "DONATION_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8.1"
-    } ]
-  }, {
-    "code": "DONATION_OBSERVATIONS",
-    "display": "DONATION_OBSERVATIONS",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "code": "DONATION_ORDER",
-    "display": "DONATION_ORDER",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "code": "DONOR",
-    "display": "DONOR",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "code": "DONOR_OBSERVATIONS",
-    "display": "DONOR_OBSERVATIONS",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "code": "DONOR_ORDER",
-    "display": "DONOR_ORDER",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8.2"
-    } ]
-  }, {
-    "code": "DONOR_REGISTRATION",
-    "display": "DONOR_REGISTRATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "3897",
-    "code": "ENCODED_ORDER",
-    "display": "ENCODED_ORDER",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3898",
-    "code": "ENCODING",
-    "display": "ENCODING",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3899",
-    "code": "EXPERIENCE",
-    "display": "EXPERIENCE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3900",
-    "code": "FINANCIAL",
-    "display": "FINANCIAL",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3901",
-    "code": "FINANCIAL_COMMON_ORDER",
-    "display": "FINANCIAL_COMMON_ORDER",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3903",
-    "code": "FINANCIAL_INSURANCE",
-    "display": "FINANCIAL_INSURANCE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3904",
-    "code": "FINANCIAL_OBSERVATION",
-    "display": "FINANCIAL_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "FINANCIAL_OBSERVATION_2",
-    "display": "FINANCIAL_OBSERVATION_2",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "code": "FINANCIAL_OBSERVATION_STANDALO",
-    "display": "FINANCIAL_OBSERVATION_STANDALO",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "3905",
-    "code": "FINANCIAL_ORDER",
-    "display": "FINANCIAL_ORDER",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "FINANCIAL_ORDER_STANDALONE",
-    "display": "FINANCIAL_ORDER_STANDALONE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "3906",
-    "code": "FINANCIAL_PROCEDURE",
-    "display": "FINANCIAL_PROCEDURE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3907",
-    "code": "FINANCIAL_TIMING_QUANTITY",
-    "display": "FINANCIAL_TIMING_QUANTITY",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3909",
-    "code": "GENERAL_RESOURCE",
-    "display": "GENERAL_RESOURCE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3910",
-    "code": "GIVE",
-    "display": "GIVE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3912",
-    "code": "GOAL",
-    "display": "GOAL",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3913",
-    "code": "GOAL_OBSERVATION",
-    "display": "GOAL_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "GOAL_PARTICIPATION",
-    "display": "GOAL_PARTICIPATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "3914",
-    "code": "GOAL_PATHWAY",
-    "display": "GOAL_PATHWAY",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3915",
-    "code": "GOAL_ROLE",
-    "display": "GOAL_ROLE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "GUARANTOR",
-    "display": "GUARANTOR",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "3916",
-    "code": "GUARANTOR_INSURANCE",
-    "display": "GUARANTOR_INSURANCE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3917",
-    "code": "INSURANCE",
-    "display": "INSURANCE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "INVOICE_INFORMATION_CANCEL",
-    "display": "INVOICE_INFORMATION_CANCEL",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "code": "INVOICE_INFORMATION_SUBMIT",
-    "display": "INVOICE_INFORMATION_SUBMIT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "code": "INVOICE_PROCESSING_RESULTS_INF",
-    "display": "INVOICE_PROCESSING_RESULTS_INF",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "3918",
-    "code": "LOCATION_RESOURCE",
-    "display": "LOCATION_RESOURCE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "MATERIAL_ITEM_RECORD",
-    "display": "MATERIAL_ITEM_RECORD",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "MATERIAL_LOCATION",
-    "display": "MATERIAL_LOCATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "MEDICATION_ADMINISTRATION_DETA",
-    "display": "MEDICATION_ADMINISTRATION_DETA",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "MEDICATION_ADMINISTRATION_OBSE",
-    "display": "MEDICATION_ADMINISTRATION_OBSE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "code": "MEDICATION_ENCODING_DETAIL",
-    "display": "MEDICATION_ENCODING_DETAIL",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "MEDICATION_ENCODING_OBSERVATIO",
-    "display": "MEDICATION_ENCODING_OBSERVATIO",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "code": "MEDICATION_HISTORY",
-    "display": "MEDICATION_HISTORY",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "MEDICATION_ORDER_DETAIL",
-    "display": "MEDICATION_ORDER_DETAIL",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "MEDICATION_ORDER_OBSERVATION",
-    "display": "MEDICATION_ORDER_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "3919",
-    "code": "MERGE_INFO",
-    "display": "MERGE_INFO",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3920",
-    "code": "MF",
-    "display": "MF",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3922",
-    "code": "MF_CDM",
-    "display": "MF_CDM",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3923",
-    "code": "MF_CLIN_STUDY",
-    "display": "MF_CLIN_STUDY",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3924",
-    "code": "MF_CLIN_STUDY_SCHED",
-    "display": "MF_CLIN_STUDY_SCHED",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "MF_DRG",
-    "display": "MF_DRG",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "3925",
-    "code": "MF_INV_ITEM",
-    "display": "MF_INV_ITEM",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3927",
-    "code": "MF_LOCATION",
-    "display": "MF_LOCATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3926",
-    "code": "MF_LOC_DEPT",
-    "display": "MF_LOC_DEPT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3928",
-    "code": "MF_OBS_ATTRIBUTES",
-    "display": "MF_OBS_ATTRIBUTES",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "MF_OBS_OTHER_ATTRIBUTES",
-    "display": "MF_OBS_OTHER_ATTRIBUTES",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "code": "MF_PAYER",
-    "display": "MF_PAYER",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8.2"
-    } ]
-  }, {
-    "id": "3929",
-    "code": "MF_PHASE_SCHED_DETAIL",
-    "display": "MF_PHASE_SCHED_DETAIL",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3930",
-    "code": "MF_QUERY",
-    "display": "MF_QUERY",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3931",
-    "code": "MF_SITE_DEFINED",
-    "display": "MF_SITE_DEFINED",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3932",
-    "code": "MF_STAFF",
-    "display": "MF_STAFF",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3933",
-    "code": "MF_TEST",
-    "display": "MF_TEST",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3935",
-    "code": "MF_TEST_BATTERIES",
-    "display": "MF_TEST_BATTERIES",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3934",
-    "code": "MF_TEST_BATT_DETAIL",
-    "display": "MF_TEST_BATT_DETAIL",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3937",
-    "code": "MF_TEST_CALCULATED",
-    "display": "MF_TEST_CALCULATED",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3936",
-    "code": "MF_TEST_CALC_DETAIL",
-    "display": "MF_TEST_CALC_DETAIL",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3939",
-    "code": "MF_TEST_CATEGORICAL",
-    "display": "MF_TEST_CATEGORICAL",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3938",
-    "code": "MF_TEST_CAT_DETAIL",
-    "display": "MF_TEST_CAT_DETAIL",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3940",
-    "code": "MF_TEST_NUMERIC",
-    "display": "MF_TEST_NUMERIC",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "NEXT_OF_KIN",
-    "display": "NEXT_OF_KIN",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "3941",
-    "code": "NK1_TIMING_QTY",
-    "display": "NK1_TIMING_QTY",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3942",
-    "code": "NOTIFICATION",
-    "display": "NOTIFICATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3943",
-    "code": "OBSERVATION",
-    "display": "OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "OBSERVATIONS_ON_PATIENT",
-    "display": "OBSERVATIONS_ON_PATIENT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "OBSERVATION_GROUP",
-    "display": "OBSERVATION_GROUP",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "OBSERVATION_PARTICIPATION",
-    "display": "OBSERVATION_PARTICIPATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "code": "OBSERVATION_PARTICIPATION_PRIO",
-    "display": "OBSERVATION_PARTICIPATION_PRIO",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "3944",
-    "code": "OBSERVATION_PRIOR",
-    "display": "OBSERVATION_PRIOR",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3945",
-    "code": "OBSERVATION_REQUEST",
-    "display": "OBSERVATION_REQUEST",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "OBSERVATION_RESULT_1",
-    "display": "OBSERVATION_RESULT_1",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "code": "OBSERVATION_RESULT_2",
-    "display": "OBSERVATION_RESULT_2",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "code": "OBSERVATION_RESULT_GROUP",
-    "display": "OBSERVATION_RESULT_GROUP",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "code": "OCCUPATIONAL_DATA_FOR_HEALTH",
-    "display": "OCCUPATIONAL_DATA_FOR_HEALTH",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "3946",
-    "code": "OMSERVATION",
-    "display": "OMSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "3947",
-    "code": "ORDER",
-    "display": "ORDER",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3948",
-    "code": "ORDER_CHOICE",
-    "display": "ORDER_CHOICE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3949",
-    "code": "ORDER_DETAIL",
-    "display": "ORDER_DETAIL",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "ORDER_DETAIL_PARTICIPATION_PRI",
-    "display": "ORDER_DETAIL_PARTICIPATION_PRI",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "3950",
-    "code": "ORDER_DETAIL_SUPPLEMENT",
-    "display": "ORDER_DETAIL_SUPPLEMENT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3951",
-    "code": "ORDER_DIET",
-    "display": "ORDER_DIET",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "ORDER_DOCUMENT",
-    "display": "ORDER_DOCUMENT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "3952",
-    "code": "ORDER_ENCODED",
-    "display": "ORDER_ENCODED",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "ORDER_FOR_SPECIMEN_CONTAINER",
-    "display": "ORDER_FOR_SPECIMEN_CONTAINER",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "3953",
-    "code": "ORDER_OBSERVATION",
-    "display": "ORDER_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3954",
-    "code": "ORDER_PRIOR",
-    "display": "ORDER_PRIOR",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "ORDER_RELATED_OBSERVATION",
-    "display": "ORDER_RELATED_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "ORDER_STATUS",
-    "display": "ORDER_STATUS",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "3955",
-    "code": "ORDER_TRAY",
-    "display": "ORDER_TRAY",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "PACKAGE",
-    "display": "PACKAGE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "PACKAGING",
-    "display": "PACKAGING",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "PARTICIPATION_CLINICAL_HISTORY",
-    "display": "PARTICIPATION_CLINICAL_HISTORY",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "code": "PARTICIPATION_GOAL",
-    "display": "PARTICIPATION_GOAL",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "code": "PARTICIPATION_GOAL_OBJECT",
-    "display": "PARTICIPATION_GOAL_OBJECT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "code": "PARTICIPATION_OBSERVATION",
-    "display": "PARTICIPATION_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "code": "PARTICIPATION_PATHWAY",
-    "display": "PARTICIPATION_PATHWAY",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "code": "PARTICIPATION_PATHWAY_OBJECT",
-    "display": "PARTICIPATION_PATHWAY_OBJECT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "code": "PARTICIPATION_PROBLEM",
-    "display": "PARTICIPATION_PROBLEM",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "code": "PARTICIPATION_PROBLEM_OBJECT",
-    "display": "PARTICIPATION_PROBLEM_OBJECT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "3956",
-    "code": "PATHWAY",
-    "display": "PATHWAY",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "PATHWAY_OBSERVATION",
-    "display": "PATHWAY_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "code": "PATHWAY_PARTICIPATION",
-    "display": "PATHWAY_PARTICIPATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "3957",
-    "code": "PATHWAY_ROLE",
-    "display": "PATHWAY_ROLE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3958",
-    "code": "PATIENT",
-    "display": "PATIENT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "PATIENT_INFO",
-    "display": "PATIENT_INFO",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "PATIENT_OBSERVATION",
-    "display": "PATIENT_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "3959",
-    "code": "PATIENT_PRIOR",
-    "display": "PATIENT_PRIOR",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3960",
-    "code": "PATIENT_RESULT",
-    "display": "PATIENT_RESULT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3961",
-    "code": "PATIENT_VISIT",
-    "display": "PATIENT_VISIT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "PATIENT_VISITS",
-    "display": "PATIENT_VISITS",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "PATIENT_VISIT_OBSERVATION",
-    "display": "PATIENT_VISIT_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "3962",
-    "code": "PATIENT_VISIT_PRIOR",
-    "display": "PATIENT_VISIT_PRIOR",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "PAT_INFO",
-    "display": "PAT_INFO",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "PAYER_MF_COVERAGE",
-    "display": "PAYER_MF_COVERAGE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8.2"
-    } ]
-  }, {
-    "code": "PAYER_MF_ENTRY",
-    "display": "PAYER_MF_ENTRY",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8.2"
-    } ]
-  }, {
-    "code": "PAYMENT_REMITTANCE_DETAIL_INFO",
-    "display": "PAYMENT_REMITTANCE_DETAIL_INFO",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "PAYMENT_REMITTANCE_HEADER_INFO",
-    "display": "PAYMENT_REMITTANCE_HEADER_INFO",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "3964",
-    "code": "PERSONNEL_RESOURCE",
-    "display": "PERSONNEL_RESOURCE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "PERSON_OBSERVATION",
-    "display": "PERSON_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "3965",
-    "code": "PEX_CAUSE",
-    "display": "PEX_CAUSE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3966",
-    "code": "PEX_OBSERVATION",
-    "display": "PEX_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "PHARMACY_TREATMENT_INFUSION_OR",
-    "display": "PHARMACY_TREATMENT_INFUSION_OR",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "3967",
-    "code": "PRIOR_RESULT",
-    "display": "PRIOR_RESULT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3968",
-    "code": "PROBLEM",
-    "display": "PROBLEM",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3970",
-    "code": "PROBLEM_OBSERVATION",
-    "display": "PROBLEM_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "PROBLEM_PARTICIPATION",
-    "display": "PROBLEM_PARTICIPATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "3971",
-    "code": "PROBLEM_PATHWAY",
-    "display": "PROBLEM_PATHWAY",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3972",
-    "code": "PROBLEM_ROLE",
-    "display": "PROBLEM_ROLE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3973",
-    "code": "PROCEDURE",
-    "display": "PROCEDURE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3974",
-    "code": "PRODUCT",
-    "display": "PRODUCT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "PRODUCT_SERVICE_GROUP",
-    "display": "PRODUCT_SERVICE_GROUP",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "PRODUCT_SERVICE_LINE_INFO",
-    "display": "PRODUCT_SERVICE_LINE_INFO",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "PRODUCT_SERVICE_LINE_ITEM",
-    "display": "PRODUCT_SERVICE_LINE_ITEM",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "PRODUCT_SERVICE_SECTION",
-    "display": "PRODUCT_SERVICE_SECTION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "3975",
-    "code": "PRODUCT_STATUS",
-    "display": "PRODUCT_STATUS",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3976",
-    "code": "PROVIDER",
-    "display": "PROVIDER",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3977",
-    "code": "PROVIDER_CONTACT",
-    "display": "PROVIDER_CONTACT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "PSG",
-    "display": "PSG",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "PSL_ITEM_INFO",
-    "display": "PSL_ITEM_INFO",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "PURCHASING_VENDOR",
-    "display": "PURCHASING_VENDOR",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "3978",
-    "code": "QBP",
-    "display": "QBP",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3979",
-    "code": "QRY_WITH_DETAIL",
-    "display": "QRY_WITH_DETAIL",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "QUERY",
-    "display": "QUERY",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "QUERY_ACK",
-    "display": "QUERY_ACK",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "QUERY_ACK_IPR",
-    "display": "QUERY_ACK_IPR",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "code": "QUERY_INFORMATION",
-    "display": "QUERY_INFORMATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "3980",
-    "code": "QUERY_RESPONSE",
-    "display": "QUERY_RESPONSE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3981",
-    "code": "QUERY_RESULT_CLUSTER",
-    "display": "QUERY_RESULT_CLUSTER",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "code": "REASSESSMENT_REQUEST_INFO",
-    "display": "REASSESSMENT_REQUEST_INFO",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "REFERRAL",
-    "display": "REFERRAL",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  }, {
-    "id": "3982",
-    "code": "REQUEST",
-    "display": "REQUEST",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3983",
-    "code": "RESOURCE",
-    "display": "RESOURCE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "3984",
-    "code": "RESOURCES",
-    "display": "RESOURCES",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "RESOURCE_DETAIL",
-    "display": "RESOURCE_DETAIL",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "RESOURCE_OBJECT",
-    "display": "RESOURCE_OBJECT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "RESOURCE_OBSERVATION",
-    "display": "RESOURCE_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "3985",
-    "code": "RESPONSE",
-    "display": "RESPONSE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3986",
-    "code": "RESULT",
-    "display": "RESULT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3987",
-    "code": "RESULTS",
-    "display": "RESULTS",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3988",
-    "code": "RESULTS_NOTES",
-    "display": "RESULTS_NOTES",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3989",
-    "code": "ROW_DEFINITION",
-    "display": "ROW_DEFINITION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "RX_ADMIN",
-    "display": "RX_ADMIN",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3990",
-    "code": "RX_ADMINISTRATION",
-    "display": "RX_ADMINISTRATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3991",
-    "code": "RX_ORDER",
-    "display": "RX_ORDER",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3992",
-    "code": "SCHEDULE",
-    "display": "SCHEDULE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "SEGMENT_PATTERN",
-    "display": "SEGMENT_PATTERN",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "3993",
-    "code": "SERVICE",
-    "display": "SERVICE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "SHIPMENT",
-    "display": "SHIPMENT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "SHIPMENT_OBSERVATION",
-    "display": "SHIPMENT_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "SHIPPING_OBSERVATION",
-    "display": "SHIPPING_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "3994",
-    "code": "SPECIMEN",
-    "display": "SPECIMEN",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "3995",
-    "code": "SPECIMEN_CONTAINER",
-    "display": "SPECIMEN_CONTAINER",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "SPECIMEN_CONTAINER_IN_PACKAGE",
-    "display": "SPECIMEN_CONTAINER_IN_PACKAGE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "SPECIMEN_IN_PACKAGE",
-    "display": "SPECIMEN_IN_PACKAGE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "code": "SPECIMEN_OBSERVATION",
-    "display": "SPECIMEN_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "code": "SPECIMEN_SHIPMENT",
-    "display": "SPECIMEN_SHIPMENT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.7"
-    } ]
-  }, {
-    "id": "3996",
-    "code": "STAFF",
-    "display": "STAFF",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "STERILIZATION",
-    "display": "STERILIZATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "3997",
-    "code": "STUDY",
-    "display": "STUDY",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3998",
-    "code": "STUDY_OBSERVATION",
-    "display": "STUDY_OBSERVATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "STUDY_OBSERVATION_ORDER",
-    "display": "STUDY_OBSERVATION_ORDER",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "code": "STUDY_PHARM",
-    "display": "STUDY_PHARM",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "3999",
-    "code": "STUDY_PHASE",
-    "display": "STUDY_PHASE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4000",
-    "code": "STUDY_SCHEDULE",
-    "display": "STUDY_SCHEDULE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "SUBJECT_PERSON_OR_ANIMAL_IDENT",
-    "display": "SUBJECT_PERSON_OR_ANIMAL_IDENT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "code": "SUBJECT_POPULATION_OR_LOCATION",
-    "display": "SUBJECT_POPULATION_OR_LOCATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.8"
-    } ]
-  }, {
-    "id": "4001",
-    "code": "TEST_CONFIGURATION",
-    "display": "TEST_CONFIGURATION",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4002",
-    "code": "TIMING",
-    "display": "TIMING",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4003",
-    "code": "TIMING_DIET",
-    "display": "TIMING_DIET",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4004",
-    "code": "TIMING_ENCODED",
-    "display": "TIMING_ENCODED",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4005",
-    "code": "TIMING_GIVE",
-    "display": "TIMING_GIVE",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4006",
-    "code": "TIMING_PRIOR",
-    "display": "TIMING_PRIOR",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4007",
-    "code": "TIMING_QTY",
-    "display": "TIMING_QTY",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4008",
-    "code": "TIMING_QUANTITY",
-    "display": "TIMING_QUANTITY",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4009",
-    "code": "TIMING_TRAY",
-    "display": "TIMING_TRAY",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.5"
-    } ]
-  }, {
-    "id": "4010",
-    "code": "TREATMENT",
-    "display": "TREATMENT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "4011",
-    "code": "VISIT",
-    "display": "VISIT",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "code": "VISIT_GROUP",
-    "display": "VISIT_GROUP",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2024-01-12"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.9"
-    } ]
-  } ]
+  "property": [
+    {
+      "code": "versionIntroduced",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
+      "code": "modified",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-property-valueset",
+          "valueCanonical": "http://terminology.hl7.org/v2plusvocab/ValueSet/hl7VSmessageStructure"
+        }
+      ],
+      "code": "msgstruct",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#msgstruct",
+      "description": "msgstruct",
+      "type": "code"
+    }
+  ],
+  "concept": [
+    {
+      "code": "ACCESSION_DETAIL",
+      "display": "ACCESSION_DETAIL",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "ADDITIONAL_DEMOGRAPHICS",
+      "display": "ADDITIONAL_DEMOGRAPHICS",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "ADJUSTMENT_PAYEE",
+      "display": "ADJUSTMENT_PAYEE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "3865",
+      "code": "ADMINISTRATION",
+      "display": "ADMINISTRATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "ADVERSE_REACTION_GROUP",
+      "display": "ADVERSE_REACTION_GROUP",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "3867",
+      "code": "ALLERGY",
+      "display": "ALLERGY",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "ANTI-MICROBIAL_DEVICE_CYCLE_DA",
+      "display": "ANTI-MICROBIAL_DEVICE_CYCLE_DA",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "ANTI-MICROBIAL_DEVICE_DATA",
+      "display": "ANTI-MICROBIAL_DEVICE_DATA",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "APPOINTMENT_HISTORY",
+      "display": "APPOINTMENT_HISTORY",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "3869",
+      "code": "APP_STATS",
+      "display": "APP_STATS",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3871",
+      "code": "APP_STATUS",
+      "display": "APP_STATUS",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "ASSOCIATED_OBSERVATION",
+      "display": "ASSOCIATED_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "3873",
+      "code": "ASSOCIATED_PERSON",
+      "display": "ASSOCIATED_PERSON",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3875",
+      "code": "ASSOCIATED_RX_ADMIN",
+      "display": "ASSOCIATED_RX_ADMIN",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3877",
+      "code": "ASSOCIATED_RX_ORDER",
+      "display": "ASSOCIATED_RX_ORDER",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3879",
+      "code": "AUTHORIZATION",
+      "display": "AUTHORIZATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3880",
+      "code": "AUTHORIZATION_CONTACT",
+      "display": "AUTHORIZATION_CONTACT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "AUTHORIZATION_CONTACT2",
+      "display": "AUTHORIZATION_CONTACT2",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "code": "AUTHORIZATION_INFO",
+      "display": "AUTHORIZATION_INFO",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "AUTHORIZATION_REQUEST",
+      "display": "AUTHORIZATION_REQUEST",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "AUTHORIZATION_RESPONSE_INFO",
+      "display": "AUTHORIZATION_RESPONSE_INFO",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "BLOOD_UNIT",
+      "display": "BLOOD_UNIT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "3881",
+      "code": "CERTIFICATE",
+      "display": "CERTIFICATE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "code": "CHOICE",
+      "display": "CHOICE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "CLINICAL_HISTORY",
+      "display": "CLINICAL_HISTORY",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "CLINICAL_HISTORY_DETAIL",
+      "display": "CLINICAL_HISTORY_DETAIL",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "CLINICAL_HISTORY_OBJECT",
+      "display": "CLINICAL_HISTORY_OBJECT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "CLINICAL_HISTORY_OBSERVATION",
+      "display": "CLINICAL_HISTORY_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "code": "CLINICAL_ORDER",
+      "display": "CLINICAL_ORDER",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "CLINICAL_ORDER_DETAIL",
+      "display": "CLINICAL_ORDER_DETAIL",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "CLINICAL_ORDER_OBJECT",
+      "display": "CLINICAL_ORDER_OBJECT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "CLINICAL_ORDER_OBSERVATION",
+      "display": "CLINICAL_ORDER_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "code": "CLINICAL_ORDER_TIMING",
+      "display": "CLINICAL_ORDER_TIMING",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "3882",
+      "code": "CLOCK",
+      "display": "CLOCK",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3883",
+      "code": "CLOCK_AND_STATISTICS",
+      "display": "CLOCK_AND_STATISTICS",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3885",
+      "code": "CLOCK_AND_STATS_WITH_NOTES",
+      "display": "CLOCK_AND_STATS_WITH_NOTES",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3886",
+      "code": "CLOCK_AND_STATS_WITH_NOTES_ALT",
+      "display": "CLOCK_AND_STATS_WITH_NOTES_ALT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7.1"
+        }
+      ]
+    },
+    {
+      "id": "3887",
+      "code": "COMMAND",
+      "display": "COMMAND",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3888",
+      "code": "COMMAND_RESPONSE",
+      "display": "COMMAND_RESPONSE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3889",
+      "code": "COMMON_ORDER",
+      "display": "COMMON_ORDER",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3890",
+      "code": "COMPONENT",
+      "display": "COMPONENT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3891",
+      "code": "COMPONENTS",
+      "display": "COMPONENTS",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3892",
+      "code": "CONTAINER",
+      "display": "CONTAINER",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "CONTAINER_OBSERVATION",
+      "display": "CONTAINER_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "CONTRACT_RECORD",
+      "display": "CONTRACT_RECORD",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "3893",
+      "code": "DEFINITION",
+      "display": "DEFINITION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "DEVICE",
+      "display": "DEVICE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "code": "DIAGNOSIS",
+      "display": "DIAGNOSIS",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "DIAGNOSIS_FT1",
+      "display": "DIAGNOSIS_FT1",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "3894",
+      "code": "DIET",
+      "display": "DIET",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3895",
+      "code": "DISPENSE",
+      "display": "DISPENSE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "DONATION",
+      "display": "DONATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "code": "DONATION_OBSERVATION",
+      "display": "DONATION_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8.1"
+        }
+      ]
+    },
+    {
+      "code": "DONATION_OBSERVATIONS",
+      "display": "DONATION_OBSERVATIONS",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "code": "DONATION_ORDER",
+      "display": "DONATION_ORDER",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "code": "DONOR",
+      "display": "DONOR",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "code": "DONOR_OBSERVATIONS",
+      "display": "DONOR_OBSERVATIONS",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "code": "DONOR_ORDER",
+      "display": "DONOR_ORDER",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8.2"
+        }
+      ]
+    },
+    {
+      "code": "DONOR_REGISTRATION",
+      "display": "DONOR_REGISTRATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "3897",
+      "code": "ENCODED_ORDER",
+      "display": "ENCODED_ORDER",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3898",
+      "code": "ENCODING",
+      "display": "ENCODING",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3899",
+      "code": "EXPERIENCE",
+      "display": "EXPERIENCE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3900",
+      "code": "FINANCIAL",
+      "display": "FINANCIAL",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3901",
+      "code": "FINANCIAL_COMMON_ORDER",
+      "display": "FINANCIAL_COMMON_ORDER",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3903",
+      "code": "FINANCIAL_INSURANCE",
+      "display": "FINANCIAL_INSURANCE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3904",
+      "code": "FINANCIAL_OBSERVATION",
+      "display": "FINANCIAL_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "FINANCIAL_OBSERVATION_2",
+      "display": "FINANCIAL_OBSERVATION_2",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "code": "FINANCIAL_OBSERVATION_STANDALO",
+      "display": "FINANCIAL_OBSERVATION_STANDALO",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "3905",
+      "code": "FINANCIAL_ORDER",
+      "display": "FINANCIAL_ORDER",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "FINANCIAL_ORDER_STANDALONE",
+      "display": "FINANCIAL_ORDER_STANDALONE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "3906",
+      "code": "FINANCIAL_PROCEDURE",
+      "display": "FINANCIAL_PROCEDURE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3907",
+      "code": "FINANCIAL_TIMING_QUANTITY",
+      "display": "FINANCIAL_TIMING_QUANTITY",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3909",
+      "code": "GENERAL_RESOURCE",
+      "display": "GENERAL_RESOURCE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3910",
+      "code": "GIVE",
+      "display": "GIVE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3912",
+      "code": "GOAL",
+      "display": "GOAL",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3913",
+      "code": "GOAL_OBSERVATION",
+      "display": "GOAL_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "GOAL_PARTICIPATION",
+      "display": "GOAL_PARTICIPATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "3914",
+      "code": "GOAL_PATHWAY",
+      "display": "GOAL_PATHWAY",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3915",
+      "code": "GOAL_ROLE",
+      "display": "GOAL_ROLE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "GUARANTOR",
+      "display": "GUARANTOR",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "3916",
+      "code": "GUARANTOR_INSURANCE",
+      "display": "GUARANTOR_INSURANCE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3917",
+      "code": "INSURANCE",
+      "display": "INSURANCE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "INVOICE_INFORMATION_CANCEL",
+      "display": "INVOICE_INFORMATION_CANCEL",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "code": "INVOICE_INFORMATION_SUBMIT",
+      "display": "INVOICE_INFORMATION_SUBMIT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "code": "INVOICE_PROCESSING_RESULTS_INF",
+      "display": "INVOICE_PROCESSING_RESULTS_INF",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "3918",
+      "code": "LOCATION_RESOURCE",
+      "display": "LOCATION_RESOURCE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "MATERIAL_ITEM_RECORD",
+      "display": "MATERIAL_ITEM_RECORD",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "MATERIAL_LOCATION",
+      "display": "MATERIAL_LOCATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "MEDICATION_ADMINISTRATION_DETA",
+      "display": "MEDICATION_ADMINISTRATION_DETA",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "MEDICATION_ADMINISTRATION_OBSE",
+      "display": "MEDICATION_ADMINISTRATION_OBSE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "code": "MEDICATION_ENCODING_DETAIL",
+      "display": "MEDICATION_ENCODING_DETAIL",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "MEDICATION_ENCODING_OBSERVATIO",
+      "display": "MEDICATION_ENCODING_OBSERVATIO",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "code": "MEDICATION_HISTORY",
+      "display": "MEDICATION_HISTORY",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "MEDICATION_ORDER_DETAIL",
+      "display": "MEDICATION_ORDER_DETAIL",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "MEDICATION_ORDER_OBSERVATION",
+      "display": "MEDICATION_ORDER_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "3919",
+      "code": "MERGE_INFO",
+      "display": "MERGE_INFO",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3920",
+      "code": "MF",
+      "display": "MF",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3922",
+      "code": "MF_CDM",
+      "display": "MF_CDM",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3923",
+      "code": "MF_CLIN_STUDY",
+      "display": "MF_CLIN_STUDY",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3924",
+      "code": "MF_CLIN_STUDY_SCHED",
+      "display": "MF_CLIN_STUDY_SCHED",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "MF_DRG",
+      "display": "MF_DRG",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "3925",
+      "code": "MF_INV_ITEM",
+      "display": "MF_INV_ITEM",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3927",
+      "code": "MF_LOCATION",
+      "display": "MF_LOCATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3926",
+      "code": "MF_LOC_DEPT",
+      "display": "MF_LOC_DEPT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3928",
+      "code": "MF_OBS_ATTRIBUTES",
+      "display": "MF_OBS_ATTRIBUTES",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "MF_OBS_OTHER_ATTRIBUTES",
+      "display": "MF_OBS_OTHER_ATTRIBUTES",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "code": "MF_PAYER",
+      "display": "MF_PAYER",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8.2"
+        }
+      ]
+    },
+    {
+      "id": "3929",
+      "code": "MF_PHASE_SCHED_DETAIL",
+      "display": "MF_PHASE_SCHED_DETAIL",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3930",
+      "code": "MF_QUERY",
+      "display": "MF_QUERY",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3931",
+      "code": "MF_SITE_DEFINED",
+      "display": "MF_SITE_DEFINED",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3932",
+      "code": "MF_STAFF",
+      "display": "MF_STAFF",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3933",
+      "code": "MF_TEST",
+      "display": "MF_TEST",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3935",
+      "code": "MF_TEST_BATTERIES",
+      "display": "MF_TEST_BATTERIES",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3934",
+      "code": "MF_TEST_BATT_DETAIL",
+      "display": "MF_TEST_BATT_DETAIL",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3937",
+      "code": "MF_TEST_CALCULATED",
+      "display": "MF_TEST_CALCULATED",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3936",
+      "code": "MF_TEST_CALC_DETAIL",
+      "display": "MF_TEST_CALC_DETAIL",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3939",
+      "code": "MF_TEST_CATEGORICAL",
+      "display": "MF_TEST_CATEGORICAL",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3938",
+      "code": "MF_TEST_CAT_DETAIL",
+      "display": "MF_TEST_CAT_DETAIL",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3940",
+      "code": "MF_TEST_NUMERIC",
+      "display": "MF_TEST_NUMERIC",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "NEXT_OF_KIN",
+      "display": "NEXT_OF_KIN",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "3941",
+      "code": "NK1_TIMING_QTY",
+      "display": "NK1_TIMING_QTY",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3942",
+      "code": "NOTIFICATION",
+      "display": "NOTIFICATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3943",
+      "code": "OBSERVATION",
+      "display": "OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "OBSERVATIONS_ON_PATIENT",
+      "display": "OBSERVATIONS_ON_PATIENT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "OBSERVATION_GROUP",
+      "display": "OBSERVATION_GROUP",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "OBSERVATION_PARTICIPATION",
+      "display": "OBSERVATION_PARTICIPATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "code": "OBSERVATION_PARTICIPATION_PRIO",
+      "display": "OBSERVATION_PARTICIPATION_PRIO",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "3944",
+      "code": "OBSERVATION_PRIOR",
+      "display": "OBSERVATION_PRIOR",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3945",
+      "code": "OBSERVATION_REQUEST",
+      "display": "OBSERVATION_REQUEST",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "OBSERVATION_RESULT_1",
+      "display": "OBSERVATION_RESULT_1",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "code": "OBSERVATION_RESULT_2",
+      "display": "OBSERVATION_RESULT_2",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "code": "OBSERVATION_RESULT_GROUP",
+      "display": "OBSERVATION_RESULT_GROUP",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "code": "OCCUPATIONAL_DATA_FOR_HEALTH",
+      "display": "OCCUPATIONAL_DATA_FOR_HEALTH",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "3946",
+      "code": "OMSERVATION",
+      "display": "OMSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "3947",
+      "code": "ORDER",
+      "display": "ORDER",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3948",
+      "code": "ORDER_CHOICE",
+      "display": "ORDER_CHOICE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3949",
+      "code": "ORDER_DETAIL",
+      "display": "ORDER_DETAIL",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "ORDER_DETAIL_PARTICIPATION_PRI",
+      "display": "ORDER_DETAIL_PARTICIPATION_PRI",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "3950",
+      "code": "ORDER_DETAIL_SUPPLEMENT",
+      "display": "ORDER_DETAIL_SUPPLEMENT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3951",
+      "code": "ORDER_DIET",
+      "display": "ORDER_DIET",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "ORDER_DOCUMENT",
+      "display": "ORDER_DOCUMENT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "3952",
+      "code": "ORDER_ENCODED",
+      "display": "ORDER_ENCODED",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "ORDER_FOR_SPECIMEN_CONTAINER",
+      "display": "ORDER_FOR_SPECIMEN_CONTAINER",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "3953",
+      "code": "ORDER_OBSERVATION",
+      "display": "ORDER_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3954",
+      "code": "ORDER_PRIOR",
+      "display": "ORDER_PRIOR",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "ORDER_RELATED_OBSERVATION",
+      "display": "ORDER_RELATED_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "ORDER_STATUS",
+      "display": "ORDER_STATUS",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "3955",
+      "code": "ORDER_TRAY",
+      "display": "ORDER_TRAY",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "PACKAGE",
+      "display": "PACKAGE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "PACKAGING",
+      "display": "PACKAGING",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "PARTICIPATION_CLINICAL_HISTORY",
+      "display": "PARTICIPATION_CLINICAL_HISTORY",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "code": "PARTICIPATION_GOAL",
+      "display": "PARTICIPATION_GOAL",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "code": "PARTICIPATION_GOAL_OBJECT",
+      "display": "PARTICIPATION_GOAL_OBJECT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "code": "PARTICIPATION_OBSERVATION",
+      "display": "PARTICIPATION_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "code": "PARTICIPATION_PATHWAY",
+      "display": "PARTICIPATION_PATHWAY",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "code": "PARTICIPATION_PATHWAY_OBJECT",
+      "display": "PARTICIPATION_PATHWAY_OBJECT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "code": "PARTICIPATION_PROBLEM",
+      "display": "PARTICIPATION_PROBLEM",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "code": "PARTICIPATION_PROBLEM_OBJECT",
+      "display": "PARTICIPATION_PROBLEM_OBJECT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "3956",
+      "code": "PATHWAY",
+      "display": "PATHWAY",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "PATHWAY_OBSERVATION",
+      "display": "PATHWAY_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "code": "PATHWAY_PARTICIPATION",
+      "display": "PATHWAY_PARTICIPATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "3957",
+      "code": "PATHWAY_ROLE",
+      "display": "PATHWAY_ROLE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3958",
+      "code": "PATIENT",
+      "display": "PATIENT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "PATIENT_INFO",
+      "display": "PATIENT_INFO",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "PATIENT_OBSERVATION",
+      "display": "PATIENT_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "3959",
+      "code": "PATIENT_PRIOR",
+      "display": "PATIENT_PRIOR",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3960",
+      "code": "PATIENT_RESULT",
+      "display": "PATIENT_RESULT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3961",
+      "code": "PATIENT_VISIT",
+      "display": "PATIENT_VISIT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "PATIENT_VISITS",
+      "display": "PATIENT_VISITS",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "PATIENT_VISIT_OBSERVATION",
+      "display": "PATIENT_VISIT_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "3962",
+      "code": "PATIENT_VISIT_PRIOR",
+      "display": "PATIENT_VISIT_PRIOR",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "PAT_INFO",
+      "display": "PAT_INFO",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "PAYER_MF_COVERAGE",
+      "display": "PAYER_MF_COVERAGE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8.2"
+        }
+      ]
+    },
+    {
+      "code": "PAYER_MF_ENTRY",
+      "display": "PAYER_MF_ENTRY",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8.2"
+        }
+      ]
+    },
+    {
+      "code": "PAYMENT_REMITTANCE_DETAIL_INFO",
+      "display": "PAYMENT_REMITTANCE_DETAIL_INFO",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "PAYMENT_REMITTANCE_HEADER_INFO",
+      "display": "PAYMENT_REMITTANCE_HEADER_INFO",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "3964",
+      "code": "PERSONNEL_RESOURCE",
+      "display": "PERSONNEL_RESOURCE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "PERSON_OBSERVATION",
+      "display": "PERSON_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "3965",
+      "code": "PEX_CAUSE",
+      "display": "PEX_CAUSE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3966",
+      "code": "PEX_OBSERVATION",
+      "display": "PEX_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "PHARMACY_TREATMENT_INFUSION_OR",
+      "display": "PHARMACY_TREATMENT_INFUSION_OR",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "3967",
+      "code": "PRIOR_RESULT",
+      "display": "PRIOR_RESULT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3968",
+      "code": "PROBLEM",
+      "display": "PROBLEM",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3970",
+      "code": "PROBLEM_OBSERVATION",
+      "display": "PROBLEM_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "PROBLEM_PARTICIPATION",
+      "display": "PROBLEM_PARTICIPATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "3971",
+      "code": "PROBLEM_PATHWAY",
+      "display": "PROBLEM_PATHWAY",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3972",
+      "code": "PROBLEM_ROLE",
+      "display": "PROBLEM_ROLE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3973",
+      "code": "PROCEDURE",
+      "display": "PROCEDURE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3974",
+      "code": "PRODUCT",
+      "display": "PRODUCT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "PRODUCT_SERVICE_GROUP",
+      "display": "PRODUCT_SERVICE_GROUP",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "PRODUCT_SERVICE_LINE_INFO",
+      "display": "PRODUCT_SERVICE_LINE_INFO",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "PRODUCT_SERVICE_LINE_ITEM",
+      "display": "PRODUCT_SERVICE_LINE_ITEM",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "PRODUCT_SERVICE_SECTION",
+      "display": "PRODUCT_SERVICE_SECTION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "3975",
+      "code": "PRODUCT_STATUS",
+      "display": "PRODUCT_STATUS",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3976",
+      "code": "PROVIDER",
+      "display": "PROVIDER",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3977",
+      "code": "PROVIDER_CONTACT",
+      "display": "PROVIDER_CONTACT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "PSG",
+      "display": "PSG",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "PSL_ITEM_INFO",
+      "display": "PSL_ITEM_INFO",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "PURCHASING_VENDOR",
+      "display": "PURCHASING_VENDOR",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "3978",
+      "code": "QBP",
+      "display": "QBP",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3979",
+      "code": "QRY_WITH_DETAIL",
+      "display": "QRY_WITH_DETAIL",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "QUERY",
+      "display": "QUERY",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "QUERY_ACK",
+      "display": "QUERY_ACK",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "QUERY_ACK_IPR",
+      "display": "QUERY_ACK_IPR",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "code": "QUERY_INFORMATION",
+      "display": "QUERY_INFORMATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "3980",
+      "code": "QUERY_RESPONSE",
+      "display": "QUERY_RESPONSE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3981",
+      "code": "QUERY_RESULT_CLUSTER",
+      "display": "QUERY_RESULT_CLUSTER",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "code": "REASSESSMENT_REQUEST_INFO",
+      "display": "REASSESSMENT_REQUEST_INFO",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "REFERRAL",
+      "display": "REFERRAL",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    },
+    {
+      "id": "3982",
+      "code": "REQUEST",
+      "display": "REQUEST",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3983",
+      "code": "RESOURCE",
+      "display": "RESOURCE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "3984",
+      "code": "RESOURCES",
+      "display": "RESOURCES",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "RESOURCE_DETAIL",
+      "display": "RESOURCE_DETAIL",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "RESOURCE_OBJECT",
+      "display": "RESOURCE_OBJECT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "RESOURCE_OBSERVATION",
+      "display": "RESOURCE_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "3985",
+      "code": "RESPONSE",
+      "display": "RESPONSE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3986",
+      "code": "RESULT",
+      "display": "RESULT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3987",
+      "code": "RESULTS",
+      "display": "RESULTS",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3988",
+      "code": "RESULTS_NOTES",
+      "display": "RESULTS_NOTES",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3989",
+      "code": "ROW_DEFINITION",
+      "display": "ROW_DEFINITION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "RX_ADMIN",
+      "display": "RX_ADMIN",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3990",
+      "code": "RX_ADMINISTRATION",
+      "display": "RX_ADMINISTRATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3991",
+      "code": "RX_ORDER",
+      "display": "RX_ORDER",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3992",
+      "code": "SCHEDULE",
+      "display": "SCHEDULE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "SEGMENT_PATTERN",
+      "display": "SEGMENT_PATTERN",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "3993",
+      "code": "SERVICE",
+      "display": "SERVICE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "SHIPMENT",
+      "display": "SHIPMENT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "SHIPMENT_OBSERVATION",
+      "display": "SHIPMENT_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "SHIPPING_OBSERVATION",
+      "display": "SHIPPING_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "3994",
+      "code": "SPECIMEN",
+      "display": "SPECIMEN",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "3995",
+      "code": "SPECIMEN_CONTAINER",
+      "display": "SPECIMEN_CONTAINER",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "SPECIMEN_CONTAINER_IN_PACKAGE",
+      "display": "SPECIMEN_CONTAINER_IN_PACKAGE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "SPECIMEN_IN_PACKAGE",
+      "display": "SPECIMEN_IN_PACKAGE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "code": "SPECIMEN_OBSERVATION",
+      "display": "SPECIMEN_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "code": "SPECIMEN_SHIPMENT",
+      "display": "SPECIMEN_SHIPMENT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.7"
+        }
+      ]
+    },
+    {
+      "id": "3996",
+      "code": "STAFF",
+      "display": "STAFF",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "STERILIZATION",
+      "display": "STERILIZATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "3997",
+      "code": "STUDY",
+      "display": "STUDY",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3998",
+      "code": "STUDY_OBSERVATION",
+      "display": "STUDY_OBSERVATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "STUDY_OBSERVATION_ORDER",
+      "display": "STUDY_OBSERVATION_ORDER",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "code": "STUDY_PHARM",
+      "display": "STUDY_PHARM",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "3999",
+      "code": "STUDY_PHASE",
+      "display": "STUDY_PHASE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4000",
+      "code": "STUDY_SCHEDULE",
+      "display": "STUDY_SCHEDULE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "SUBJECT_PERSON_OR_ANIMAL_IDENT",
+      "display": "SUBJECT_PERSON_OR_ANIMAL_IDENT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "code": "SUBJECT_POPULATION_OR_LOCATION",
+      "display": "SUBJECT_POPULATION_OR_LOCATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.8"
+        }
+      ]
+    },
+    {
+      "id": "4001",
+      "code": "TEST_CONFIGURATION",
+      "display": "TEST_CONFIGURATION",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4002",
+      "code": "TIMING",
+      "display": "TIMING",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4003",
+      "code": "TIMING_DIET",
+      "display": "TIMING_DIET",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4004",
+      "code": "TIMING_ENCODED",
+      "display": "TIMING_ENCODED",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4005",
+      "code": "TIMING_GIVE",
+      "display": "TIMING_GIVE",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4006",
+      "code": "TIMING_PRIOR",
+      "display": "TIMING_PRIOR",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4007",
+      "code": "TIMING_QTY",
+      "display": "TIMING_QTY",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4008",
+      "code": "TIMING_QUANTITY",
+      "display": "TIMING_QUANTITY",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4009",
+      "code": "TIMING_TRAY",
+      "display": "TIMING_TRAY",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.5"
+        }
+      ]
+    },
+    {
+      "id": "4010",
+      "code": "TREATMENT",
+      "display": "TREATMENT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "4011",
+      "code": "VISIT",
+      "display": "VISIT",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "code": "VISIT_GROUP",
+      "display": "VISIT_GROUP",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2024-01-12"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.9"
+        }
+      ]
+    }
+  ]
 }

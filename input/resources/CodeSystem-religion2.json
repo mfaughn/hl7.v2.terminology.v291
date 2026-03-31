@@ -5,25 +5,36 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-religion2.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/religion2</code></a></li></ul></div>"
   },
-  "extension": [ {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
-    "valueString": "2.9.1"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
-    "valueString": "generate correct history somehow"
-  }, {
-    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
-    "valueString": "0006"
-  } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/religion2",
-  "identifier": [ {
-    "system": "urn:ietf:rfc:3986",
-    "value": "urn:oid:2.16.840.1.113883.18.8"
-  }, {
-    "system": "urn:ietf:rfc:3986",
-    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0006"
-  } ],
-  "version": "2.1.0",
+  "extension": [
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "valueString": "2.9.1"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "valueString": "generate correct history somehow"
+    },
+    {
+      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "valueString": "0006"
+    },
+    {
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-semantic-version",
+      "valueString": "2.1.0"
+    }
+  ],
+  "url": "http://terminology.hl7.org/CodeSystem/v2-0006",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.18.8"
+    },
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0006"
+    }
+  ],
+  "version": "4.0.0",
   "name": "Religion2",
   "title": "Religion (2.9.1 - 2.1.0)",
   "status": "active",
@@ -34,1302 +45,1740 @@
   "caseSensitive": true,
   "compositional": false,
   "content": "complete",
-  "property": [ {
-    "code": "versionIntroduced",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
-    "description": "version when was this code introduced",
-    "type": "string"
-  }, {
-    "code": "versionDeprecated",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
-    "description": "version when was this code deprecated",
-    "type": "string"
-  }, {
-    "code": "status",
-    "uri": "http://hl7.org/fhir/concept-properties#status",
-    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-    "type": "code"
-  }, {
-    "code": "comment",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
-    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
-    "type": "string"
-  }, {
-    "code": "usage",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
-    "description": "usage notes for this code",
-    "type": "string"
-  }, {
-    "code": "modified",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
-    "description": "date of last modification",
-    "type": "dateTime"
-  }, {
-    "extension": [ {
-      "url": "http://hl7.org/fhir/StructureDefinition/codesystem-property-valueset",
-      "valueCanonical": "http://terminology.hl7.org/v2plusvocab/ValueSet/hl7VSreligion2"
-    } ],
-    "code": "parent",
-    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#parent",
-    "description": "parent",
-    "type": "code"
-  } ],
-  "concept": [ {
-    "id": "547",
-    "code": "ABC",
-    "display": "Christian: American Baptist Church",
-    "definition": "Christian: American Baptist Church",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
+  "property": [
+    {
       "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "description": "version when was this code introduced",
+      "type": "string"
+    },
+    {
+      "code": "versionDeprecated",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "description": "version when was this code deprecated",
+      "type": "string"
+    },
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+      "type": "code"
+    },
+    {
+      "code": "comment",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+      "type": "string"
+    },
+    {
+      "code": "usage",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "description": "usage notes for this code",
+      "type": "string"
+    },
+    {
+      "code": "modified",
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "description": "date of last modification",
+      "type": "dateTime"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-property-valueset",
+          "valueCanonical": "http://terminology.hl7.org/v2plusvocab/ValueSet/hl7VSreligion2"
+        }
+      ],
       "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "536",
-    "code": "AGN",
-    "display": "Agnostic",
-    "definition": "Agnostic",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "549",
-    "code": "AME",
-    "display": "Christian: African Methodist Episcopal Zion",
-    "definition": "Christian: African Methodist Episcopal Zion",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "548",
-    "code": "AMT",
-    "display": "Christian: African Methodist Episcopal",
-    "definition": "Christian: African Methodist Episcopal",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "550",
-    "code": "ANG",
-    "display": "Christian: Anglican",
-    "definition": "Christian: Anglican",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "551",
-    "code": "AOG",
-    "display": "Christian: Assembly of God",
-    "definition": "Christian: Assembly of God",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "537",
-    "code": "ATH",
-    "display": "Atheist",
-    "definition": "Atheist",
-    "designation": [ {
-      "language": "de",
-      "value": "Atheist"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "538",
-    "code": "BAH",
-    "display": "Baha'i",
-    "definition": "Baha'i",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "552",
-    "code": "BAP",
-    "display": "Christian: Baptist",
-    "definition": "Christian: Baptist",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "541",
-    "code": "BMA",
-    "display": "Buddhist: Mahayana",
-    "definition": "Buddhist: Mahayana",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "BUD"
-    } ]
-  }, {
-    "id": "544",
-    "code": "BOT",
-    "display": "Buddhist: Other",
-    "definition": "Buddhist: Other",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "BUD"
-    } ]
-  }, {
-    "id": "539",
-    "code": "BRE",
-    "display": "Brethren",
-    "definition": "Brethren",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "543",
-    "code": "BTA",
-    "display": "Buddhist: Tantrayana",
-    "definition": "Buddhist: Tantrayana",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "BUD"
-    } ]
-  }, {
-    "id": "542",
-    "code": "BTH",
-    "display": "Buddhist: Theravada",
-    "definition": "Buddhist: Theravada",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "BUD"
-    } ]
-  }, {
-    "id": "540",
-    "code": "BUD",
-    "display": "Buddhist",
-    "definition": "Buddhist",
-    "designation": [ {
-      "language": "de",
-      "value": "Buddhist"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "584",
-    "code": "CAT",
-    "display": "Christian: Roman Catholic",
-    "definition": "Christian: Roman Catholic",
-    "designation": [ {
-      "language": "de",
-      "value": "römisch-katholisch"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "545",
-    "code": "CFR",
-    "display": "Chinese Folk Religionist",
-    "definition": "Chinese Folk Religionist",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "546",
-    "code": "CHR",
-    "display": "Christian",
-    "definition": "Christian",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "554",
-    "code": "CHS",
-    "display": "Christian: Christian Science",
-    "definition": "Christian: Christian Science",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "555",
-    "code": "CMA",
-    "display": "Christian: Christian Missionary Alliance",
-    "definition": "Christian: Christian Missionary Alliance",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "595",
-    "code": "CNF",
-    "display": "Confucian",
-    "definition": "Confucian",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "556",
-    "code": "COC",
-    "display": "Christian: Church of Christ",
-    "definition": "Christian: Church of Christ",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "557",
-    "code": "COG",
-    "display": "Christian: Church of God",
-    "definition": "Christian: Church of God",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "558",
-    "code": "COI",
-    "display": "Christian: Church of God in Christ",
-    "definition": "Christian: Church of God in Christ",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "560",
-    "code": "COL",
-    "display": "Christian: Congregational",
-    "definition": "Christian: Congregational",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "559",
-    "code": "COM",
-    "display": "Christian: Community",
-    "definition": "Christian: Community",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "577",
-    "code": "COP",
-    "display": "Christian: Other Pentecostal",
-    "definition": "Christian: Other Pentecostal",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "594",
-    "code": "COT",
-    "display": "Christian: Other",
-    "definition": "Christian: Other",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "553",
-    "code": "CRR",
-    "display": "Christian: Christian Reformed",
-    "definition": "Christian: Christian Reformed",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "596",
-    "code": "DOC",
-    "display": "Disciples of Christ",
-    "definition": "Disciples of Christ",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    } ]
-  }, {
-    "id": "561",
-    "code": "EOT",
-    "display": "Christian: Eastern Orthodox",
-    "definition": "Christian: Eastern Orthodox",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "563",
-    "code": "EPI",
-    "display": "Christian: Episcopalian",
-    "definition": "Christian: Episcopalian",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "597",
-    "code": "ERL",
-    "display": "Ethnic Religionist",
-    "definition": "Ethnic Religionist",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "562",
-    "code": "EVC",
-    "display": "Christian: Evangelical Church",
-    "definition": "Christian: Evangelical Church",
-    "designation": [ {
-      "language": "de",
-      "value": "evangelisch"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "565",
-    "code": "FRQ",
-    "display": "Christian: Friends",
-    "definition": "Christian: Friends",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "566",
-    "code": "FUL",
-    "display": "Christian: Full Gospel",
-    "definition": "Christian: Full Gospel",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.6"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "564",
-    "code": "FWB",
-    "display": "Christian: Free Will Baptist",
-    "definition": "Christian: Free Will Baptist",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "567",
-    "code": "GRE",
-    "display": "Christian: Greek Orthodox",
-    "definition": "Christian: Greek Orthodox",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "598",
-    "code": "HIN",
-    "display": "Hindu",
-    "definition": "Hindu",
-    "designation": [ {
-      "language": "de",
-      "value": "Hindu"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "601",
-    "code": "HOT",
-    "display": "Hindu: Other",
-    "definition": "Hindu: Other",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "HIN"
-    } ]
-  }, {
-    "id": "599",
-    "code": "HSH",
-    "display": "Hindu: Shaivites",
-    "definition": "Hindu: Shaivites",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "HIN"
-    } ]
-  }, {
-    "id": "600",
-    "code": "HVA",
-    "display": "Hindu: Vaishnavites",
-    "definition": "Hindu: Vaishnavites",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "HIN"
-    } ]
-  }, {
-    "id": "602",
-    "code": "JAI",
-    "display": "Jain",
-    "definition": "Jain",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "604",
-    "code": "JCO",
-    "display": "Jewish: Conservative",
-    "definition": "Jewish: Conservative",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "JEW"
-    } ]
-  }, {
-    "id": "603",
-    "code": "JEW",
-    "display": "Jewish",
-    "definition": "Jewish",
-    "designation": [ {
-      "language": "de",
-      "value": "jüdisch"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "605",
-    "code": "JOR",
-    "display": "Jewish: Orthodox",
-    "definition": "Jewish: Orthodox",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "JEW"
-    } ]
-  }, {
-    "id": "609",
-    "code": "JOT",
-    "display": "Jewish: Other",
-    "definition": "Jewish: Other",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "JEW"
-    } ]
-  }, {
-    "id": "606",
-    "code": "JRC",
-    "display": "Jewish: Reconstructionist",
-    "definition": "Jewish: Reconstructionist",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "JEW"
-    } ]
-  }, {
-    "id": "607",
-    "code": "JRF",
-    "display": "Jewish: Reform",
-    "definition": "Jewish: Reform",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "JEW"
-    } ]
-  }, {
-    "id": "608",
-    "code": "JRN",
-    "display": "Jewish: Renewal",
-    "definition": "Jewish: Renewal",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "JEW"
-    } ]
-  }, {
-    "id": "568",
-    "code": "JWN",
-    "display": "Christian: Jehovah's Witness",
-    "definition": "Christian: Jehovah's Witness",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "571",
-    "code": "LMS",
-    "display": "Christian: Lutheran Missouri Synod",
-    "definition": "Christian: Lutheran Missouri Synod",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "570",
-    "code": "LUT",
-    "display": "Christian: Lutheran",
-    "definition": "Christian: Lutheran",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "572",
-    "code": "MEN",
-    "display": "Christian: Mennonite",
-    "definition": "Christian: Mennonite",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "573",
-    "code": "MET",
-    "display": "Christian: Methodist",
-    "definition": "Christian: Methodist",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "569",
-    "code": "MOM",
-    "display": "Christian: Latter-day Saints",
-    "definition": "Christian: Latter-day Saints",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "610",
-    "code": "MOS",
-    "display": "Muslim",
-    "definition": "Muslim",
-    "designation": [ {
-      "language": "de",
-      "value": "Muslim"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "613",
-    "code": "MOT",
-    "display": "Muslim: Other",
-    "definition": "Muslim: Other",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "MOS"
-    } ]
-  }, {
-    "id": "611",
-    "code": "MSH",
-    "display": "Muslim: Shiite",
-    "definition": "Muslim: Shiite",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "MOS"
-    } ]
-  }, {
-    "id": "612",
-    "code": "MSU",
-    "display": "Muslim: Sunni",
-    "definition": "Muslim: Sunni",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "MOS"
-    } ]
-  }, {
-    "id": "614",
-    "code": "NAM",
-    "display": "Native American",
-    "definition": "Native American",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "574",
-    "code": "NAZ",
-    "display": "Christian: Church of the Nazarene",
-    "definition": "Christian: Church of the Nazarene",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "616",
-    "code": "NOE",
-    "display": "Nonreligious",
-    "definition": "Nonreligious",
-    "designation": [ {
-      "language": "de",
-      "value": "nicht-religiös"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "615",
-    "code": "NRL",
-    "display": "New Religionist",
-    "definition": "New Religionist",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "575",
-    "code": "ORT",
-    "display": "Christian: Orthodox",
-    "definition": "Christian: Orthodox",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "620",
-    "code": "OTH",
-    "display": "Other",
-    "definition": "Other",
-    "designation": [ {
-      "language": "de",
-      "value": "andere"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "576",
-    "code": "PEN",
-    "display": "Christian: Pentecostal",
-    "definition": "Christian: Pentecostal",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "580",
-    "code": "PRC",
-    "display": "Christian: Other Protestant",
-    "definition": "Christian: Other Protestant",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "578",
-    "code": "PRE",
-    "display": "Christian: Presbyterian",
-    "definition": "Christian: Presbyterian",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "579",
-    "code": "PRO",
-    "display": "Christian: Protestant",
-    "definition": "Christian: Protestant",
-    "designation": [ {
-      "language": "de",
-      "value": "Protestant"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "582",
-    "code": "REC",
-    "display": "Christian: Reformed Church",
-    "definition": "Christian: Reformed Church",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "583",
-    "code": "REO",
-    "display": "Christian: Reorganized Church of Jesus Christ-LDS",
-    "definition": "Christian: Reorganized Church of Jesus Christ-LDS",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "585",
-    "code": "SAA",
-    "display": "Christian: Salvation Army",
-    "definition": "Christian: Salvation Army",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "586",
-    "code": "SEV",
-    "display": "Christian: Seventh Day Adventist",
-    "definition": "Christian: Seventh Day Adventist",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "617",
-    "code": "SHN",
-    "display": "Shintoist",
-    "definition": "Shintoist",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "618",
-    "code": "SIK",
-    "display": "Sikh",
-    "definition": "Sikh",
-    "designation": [ {
-      "language": "de",
-      "value": "Sikh"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "587",
-    "code": "SOU",
-    "display": "Christian: Southern Baptist",
-    "definition": "Christian: Southern Baptist",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "619",
-    "code": "SPI",
-    "display": "Spiritist",
-    "definition": "Spiritist",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "588",
-    "code": "UCC",
-    "display": "Christian: United Church of Christ",
-    "definition": "Christian: United Church of Christ",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "589",
-    "code": "UMD",
-    "display": "Christian: United Methodist",
-    "definition": "Christian: United Methodist",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "590",
-    "code": "UNI",
-    "display": "Christian: Unitarian",
-    "definition": "Christian: Unitarian",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "591",
-    "code": "UNU",
-    "display": "Christian: Unitarian Universalist",
-    "definition": "Christian: Unitarian Universalist",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "621",
-    "code": "VAR",
-    "display": "Unknown",
-    "definition": "Unknown",
-    "designation": [ {
-      "language": "de",
-      "value": "unbekannt"
-    } ],
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    } ]
-  }, {
-    "id": "592",
-    "code": "WES",
-    "display": "Christian: Wesleyan",
-    "definition": "Christian: Wesleyan",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  }, {
-    "id": "593",
-    "code": "WMC",
-    "display": "Christian: Wesleyan Methodist",
-    "definition": "Christian: Wesleyan Methodist",
-    "property": [ {
-      "code": "modified",
-      "valueDateTime": "2015-07-13"
-    }, {
-      "code": "versionIntroduced",
-      "valueString": "2.4"
-    }, {
-      "code": "parent",
-      "valueCode": "CHR"
-    } ]
-  } ]
+      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#parent",
+      "description": "parent",
+      "type": "code"
+    }
+  ],
+  "concept": [
+    {
+      "id": "547",
+      "code": "ABC",
+      "display": "Christian: American Baptist Church",
+      "definition": "Christian: American Baptist Church",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "536",
+      "code": "AGN",
+      "display": "Agnostic",
+      "definition": "Agnostic",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "549",
+      "code": "AME",
+      "display": "Christian: African Methodist Episcopal Zion",
+      "definition": "Christian: African Methodist Episcopal Zion",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "548",
+      "code": "AMT",
+      "display": "Christian: African Methodist Episcopal",
+      "definition": "Christian: African Methodist Episcopal",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "550",
+      "code": "ANG",
+      "display": "Christian: Anglican",
+      "definition": "Christian: Anglican",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "551",
+      "code": "AOG",
+      "display": "Christian: Assembly of God",
+      "definition": "Christian: Assembly of God",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "537",
+      "code": "ATH",
+      "display": "Atheist",
+      "definition": "Atheist",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Atheist"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "538",
+      "code": "BAH",
+      "display": "Baha'i",
+      "definition": "Baha'i",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "552",
+      "code": "BAP",
+      "display": "Christian: Baptist",
+      "definition": "Christian: Baptist",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "541",
+      "code": "BMA",
+      "display": "Buddhist: Mahayana",
+      "definition": "Buddhist: Mahayana",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "BUD"
+        }
+      ]
+    },
+    {
+      "id": "544",
+      "code": "BOT",
+      "display": "Buddhist: Other",
+      "definition": "Buddhist: Other",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "BUD"
+        }
+      ]
+    },
+    {
+      "id": "539",
+      "code": "BRE",
+      "display": "Brethren",
+      "definition": "Brethren",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "543",
+      "code": "BTA",
+      "display": "Buddhist: Tantrayana",
+      "definition": "Buddhist: Tantrayana",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "BUD"
+        }
+      ]
+    },
+    {
+      "id": "542",
+      "code": "BTH",
+      "display": "Buddhist: Theravada",
+      "definition": "Buddhist: Theravada",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "BUD"
+        }
+      ]
+    },
+    {
+      "id": "540",
+      "code": "BUD",
+      "display": "Buddhist",
+      "definition": "Buddhist",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Buddhist"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "584",
+      "code": "CAT",
+      "display": "Christian: Roman Catholic",
+      "definition": "Christian: Roman Catholic",
+      "designation": [
+        {
+          "language": "de",
+          "value": "römisch-katholisch"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "545",
+      "code": "CFR",
+      "display": "Chinese Folk Religionist",
+      "definition": "Chinese Folk Religionist",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "546",
+      "code": "CHR",
+      "display": "Christian",
+      "definition": "Christian",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "554",
+      "code": "CHS",
+      "display": "Christian: Christian Science",
+      "definition": "Christian: Christian Science",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "555",
+      "code": "CMA",
+      "display": "Christian: Christian Missionary Alliance",
+      "definition": "Christian: Christian Missionary Alliance",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "595",
+      "code": "CNF",
+      "display": "Confucian",
+      "definition": "Confucian",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "556",
+      "code": "COC",
+      "display": "Christian: Church of Christ",
+      "definition": "Christian: Church of Christ",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "557",
+      "code": "COG",
+      "display": "Christian: Church of God",
+      "definition": "Christian: Church of God",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "558",
+      "code": "COI",
+      "display": "Christian: Church of God in Christ",
+      "definition": "Christian: Church of God in Christ",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "560",
+      "code": "COL",
+      "display": "Christian: Congregational",
+      "definition": "Christian: Congregational",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "559",
+      "code": "COM",
+      "display": "Christian: Community",
+      "definition": "Christian: Community",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "577",
+      "code": "COP",
+      "display": "Christian: Other Pentecostal",
+      "definition": "Christian: Other Pentecostal",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "594",
+      "code": "COT",
+      "display": "Christian: Other",
+      "definition": "Christian: Other",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "553",
+      "code": "CRR",
+      "display": "Christian: Christian Reformed",
+      "definition": "Christian: Christian Reformed",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "596",
+      "code": "DOC",
+      "display": "Disciples of Christ",
+      "definition": "Disciples of Christ",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        }
+      ]
+    },
+    {
+      "id": "561",
+      "code": "EOT",
+      "display": "Christian: Eastern Orthodox",
+      "definition": "Christian: Eastern Orthodox",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "563",
+      "code": "EPI",
+      "display": "Christian: Episcopalian",
+      "definition": "Christian: Episcopalian",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "597",
+      "code": "ERL",
+      "display": "Ethnic Religionist",
+      "definition": "Ethnic Religionist",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "562",
+      "code": "EVC",
+      "display": "Christian: Evangelical Church",
+      "definition": "Christian: Evangelical Church",
+      "designation": [
+        {
+          "language": "de",
+          "value": "evangelisch"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "565",
+      "code": "FRQ",
+      "display": "Christian: Friends",
+      "definition": "Christian: Friends",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "566",
+      "code": "FUL",
+      "display": "Christian: Full Gospel",
+      "definition": "Christian: Full Gospel",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.6"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "564",
+      "code": "FWB",
+      "display": "Christian: Free Will Baptist",
+      "definition": "Christian: Free Will Baptist",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "567",
+      "code": "GRE",
+      "display": "Christian: Greek Orthodox",
+      "definition": "Christian: Greek Orthodox",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "598",
+      "code": "HIN",
+      "display": "Hindu",
+      "definition": "Hindu",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Hindu"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "601",
+      "code": "HOT",
+      "display": "Hindu: Other",
+      "definition": "Hindu: Other",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "HIN"
+        }
+      ]
+    },
+    {
+      "id": "599",
+      "code": "HSH",
+      "display": "Hindu: Shaivites",
+      "definition": "Hindu: Shaivites",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "HIN"
+        }
+      ]
+    },
+    {
+      "id": "600",
+      "code": "HVA",
+      "display": "Hindu: Vaishnavites",
+      "definition": "Hindu: Vaishnavites",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "HIN"
+        }
+      ]
+    },
+    {
+      "id": "602",
+      "code": "JAI",
+      "display": "Jain",
+      "definition": "Jain",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "604",
+      "code": "JCO",
+      "display": "Jewish: Conservative",
+      "definition": "Jewish: Conservative",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "JEW"
+        }
+      ]
+    },
+    {
+      "id": "603",
+      "code": "JEW",
+      "display": "Jewish",
+      "definition": "Jewish",
+      "designation": [
+        {
+          "language": "de",
+          "value": "jüdisch"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "605",
+      "code": "JOR",
+      "display": "Jewish: Orthodox",
+      "definition": "Jewish: Orthodox",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "JEW"
+        }
+      ]
+    },
+    {
+      "id": "609",
+      "code": "JOT",
+      "display": "Jewish: Other",
+      "definition": "Jewish: Other",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "JEW"
+        }
+      ]
+    },
+    {
+      "id": "606",
+      "code": "JRC",
+      "display": "Jewish: Reconstructionist",
+      "definition": "Jewish: Reconstructionist",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "JEW"
+        }
+      ]
+    },
+    {
+      "id": "607",
+      "code": "JRF",
+      "display": "Jewish: Reform",
+      "definition": "Jewish: Reform",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "JEW"
+        }
+      ]
+    },
+    {
+      "id": "608",
+      "code": "JRN",
+      "display": "Jewish: Renewal",
+      "definition": "Jewish: Renewal",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "JEW"
+        }
+      ]
+    },
+    {
+      "id": "568",
+      "code": "JWN",
+      "display": "Christian: Jehovah's Witness",
+      "definition": "Christian: Jehovah's Witness",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "571",
+      "code": "LMS",
+      "display": "Christian: Lutheran Missouri Synod",
+      "definition": "Christian: Lutheran Missouri Synod",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "570",
+      "code": "LUT",
+      "display": "Christian: Lutheran",
+      "definition": "Christian: Lutheran",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "572",
+      "code": "MEN",
+      "display": "Christian: Mennonite",
+      "definition": "Christian: Mennonite",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "573",
+      "code": "MET",
+      "display": "Christian: Methodist",
+      "definition": "Christian: Methodist",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "569",
+      "code": "MOM",
+      "display": "Christian: Latter-day Saints",
+      "definition": "Christian: Latter-day Saints",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "610",
+      "code": "MOS",
+      "display": "Muslim",
+      "definition": "Muslim",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Muslim"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "613",
+      "code": "MOT",
+      "display": "Muslim: Other",
+      "definition": "Muslim: Other",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "MOS"
+        }
+      ]
+    },
+    {
+      "id": "611",
+      "code": "MSH",
+      "display": "Muslim: Shiite",
+      "definition": "Muslim: Shiite",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "MOS"
+        }
+      ]
+    },
+    {
+      "id": "612",
+      "code": "MSU",
+      "display": "Muslim: Sunni",
+      "definition": "Muslim: Sunni",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "MOS"
+        }
+      ]
+    },
+    {
+      "id": "614",
+      "code": "NAM",
+      "display": "Native American",
+      "definition": "Native American",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "574",
+      "code": "NAZ",
+      "display": "Christian: Church of the Nazarene",
+      "definition": "Christian: Church of the Nazarene",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "616",
+      "code": "NOE",
+      "display": "Nonreligious",
+      "definition": "Nonreligious",
+      "designation": [
+        {
+          "language": "de",
+          "value": "nicht-religiös"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "615",
+      "code": "NRL",
+      "display": "New Religionist",
+      "definition": "New Religionist",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "575",
+      "code": "ORT",
+      "display": "Christian: Orthodox",
+      "definition": "Christian: Orthodox",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "620",
+      "code": "OTH",
+      "display": "Other",
+      "definition": "Other",
+      "designation": [
+        {
+          "language": "de",
+          "value": "andere"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "576",
+      "code": "PEN",
+      "display": "Christian: Pentecostal",
+      "definition": "Christian: Pentecostal",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "580",
+      "code": "PRC",
+      "display": "Christian: Other Protestant",
+      "definition": "Christian: Other Protestant",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "578",
+      "code": "PRE",
+      "display": "Christian: Presbyterian",
+      "definition": "Christian: Presbyterian",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "579",
+      "code": "PRO",
+      "display": "Christian: Protestant",
+      "definition": "Christian: Protestant",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Protestant"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "582",
+      "code": "REC",
+      "display": "Christian: Reformed Church",
+      "definition": "Christian: Reformed Church",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "583",
+      "code": "REO",
+      "display": "Christian: Reorganized Church of Jesus Christ-LDS",
+      "definition": "Christian: Reorganized Church of Jesus Christ-LDS",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "585",
+      "code": "SAA",
+      "display": "Christian: Salvation Army",
+      "definition": "Christian: Salvation Army",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "586",
+      "code": "SEV",
+      "display": "Christian: Seventh Day Adventist",
+      "definition": "Christian: Seventh Day Adventist",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "617",
+      "code": "SHN",
+      "display": "Shintoist",
+      "definition": "Shintoist",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "618",
+      "code": "SIK",
+      "display": "Sikh",
+      "definition": "Sikh",
+      "designation": [
+        {
+          "language": "de",
+          "value": "Sikh"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "587",
+      "code": "SOU",
+      "display": "Christian: Southern Baptist",
+      "definition": "Christian: Southern Baptist",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "619",
+      "code": "SPI",
+      "display": "Spiritist",
+      "definition": "Spiritist",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "588",
+      "code": "UCC",
+      "display": "Christian: United Church of Christ",
+      "definition": "Christian: United Church of Christ",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "589",
+      "code": "UMD",
+      "display": "Christian: United Methodist",
+      "definition": "Christian: United Methodist",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "590",
+      "code": "UNI",
+      "display": "Christian: Unitarian",
+      "definition": "Christian: Unitarian",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "591",
+      "code": "UNU",
+      "display": "Christian: Unitarian Universalist",
+      "definition": "Christian: Unitarian Universalist",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "621",
+      "code": "VAR",
+      "display": "Unknown",
+      "definition": "Unknown",
+      "designation": [
+        {
+          "language": "de",
+          "value": "unbekannt"
+        }
+      ],
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        }
+      ]
+    },
+    {
+      "id": "592",
+      "code": "WES",
+      "display": "Christian: Wesleyan",
+      "definition": "Christian: Wesleyan",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    },
+    {
+      "id": "593",
+      "code": "WMC",
+      "display": "Christian: Wesleyan Methodist",
+      "definition": "Christian: Wesleyan Methodist",
+      "property": [
+        {
+          "code": "modified",
+          "valueDateTime": "2015-07-13"
+        },
+        {
+          "code": "versionIntroduced",
+          "valueString": "2.4"
+        },
+        {
+          "code": "parent",
+          "valueCode": "CHR"
+        }
+      ]
+    }
+  ]
 }

@@ -11,10 +11,6 @@
       "valueString": "2.9.1"
     },
     {
-      "url": "http://terminology.hl7.org/StructureDefinition/v2-codesystem-versionHistory",
-      "valueString": "generate correct history somehow"
-    },
-    {
       "url": "http://terminology.hl7.org/StructureDefinition/v2-codesystem-tableNo",
       "valueString": "0364"
     },
@@ -28,10 +24,6 @@
     {
       "system": "urn:ietf:rfc:3986",
       "value": "urn:oid:2.16.840.1.113883.18.222"
-    },
-    {
-      "system": "urn:ietf:rfc:3986",
-      "value": "http://terminology.hl7.org/CodeSystem/v2-0364"
     }
   ],
   "version": "3.0.0",

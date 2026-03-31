@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "codesystem-versionIntroduced",
-  "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionIntroduced",
+  "url": "http://terminology.hl7.org/StructureDefinition/codesystem-versionIntroduced",
   "version": "1.0.0",
   "name": "versionIntroduced",
   "title": "Codesystem versionIntroduced",
@@ -11,36 +11,45 @@
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
-  "context": [ {
-    "type": "element",
-    "expression": "CodeSystem"
-  } ],
+  "context": [
+    {
+      "type": "element",
+      "expression": "CodeSystem"
+    }
+  ],
   "type": "Extension",
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
   "derivation": "constraint",
   "differential": {
-    "element": [ {
-      "id": "Extension",
-      "path": "Extension",
-      "min": 0,
-      "max": "1"
-    }, {
-      "id": "Extension.extension",
-      "path": "Extension.extension",
-      "max": "0"
-    }, {
-      "id": "Extension.url",
-      "path": "Extension.url",
-      "fixedUri": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionIntroduced",
-      "isModifier": false,
-      "isSummary": false
-    }, {
-      "id": "Extension.value[x]",
-      "path": "Extension.value[x]",
-      "min": 1,
-      "type": [ {
-        "code": "string"
-      } ]
-    } ]
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://terminology.hl7.org/StructureDefinition/codesystem-versionIntroduced",
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      }
+    ]
   }
 }

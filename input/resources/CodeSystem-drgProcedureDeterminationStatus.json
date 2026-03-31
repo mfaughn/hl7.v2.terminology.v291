@@ -3,19 +3,19 @@
   "id": "drgProcedureDeterminationStatus",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-drgProcedureDeterminationStatus.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/drgProcedureDeterminationStatus</code></a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-drgProcedureDeterminationStatus.html\"><code>http://terminology.hl7.org/CodeSystem/drgProcedureDeterminationStatus</code></a></li></ul></div>"
   },
   "extension": [
     {
-      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-codesystem-versionCreated",
       "valueString": "2.9.1"
     },
     {
-      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-codesystem-versionHistory",
       "valueString": "generate correct history somehow"
     },
     {
-      "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+      "url": "http://terminology.hl7.org/StructureDefinition/v2-codesystem-tableNo",
       "valueString": "0761"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "system": "urn:ietf:rfc:3986",
-      "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0761"
+      "value": "http://terminology.hl7.org/CodeSystem/v2-0761"
     }
   ],
   "version": "3.0.0",
@@ -48,13 +48,13 @@
   "property": [
     {
       "code": "versionIntroduced",
-      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+      "uri": "http://terminology.hl7.org/CodeSystem/v2-property#versionIntroduced",
       "description": "version when was this code introduced",
       "type": "string"
     },
     {
       "code": "versionDeprecated",
-      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+      "uri": "http://terminology.hl7.org/CodeSystem/v2-property#versionDeprecated",
       "description": "version when was this code deprecated",
       "type": "string"
     },
@@ -66,19 +66,19 @@
     },
     {
       "code": "comment",
-      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+      "uri": "http://terminology.hl7.org/CodeSystem/v2-property#comment",
       "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
       "type": "string"
     },
     {
       "code": "usage",
-      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+      "uri": "http://terminology.hl7.org/CodeSystem/v2-property#usage",
       "description": "usage notes for this code",
       "type": "string"
     },
     {
       "code": "modified",
-      "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+      "uri": "http://terminology.hl7.org/CodeSystem/v2-property#modified",
       "description": "date of last modification",
       "type": "dateTime"
     }

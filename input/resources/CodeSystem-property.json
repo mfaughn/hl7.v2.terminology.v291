@@ -5,7 +5,7 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Define a CS for the content of properties</p></div>"
   },
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property",
+  "url": "http://terminology.hl7.org/CodeSystem/Property",
   "name": "Property",
   "title": "Property",
   "status": "active",
@@ -13,65 +13,86 @@
   "description": "List of all possible properties that are used",
   "caseSensitive": true,
   "content": "complete",
-  "concept": [ {
-    "code": "chapter",
-    "display": "chapter"
-  }, {
-    "code": "class",
-    "display": "class"
-  }, {
-    "code": "country",
-    "display": "country"
-  }, {
-    "code": "event",
-    "display": "event"
-  }, {
-    "code": "livingTogether",
-    "display": "living together"
-  }, {
-    "code": "married",
-    "display": "married"
-  }, {
-    "code": "modified",
-    "display": "modified"
-  }, {
-    "code": "msgtype",
-    "display": "message type"
-  }, {
-    "code": "msgstruct",
-    "display": "message structure"
-  }, {
-    "code": "parent",
-    "display": "parent"
-  }, {
-    "code": "usage",
-    "display": "usage"
-  }, {
-    "code": "versionDeprecated",
-    "display": "version deprecated"
-  }, {
-    "code": "versionIntroduced",
-    "display": "version introduced"
-  }, {
-    "code": "comment",
-    "display": "comment, to suppress IG-publisher warning, to be replaced with standard later"
-  }, {
-    "code": "ackType",
-    "display": "different acknowledgement types"
-  }, {
-    "code": "ackValue",
-    "display": "different acknowledgement values"
-  }, {
-    "code": "tableNumber",
-    "display": "table number"
-  }, {
-    "code": "exampleValue",
-    "display": "example value"
-  }, {
-    "code": "vocabType",
-    "display": "type of vocabulary"
-  }, {
-    "code": "category",
-    "display": "category"
-  } ]
+  "concept": [
+    {
+      "code": "chapter",
+      "display": "chapter"
+    },
+    {
+      "code": "class",
+      "display": "class"
+    },
+    {
+      "code": "country",
+      "display": "country"
+    },
+    {
+      "code": "event",
+      "display": "event"
+    },
+    {
+      "code": "livingTogether",
+      "display": "living together"
+    },
+    {
+      "code": "married",
+      "display": "married"
+    },
+    {
+      "code": "modified",
+      "display": "modified"
+    },
+    {
+      "code": "msgtype",
+      "display": "message type"
+    },
+    {
+      "code": "msgstruct",
+      "display": "message structure"
+    },
+    {
+      "code": "parent",
+      "display": "parent"
+    },
+    {
+      "code": "usage",
+      "display": "usage"
+    },
+    {
+      "code": "versionDeprecated",
+      "display": "version deprecated"
+    },
+    {
+      "code": "versionIntroduced",
+      "display": "version introduced"
+    },
+    {
+      "code": "comment",
+      "display": "comment, to suppress IG-publisher warning, to be replaced with standard later"
+    },
+    {
+      "code": "ackType",
+      "display": "different acknowledgement types"
+    },
+    {
+      "code": "ackValue",
+      "display": "different acknowledgement values"
+    },
+    {
+      "code": "tableNumber",
+      "display": "table number"
+    },
+    {
+      "code": "exampleValue",
+      "display": "example value"
+    },
+    {
+      "code": "vocabType",
+      "display": "type of vocabulary"
+    },
+    {
+      "code": "category",
+      "display": "category"
+    }
+  ]
 }

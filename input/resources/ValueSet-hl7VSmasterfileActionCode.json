@@ -8,7 +8,7 @@
     },
     {
       "system": "urn:ietf:rfc:3986",
-      "value": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0180"
+      "value": "http://terminology.hl7.org/ValueSet/v2-0180"
     }
   ],
   "version": "3.0.0",

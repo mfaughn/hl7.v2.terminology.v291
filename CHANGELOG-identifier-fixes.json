@@ -1,0 +1,5266 @@
+{
+  "CodeSystem-accept-applicationAcknowledgmentConditions.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0155",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0155"
+    }
+  ],
+  "CodeSystem-accessRestrictionValue.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0717",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0717"
+    }
+  ],
+  "CodeSystem-acknowledgmentCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0008",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0008"
+    }
+  ],
+  "CodeSystem-actMood.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0725",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0725"
+    }
+  ],
+  "CodeSystem-actionTakenInResponseToTheEvent.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0251",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0251"
+    }
+  ],
+  "CodeSystem-active-inactive.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0183",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0183"
+    }
+  ],
+  "CodeSystem-actpriority.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0906",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0906"
+    }
+  ],
+  "CodeSystem-additivePreservative.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0371",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0371"
+    }
+  ],
+  "CodeSystem-addressExpirationReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0616",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0616"
+    }
+  ],
+  "CodeSystem-addressType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0190",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0190"
+    }
+  ],
+  "CodeSystem-addressUsage.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0617",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0617"
+    }
+  ],
+  "CodeSystem-adjustmentAction.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0569",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0569"
+    }
+  ],
+  "CodeSystem-adjustmentCategory.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0564",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0564"
+    }
+  ],
+  "CodeSystem-administrationDevice.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0164",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0164"
+    }
+  ],
+  "CodeSystem-administrationMethod.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0165",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0165"
+    }
+  ],
+  "CodeSystem-administrativeSex.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0001",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0001"
+    }
+  ],
+  "CodeSystem-admissionLevelOfCare.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0432",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0432"
+    }
+  ],
+  "CodeSystem-admissionType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0007",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0007"
+    }
+  ],
+  "CodeSystem-advancedBeneficiaryNotice.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0339",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0339"
+    }
+  ],
+  "CodeSystem-alertDevice.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0437",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0437"
+    }
+  ],
+  "CodeSystem-alertLevel.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0367",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0367"
+    }
+  ],
+  "CodeSystem-allergenType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0127",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0127"
+    }
+  ],
+  "CodeSystem-allergyClinicalStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0438",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0438"
+    }
+  ],
+  "CodeSystem-allergySeverity.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0128",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0128"
+    }
+  ],
+  "CodeSystem-allowSubstitution.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0279",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0279"
+    }
+  ],
+  "CodeSystem-alternateCharacterSetHandlingScheme.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0356",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0356"
+    }
+  ],
+  "CodeSystem-alternateCharacterSets.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0211",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0211"
+    }
+  ],
+  "CodeSystem-ambulatoryPaymentClassification.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0466",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0466"
+    }
+  ],
+  "CodeSystem-ambulatoryStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0009",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0009"
+    }
+  ],
+  "CodeSystem-amountClass.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0193",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0193"
+    }
+  ],
+  "CodeSystem-amountType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0146",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0146"
+    }
+  ],
+  "CodeSystem-analyteRepeatStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0389",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0389"
+    }
+  ],
+  "CodeSystem-annotations.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0317",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0317"
+    }
+  ],
+  "CodeSystem-appointmentReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0276",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0276"
+    }
+  ],
+  "CodeSystem-appointmentType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0277",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0277"
+    }
+  ],
+  "CodeSystem-armStick.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0927",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0927"
+    }
+  ],
+  "CodeSystem-arrivalMode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0430",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0430"
+    }
+  ],
+  "CodeSystem-artificialBlood.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0375",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0375"
+    }
+  ],
+  "CodeSystem-assignmentOfBenefits.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0135",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0135"
+    }
+  ],
+  "CodeSystem-authorizationMode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0483",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0483"
+    }
+  ],
+  "CodeSystem-auto-DilutionType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0945",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0945"
+    }
+  ],
+  "CodeSystem-bedStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0116",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0116"
+    }
+  ],
+  "CodeSystem-bloodProduct.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0426",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0426"
+    }
+  ],
+  "CodeSystem-bloodProductDispenseStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0510",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0510"
+    }
+  ],
+  "CodeSystem-bloodProductProcessingRequirements.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0508",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0508"
+    }
+  ],
+  "CodeSystem-bloodProductTransfusion-dispositionStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0513",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0513"
+    }
+  ],
+  "CodeSystem-bloodUnitType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0566",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0566"
+    }
+  ],
+  "CodeSystem-bodyParts.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0550",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0550"
+    }
+  ],
+  "CodeSystem-bodySite.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0163",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0163"
+    }
+  ],
+  "CodeSystem-bodySiteModifier.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0495",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0495"
+    }
+  ],
+  "CodeSystem-bolusType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0917",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0917"
+    }
+  ],
+  "CodeSystem-bpObservationStatusCodesInterpretation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0511",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0511"
+    }
+  ],
+  "CodeSystem-calendarAlignment.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0527",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0527"
+    }
+  ],
+  "CodeSystem-causalityObservations.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0252",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0252"
+    }
+  ],
+  "CodeSystem-cclValue.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0728",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0728"
+    }
+  ],
+  "CodeSystem-certificateStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0536",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0536"
+    }
+  ],
+  "CodeSystem-certificationCategory.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0922",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0922"
+    }
+  ],
+  "CodeSystem-certificationPatientType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0150",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0150"
+    }
+  ],
+  "CodeSystem-certificationStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0337",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0337"
+    }
+  ],
+  "CodeSystem-certificationType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0921",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0921"
+    }
+  ],
+  "CodeSystem-chargeOnIndicator.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0269",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0269"
+    }
+  ],
+  "CodeSystem-chargeType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0122",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0122"
+    }
+  ],
+  "CodeSystem-chargeTypeReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0475",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0475"
+    }
+  ],
+  "CodeSystem-checkDigitScheme.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0061",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0061"
+    }
+  ],
+  "CodeSystem-clergyNotificationType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0534",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0534"
+    }
+  ],
+  "CodeSystem-cms-OCEEditCode-cs.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0459",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0459"
+    }
+  ],
+  "CodeSystem-codingSystem.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0396",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0396"
+    }
+  ],
+  "CodeSystem-collectionEvent.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0938",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0938"
+    }
+  ],
+  "CodeSystem-commandResponse.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0387",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0387"
+    }
+  ],
+  "CodeSystem-commentType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0364",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0364"
+    }
+  ],
+  "CodeSystem-communicationLocation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0939",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0939"
+    }
+  ],
+  "CodeSystem-completionStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0322",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0322"
+    }
+  ],
+  "CodeSystem-computationType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0523",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0523"
+    }
+  ],
+  "CodeSystem-confidentiality.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0907",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0907"
+    }
+  ],
+  "CodeSystem-confidentialityCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0177",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0177"
+    }
+  ],
+  "CodeSystem-consentBypassReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0499",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0499"
+    }
+  ],
+  "CodeSystem-consentDisclosureLevel.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0500",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0500"
+    }
+  ],
+  "CodeSystem-consentMode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0497",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0497"
+    }
+  ],
+  "CodeSystem-consentNon-disclosureReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0501",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0501"
+    }
+  ],
+  "CodeSystem-consentStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0498",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0498"
+    }
+  ],
+  "CodeSystem-consentType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0496",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0496"
+    }
+  ],
+  "CodeSystem-contactRole2.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0131",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0131"
+    }
+  ],
+  "CodeSystem-containerCondition.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0544",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0544"
+    }
+  ],
+  "CodeSystem-containerStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0370",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0370"
+    }
+  ],
+  "CodeSystem-continuationStyle.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0398",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0398"
+    }
+  ],
+  "CodeSystem-controlledSubstanceSchedule.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0477",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0477"
+    }
+  ],
+  "CodeSystem-coordinationOfBenefits.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0173",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0173"
+    }
+  ],
+  "CodeSystem-coverageType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0309",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0309"
+    }
+  ],
+  "CodeSystem-cpRangeType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0298",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0298"
+    }
+  ],
+  "CodeSystem-cumulativeDosageLimitUom.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0924",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0924"
+    }
+  ],
+  "CodeSystem-cweStatuses.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0353",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0353"
+    }
+  ],
+  "CodeSystem-cycleType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0702",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0702"
+    }
+  ],
+  "CodeSystem-cyclicEntryExitIndicator.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0505",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0505"
+    }
+  ],
+  "CodeSystem-dataTypes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0440",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0440"
+    }
+  ],
+  "CodeSystem-dateFormat.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0653",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0653"
+    }
+  ],
+  "CodeSystem-dayType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0149",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0149"
+    }
+  ],
+  "CodeSystem-daysOfTheWeek.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0267",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0267"
+    }
+  ],
+  "CodeSystem-degreeLicenseCertificate.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0360",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0360"
+    }
+  ],
+  "CodeSystem-denialOrRejectionType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0460",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0460"
+    }
+  ],
+  "CodeSystem-derivedSpecimen.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0170",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0170"
+    }
+  ],
+  "CodeSystem-deviceDataState.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0667",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0667"
+    }
+  ],
+  "CodeSystem-deviceStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0682",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0682"
+    }
+  ],
+  "CodeSystem-diagnosisClassification.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0228",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0228"
+    }
+  ],
+  "CodeSystem-diagnosisPriority.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0359",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0359"
+    }
+  ],
+  "CodeSystem-diagnosisType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0052",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0052"
+    }
+  ],
+  "CodeSystem-diagnosticServiceSectionId.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0074",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0074"
+    }
+  ],
+  "CodeSystem-dietCodeSpecificationType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0159",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0159"
+    }
+  ],
+  "CodeSystem-disabilityInformationRelationship.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0334",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0334"
+    }
+  ],
+  "CodeSystem-dispenseMethod.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0321",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0321"
+    }
+  ],
+  "CodeSystem-dispenseType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0484",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0484"
+    }
+  ],
+  "CodeSystem-documentAvailabilityStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0273",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0273"
+    }
+  ],
+  "CodeSystem-documentCompletionStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0271",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0271"
+    }
+  ],
+  "CodeSystem-documentConfidentialityStatus2.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0272",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0272"
+    }
+  ],
+  "CodeSystem-documentStorageStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0275",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0275"
+    }
+  ],
+  "CodeSystem-documentType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0270",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0270"
+    }
+  ],
+  "CodeSystem-drgDiagnosisDeterminationStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0731",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0731"
+    }
+  ],
+  "CodeSystem-drgGroupingStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0749",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0749"
+    }
+  ],
+  "CodeSystem-drgProcedureDeterminationStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0761",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0761"
+    }
+  ],
+  "CodeSystem-drgProcedureRelevance.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0763",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0763"
+    }
+  ],
+  "CodeSystem-drgStatusFinancialCalculation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0742",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0742"
+    }
+  ],
+  "CodeSystem-drgStatusPatient.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0739",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0739"
+    }
+  ],
+  "CodeSystem-drgStatusRespirationMinutes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0757",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0757"
+    }
+  ],
+  "CodeSystem-drgTransferType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0415",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0415"
+    }
+  ],
+  "CodeSystem-drgstatusAdmission.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0759",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0759"
+    }
+  ],
+  "CodeSystem-drgstatusWeightAtBirth.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0755",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0755"
+    }
+  ],
+  "CodeSystem-durationCategories.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0255",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0255"
+    }
+  ],
+  "CodeSystem-eligibilitySource.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0144",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0144"
+    }
+  ],
+  "CodeSystem-employmentStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0066",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0066"
+    }
+  ],
+  "CodeSystem-encoding.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0299",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0299"
+    }
+  ],
+  "CodeSystem-equipmentState.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0365",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0365"
+    }
+  ],
+  "CodeSystem-equipmentStateIndicator.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0942",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0942"
+    }
+  ],
+  "CodeSystem-errorSeverity.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0516",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0516"
+    }
+  ],
+  "CodeSystem-escortRequired.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0225",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0225"
+    }
+  ],
+  "CodeSystem-event.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0003",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0003"
+    }
+  ],
+  "CodeSystem-eventConsequence.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0240",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0240"
+    }
+  ],
+  "CodeSystem-eventExpected.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0239",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0239"
+    }
+  ],
+  "CodeSystem-eventQualification.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0237",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0237"
+    }
+  ],
+  "CodeSystem-eventReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0062",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0062"
+    }
+  ],
+  "CodeSystem-eventRelatedPeriod.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0528",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0528"
+    }
+  ],
+  "CodeSystem-eventReportedTo.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0236",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0236"
+    }
+  ],
+  "CodeSystem-eventSeriousness.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0238",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0238"
+    }
+  ],
+  "CodeSystem-eventType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0450",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0450"
+    }
+  ],
+  "CodeSystem-exclusiveTest.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0919",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0919"
+    }
+  ],
+  "CodeSystem-expandedYes-NoIndicator.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0532",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0532"
+    }
+  ],
+  "CodeSystem-extendedPriorityCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0485",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0485"
+    }
+  ],
+  "CodeSystem-facilityType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0331",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0331"
+    }
+  ],
+  "CodeSystem-file-levelEvent.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0178",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0178"
+    }
+  ],
+  "CodeSystem-fillerStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0278",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0278"
+    }
+  ],
+  "CodeSystem-formularyStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0478",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0478"
+    }
+  ],
+  "CodeSystem-gestationCategory.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0424",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0424"
+    }
+  ],
+  "CodeSystem-grouperStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0734",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0734"
+    }
+  ],
+  "CodeSystem-identifierType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0338",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0338"
+    }
+  ],
+  "CodeSystem-identityMayBeDivulged.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0243",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0243"
+    }
+  ],
+  "CodeSystem-identityReliability.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0445",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0445"
+    }
+  ],
+  "CodeSystem-immunizationRegistryStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0441",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0441"
+    }
+  ],
+  "CodeSystem-inactiveReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0540",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0540"
+    }
+  ],
+  "CodeSystem-incidentType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0428",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0428"
+    }
+  ],
+  "CodeSystem-indirectExposureMechanism.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0253",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0253"
+    }
+  ],
+  "CodeSystem-informInstructions.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0517",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0517"
+    }
+  ],
+  "CodeSystem-institutionRelationshipType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0538",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0538"
+    }
+  ],
+  "CodeSystem-intendedProcedureType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0933",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0933"
+    }
+  ],
+  "CodeSystem-invocationEvent.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0100",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0100"
+    }
+  ],
+  "CodeSystem-invoiceControl.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0553",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0553"
+    }
+  ],
+  "CodeSystem-invoiceProcessingResultsStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0571",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0571"
+    }
+  ],
+  "CodeSystem-invoiceReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0554",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0554"
+    }
+  ],
+  "CodeSystem-invoiceType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0555",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0555"
+    }
+  ],
+  "CodeSystem-itemStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0776",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0776"
+    }
+  ],
+  "CodeSystem-itemType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0778",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0778"
+    }
+  ],
+  "CodeSystem-jobStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0311",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0311"
+    }
+  ],
+  "CodeSystem-jurisdictionalBreadth.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0547",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0547"
+    }
+  ],
+  "CodeSystem-kindOfQuantity.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0254",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0254"
+    }
+  ],
+  "CodeSystem-laborCalculationType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0651",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0651"
+    }
+  ],
+  "CodeSystem-languageAbility.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0403",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0403"
+    }
+  ],
+  "CodeSystem-languageProficiency.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0404",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0404"
+    }
+  ],
+  "CodeSystem-levelOfCare.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0263",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0263"
+    }
+  ],
+  "CodeSystem-limitationTypeCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0940",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0940"
+    }
+  ],
+  "CodeSystem-livingArrangement.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0220",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0220"
+    }
+  ],
+  "CodeSystem-livingDependency2.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0223",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0223"
+    }
+  ],
+  "CodeSystem-livingWillCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0315",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0315"
+    }
+  ],
+  "CodeSystem-loadStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0669",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0669"
+    }
+  ],
+  "CodeSystem-local-remoteControlState.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0366",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0366"
+    }
+  ],
+  "CodeSystem-locationCharacteristic.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0324",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0324"
+    }
+  ],
+  "CodeSystem-locationEquipment.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0261",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0261"
+    }
+  ],
+  "CodeSystem-locationRelationship.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0325",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0325"
+    }
+  ],
+  "CodeSystem-locationServiceType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0442",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0442"
+    }
+  ],
+  "CodeSystem-loinc.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0820",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0820"
+    }
+  ],
+  "CodeSystem-lotControl.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0659",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0659"
+    }
+  ],
+  "CodeSystem-mailClaimParty.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0137",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0137"
+    }
+  ],
+  "CodeSystem-maritalStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0002",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0002"
+    }
+  ],
+  "CodeSystem-marketingBasis.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0330",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0330"
+    }
+  ],
+  "CodeSystem-masterFileIdentifierCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0175",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0175"
+    }
+  ],
+  "CodeSystem-masterfileActionCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0180",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0180"
+    }
+  ],
+  "CodeSystem-matchReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0392",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0392"
+    }
+  ],
+  "CodeSystem-medicalRoleExecutingPhysician.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0882",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0882"
+    }
+  ],
+  "CodeSystem-messageErrorCondition.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0357",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0357"
+    }
+  ],
+  "CodeSystem-messageStructure.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0354",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0354"
+    }
+  ],
+  "CodeSystem-messageType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0076",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0076"
+    }
+  ],
+  "CodeSystem-messageWaitingPriority.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0520",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0520"
+    }
+  ],
+  "CodeSystem-mfnRecord-levelErrorReturn.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0181",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0181"
+    }
+  ],
+  "CodeSystem-militaryService.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0140",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0140"
+    }
+  ],
+  "CodeSystem-militaryStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0142",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0142"
+    }
+  ],
+  "CodeSystem-mimeTypes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0834",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0834"
+    }
+  ],
+  "CodeSystem-modifyIndicator.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0395",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0395"
+    }
+  ],
+  "CodeSystem-moneyOrPercentageIndicator.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0148",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0148"
+    }
+  ],
+  "CodeSystem-name-addressRepresentation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0465",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0465"
+    }
+  ],
+  "CodeSystem-nameAssemblyOrder.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0444",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0444"
+    }
+  ],
+  "CodeSystem-nameType2.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0200",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0200"
+    }
+  ],
+  "CodeSystem-natureOfAbnormalTesting.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0080",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0080"
+    }
+  ],
+  "CodeSystem-natureOfChallenge.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0257",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0257"
+    }
+  ],
+  "CodeSystem-natureOfServiceTestObservation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0174",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0174"
+    }
+  ],
+  "CodeSystem-newbornType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0425",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0425"
+    }
+  ],
+  "CodeSystem-non-subjectConsenterReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0502",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0502"
+    }
+  ],
+  "CodeSystem-observationResultHandling.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0507",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0507"
+    }
+  ],
+  "CodeSystem-observationResultStatusCodesInterpretation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0085",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0085"
+    }
+  ],
+  "CodeSystem-observationSubtype.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0937",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0937"
+    }
+  ],
+  "CodeSystem-observationType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0936",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0936"
+    }
+  ],
+  "CodeSystem-onlineVerificationResult.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0970",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0970"
+    }
+  ],
+  "CodeSystem-onlineVerificationResultErrorCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0971",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0971"
+    }
+  ],
+  "CodeSystem-orderControlCodeReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0949",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0949"
+    }
+  ],
+  "CodeSystem-orderControlCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0119",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0119"
+    }
+  ],
+  "CodeSystem-orderStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0038",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0038"
+    }
+  ],
+  "CodeSystem-orderStatusModifier.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0950",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0950"
+    }
+  ],
+  "CodeSystem-orderType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0482",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0482"
+    }
+  ],
+  "CodeSystem-organDonorCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0316",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0316"
+    }
+  ],
+  "CodeSystem-organizationUnitType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0474",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0474"
+    }
+  ],
+  "CodeSystem-organizationalNameType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0204",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0204"
+    }
+  ],
+  "CodeSystem-outlierType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0083",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0083"
+    }
+  ],
+  "CodeSystem-overallClaimDisposition.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0457",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0457"
+    }
+  ],
+  "CodeSystem-override.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0268",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0268"
+    }
+  ],
+  "CodeSystem-overrideType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0518",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0518"
+    }
+  ],
+  "CodeSystem-package.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0818",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0818"
+    }
+  ],
+  "CodeSystem-packagingStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0469",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0469"
+    }
+  ],
+  "CodeSystem-participation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0912",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0912"
+    }
+  ],
+  "CodeSystem-patientClass.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0004",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0004"
+    }
+  ],
+  "CodeSystem-patientCondition.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0434",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0434"
+    }
+  ],
+  "CodeSystem-patientLocationType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0260",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0260"
+    }
+  ],
+  "CodeSystem-patientOutcome.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0241",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0241"
+    }
+  ],
+  "CodeSystem-patientResultsReleaseCategorizationScheme.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0909",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0909"
+    }
+  ],
+  "CodeSystem-patientsRelationshipToInsured.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0344",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0344"
+    }
+  ],
+  "CodeSystem-payeeRelationshipToInvoice.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0558",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0558"
+    }
+  ],
+  "CodeSystem-payeeType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0557",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0557"
+    }
+  ],
+  "CodeSystem-paymentAdjustmentInformation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0468",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0468"
+    }
+  ],
+  "CodeSystem-paymentMethod.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0570",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0570"
+    }
+  ],
+  "CodeSystem-pcaType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0918",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0918"
+    }
+  ],
+  "CodeSystem-personLocationType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0305",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0305"
+    }
+  ],
+  "CodeSystem-pharmacyOrderTypes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0480",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0480"
+    }
+  ],
+  "CodeSystem-phlebotomyIssue.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0925",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0925"
+    }
+  ],
+  "CodeSystem-phlebotomyStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0926",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0926"
+    }
+  ],
+  "CodeSystem-policyType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0147",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0147"
+    }
+  ],
+  "CodeSystem-precaution.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0433",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0433"
+    }
+  ],
+  "CodeSystem-preferredMethodOfContact.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0185",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0185"
+    }
+  ],
+  "CodeSystem-preferredSpecimen-AttributeStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0920",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0920"
+    }
+  ],
+  "CodeSystem-priceType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0205",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0205"
+    }
+  ],
+  "CodeSystem-primaryKeyValueType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0355",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0355"
+    }
+  ],
+  "CodeSystem-primaryObserverQualification.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0242",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0242"
+    }
+  ],
+  "CodeSystem-priority.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0027",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0027"
+    }
+  ],
+  "CodeSystem-privacyLevel.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0262",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0262"
+    }
+  ],
+  "CodeSystem-problem-goalAction.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0287",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0287"
+    }
+  ],
+  "CodeSystem-procedureDrgType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0416",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0416"
+    }
+  ],
+  "CodeSystem-procedureFunctionalType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0230",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0230"
+    }
+  ],
+  "CodeSystem-procedurePriority.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0418",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0418"
+    }
+  ],
+  "CodeSystem-processInterruptionReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0935",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0935"
+    }
+  ],
+  "CodeSystem-processingConsideration.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0562",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0562"
+    }
+  ],
+  "CodeSystem-processingId.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0103",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0103"
+    }
+  ],
+  "CodeSystem-processingMode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0207",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0207"
+    }
+  ],
+  "CodeSystem-processingPriority.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0168",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0168"
+    }
+  ],
+  "CodeSystem-processingType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0388",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0388"
+    }
+  ],
+  "CodeSystem-product-serviceStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0559",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0559"
+    }
+  ],
+  "CodeSystem-product-servicesClarification.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0561",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0561"
+    }
+  ],
+  "CodeSystem-productSource.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0248",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0248"
+    }
+  ],
+  "CodeSystem-productionClass.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0429",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0429"
+    }
+  ],
+  "CodeSystem-protection.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0618",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0618"
+    }
+  ],
+  "CodeSystem-providerAdjustmentReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0565",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0565"
+    }
+  ],
+  "CodeSystem-providerBilling.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0187",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0187"
+    }
+  ],
+  "CodeSystem-providerRole.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0443",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0443"
+    }
+  ],
+  "CodeSystem-purgeStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0213",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0213"
+    }
+  ],
+  "CodeSystem-quantityLimitedRequest.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0126",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0126"
+    }
+  ],
+  "CodeSystem-quantityMethod.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0329",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0329"
+    }
+  ],
+  "CodeSystem-queryPriority.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0091",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0091"
+    }
+  ],
+  "CodeSystem-queryResponseStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0208",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0208"
+    }
+  ],
+  "CodeSystem-reasonForStudy.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0951",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0951"
+    }
+  ],
+  "CodeSystem-recreationalDrugType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0431",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0431"
+    }
+  ],
+  "CodeSystem-referralCategory.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0284",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0284"
+    }
+  ],
+  "CodeSystem-referralDisposition.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0282",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0282"
+    }
+  ],
+  "CodeSystem-referralPriority.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0280",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0280"
+    }
+  ],
+  "CodeSystem-referralReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0336",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0336"
+    }
+  ],
+  "CodeSystem-referralStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0283",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0283"
+    }
+  ],
+  "CodeSystem-referralType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0281",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0281"
+    }
+  ],
+  "CodeSystem-reimbursementType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0470",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0470"
+    }
+  ],
+  "CodeSystem-relatednessAssessment.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0250",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0250"
+    }
+  ],
+  "CodeSystem-relationalConjunction.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0210",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0210"
+    }
+  ],
+  "CodeSystem-relationalOperator.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0209",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0209"
+    }
+  ],
+  "CodeSystem-relationship.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0063",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0063"
+    }
+  ],
+  "CodeSystem-relationshipModifier.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0258",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0258"
+    }
+  ],
+  "CodeSystem-relevantClincialInformation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0916",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0916"
+    }
+  ],
+  "CodeSystem-religion2.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0006",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0006"
+    }
+  ],
+  "CodeSystem-remoteControlCommand.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0368",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0368"
+    }
+  ],
+  "CodeSystem-reorderTheory.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0642",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0642"
+    }
+  ],
+  "CodeSystem-repeatPattern.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0335",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0335"
+    }
+  ],
+  "CodeSystem-reportSource.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0235",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0235"
+    }
+  ],
+  "CodeSystem-reportTiming.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0234",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0234"
+    }
+  ],
+  "CodeSystem-reportingPriority.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0169",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0169"
+    }
+  ],
+  "CodeSystem-responseFlag.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0121",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0121"
+    }
+  ],
+  "CodeSystem-responseLevel.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0179",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0179"
+    }
+  ],
+  "CodeSystem-responseModality.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0394",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0394"
+    }
+  ],
+  "CodeSystem-resultStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0123",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0123"
+    }
+  ],
+  "CodeSystem-riskManagementIncident.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0427",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0427"
+    }
+  ],
+  "CodeSystem-risks.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0489",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0489"
+    }
+  ],
+  "CodeSystem-roleExecutingPhysician.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0881",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0881"
+    }
+  ],
+  "CodeSystem-roomType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0145",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0145"
+    }
+  ],
+  "CodeSystem-rootCause.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0914",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0914"
+    }
+  ],
+  "CodeSystem-routeOfAdministration.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0162",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0162"
+    }
+  ],
+  "CodeSystem-rxComponentType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0166",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0166"
+    }
+  ],
+  "CodeSystem-securityCheckScheme.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0904",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0904"
+    }
+  ],
+  "CodeSystem-segmentAction.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0206",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0206"
+    }
+  ],
+  "CodeSystem-segmentGroup.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0391",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0391"
+    }
+  ],
+  "CodeSystem-sensitivityToCausativeAgent.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0436",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0436"
+    }
+  ],
+  "CodeSystem-sequenceCondition.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0504",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0504"
+    }
+  ],
+  "CodeSystem-sequenceResultsFlag.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0503",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0503"
+    }
+  ],
+  "CodeSystem-sequencing.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0397",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0397"
+    }
+  ],
+  "CodeSystem-serviceRequestRelationship.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0506",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0506"
+    }
+  ],
+  "CodeSystem-severityOfIllness.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0421",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0421"
+    }
+  ],
+  "CodeSystem-shipmentStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0905",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0905"
+    }
+  ],
+  "CodeSystem-sideOfBody.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0894",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0894"
+    }
+  ],
+  "CodeSystem-signatorysRelationshipToSubject.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0548",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0548"
+    }
+  ],
+  "CodeSystem-signatureType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0535",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0535"
+    }
+  ],
+  "CodeSystem-snomedct.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0823",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0823"
+    }
+  ],
+  "CodeSystem-sourceOfComment.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0105",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0105"
+    }
+  ],
+  "CodeSystem-sourceType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0332",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0332"
+    }
+  ],
+  "CodeSystem-specialHandling.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0376",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0376"
+    }
+  ],
+  "CodeSystem-specialtyType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0265",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0265"
+    }
+  ],
+  "CodeSystem-specimenAction.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0065",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0065"
+    }
+  ],
+  "CodeSystem-specimenAppropriateness.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0492",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0492"
+    }
+  ],
+  "CodeSystem-specimenChildRole.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0494",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0494"
+    }
+  ],
+  "CodeSystem-specimenCollectionMethod.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0488",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0488"
+    }
+  ],
+  "CodeSystem-specimenComponent.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0372",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0372"
+    }
+  ],
+  "CodeSystem-specimenCondition.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0493",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0493"
+    }
+  ],
+  "CodeSystem-specimenQuality.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0491",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0491"
+    }
+  ],
+  "CodeSystem-specimenRejectReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0490",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0490"
+    }
+  ],
+  "CodeSystem-specimenRole.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0369",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0369"
+    }
+  ],
+  "CodeSystem-specimenType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0487",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0487"
+    }
+  ],
+  "CodeSystem-statusOfEvaluation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0247",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0247"
+    }
+  ],
+  "CodeSystem-sterilizationType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0806",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0806"
+    }
+  ],
+  "CodeSystem-studentStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0231",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0231"
+    }
+  ],
+  "CodeSystem-substanceStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0383",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0383"
+    }
+  ],
+  "CodeSystem-substanceType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0384",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0384"
+    }
+  ],
+  "CodeSystem-substitutionStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0167",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0167"
+    }
+  ],
+  "CodeSystem-subtypeOfReferencedData.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0291",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0291"
+    }
+  ],
+  "CodeSystem-supplementalServiceInformation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0411",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0411"
+    }
+  ],
+  "CodeSystem-supplierType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0946",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0946"
+    }
+  ],
+  "CodeSystem-supplyRisk.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0871",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0871"
+    }
+  ],
+  "CodeSystem-taxStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0572",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0572"
+    }
+  ],
+  "CodeSystem-telecommunicationEquipmentType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0202",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0202"
+    }
+  ],
+  "CodeSystem-telecommunicationExpirationReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0868",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0868"
+    }
+  ],
+  "CodeSystem-telecommunicationUse.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0201",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0201"
+    }
+  ],
+  "CodeSystem-timeDelayPostChallenge.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0256",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0256"
+    }
+  ],
+  "CodeSystem-timeSelectionCriteriaParameterClass.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0294",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0294"
+    }
+  ],
+  "CodeSystem-tissueType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0417",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0417"
+    }
+  ],
+  "CodeSystem-tqConjunctionId.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0472",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0472"
+    }
+  ],
+  "CodeSystem-transactionType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0017",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0017"
+    }
+  ],
+  "CodeSystem-transfusionAdverseReaction.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0514",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0514"
+    }
+  ],
+  "CodeSystem-transportArranged.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0224",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0224"
+    }
+  ],
+  "CodeSystem-transportationMode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0124",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0124"
+    }
+  ],
+  "CodeSystem-trayType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0160",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0160"
+    }
+  ],
+  "CodeSystem-treatment.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0373",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0373"
+    }
+  ],
+  "CodeSystem-triageType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0422",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0422"
+    }
+  ],
+  "CodeSystem-typeOfReferencedData.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0191",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0191"
+    }
+  ],
+  "CodeSystem-universalIdType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0301",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0301"
+    }
+  ],
+  "CodeSystem-userAuthenticationCredentialType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0615",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0615"
+    }
+  ],
+  "CodeSystem-v2CS-relationshipType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0948",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0948"
+    }
+  ],
+  "CodeSystem-versionId.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0104",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0104"
+    }
+  ],
+  "CodeSystem-visitIndicator.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0326",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0326"
+    }
+  ],
+  "CodeSystem-visitPriority.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0217",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0217"
+    }
+  ],
+  "CodeSystem-visitUserCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0130",
+      "new": "http://terminology.hl7.org/CodeSystem/v2-0130"
+    }
+  ],
+  "ValueSet-empty_2.16.840.1.113883.21.465.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0942",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0942"
+    }
+  ],
+  "ValueSet-hl7VSReasonForStudy.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0951",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0951"
+    }
+  ],
+  "ValueSet-hl7VSVS-collectionEvent.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0938",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0938"
+    }
+  ],
+  "ValueSet-hl7VSVS-communicationLocation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0939",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0939"
+    }
+  ],
+  "ValueSet-hl7VSVS-limitationTypeCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0940",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0940"
+    }
+  ],
+  "ValueSet-hl7VSVS-observationSubtype.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0937",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0937"
+    }
+  ],
+  "ValueSet-hl7VSVS-observationType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0936",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0936"
+    }
+  ],
+  "ValueSet-hl7VSaccept-applicationAcknowledgmentConditions.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0155",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0155"
+    }
+  ],
+  "ValueSet-hl7VSaccessRestrictionValue.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0717",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0717"
+    }
+  ],
+  "ValueSet-hl7VSacknowledgmentCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0008",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0008"
+    }
+  ],
+  "ValueSet-hl7VSactionCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0287",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0287"
+    }
+  ],
+  "ValueSet-hl7VSactionTakenInResponseToTheEvent.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0251",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0251"
+    }
+  ],
+  "ValueSet-hl7VSactive-inactive.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0183",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0183"
+    }
+  ],
+  "ValueSet-hl7VSactpriority.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0906",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0906"
+    }
+  ],
+  "ValueSet-hl7VSadditivePreservative.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0371",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0371"
+    }
+  ],
+  "ValueSet-hl7VSaddressExpirationReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0616",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0616"
+    }
+  ],
+  "ValueSet-hl7VSaddressType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0190",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0190"
+    }
+  ],
+  "ValueSet-hl7VSaddressUsage.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0617",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0617"
+    }
+  ],
+  "ValueSet-hl7VSadjustmentAction.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0569",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0569"
+    }
+  ],
+  "ValueSet-hl7VSadjustmentCategoryCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0564",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0564"
+    }
+  ],
+  "ValueSet-hl7VSadministrationDevice.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0164",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0164"
+    }
+  ],
+  "ValueSet-hl7VSadministrationMethod.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0165",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0165"
+    }
+  ],
+  "ValueSet-hl7VSadministrativeSex.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0001",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0001"
+    }
+  ],
+  "ValueSet-hl7VSadministriveSite.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0163",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0163"
+    }
+  ],
+  "ValueSet-hl7VSadmissionLevelOfCareCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0432",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0432"
+    }
+  ],
+  "ValueSet-hl7VSadmissionType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0007",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0007"
+    }
+  ],
+  "ValueSet-hl7VSadvancedBeneficiaryNoticeCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0339",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0339"
+    }
+  ],
+  "ValueSet-hl7VSalertDeviceCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0437",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0437"
+    }
+  ],
+  "ValueSet-hl7VSalertLevel.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0367",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0367"
+    }
+  ],
+  "ValueSet-hl7VSallergyClinicalStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0438",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0438"
+    }
+  ],
+  "ValueSet-hl7VSallergySeverity.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0128",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0128"
+    }
+  ],
+  "ValueSet-hl7VSallergyType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0127",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0127"
+    }
+  ],
+  "ValueSet-hl7VSallowSubstitution.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0161",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0161"
+    }
+  ],
+  "ValueSet-hl7VSallowSubstitutionCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0279",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0279"
+    }
+  ],
+  "ValueSet-hl7VSalternateCharacterSetHandlingScheme.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0356",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0356"
+    }
+  ],
+  "ValueSet-hl7VSalternateCharacterSets.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0211",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0211"
+    }
+  ],
+  "ValueSet-hl7VSambulatoryPaymentClassificationCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0466",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0466"
+    }
+  ],
+  "ValueSet-hl7VSambulatoryStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0009",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0009"
+    }
+  ],
+  "ValueSet-hl7VSamountClass.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0193",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0193"
+    }
+  ],
+  "ValueSet-hl7VSamountType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0146",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0146"
+    }
+  ],
+  "ValueSet-hl7VSanalyteRepeatStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0389",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0389"
+    }
+  ],
+  "ValueSet-hl7VSannotations.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0317",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0317"
+    }
+  ],
+  "ValueSet-hl7VSappointmentReasonCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0276",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0276"
+    }
+  ],
+  "ValueSet-hl7VSappointmentTypeCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0277",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0277"
+    }
+  ],
+  "ValueSet-hl7VSarmStick.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0927",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0927"
+    }
+  ],
+  "ValueSet-hl7VSartificialBlood.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0375",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0375"
+    }
+  ],
+  "ValueSet-hl7VSassignmentOfBenefits.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0135",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0135"
+    }
+  ],
+  "ValueSet-hl7VSauthorizationMode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0483",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0483"
+    }
+  ],
+  "ValueSet-hl7VSauto-DilutionType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0945",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0945"
+    }
+  ],
+  "ValueSet-hl7VSbedStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0116",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0116"
+    }
+  ],
+  "ValueSet-hl7VSbloodProductCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0426",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0426"
+    }
+  ],
+  "ValueSet-hl7VSbloodProductDispenseStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0510",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0510"
+    }
+  ],
+  "ValueSet-hl7VSbloodProductProcessingRequirements.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0508",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0508"
+    }
+  ],
+  "ValueSet-hl7VSbloodProductTransfusion-dispositionStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0513",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0513"
+    }
+  ],
+  "ValueSet-hl7VSbloodUnitType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0566",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0566"
+    }
+  ],
+  "ValueSet-hl7VSbodyParts.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0550",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0550"
+    }
+  ],
+  "ValueSet-hl7VSbodySiteModifier.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0495",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0495"
+    }
+  ],
+  "ValueSet-hl7VSbolusType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0917",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0917"
+    }
+  ],
+  "ValueSet-hl7VSbpObservationStatusCodesInterpretation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0511",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0511"
+    }
+  ],
+  "ValueSet-hl7VScalendarAlignment.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0527",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0527"
+    }
+  ],
+  "ValueSet-hl7VScausalityObservations.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0252",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0252"
+    }
+  ],
+  "ValueSet-hl7VScclValue.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0728",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0728"
+    }
+  ],
+  "ValueSet-hl7VScertificateStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0536",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0536"
+    }
+  ],
+  "ValueSet-hl7VScertificationCategoryCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0922",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0922"
+    }
+  ],
+  "ValueSet-hl7VScertificationStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0337",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0337"
+    }
+  ],
+  "ValueSet-hl7VScertificationTypeCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0921",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0921"
+    }
+  ],
+  "ValueSet-hl7VSchargeOnIndicator.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0269",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0269"
+    }
+  ],
+  "ValueSet-hl7VSchargeType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0122",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0122"
+    }
+  ],
+  "ValueSet-hl7VSchargeTypeReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0475",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0475"
+    }
+  ],
+  "ValueSet-hl7VScheckDigitScheme.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0061",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0061"
+    }
+  ],
+  "ValueSet-hl7VScodingSystem.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0396",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0396"
+    }
+  ],
+  "ValueSet-hl7VScommandResponse.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0387",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0387"
+    }
+  ],
+  "ValueSet-hl7VScommentType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0364",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0364"
+    }
+  ],
+  "ValueSet-hl7VScompletionStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0322",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0322"
+    }
+  ],
+  "ValueSet-hl7VScomputationType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0523",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0523"
+    }
+  ],
+  "ValueSet-hl7VSconfidentiality.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0907",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0907"
+    }
+  ],
+  "ValueSet-hl7VSconfidentialityCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0177",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0177"
+    }
+  ],
+  "ValueSet-hl7VSconsentBypassReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0499",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0499"
+    }
+  ],
+  "ValueSet-hl7VSconsentDisclosureLevel.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0500",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0500"
+    }
+  ],
+  "ValueSet-hl7VSconsentMode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0497",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0497"
+    }
+  ],
+  "ValueSet-hl7VSconsentNon-disclosureReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0501",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0501"
+    }
+  ],
+  "ValueSet-hl7VSconsentStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0498",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0498"
+    }
+  ],
+  "ValueSet-hl7VSconsentType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0496",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0496"
+    }
+  ],
+  "ValueSet-hl7VScontactRole2.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0131",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0131"
+    }
+  ],
+  "ValueSet-hl7VScontainerCondition.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0544",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0544"
+    }
+  ],
+  "ValueSet-hl7VScontainerStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0370",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0370"
+    }
+  ],
+  "ValueSet-hl7VScontinuationStyleCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0398",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0398"
+    }
+  ],
+  "ValueSet-hl7VScontrolledSubstanceSchedule.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0477",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0477"
+    }
+  ],
+  "ValueSet-hl7VScoordinationOfBenefits.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0173",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0173"
+    }
+  ],
+  "ValueSet-hl7VScoverageType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0309",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0309"
+    }
+  ],
+  "ValueSet-hl7VScumulativeDosageLimitUom.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0924",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0924"
+    }
+  ],
+  "ValueSet-hl7VScweStatuses.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0353",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0353"
+    }
+  ],
+  "ValueSet-hl7VScycleType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0702",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0702"
+    }
+  ],
+  "ValueSet-hl7VScyclicEntryExitIndicator.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0505",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0505"
+    }
+  ],
+  "ValueSet-hl7VSdataTypes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0440",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0440"
+    }
+  ],
+  "ValueSet-hl7VSdateFormat.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0653",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0653"
+    }
+  ],
+  "ValueSet-hl7VSdayType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0149",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0149"
+    }
+  ],
+  "ValueSet-hl7VSdaysOfTheWeek.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0267",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0267"
+    }
+  ],
+  "ValueSet-hl7VSdegreeLicenseCertificate.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0360",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0360"
+    }
+  ],
+  "ValueSet-hl7VSdenialOrRejectionCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0460",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0460"
+    }
+  ],
+  "ValueSet-hl7VSderivedSpecimen.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0170",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0170"
+    }
+  ],
+  "ValueSet-hl7VSdeviceDataState.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0667",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0667"
+    }
+  ],
+  "ValueSet-hl7VSdeviceStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0682",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0682"
+    }
+  ],
+  "ValueSet-hl7VSdiagnosisClassification.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0228",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0228"
+    }
+  ],
+  "ValueSet-hl7VSdiagnosisPriority.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0359",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0359"
+    }
+  ],
+  "ValueSet-hl7VSdiagnosisType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0052",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0052"
+    }
+  ],
+  "ValueSet-hl7VSdiagnosticServiceSectionId.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0074",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0074"
+    }
+  ],
+  "ValueSet-hl7VSdietType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0159",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0159"
+    }
+  ],
+  "ValueSet-hl7VSdisabledPerson.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0334",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0334"
+    }
+  ],
+  "ValueSet-hl7VSdispenseMethod.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0321",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0321"
+    }
+  ],
+  "ValueSet-hl7VSdispenseType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0484",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0484"
+    }
+  ],
+  "ValueSet-hl7VSdocumentAvailabilityStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0273",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0273"
+    }
+  ],
+  "ValueSet-hl7VSdocumentCompletionStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0271",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0271"
+    }
+  ],
+  "ValueSet-hl7VSdocumentConfidentialityStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0272",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0272"
+    }
+  ],
+  "ValueSet-hl7VSdocumentStorageStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0275",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0275"
+    }
+  ],
+  "ValueSet-hl7VSdrgDiagnosisDeterminationStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0731",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0731"
+    }
+  ],
+  "ValueSet-hl7VSdrgGroupingStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0749",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0749"
+    }
+  ],
+  "ValueSet-hl7VSdrgProcedureDeterminationStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0761",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0761"
+    }
+  ],
+  "ValueSet-hl7VSdrgProcedureRelevance.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0763",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0763"
+    }
+  ],
+  "ValueSet-hl7VSdrgStatusFinancialCalculation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0742",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0742"
+    }
+  ],
+  "ValueSet-hl7VSdrgTransferType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0415",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0415"
+    }
+  ],
+  "ValueSet-hl7VSdurationCategories.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0255",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0255"
+    }
+  ],
+  "ValueSet-hl7VSeligibilitySource.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0144",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0144"
+    }
+  ],
+  "ValueSet-hl7VSemploymentStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0066",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0066"
+    }
+  ],
+  "ValueSet-hl7VSencoding.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0299",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0299"
+    }
+  ],
+  "ValueSet-hl7VSequipmentState.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0365",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0365"
+    }
+  ],
+  "ValueSet-hl7VSerrorSeverity.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0516",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0516"
+    }
+  ],
+  "ValueSet-hl7VSescortRequired.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0225",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0225"
+    }
+  ],
+  "ValueSet-hl7VSevent.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0003",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0003"
+    }
+  ],
+  "ValueSet-hl7VSeventConsequence.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0240",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0240"
+    }
+  ],
+  "ValueSet-hl7VSeventExpected.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0239",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0239"
+    }
+  ],
+  "ValueSet-hl7VSeventQualification.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0237",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0237"
+    }
+  ],
+  "ValueSet-hl7VSeventReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0062",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0062"
+    }
+  ],
+  "ValueSet-hl7VSeventRelatedPeriod.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0528",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0528"
+    }
+  ],
+  "ValueSet-hl7VSeventReportedTo.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0236",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0236"
+    }
+  ],
+  "ValueSet-hl7VSeventSeriousness.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0238",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0238"
+    }
+  ],
+  "ValueSet-hl7VSeventType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0450",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0450"
+    }
+  ],
+  "ValueSet-hl7VSexclusiveTest.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0919",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0919"
+    }
+  ],
+  "ValueSet-hl7VSexpandedYes-NoIndicator.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0532",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0532"
+    }
+  ],
+  "ValueSet-hl7VSextendedPriorityCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0485",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0485"
+    }
+  ],
+  "ValueSet-hl7VSfacilityType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0331",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0331"
+    }
+  ],
+  "ValueSet-hl7VSfile-levelEventCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0178",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0178"
+    }
+  ],
+  "ValueSet-hl7VSfillerStatusCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0278",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0278"
+    }
+  ],
+  "ValueSet-hl7VSformularyStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0478",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0478"
+    }
+  ],
+  "ValueSet-hl7VSgenderHarmonyConcepts.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0820",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0820"
+    }
+  ],
+  "ValueSet-hl7VSgestationCategoryCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0424",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0424"
+    }
+  ],
+  "ValueSet-hl7VSgrouperStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0734",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0734"
+    }
+  ],
+  "ValueSet-hl7VSidentifierType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0203",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0203"
+    }
+  ],
+  "ValueSet-hl7VSidentityMayBeDivulged.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0243",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0243"
+    }
+  ],
+  "ValueSet-hl7VSidentityReliabilityCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0445",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0445"
+    }
+  ],
+  "ValueSet-hl7VSimmunizationRegistryStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0441",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0441"
+    }
+  ],
+  "ValueSet-hl7VSinactiveReasonCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0540",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0540"
+    }
+  ],
+  "ValueSet-hl7VSincidentTypeCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0428",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0428"
+    }
+  ],
+  "ValueSet-hl7VSindirectExposureMechanism.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0253",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0253"
+    }
+  ],
+  "ValueSet-hl7VSinformPersonCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0517",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0517"
+    }
+  ],
+  "ValueSet-hl7VSinstitutionRelationshipType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0538",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0538"
+    }
+  ],
+  "ValueSet-hl7VSintendedProcedureType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0933",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0933"
+    }
+  ],
+  "ValueSet-hl7VSinvoiceControlCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0553",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0553"
+    }
+  ],
+  "ValueSet-hl7VSinvoiceProcessingResultsStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0571",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0571"
+    }
+  ],
+  "ValueSet-hl7VSinvoiceReasonCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0554",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0554"
+    }
+  ],
+  "ValueSet-hl7VSinvoiceType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0555",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0555"
+    }
+  ],
+  "ValueSet-hl7VSitemStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0776",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0776"
+    }
+  ],
+  "ValueSet-hl7VSitemStatusCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0625",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0625"
+    }
+  ],
+  "ValueSet-hl7VSitemType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0778",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0778"
+    }
+  ],
+  "ValueSet-hl7VSjobStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0311",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0311"
+    }
+  ],
+  "ValueSet-hl7VSjurisdictionalBreadth.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0547",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0547"
+    }
+  ],
+  "ValueSet-hl7VSkindOfQuantity.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0254",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0254"
+    }
+  ],
+  "ValueSet-hl7VSlaborCalculationType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0651",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0651"
+    }
+  ],
+  "ValueSet-hl7VSlanguageAbility.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0403",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0403"
+    }
+  ],
+  "ValueSet-hl7VSlanguageProficiency.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0404",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0404"
+    }
+  ],
+  "ValueSet-hl7VSlevelOfCare.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0263",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0263"
+    }
+  ],
+  "ValueSet-hl7VSlivingArrangement.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0220",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0220"
+    }
+  ],
+  "ValueSet-hl7VSlivingDependency.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0223",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0223"
+    }
+  ],
+  "ValueSet-hl7VSlivingWill.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0315",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0315"
+    }
+  ],
+  "ValueSet-hl7VSloadStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0669",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0669"
+    }
+  ],
+  "ValueSet-hl7VSlocal-remoteControlState.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0366",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0366"
+    }
+  ],
+  "ValueSet-hl7VSlocationCharacteristicId.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0324",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0324"
+    }
+  ],
+  "ValueSet-hl7VSlocationEquipment.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0261",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0261"
+    }
+  ],
+  "ValueSet-hl7VSlocationRelationshipId.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0325",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0325"
+    }
+  ],
+  "ValueSet-hl7VSlocationServiceCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0442",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0442"
+    }
+  ],
+  "ValueSet-hl7VSlotControl.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0659",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0659"
+    }
+  ],
+  "ValueSet-hl7VSmailClaimParty.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0137",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0137"
+    }
+  ],
+  "ValueSet-hl7VSmaritalStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0002",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0002"
+    }
+  ],
+  "ValueSet-hl7VSmarketingBasis.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0330",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0330"
+    }
+  ],
+  "ValueSet-hl7VSmasterFileIdentifierCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0175",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0175"
+    }
+  ],
+  "ValueSet-hl7VSmasterfileActionCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0180",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0180"
+    }
+  ],
+  "ValueSet-hl7VSmatchReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0392",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0392"
+    }
+  ],
+  "ValueSet-hl7VSmedicalRoleExecutingPhysician.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0882",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0882"
+    }
+  ],
+  "ValueSet-hl7VSmessageErrorConditionCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0357",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0357"
+    }
+  ],
+  "ValueSet-hl7VSmessageStructure.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0354",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0354"
+    }
+  ],
+  "ValueSet-hl7VSmessageType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0076",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0076"
+    }
+  ],
+  "ValueSet-hl7VSmessageWaitingPriority.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0520",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0520"
+    }
+  ],
+  "ValueSet-hl7VSmfnRecode-levelErrorReturn.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0181",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0181"
+    }
+  ],
+  "ValueSet-hl7VSmilitaryService.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0140",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0140"
+    }
+  ],
+  "ValueSet-hl7VSmilitaryStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0142",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0142"
+    }
+  ],
+  "ValueSet-hl7VSmimeTypes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0834",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0834"
+    }
+  ],
+  "ValueSet-hl7VSmodeOfArrivalCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0430",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0430"
+    }
+  ],
+  "ValueSet-hl7VSmodifyIndicator.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0395",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0395"
+    }
+  ],
+  "ValueSet-hl7VSmoodCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0725",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0725"
+    }
+  ],
+  "ValueSet-hl7VSname-addressRepresentation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0465",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0465"
+    }
+  ],
+  "ValueSet-hl7VSnameAssemblyOrder.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0444",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0444"
+    }
+  ],
+  "ValueSet-hl7VSnameType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0200",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0200"
+    }
+  ],
+  "ValueSet-hl7VSnatureOfAbnormalTesting.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0080",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0080"
+    }
+  ],
+  "ValueSet-hl7VSnatureOfChallenge.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0257",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0257"
+    }
+  ],
+  "ValueSet-hl7VSnatureOfServiceTestObservation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0174",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0174"
+    }
+  ],
+  "ValueSet-hl7VSnetworkSourceType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0332",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0332"
+    }
+  ],
+  "ValueSet-hl7VSnewbornCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0425",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0425"
+    }
+  ],
+  "ValueSet-hl7VSnon-subjectConsenterReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0502",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0502"
+    }
+  ],
+  "ValueSet-hl7VSnotifyClergyCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0534",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0534"
+    }
+  ],
+  "ValueSet-hl7VSobservationResultHandling.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0507",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0507"
+    }
+  ],
+  "ValueSet-hl7VSobservationResultStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0085",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0085"
+    }
+  ],
+  "ValueSet-hl7VSonlineVerificationResult.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0970",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0970"
+    }
+  ],
+  "ValueSet-hl7VSonlineVerificationResultErrorCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0971",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0971"
+    }
+  ],
+  "ValueSet-hl7VSorderControl.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0119",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0119"
+    }
+  ],
+  "ValueSet-hl7VSorderControlCodeReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0949",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0949"
+    }
+  ],
+  "ValueSet-hl7VSorderStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0038",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0038"
+    }
+  ],
+  "ValueSet-hl7VSorderStatusModifier.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0950",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0950"
+    }
+  ],
+  "ValueSet-hl7VSorderType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0482",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0482"
+    }
+  ],
+  "ValueSet-hl7VSorganDonor.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0316",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0316"
+    }
+  ],
+  "ValueSet-hl7VSorganizationUnitType-Org.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0474",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0474"
+    }
+  ],
+  "ValueSet-hl7VSorganizationUnitType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0406",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0406"
+    }
+  ],
+  "ValueSet-hl7VSorganizationalNameType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0204",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0204"
+    }
+  ],
+  "ValueSet-hl7VSoutlierType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0083",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0083"
+    }
+  ],
+  "ValueSet-hl7VSoverallClaimDispositionCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0457",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0457"
+    }
+  ],
+  "ValueSet-hl7VSoverride.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0268",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0268"
+    }
+  ],
+  "ValueSet-hl7VSoverrideType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0518",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0518"
+    }
+  ],
+  "ValueSet-hl7VSpackage.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0818",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0818"
+    }
+  ],
+  "ValueSet-hl7VSpackagingStatusCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0469",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0469"
+    }
+  ],
+  "ValueSet-hl7VSparticipation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0912",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0912"
+    }
+  ],
+  "ValueSet-hl7VSpatientClass.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0004",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0004"
+    }
+  ],
+  "ValueSet-hl7VSpatientConditionCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0434",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0434"
+    }
+  ],
+  "ValueSet-hl7VSpatientLocationType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0260",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0260"
+    }
+  ],
+  "ValueSet-hl7VSpatientOutcome.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0241",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0241"
+    }
+  ],
+  "ValueSet-hl7VSpatientResultsReleaseCategorizationScheme.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0909",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0909"
+    }
+  ],
+  "ValueSet-hl7VSpatientsRelationshipToInsured.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0344",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0344"
+    }
+  ],
+  "ValueSet-hl7VSpayeeRelationshipToInvoice.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0558",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0558"
+    }
+  ],
+  "ValueSet-hl7VSpayeeType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0557",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0557"
+    }
+  ],
+  "ValueSet-hl7VSpaymentAdjustmentCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0468",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0468"
+    }
+  ],
+  "ValueSet-hl7VSpaymentMethodCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0570",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0570"
+    }
+  ],
+  "ValueSet-hl7VSpcaType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0918",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0918"
+    }
+  ],
+  "ValueSet-hl7VSpenaltyType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0148",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0148"
+    }
+  ],
+  "ValueSet-hl7VSpersonLocationType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0305",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0305"
+    }
+  ],
+  "ValueSet-hl7VSpharmacyOrderTypes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0480",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0480"
+    }
+  ],
+  "ValueSet-hl7VSphlebotomyIssue.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0925",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0925"
+    }
+  ],
+  "ValueSet-hl7VSphlebotomyStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0926",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0926"
+    }
+  ],
+  "ValueSet-hl7VSpolicyType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0147",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0147"
+    }
+  ],
+  "ValueSet-hl7VSpractitionerIdNumberType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0338",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0338"
+    }
+  ],
+  "ValueSet-hl7VSprecautionCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0433",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0433"
+    }
+  ],
+  "ValueSet-hl7VSprecertificationPatientType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0150",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0150"
+    }
+  ],
+  "ValueSet-hl7VSpreferredMethodOfContrct.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0185",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0185"
+    }
+  ],
+  "ValueSet-hl7VSpreferredSpecimen-AttributeStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0920",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0920"
+    }
+  ],
+  "ValueSet-hl7VSpriceType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0205",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0205"
+    }
+  ],
+  "ValueSet-hl7VSprimaryKeyValueType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0355",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0355"
+    }
+  ],
+  "ValueSet-hl7VSprimaryObserversQualification.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0242",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0242"
+    }
+  ],
+  "ValueSet-hl7VSpriority.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0027",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0027"
+    }
+  ],
+  "ValueSet-hl7VSprivacyLevel.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0262",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0262"
+    }
+  ],
+  "ValueSet-hl7VSprocedureDrgType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0416",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0416"
+    }
+  ],
+  "ValueSet-hl7VSprocedureFunctionalType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0230",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0230"
+    }
+  ],
+  "ValueSet-hl7VSprocedurePriority.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0418",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0418"
+    }
+  ],
+  "ValueSet-hl7VSprocessInterruptionReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0935",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0935"
+    }
+  ],
+  "ValueSet-hl7VSprocessingConsiderationCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0562",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0562"
+    }
+  ],
+  "ValueSet-hl7VSprocessingId.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0103",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0103"
+    }
+  ],
+  "ValueSet-hl7VSprocessingMode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0207",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0207"
+    }
+  ],
+  "ValueSet-hl7VSprocessingPriority.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0168",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0168"
+    }
+  ],
+  "ValueSet-hl7VSprocessingType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0388",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0388"
+    }
+  ],
+  "ValueSet-hl7VSproduct-serviceStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0559",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0559"
+    }
+  ],
+  "ValueSet-hl7VSproduct-servicesClarification.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0561",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0561"
+    }
+  ],
+  "ValueSet-hl7VSproductSource.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0248",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0248"
+    }
+  ],
+  "ValueSet-hl7VSproductionClassCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0429",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0429"
+    }
+  ],
+  "ValueSet-hl7VSprotectionCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0618",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0618"
+    }
+  ],
+  "ValueSet-hl7VSproviderAdjustmentReasonCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0565",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0565"
+    }
+  ],
+  "ValueSet-hl7VSproviderBilling.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0187",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0187"
+    }
+  ],
+  "ValueSet-hl7VSproviderRole.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0443",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0443"
+    }
+  ],
+  "ValueSet-hl7VSpurgeStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0213",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0213"
+    }
+  ],
+  "ValueSet-hl7VSquantityLimitedRequest.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0126",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0126"
+    }
+  ],
+  "ValueSet-hl7VSquantityMethod.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0329",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0329"
+    }
+  ],
+  "ValueSet-hl7VSqueryPriority.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0091",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0091"
+    }
+  ],
+  "ValueSet-hl7VSqueryResponseStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0208",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0208"
+    }
+  ],
+  "ValueSet-hl7VSrangeType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0298",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0298"
+    }
+  ],
+  "ValueSet-hl7VSrecreationalDrugUseCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0431",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0431"
+    }
+  ],
+  "ValueSet-hl7VSreferralCategory.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0284",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0284"
+    }
+  ],
+  "ValueSet-hl7VSreferralDisposition.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0282",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0282"
+    }
+  ],
+  "ValueSet-hl7VSreferralPriority.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0280",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0280"
+    }
+  ],
+  "ValueSet-hl7VSreferralReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0336",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0336"
+    }
+  ],
+  "ValueSet-hl7VSreferralStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0283",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0283"
+    }
+  ],
+  "ValueSet-hl7VSreferralType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0281",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0281"
+    }
+  ],
+  "ValueSet-hl7VSreimbursementActionCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0459",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0459"
+    }
+  ],
+  "ValueSet-hl7VSreimbursementTypeCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0470",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0470"
+    }
+  ],
+  "ValueSet-hl7VSrelatednessAssessment.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0250",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0250"
+    }
+  ],
+  "ValueSet-hl7VSrelationalConjunction.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0210",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0210"
+    }
+  ],
+  "ValueSet-hl7VSrelationalOperator.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0209",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0209"
+    }
+  ],
+  "ValueSet-hl7VSrelationship.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0063",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0063"
+    }
+  ],
+  "ValueSet-hl7VSrelationshipModifier.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0258",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0258"
+    }
+  ],
+  "ValueSet-hl7VSrelationshipType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0948",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0948"
+    }
+  ],
+  "ValueSet-hl7VSrelevantClincialInformation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0916",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0916"
+    }
+  ],
+  "ValueSet-hl7VSreligion2.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0006",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0006"
+    }
+  ],
+  "ValueSet-hl7VSremoteControlCommand.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0368",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0368"
+    }
+  ],
+  "ValueSet-hl7VSreorderTheoryCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0642",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0642"
+    }
+  ],
+  "ValueSet-hl7VSrepeatPattern.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0335",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0335"
+    }
+  ],
+  "ValueSet-hl7VSreportSource.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0235",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0235"
+    }
+  ],
+  "ValueSet-hl7VSreportTiming.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0234",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0234"
+    }
+  ],
+  "ValueSet-hl7VSreportTypeCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0270",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0270"
+    }
+  ],
+  "ValueSet-hl7VSreportingPriority.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0169",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0169"
+    }
+  ],
+  "ValueSet-hl7VSresponseFlag.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0121",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0121"
+    }
+  ],
+  "ValueSet-hl7VSresponseLevel.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0179",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0179"
+    }
+  ],
+  "ValueSet-hl7VSresponseModality.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0394",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0394"
+    }
+  ],
+  "ValueSet-hl7VSresultStatus-Obr.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0123",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0123"
+    }
+  ],
+  "ValueSet-hl7VSriskCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0489",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0489"
+    }
+  ],
+  "ValueSet-hl7VSriskManagementIncidentCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0427",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0427"
+    }
+  ],
+  "ValueSet-hl7VSroleExecutingPhysician.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0881",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0881"
+    }
+  ],
+  "ValueSet-hl7VSroomType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0145",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0145"
+    }
+  ],
+  "ValueSet-hl7VSrootCause.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0914",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0914"
+    }
+  ],
+  "ValueSet-hl7VSrouteOfAdministration.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0162",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0162"
+    }
+  ],
+  "ValueSet-hl7VSrxComponentType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0166",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0166"
+    }
+  ],
+  "ValueSet-hl7VSsecurityCheckScheme.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0904",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0904"
+    }
+  ],
+  "ValueSet-hl7VSsegmentActionCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0206",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0206"
+    }
+  ],
+  "ValueSet-hl7VSsegmentGroup.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0391",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0391"
+    }
+  ],
+  "ValueSet-hl7VSsensitivityToCausativeAgentCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0436",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0436"
+    }
+  ],
+  "ValueSet-hl7VSsequenceConditionCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0504",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0504"
+    }
+  ],
+  "ValueSet-hl7VSsequenceResultsFlag.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0503",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0503"
+    }
+  ],
+  "ValueSet-hl7VSsequencing.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0397",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0397"
+    }
+  ],
+  "ValueSet-hl7VSserviceRequestRelationship.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0506",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0506"
+    }
+  ],
+  "ValueSet-hl7VSseverityOfIllnessCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0421",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0421"
+    }
+  ],
+  "ValueSet-hl7VSshipmentStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0905",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0905"
+    }
+  ],
+  "ValueSet-hl7VSsideOfBody.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0894",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0894"
+    }
+  ],
+  "ValueSet-hl7VSsignatorysRelationshipToSubject.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0548",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0548"
+    }
+  ],
+  "ValueSet-hl7VSsignatureCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0535",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0535"
+    }
+  ],
+  "ValueSet-hl7VSsourceOfComment.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0105",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0105"
+    }
+  ],
+  "ValueSet-hl7VSspecialHandlingConsiderations.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0376",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0376"
+    }
+  ],
+  "ValueSet-hl7VSspecialtyType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0265",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0265"
+    }
+  ],
+  "ValueSet-hl7VSspecimenAppropriateness.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0492",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0492"
+    }
+  ],
+  "ValueSet-hl7VSspecimenChildRole.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0494",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0494"
+    }
+  ],
+  "ValueSet-hl7VSspecimenCollectionMethod.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0488",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0488"
+    }
+  ],
+  "ValueSet-hl7VSspecimenComponent.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0372",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0372"
+    }
+  ],
+  "ValueSet-hl7VSspecimenCondition.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0493",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0493"
+    }
+  ],
+  "ValueSet-hl7VSspecimenQuality.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0491",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0491"
+    }
+  ],
+  "ValueSet-hl7VSspecimenRejectReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0490",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0490"
+    }
+  ],
+  "ValueSet-hl7VSspecimenRole.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0369",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0369"
+    }
+  ],
+  "ValueSet-hl7VSspecimenType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0487",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0487"
+    }
+  ],
+  "ValueSet-hl7VSstartOfEvaluation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0247",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0247"
+    }
+  ],
+  "ValueSet-hl7VSstatusAdmission.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0759",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0759"
+    }
+  ],
+  "ValueSet-hl7VSstatusPatient.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0739",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0739"
+    }
+  ],
+  "ValueSet-hl7VSstatusRespirationMinutes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0757",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0757"
+    }
+  ],
+  "ValueSet-hl7VSstatusWeightAtBirth.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0755",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0755"
+    }
+  ],
+  "ValueSet-hl7VSsterilizationType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0806",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0806"
+    }
+  ],
+  "ValueSet-hl7VSstudentStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0231",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0231"
+    }
+  ],
+  "ValueSet-hl7VSsubstanceStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0383",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0383"
+    }
+  ],
+  "ValueSet-hl7VSsubstanceType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0384",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0384"
+    }
+  ],
+  "ValueSet-hl7VSsubstitutionStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0167",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0167"
+    }
+  ],
+  "ValueSet-hl7VSsubtypeOfReferencedData.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0291",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0291"
+    }
+  ],
+  "ValueSet-hl7VSsupplementalServiceInformation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0411",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0411"
+    }
+  ],
+  "ValueSet-hl7VSsupplierType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0946",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0946"
+    }
+  ],
+  "ValueSet-hl7VSsupplyRiskCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0871",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0871"
+    }
+  ],
+  "ValueSet-hl7VStaxStatus.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0572",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0572"
+    }
+  ],
+  "ValueSet-hl7VStelecommunicationEquipmentType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0202",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0202"
+    }
+  ],
+  "ValueSet-hl7VStelecommunicationExpirationReason.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0868",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0868"
+    }
+  ],
+  "ValueSet-hl7VStelecommunicationUseCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0201",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0201"
+    }
+  ],
+  "ValueSet-hl7VStimeDelayPostChallenge.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0256",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0256"
+    }
+  ],
+  "ValueSet-hl7VStimeSelectionCriteriaParameterClassCodes.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0294",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0294"
+    }
+  ],
+  "ValueSet-hl7VStissueTypeCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0417",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0417"
+    }
+  ],
+  "ValueSet-hl7VStqConjunctionId.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0472",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0472"
+    }
+  ],
+  "ValueSet-hl7VStransactionType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0017",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0017"
+    }
+  ],
+  "ValueSet-hl7VStransfusionAdverseReaction.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0514",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0514"
+    }
+  ],
+  "ValueSet-hl7VStransportArranged.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0224",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0224"
+    }
+  ],
+  "ValueSet-hl7VStransportationMode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0124",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0124"
+    }
+  ],
+  "ValueSet-hl7VStrayType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0160",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0160"
+    }
+  ],
+  "ValueSet-hl7VStreatment.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0373",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0373"
+    }
+  ],
+  "ValueSet-hl7VStriageCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0422",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0422"
+    }
+  ],
+  "ValueSet-hl7VStypeOfData.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0191",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0191"
+    }
+  ],
+  "ValueSet-hl7VSuniversalIdType.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0301",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0301"
+    }
+  ],
+  "ValueSet-hl7VSuserAuthenticationCredentialTypeCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0615",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0615"
+    }
+  ],
+  "ValueSet-hl7VSversionControlTable.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0104",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0104"
+    }
+  ],
+  "ValueSet-hl7VSvisitIndicator.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0326",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0326"
+    }
+  ],
+  "ValueSet-hl7VSvisitPriorityCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0217",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0217"
+    }
+  ],
+  "ValueSet-hl7VSvisitUserCode.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0130",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0130"
+    }
+  ],
+  "ValueSet-hl7VSwhenToCharge.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0100",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0100"
+    }
+  ],
+  "ValueSet-hl7VSyes-no-Indicator.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0136",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0136"
+    }
+  ],
+  "ValueSet-sexualOrientation.json": [
+    {
+      "field": "identifier.value",
+      "old": "http://terminology.hl7.org/v2plusvocab/ValueSet/v2-0823",
+      "new": "http://terminology.hl7.org/ValueSet/v2-0823"
+    }
+  ]
+}

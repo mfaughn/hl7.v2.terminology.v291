@@ -1,0 +1,44 @@
+{
+  "CodeSystem-event.json": [
+    {
+      "field": "(deep sweep)",
+      "old": "remaining v2plusvocab references",
+      "new": "v2plusvocab segment removed"
+    }
+  ],
+  "CodeSystem-messageStructure.json": [
+    {
+      "field": "(deep sweep)",
+      "old": "remaining v2plusvocab references",
+      "new": "v2plusvocab segment removed"
+    }
+  ],
+  "CodeSystem-messageType.json": [
+    {
+      "field": "(deep sweep)",
+      "old": "remaining v2plusvocab references",
+      "new": "v2plusvocab segment removed"
+    }
+  ],
+  "CodeSystem-religion2.json": [
+    {
+      "field": "(deep sweep)",
+      "old": "remaining v2plusvocab references",
+      "new": "v2plusvocab segment removed"
+    }
+  ],
+  "CodeSystem-segmentGroup.json": [
+    {
+      "field": "(deep sweep)",
+      "old": "remaining v2plusvocab references",
+      "new": "v2plusvocab segment removed"
+    }
+  ],
+  "CodeSystem-sensitivityToCausativeAgent.json": [
+    {
+      "field": "(deep sweep)",
+      "old": "remaining v2plusvocab references",
+      "new": "v2plusvocab segment removed"
+    }
+  ]
+}
